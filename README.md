@@ -4,7 +4,7 @@ This Repository gives a brief overview of all available IoT Open-Source Reposito
 
 # Open-Source Repository Table
 
-| Repo Name      | Description | Category | Last Updated | 
+| Repo Name      | Description | 
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
