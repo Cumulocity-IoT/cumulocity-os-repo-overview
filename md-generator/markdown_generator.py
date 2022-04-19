@@ -16,14 +16,14 @@
 # limitations under the License.
 #
 from mdutils.mdutils import MdUtils
-from mdutils import Html
 from datetime import datetime, timezone
-
+from tc_client import TechCommunityClient
 
 class MarkdownGenerator():
 
     def __init__(self):
         self.cat_list = []
+        self.tc_client = TechCommunityClient()
 
     def read_md_file(self):
         file = self.mdFile.read_md_file('./README.md')
@@ -31,7 +31,7 @@ class MarkdownGenerator():
 
     def create_md_file(self, repos):
 
-        # repos = self.filter_repo_list(repos)
+        repos = self.filter_repo_list(repos)
 
         mdFile = MdUtils(file_name='../README.md', title='Cumulocity IoT Open-Source Repository Overview')
         # mdFile.new_header(level=1, title='Cumulocity IoT Open-Source Repository Overview')
@@ -62,15 +62,16 @@ class MarkdownGenerator():
         text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
                      'References', 'Relation']
         for repo in repos:
+
             name = repo['name']
             desc = repo['description']
             topics = repo['topics']
             cat_list = []
             cat = '-'
-            if 'microservice' in name or 'microservice' in topics:
+            if 'cumulocity-microservice' in topics or 'microservice' in name or 'microservice' in topics:
                 cat = 'Microservice'
                 cat_list.append(cat)
-            if 'widget' in name or 'widget' in topics:
+            if 'cumulocity-widget' in topics or 'widget' in name or 'widget' in topics or 'widgets' in topics:
                 cat = 'Widget'
                 cat_list.append(cat)
             if 'cumulocity-webapp' in name or 'cumulocity-webapp' in topics or 'webapp' in name or 'webapp' in topics:
@@ -79,27 +80,27 @@ class MarkdownGenerator():
             if 'cumulocity-agent' in name or 'cumulocity-agent' in topics or 'agent' in name or 'agent' in topics:
                 cat = 'Agent'
                 cat_list.append(cat)
-            if 'example' in name or 'example' in topics:
+            if 'cumulocity-example' in topics or 'example' in name or 'example' in topics:
                 cat = 'Example'
                 cat_list.append(cat)
-            if 'api' in name or 'api' in topics:
+            if 'cumulocity-client' in topics or 'client' in name or'api' in name or 'api' in topics:
                 cat = 'Client'
                 cat_list.append(cat)
-            if 'simulator' in name or 'simulator' in topics:
+            if 'cumulocity-simulator' in topics or 'simulator' in name or 'simulator' in topics:
                 cat = 'Simulator'
                 cat_list.append(cat)
-            if 'tutorial' in name or 'tutorial' in topics:
+            if 'cumulocity-tutorial' in topics or 'tutorial' in name or 'tutorial' in topics:
                 cat = 'Tutorial'
                 cat_list.append(cat)
-            if 'remote-access' in name or 'remote-access' in topics:
+            if 'cumulocity-extension' in topics or 'extension' in topics or 'remote-access' in name or 'remote-access' in topics:
                 cat = 'Extension'
                 cat_list.append(cat)
-            if 'cli' in name or 'cli' in topics:
+            if 'cumulocity-cli' in topics or 'cli' in topics:
                 cat = 'CLI'
                 cat_list.append(cat)
             self.cat_list = cat_list
             if len(cat_list) > 0:
-                cat = " ".join(str(cat) for cat in cat_list)
+                cat = " <br> ".join(str(cat) for cat in cat_list)
             else:
                 cat = 'Other'
             if len(topics) > 0:
@@ -112,7 +113,11 @@ class MarkdownGenerator():
             date_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
             stars = repo['stargazers_count']
             url = repo['html_url']
-            reference = '-'
+            tc_references = self.tc_client.get_all_entries_for_repo(url)
+            if tc_references:
+                references_string = " ".join('['+reference['title']+']('+reference['topic_url']+') <br>' for reference in tc_references)
+            else:
+                references_string = '-'
             owner = repo['owner']['login']
             if owner == 'SoftwareAG':
                 relation = 'SAG-Org Repo'
@@ -121,5 +126,5 @@ class MarkdownGenerator():
             else:
                 relation = 'Open-Source Repo'
             # relation = 'SAG-Org Repo'
-            text_list.extend(["[" + name + "](" + url + ")", desc, cat, topic_string, lang, date_string, stars, reference, relation])
+            text_list.extend(["[" + name + "](" + url + ")", desc, cat, topic_string, lang, date_string, stars, references_string, relation])
         return text_list
