@@ -39,7 +39,7 @@ class MarkdownGenerator():
             "Number of Open-Source Repos: **"+str(len(repos))+"**")
         mdFile.new_header(level=1, title='Open-Source Repository Table')
         list = self.build_table_list(repos)
-        mdFile.new_table(10, len(repos)+1, list)
+        mdFile.new_table(8, len(repos)+1, list)
         mdFile.create_md_file()
 
     def filter_repo_list(self, repos):
@@ -52,7 +52,7 @@ class MarkdownGenerator():
         return filtered_list
 
     def build_table_list(self, repos):
-        text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars', 'URL',
+        text_list = ['Repo Name', 'Description', 'Category', 'Language', 'Last Updated', 'Stars',
                      'References', 'Relation']
         for repo in repos:
             name = repo['name']
@@ -114,5 +114,5 @@ class MarkdownGenerator():
             else:
                 relation = 'Open-Source Repo'
             #relation = 'SAG-Org Repo'
-            text_list.extend([name, desc, cat, topic_string, lang, date_string, stars, url, reference, relation])
+            text_list.extend(["["+name+"]("+url+")", desc, cat, lang, date_string, stars, reference, relation])
         return text_list
