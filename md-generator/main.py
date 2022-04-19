@@ -26,7 +26,7 @@ def start():
     token = os.getenv('GEN_GITHUB_TOKEN')
 
     gh_client = GitHubRestClient(token)
-    repos = gh_client.get_all_repos_for_org('SoftwareAG', None)
+    #repos = gh_client.get_all_repos_for_org('SoftwareAG', None)
     repos = gh_client.get_all_repos_for_topic('cumulocity-iot')
     logging.info(f'GitHub Repos in Org: {repos}')
     md_gen = MarkdownGenerator()
