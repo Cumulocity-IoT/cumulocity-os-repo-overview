@@ -34,7 +34,8 @@ class MarkdownGenerator():
         mdFile = MdUtils(file_name='../README.md', title='Cumulocity IoT Open-Source Repository Overview')
         #mdFile.new_header(level=1, title='Cumulocity IoT Open-Source Repository Overview')
         mdFile.new_paragraph(
-            "This Repository gives a brief overview of all available IoT Open-Source Repositories including additional content at TechCommunity.")
+            "This Repository generates on a daily basis a Table of all Open-Source Repositories for Cumulocity-IoT having the topic 'cumulocity-iot'. It should give a brief overview of all available IoT Open-Source Repositories for Cumulocity IoT including additional content at TechCommunity."
+            "Please use this [link](https://github.com/SoftwareAG/cumulocity-os-repo-overview/blob/main/README.md) to have a proper view on the table.")
         mdFile.new_paragraph(
             "Number of Open-Source Repos: **"+str(len(repos))+"**")
         mdFile.new_header(level=1, title='Open-Source Repository Table')
@@ -92,7 +93,7 @@ class MarkdownGenerator():
                 cat_list.append(cat)
             self.cat_list = cat_list
             if len(cat_list) > 0:
-                cat = " ".join(str(cat) for cat in cat_list)
+                cat = " ,".join(str(cat) for cat in cat_list)
             else:
                 cat = 'Other'
             if len(topics) > 0:
