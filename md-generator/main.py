@@ -20,6 +20,7 @@ import logging
 
 import os
 from github_rest_client import GitHubRestClient
+
 from markdown_generator import MarkdownGenerator
 
 def start():
@@ -29,6 +30,7 @@ def start():
     #repos = gh_client.get_all_repos_for_org('SoftwareAG', None)
     repos = gh_client.get_all_repos_for_topic('cumulocity-iot')
     logging.info(f'GitHub Repos in Org: {repos}')
+
     md_gen = MarkdownGenerator()
     md_gen.create_md_file(repos)
 

@@ -45,7 +45,7 @@ class MarkdownGenerator():
             "Number of Open-Source Repos: **" + str(len(repos)) + "**")
         mdFile.new_header(level=1, title='Open-Source Repository Table')
         list = self.build_table_list(repos)
-        mdFile.new_table(9, len(repos) + 1, list)
+        mdFile.new_table(7, len(repos) + 1, list)
         mdFile.create_md_file()
 
     def filter_repo_list(self, repos):
@@ -59,8 +59,10 @@ class MarkdownGenerator():
         return filtered_list
 
     def build_table_list(self, repos):
-        text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
-                     'References', 'Relation']
+        #text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
+        #             'References', 'Relation']
+        text_list = ['Repo Name', 'Description', 'Category', 'Language', 'Last Updated',
+                      '<div style="width:350px">References</div>', 'Relation']
         for repo in repos:
 
             name = repo['name']
@@ -95,7 +97,7 @@ class MarkdownGenerator():
             if 'cumulocity-extension' in topics or 'extension' in topics or 'remote-access' in name or 'remote-access' in topics:
                 cat = 'Extension'
                 cat_list.append(cat)
-            if 'cumulocity-cli' in topics or 'cli' in topics:
+            if 'cli' in name or 'cumulocity-cli' in name or 'cumulocity-cli' in topics or 'cli' in topics:
                 cat = 'CLI'
                 cat_list.append(cat)
             self.cat_list = cat_list
@@ -115,7 +117,8 @@ class MarkdownGenerator():
             url = repo['html_url']
             tc_references = self.tc_client.get_all_entries_for_repo(url)
             if tc_references:
-                references_string = " ".join('['+reference['title']+']('+reference['topic_url']+') <br>' for reference in tc_references)
+                references_string = "<ul><li>" + "<li> ".join('['+reference['title']+']('+reference['topic_url']+') </li>' for reference in tc_references)
+                references_string = references_string + "</ul>"
             else:
                 references_string = '-'
             owner = repo['owner']['login']
@@ -126,5 +129,5 @@ class MarkdownGenerator():
             else:
                 relation = 'Open-Source Repo'
             # relation = 'SAG-Org Repo'
-            text_list.extend(["[" + name + "](" + url + ")", desc, cat, topic_string, lang, date_string, stars, references_string, relation])
+            text_list.extend(["[" + name + "](" + url + ")", desc, cat, lang, date_string, references_string, relation])
         return text_list
