@@ -163,18 +163,18 @@ class MarkdownGenerator():
                 topic_string = " ".join(str(topic) for topic in topics)
             else:
                 topic_string = '-'
-            lang = repo['language']
+            #lang = repo['language']
             last_updated = repo['pushed_at']
             date_time_obj = datetime.strptime(last_updated, '%Y-%m-%dT%H:%M:%SZ')
-            date_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
-            stars = repo['stargazers_count']
+            #date_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
+            #stars = repo['stargazers_count']
             url = repo['html_url']
-            tc_references = self.tc_client.get_all_entries_for_repo(url)
-            if tc_references:
-                references_string = "<ul><li>" + "<li> ".join('['+reference['title']+']('+reference['topic_url']+') </li>' for reference in tc_references)
-                references_string = references_string + "</ul>"
-            else:
-                references_string = '-'
+            #tc_references = self.tc_client.get_all_entries_for_repo(url)
+            #if tc_references:
+            #    references_string = "<ul><li>" + "<li> ".join('['+reference['title']+']('+reference['topic_url']+') </li>' for reference in tc_references)
+            #    references_string = references_string + "</ul>"
+            #else:
+            #    references_string = '-'
             owner = repo['owner']['login']
             if owner == 'SoftwareAG':
                 relation = 'SAG-Org Repo'
