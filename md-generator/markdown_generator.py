@@ -30,9 +30,9 @@ class MarkdownGenerator():
         file = self.mdFile.read_md_file('./README.md')
         return file
 
-    def create_md_file(self, repos):
+    def create_md_file(self, repos, trusted_owners):
 
-        repos = self.filter_repo_list(repos)
+        #repos = self.filter_repo_list(repos)
 
         self.mdFile = MdUtils(file_name='../README.md', title='Cumulocity IoT Open-Source Repository Overview')
         # mdFile.new_header(level=1, title='Cumulocity IoT Open-Source Repository Overview')
@@ -45,10 +45,10 @@ class MarkdownGenerator():
         self.mdFile.new_paragraph(
             "Number of Open-Source Repos: **" + str(len(repos)) + "**")
         self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
-        list = self.build_table_list(repos)
+        list = self.build_table_list(repos, trusted_owners)
         self.mdFile.new_table(4, len(repos) + 1, list)
         self.mdFile.new_header(level=1, title='Open-Source Repository Detail List')
-        self.build_detail_list(repos)
+        self.build_detail_list(repos, trusted_owners)
         self.mdFile.create_md_file()
 
     def filter_repo_list(self, repos):
@@ -85,6 +85,9 @@ class MarkdownGenerator():
         if 'cumulocity-simulator' in topics or 'simulator' in name or 'simulator' in topics:
             cat = 'Simulator'
             cat_list.append(cat)
+        if 'cumulocity-documentation' in topics or 'docs' in name or 'documentation' in topics:
+            cat = 'Documentation'
+            cat_list.append(cat)
         if 'cumulocity-tutorial' in topics or 'tutorial' in name or 'tutorial' in topics:
             cat = 'Tutorial'
             cat_list.append(cat)
@@ -96,7 +99,7 @@ class MarkdownGenerator():
             cat_list.append(cat)
         return cat_list
 
-    def build_detail_list(self, repos):
+    def build_detail_list(self, repos, trusted_owners):
         for repo in repos:
             name = repo['name']
             desc = repo['description']
@@ -128,7 +131,7 @@ class MarkdownGenerator():
             owner = repo['owner']['login']
             if owner == 'SoftwareAG':
                 relation = 'SAG-Org Repo'
-            elif owner == 'reubenmiller' or owner == 'TryManuZ':
+            elif owner in trusted_owners:
                 relation = 'Trusted-Contributor Repo'
             else:
                 relation = 'Open-Source Repo'
@@ -146,7 +149,7 @@ class MarkdownGenerator():
 
 
 
-    def build_table_list(self, repos):
+    def build_table_list(self, repos, trusted_owners):
         #text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
         #             'References', 'Relation']
         text_list = ['Repo Name', 'Description', 'Category', 'Relation']
@@ -178,7 +181,7 @@ class MarkdownGenerator():
             owner = repo['owner']['login']
             if owner == 'SoftwareAG':
                 relation = 'SAG-Org Repo'
-            elif owner == 'reubenmiller' or owner == 'TryManuZ':
+            elif owner in trusted_owners:
                 relation = 'Trusted-Contributor Repo'
             else:
                 relation = 'Open-Source Repo'

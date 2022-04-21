@@ -23,6 +23,7 @@ from github_rest_client import GitHubRestClient
 
 from markdown_generator import MarkdownGenerator
 
+trusted_owners = ['TyrManuZ', 'reubenmiller']
 def start():
     token = os.getenv('GEN_GITHUB_TOKEN')
 
@@ -32,7 +33,7 @@ def start():
     logging.info(f'GitHub Repos in Org: {repos}')
 
     md_gen = MarkdownGenerator()
-    md_gen.create_md_file(repos)
+    md_gen.create_md_file(repos, trusted_owners)
 
 if __name__ == '__main__':
     start()

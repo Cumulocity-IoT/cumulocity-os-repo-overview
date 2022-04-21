@@ -75,7 +75,7 @@ class GitHubRestClient():
     def get_all_repos_for_topic(self, topic):
         try:
             self.repo_list = []
-            url = f'{self.GITHUB_URL}/search/repositories?q=topic:{topic}&per_page=100'
+            url = f'{self.GITHUB_URL}/search/repositories?q={topic}&sort=stars&order=desc&per_page=100'
             headers = self.get_auth_header()
             headers['Accept'] = 'application/vnd.github.v3+json'
             response = requests.request("GET", url, headers=headers)
