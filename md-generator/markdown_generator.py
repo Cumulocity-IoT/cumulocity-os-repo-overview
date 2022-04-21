@@ -24,6 +24,7 @@ class MarkdownGenerator():
     def __init__(self):
         self.cat_list = []
         self.tc_client = TechCommunityClient()
+        self.mdFile = None
 
     def read_md_file(self):
         file = self.mdFile.read_md_file('./README.md')
@@ -33,20 +34,22 @@ class MarkdownGenerator():
 
         repos = self.filter_repo_list(repos)
 
-        mdFile = MdUtils(file_name='../README.md', title='Cumulocity IoT Open-Source Repository Overview')
+        self.mdFile = MdUtils(file_name='../README.md', title='Cumulocity IoT Open-Source Repository Overview')
         # mdFile.new_header(level=1, title='Cumulocity IoT Open-Source Repository Overview')
-        mdFile.new_paragraph(
+        self.mdFile.new_paragraph(
             "This Repository generates on a daily basis a Table of all Open-Source Repositories for Cumulocity-IoT "
             "having the topic 'cumulocity-iot'. It should give a brief overview of all available IoT Open-Source "
             "Repositories for Cumulocity IoT including additional content at TechCommunity.")
 
-        mdFile.new_paragraph("Please use this [link](https://github.com/SoftwareAG/cumulocity-os-repo-overview/blob/main/README.md) to have a proper view on the table.")
-        mdFile.new_paragraph(
+        self.mdFile.new_paragraph("Please use this [link](https://github.com/SoftwareAG/cumulocity-os-repo-overview/blob/main/README.md) to have a proper view on the table.")
+        self.mdFile.new_paragraph(
             "Number of Open-Source Repos: **" + str(len(repos)) + "**")
-        mdFile.new_header(level=1, title='Open-Source Repository Table')
+        self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
         list = self.build_table_list(repos)
-        mdFile.new_table(7, len(repos) + 1, list)
-        mdFile.create_md_file()
+        self.mdFile.new_table(4, len(repos) + 1, list)
+        self.mdFile.new_header(level=1, title='Open-Source Repository Detail List')
+        self.build_detail_list(repos)
+        self.mdFile.create_md_file()
 
     def filter_repo_list(self, repos):
         filtered_list = []
@@ -58,49 +61,100 @@ class MarkdownGenerator():
         filtered_list = sorted(filtered_list, key=lambda d: d['stargazers_count'], reverse=True)
         return filtered_list
 
-    def build_table_list(self, repos):
-        #text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
-        #             'References', 'Relation']
-        text_list = ['Repo Name', 'Description', 'Category', 'Language', 'Last Updated',
-                      '<div style="width:350px">References</div>', 'Relation']
-        for repo in repos:
+    def get_cat_list(self, name, topics):
+        cat_list = []
+        cat = '-'
+        if 'cumulocity-microservice' in topics or 'microservice' in name or 'microservice' in topics:
+            cat = 'Microservice'
+            cat_list.append(cat)
+        if 'cumulocity-widget' in topics or 'widget' in name or 'widget' in topics or 'widgets' in topics:
+            cat = 'Widget'
+            cat_list.append(cat)
+        if 'cumulocity-webapp' in name or 'cumulocity-webapp' in topics or 'webapp' in name or 'webapp' in topics:
+            cat = 'WebApp'
+            cat_list.append(cat)
+        if 'cumulocity-agent' in name or 'cumulocity-agent' in topics or 'agent' in name or 'agent' in topics:
+            cat = 'Agent'
+            cat_list.append(cat)
+        if 'cumulocity-example' in topics or 'example' in name or 'example' in topics:
+            cat = 'Example'
+            cat_list.append(cat)
+        if 'cumulocity-client' in topics or 'client' in name or'api' in name or 'api' in topics:
+            cat = 'Client'
+            cat_list.append(cat)
+        if 'cumulocity-simulator' in topics or 'simulator' in name or 'simulator' in topics:
+            cat = 'Simulator'
+            cat_list.append(cat)
+        if 'cumulocity-tutorial' in topics or 'tutorial' in name or 'tutorial' in topics:
+            cat = 'Tutorial'
+            cat_list.append(cat)
+        if 'cumulocity-extension' in topics or 'extension' in topics or 'remote-access' in name or 'remote-access' in topics:
+            cat = 'Extension'
+            cat_list.append(cat)
+        if 'cli' in name or 'cumulocity-cli' in name or 'cumulocity-cli' in topics or 'cli' in topics:
+            cat = 'CLI'
+            cat_list.append(cat)
+        return cat_list
 
+    def build_detail_list(self, repos):
+        for repo in repos:
             name = repo['name']
             desc = repo['description']
             topics = repo['topics']
-            cat_list = []
-            cat = '-'
-            if 'cumulocity-microservice' in topics or 'microservice' in name or 'microservice' in topics:
-                cat = 'Microservice'
-                cat_list.append(cat)
-            if 'cumulocity-widget' in topics or 'widget' in name or 'widget' in topics or 'widgets' in topics:
-                cat = 'Widget'
-                cat_list.append(cat)
-            if 'cumulocity-webapp' in name or 'cumulocity-webapp' in topics or 'webapp' in name or 'webapp' in topics:
-                cat = 'WebApp'
-                cat_list.append(cat)
-            if 'cumulocity-agent' in name or 'cumulocity-agent' in topics or 'agent' in name or 'agent' in topics:
-                cat = 'Agent'
-                cat_list.append(cat)
-            if 'cumulocity-example' in topics or 'example' in name or 'example' in topics:
-                cat = 'Example'
-                cat_list.append(cat)
-            if 'cumulocity-client' in topics or 'client' in name or'api' in name or 'api' in topics:
-                cat = 'Client'
-                cat_list.append(cat)
-            if 'cumulocity-simulator' in topics or 'simulator' in name or 'simulator' in topics:
-                cat = 'Simulator'
-                cat_list.append(cat)
-            if 'cumulocity-tutorial' in topics or 'tutorial' in name or 'tutorial' in topics:
-                cat = 'Tutorial'
-                cat_list.append(cat)
-            if 'cumulocity-extension' in topics or 'extension' in topics or 'remote-access' in name or 'remote-access' in topics:
-                cat = 'Extension'
-                cat_list.append(cat)
-            if 'cli' in name or 'cumulocity-cli' in name or 'cumulocity-cli' in topics or 'cli' in topics:
-                cat = 'CLI'
-                cat_list.append(cat)
-            self.cat_list = cat_list
+            cat_list = self.get_cat_list(name, topics)
+            if len(cat_list) > 0:
+                cat = " <br> ".join(str(cat) for cat in cat_list)
+            else:
+                cat = 'Other'
+            if len(topics) > 0:
+                topic_string = " ".join(str(topic) for topic in topics)
+            else:
+                topic_string = '-'
+            lang = repo['language']
+            last_updated = repo['pushed_at']
+            date_time_obj = datetime.strptime(last_updated, '%Y-%m-%dT%H:%M:%SZ')
+            date_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
+            stars = repo['stargazers_count']
+            url = repo['html_url']
+            tc_references = self.tc_client.get_all_entries_for_repo(url)
+            references_list = []
+            if tc_references:
+                #references_string = " * ".join('['+reference['title']+']('+reference['topic_url']+')' for reference in tc_references)
+                for reference in tc_references:
+                    reference_string = '['+reference['title']+']('+reference['topic_url']+')'
+                    references_list.append(reference_string)
+            else:
+                references_string = '-'
+            owner = repo['owner']['login']
+            if owner == 'SoftwareAG':
+                relation = 'SAG-Org Repo'
+            elif owner == 'reubenmiller' or owner == 'TryManuZ':
+                relation = 'Trusted-Contributor Repo'
+            else:
+                relation = 'Open-Source Repo'
+            # relation = 'SAG-Org Repo'
+            self.mdFile.new_header(level=2, title='[' + name + '](' + url + ')')
+            self.mdFile.new_paragraph(f'**Description**: {desc}')
+            self.mdFile.new_paragraph(f'**Category**: {cat}')
+            self.mdFile.new_paragraph(f'**Stars**: {stars}')
+            self.mdFile.new_paragraph(f'**Language**: {lang}')
+            self.mdFile.new_paragraph(f'**Last Update**: {date_string}')
+            self.mdFile.new_paragraph(f'**TechCommunity References**: ')
+            self.mdFile.new_list(references_list)
+            self.mdFile.new_paragraph(f'**Owner**: {owner}')
+            self.mdFile.new_paragraph(f'**Relation**: {relation}')
+
+
+
+    def build_table_list(self, repos):
+        #text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
+        #             'References', 'Relation']
+        text_list = ['Repo Name', 'Description', 'Category', 'Relation']
+        for repo in repos:
+            name = repo['name']
+            desc = repo['description']
+            topics = repo['topics']
+            cat_list = self.get_cat_list(name, topics)
             if len(cat_list) > 0:
                 cat = " <br> ".join(str(cat) for cat in cat_list)
             else:
@@ -129,5 +183,5 @@ class MarkdownGenerator():
             else:
                 relation = 'Open-Source Repo'
             # relation = 'SAG-Org Repo'
-            text_list.extend(["[" + name + "](" + url + ")", desc, cat, lang, date_string, references_string, relation])
+            text_list.extend(["[" + name + "](" + url + ")", desc, cat, relation])
         return text_list
