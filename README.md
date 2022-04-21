@@ -53,10 +53,10 @@ Number of Open-Source Repos: **122**
 |[cumulocity-library-blueprint](https://github.com/SoftwareAG/cumulocity-library-blueprint)|This projects purpose is to provide a basic setup to develop, build and release libraries for the WebSDK.|Other|SAG-Org Repo|
 |[cumulocity-iot-mobilephone-sensor-widgets](https://github.com/SoftwareAG/cumulocity-iot-mobilephone-sensor-widgets)|this project contains widgets that can be added to cumulocity dashboard and they measure mobile sensors such as Battery,microphone, signal, luxometer and vibration.|Widget|SAG-Org Repo|
 |[cumulocity-runtime-widget](https://github.com/SoftwareAG/cumulocity-runtime-widget)|Template widget for runtime loading in Cumulocity IoT. Developed by Global Presales.|Widget|SAG-Org Repo|
-|[cumulocity-pulsar](https://github.com/SoftwareAG/cumulocity-pulsar)|This is the officially supported Helm Chart for installing Apache Pulsar on Kubernetes.|Other|SAG-Org Repo|
 |[iot-cumulocity-advanced-asset-widget](https://github.com/SoftwareAG/iot-cumulocity-advanced-asset-widget)|The advanced asset table widget -  enables usage of the latest c8y-data-grid as widget and provides an example how to connect the datasource. Created by Global Competency Center IoT.|Widget|SAG-Org Repo|
-|[cumulocity-client-reactive-spring-boot](https://github.com/SoftwareAG/cumulocity-client-reactive-spring-boot)|Cumulocity client using spring boot reactive stack (WebFlux). Developed by Global Competency Center IoT|Client <br> CLI|SAG-Org Repo|
+|[cumulocity-pulsar](https://github.com/SoftwareAG/cumulocity-pulsar)|This is the officially supported Helm Chart for installing Apache Pulsar on Kubernetes.|Other|SAG-Org Repo|
 |[cumulocity-event-chart-widget](https://github.com/SoftwareAG/cumulocity-event-chart-widget)|This is an Angular 8 widget, which is designed to display the chart for the specific event type. It groups the events based on the entered group by parameter and displays the count for each group by the parameter value. Runtime installation available. Created by Global Presales.|Widget|SAG-Org Repo|
+|[cumulocity-client-reactive-spring-boot](https://github.com/SoftwareAG/cumulocity-client-reactive-spring-boot)|Cumulocity client using spring boot reactive stack (WebFlux). Developed by Global Competency Center IoT|Client <br> CLI|SAG-Org Repo|
 |[cumulocity-data-points-map-widget](https://github.com/SoftwareAG/cumulocity-data-points-map-widget)|The Data Points Map widget help you to display measurements and device locations on map. Runtime installation is available. Created by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-sdk-c](https://github.com/SoftwareAG/cumulocity-sdk-c)|Cumulocity C++ Library is an asynchronous, event-driven networking library to ease your development for connecting to the Cumulocity cloud. The library uses Cumulocity's self invented SmartREST protocol for M2M communication which targets any device that are capable of running embedded Linux.|Other|SAG-Org Repo|
 |[cumulocity-oee-widget](https://github.com/SoftwareAG/cumulocity-oee-widget)|OEE widget|Widget|SAG-Org Repo|
@@ -77,51 +77,51 @@ Number of Open-Source Repos: **122**
 |[cumulocity-esp](https://github.com/SoftwareAG/cumulocity-esp)|Example on how to make ESP communicate with Cumulocity|Other|SAG-Org Repo|
 |[cumulocity-subtenant-management](https://github.com/SoftwareAG/cumulocity-subtenant-management)|Tool for managing subtenants from a c8y management or enterprise tenant|Other|SAG-Org Repo|
 |[cumulocity-image-animation-widget](https://github.com/SoftwareAG/cumulocity-image-animation-widget)|The Cumulocity Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.  Developed by Global Presales.|Widget|SAG-Org Repo|
-|[cumulocity-employee-proximity-check-widget](https://github.com/SoftwareAG/cumulocity-employee-proximity-check-widget)| This widget displays list of Employee and its associated tag that came in contact with a particular Employee. Runtime installation available. Created by Global Presales.|Widget|SAG-Org Repo|
-|[cumulocity-ttn-integration](https://github.com/SoftwareAG/cumulocity-ttn-integration)|Cumulocity Microservice to integrate devices and sensors from the The Things Network to Cumulocity.|Other|SAG-Org Repo|
 |[cumulocity-markdown-widget](https://github.com/SoftwareAG/cumulocity-markdown-widget)|This is an Angular 8 library widget that parses the markdown text to html. Runtime installation is available. Created by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-kpi-trend-widget](https://github.com/SoftwareAG/cumulocity-kpi-trend-widget)|KPI Trend is Cumulocity IoT runtime widget that shows the latest device measurement as a KPI and previous device measurements in a chart as a trend. It has been developed by Software AG Global Presales team.|Widget|SAG-Org Repo|
 |[cumulocity-indoor-air-quality-widget](https://github.com/SoftwareAG/cumulocity-indoor-air-quality-widget)|The Cumulocity Indoor Air Quality Widget displays the current value of the measured indoor air quality and the corresponding condition. In addition, it provides a recommendation on how the indoor air quality can be improved in case it is necessary.|Widget|SAG-Org Repo|
-|[cumulocity-webmethods-CoviDash](https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash)|CoviDash example on how to create a real time hospital capacity planning tool|Other|SAG-Org Repo|
+|[cumulocity-employee-proximity-check-widget](https://github.com/SoftwareAG/cumulocity-employee-proximity-check-widget)| This widget displays list of Employee and its associated tag that came in contact with a particular Employee. Runtime installation available. Created by Global Presales.|Widget|SAG-Org Repo|
+|[cumulocity-ttn-integration](https://github.com/SoftwareAG/cumulocity-ttn-integration)|Cumulocity Microservice to integrate devices and sensors from the The Things Network to Cumulocity.|Other|SAG-Org Repo|
 |[cumulocity-measurement-aggregator](https://github.com/SoftwareAG/cumulocity-measurement-aggregator)|A simple microservice that perform aggregations of several measurements an time series from a static or dynamic group of devices.|Microservice|SAG-Org Repo|
+|[cumulocity-webmethods-CoviDash](https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash)|CoviDash example on how to create a real time hospital capacity planning tool|Other|SAG-Org Repo|
 |[cumulocity-indoor-data-point-map](https://github.com/SoftwareAG/cumulocity-indoor-data-point-map)|Display devices and their measurements on an indoor floor plan. |Other|SAG-Org Repo|
 |[cluster-map](https://github.com/SoftwareAG/cluster-map)|Server side map clustering example|Other|SAG-Org Repo|
-|[cumulocity-sample-react-app](https://github.com/SoftwareAG/cumulocity-sample-react-app)|Sample React App which uses react library to fetch and display device details. It also updates the device details by taking an input from the user.|Other|SAG-Org Repo|
 |[c8y_pi_surveillance](https://github.com/SoftwareAG/c8y_pi_surveillance)|Simple Python script to detect movement and count people on the PI camera|Other|SAG-Org Repo|
+|[cumulocity-sample-react-app](https://github.com/SoftwareAG/cumulocity-sample-react-app)|Sample React App which uses react library to fetch and display device details. It also updates the device details by taking an input from the user.|Other|SAG-Org Repo|
 |[cumulocity-3d-model-viewer-widget](https://github.com/SoftwareAG/cumulocity-3d-model-viewer-widget)|3D Model Viewer is Cumulocity IoT runtime widget to view 3d collada models (.dae). It has been developed by the Global Presales team.|Widget|SAG-Org Repo|
 |[flexy-cumulocity-connector](https://github.com/hms-networks/flexy-cumulocity-connector)|A connector-based solution to Cumulocity for linking Ewon devices using a direct data path with a Flexy Java application.|Other|Open-Source Repo|
 |[cumulocity-clients-javascript](https://github.com/SoftwareAG/cumulocity-clients-javascript)|This repository contains Cumulocity client libraries for Javascript and additional utilities named Smart Apps Toolkit.|Client <br> CLI|SAG-Org Repo|
 |[cumulocity-dbc2json.js](https://github.com/SoftwareAG/cumulocity-dbc2json.js)|None|Other|SAG-Org Repo|
 |[cumulocity-event-image-viewer-widget](https://github.com/SoftwareAG/cumulocity-event-image-viewer-widget)|This widget is designed to display the events that are created whenever the image is captured by the camera. Runtime installation available. Created by Global Presales.|Widget|SAG-Org Repo|
-|[cumulocity-barchart-widget](https://github.com/SoftwareAG/cumulocity-barchart-widget)|Bar Chart widget is a Cumulocity IoT runtime widget. It allows you to define multiple datapoints as constant values or realtime measurements from a device or device group. It has been developed by the Software AG Global Presales team.|Widget|SAG-Org Repo|
 |[cumulocity-asset-viewer-widget](https://github.com/SoftwareAG/cumulocity-asset-viewer-widget)|The Asset Viewer Widget help you to display assets/devices data in Tile/Grid view, along with navigation to template dashboards(App Builder only).. Runtime installation is available. Created by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-sample-react-library](https://github.com/SoftwareAG/cumulocity-sample-react-library)|A sample react library which fetches and displays the device details based on the device id.|Other|SAG-Org Repo|
+|[cumulocity-barchart-widget](https://github.com/SoftwareAG/cumulocity-barchart-widget)|Bar Chart widget is a Cumulocity IoT runtime widget. It allows you to define multiple datapoints as constant values or realtime measurements from a device or device group. It has been developed by the Software AG Global Presales team.|Widget|SAG-Org Repo|
 |[cumulocity-generic-mqtt-agent](https://github.com/SoftwareAG/cumulocity-generic-mqtt-agent)|Generic MQTT Agent to connect to a MQTT Broker, subscribe on topics and forward data to Cumulocity|Agent|SAG-Org Repo|
 |[cumulocity-application-development-kit](https://github.com/SoftwareAG/cumulocity-application-development-kit)|The goal of this tool is to remove some of the overhead when starting new cumulocity projects. By generating the boilerplate we allow the user to jump straight in with creating content. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-data-grid-samples](https://github.com/SoftwareAG/cumulocity-data-grid-samples)|Multiple sample projects to showcase how the Cumulocity data-grid from the Web SDK can be used.|Other|SAG-Org Repo|
 |[cumulocity-video-widget](https://github.com/SoftwareAG/cumulocity-video-widget)|Plays streaming videos from sources such as HLS streams, on-demand videos (such as MP4, MKV, MOV) from URL and embedded YouTube, Vimeo, etc. videos. Please note that links must be HTTPS and Cross-Origin access enabled. This has been developed by Software AG Global Presales team.|Widget|SAG-Org Repo|
-|[cumulocity-iec104](https://github.com/SoftwareAG/cumulocity-iec104)|Cumulocity agent used for IEC 60870-5-104 protocol|Other|SAG-Org Repo|
-|[wmio-connector-connectedcar](https://github.com/SoftwareAG/wmio-connector-connectedcar)|This sample demonstrates how to build a custom connector for wmio. It includes as well an E2E scenario, where this connector is used.|Other|SAG-Org Repo|
 |[cumulocity-mqttlistener](https://github.com/SoftwareAG/cumulocity-mqttlistener)|MQTT listener on any MQTT broker and mapping data on a specific payload and topic layout into the C8Y domain model.|Other|SAG-Org Repo|
+|[wmio-connector-connectedcar](https://github.com/SoftwareAG/wmio-connector-connectedcar)|This sample demonstrates how to build a custom connector for wmio. It includes as well an E2E scenario, where this connector is used.|Other|SAG-Org Repo|
+|[cumulocity-iec104](https://github.com/SoftwareAG/cumulocity-iec104)|Cumulocity agent used for IEC 60870-5-104 protocol|Other|SAG-Org Repo|
 |[trendminer-chart-widget](https://github.com/SoftwareAG/trendminer-chart-widget)|Cumulocity IoT Widget that allows you to create charts showing data from TrendMiner. Show multiple series and overlay context events. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[builtio-monitoring-cumulocity-microservices](https://github.com/SoftwareAG/builtio-monitoring-cumulocity-microservices)|Monitoring Cumulocity IoT microservices using Built.io Flow actions, create an alarm and notify a Slack channel (tutorial).|Microservice|SAG-Org Repo|
 |[cumulocity-devicemanagement-example-web-app](https://github.com/SoftwareAG/cumulocity-devicemanagement-example-web-app)|To upload the latest application release into your tenant, just go to the Releases and download the c8y-thinedge-app.zip package.|Example|SAG-Org Repo|
 |[flask-c8y-authorize](https://github.com/SoftwareAG/flask-c8y-authorize)|A python library that can be used for handling c8y RBAC in a flask based application.|Other|SAG-Org Repo|
-|[cumulocity-smart-echart-widget](https://github.com/SoftwareAG/cumulocity-smart-echart-widget)|The Smart Echart allows to display chart based on REST data or data from Datahub. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-tracking-replay-map-widget](https://github.com/SoftwareAG/cumulocity-tracking-replay-map-widget)|The Tracking Replay Map widget help you to track and replay device location on map.  Runtime installation is available. Created by Global Presales.|Widget|SAG-Org Repo|
+|[cumulocity-smart-echart-widget](https://github.com/SoftwareAG/cumulocity-smart-echart-widget)|The Smart Echart allows to display chart based on REST data or data from Datahub. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-weather-forecast-widget](https://github.com/SoftwareAG/cumulocity-weather-forecast-widget)|Displays a 5-day weather forecast using weather data provided by the OpenWeatherAPI. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-device-details-widget](https://github.com/SoftwareAG/cumulocity-device-details-widget)|This is an Angular widget, which is designed to display the Device Details can fetch the details from the Api call and can display data according to the fields provided. The angular widget has the ability to summarize information relating to the names from the Api call.|Widget|SAG-Org Repo|
 |[cumulocity-device-control-widget](https://github.com/SoftwareAG/cumulocity-device-control-widget)|Widget to allow display and control of devices and groups of devices.  Developed by Global Presales.|Widget|SAG-Org Repo|
-|[cumulocity-advanced-radial-gauge-widget](https://github.com/SoftwareAG/cumulocity-advanced-radial-gauge-widget)|Advanced Radial Gauge is Cumulocity IoT runtime widget. Developed by Global Presales team.|Widget|SAG-Org Repo|
-|[cumulocity-flexy-integration](https://github.com/SoftwareAG/cumulocity-flexy-integration)|Cumulocity flexy integration|Other|SAG-Org Repo|
-|[cumulocity-compass-widget](https://github.com/SoftwareAG/cumulocity-compass-widget)|Displays an animated compass direction based on the measurement data provided. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-android-client-lib](https://github.com/SoftwareAG/cumulocity-android-client-lib)|Android v.28 library (.aar) to allow you leverage your Cumulocity Platform when developing your apps|Client <br> CLI|SAG-Org Repo|
-|[cumulocity-flexy-integration-ui](https://github.com/SoftwareAG/cumulocity-flexy-integration-ui)|Cumulocity flexy integration ui|Other|SAG-Org Repo|
 |[cumulocity-clients-lua](https://github.com/SoftwareAG/cumulocity-clients-lua)|Cumulocity client library for the Lua programming language.|Client <br> CLI|SAG-Org Repo|
+|[cumulocity-flexy-integration-ui](https://github.com/SoftwareAG/cumulocity-flexy-integration-ui)|Cumulocity flexy integration ui|Other|SAG-Org Repo|
 |[cumulocity-kpi-overview-widget](https://github.com/SoftwareAG/cumulocity-kpi-overview-widget)|The Cumulocity KPI Overview Widget help you to display the Device/Asset KPIs with customised KPI Name, icon, text, color and size. Runtime installation is available. Created by Global Presales.|Widget|SAG-Org Repo|
 |[c8y-swmigration](https://github.com/ButKor/c8y-swmigration)|Project to migrate Cumulocity Software Repostiory entries towards the new model introduced with v10.7|Other|Open-Source Repo|
 |[c8y-measurement-batchcollector](https://github.com/ButKor/c8y-measurement-batchcollector)|A project to efficiently request and store Cumulocity Measurements in CSV format|Other|Open-Source Repo|
 |[cumulocity-tedge-setup](https://github.com/SoftwareAG/cumulocity-tedge-setup)|Standalone web ui to setup edge|Agent <br> Extension|SAG-Org Repo|
+|[cumulocity-advanced-radial-gauge-widget](https://github.com/SoftwareAG/cumulocity-advanced-radial-gauge-widget)|Advanced Radial Gauge is Cumulocity IoT runtime widget. Developed by Global Presales team.|Widget|SAG-Org Repo|
+|[cumulocity-flexy-integration](https://github.com/SoftwareAG/cumulocity-flexy-integration)|Cumulocity flexy integration|Other|SAG-Org Repo|
+|[cumulocity-compass-widget](https://github.com/SoftwareAG/cumulocity-compass-widget)|Displays an animated compass direction based on the measurement data provided. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-python-device-onboarding](https://github.com/SoftwareAG/cumulocity-python-device-onboarding)|This repositories contains Python scripts compatible with Python 2.7+ and Python 3.|Other|SAG-Org Repo|
 |[cumulocity-sdk-cs](https://github.com/SoftwareAG/cumulocity-sdk-cs)|None|Other|SAG-Org Repo|
 |[cumulocity-agents-opc](https://github.com/SoftwareAG/cumulocity-agents-opc)|This repository contains Cumulocity OPC-UA agent for Java. |Agent|SAG-Org Repo|
@@ -174,6 +174,11 @@ no coding.   Created by Global Presales.
 **Last Update**: 2022-04-19 10:16:52 
 
 **TechCommunity References**: 
+- [Cumulocity IoT accelerators for Python SDK and Microservice templates](https://tech.forums.softwareag.com/t/cumulocity-iot-accelerators-for-python-sdk-and-microservice-templates/238143)
+- [How to modifiy an existing Widget (e.g. Color)](https://tech.forums.softwareag.com/t/how-to-modifiy-an-existing-widget-e-g-color/235874)
+- [Cumulocity IoT - Connect LoRa Devices via The Things Network](https://tech.forums.softwareag.com/t/cumulocity-iot-connect-lora-devices-via-the-things-network/243701)
+- [Save time building your Cumulocity IoT solution with our accelerators](https://tech.forums.softwareag.com/t/save-time-building-your-cumulocity-iot-solution-with-our-accelerators/239205)
+- [Cumulocity Application Builder - Build and Deploy Custom widget](https://tech.forums.softwareag.com/t/cumulocity-application-builder-build-and-deploy-custom-widget/237548)
 
 
 **Owner**: SoftwareAG
@@ -214,6 +219,10 @@ images, and managed objects between tenants.  Developed by Global Presales.
 **Last Update**: 2022-03-31 14:35:41 
 
 **TechCommunity References**: 
+- [Cumulocity IoT accelerators for Python SDK and Microservice templates](https://tech.forums.softwareag.com/t/cumulocity-iot-accelerators-for-python-sdk-and-microservice-templates/238143)
+- [Cumulocity Migration Tool](https://tech.forums.softwareag.com/t/cumulocity-migration-tool/237289)
+- [Save time building your Cumulocity IoT solution with our accelerators](https://tech.forums.softwareag.com/t/save-time-building-your-cumulocity-iot-solution-with-our-accelerators/239205)
+- [Download source code of cumulocity app created with App Builder](https://tech.forums.softwareag.com/t/download-source-code-of-cumulocity-app-created-with-app-builder/235578)
 
 
 **Owner**: SoftwareAG
@@ -252,6 +261,8 @@ images, and managed objects between tenants.  Developed by Global Presales.
 **Last Update**: 2022-04-04 07:21:40 
 
 **TechCommunity References**: 
+- [Cumulocity IoT accelerators for Python SDK and Microservice templates](https://tech.forums.softwareag.com/t/cumulocity-iot-accelerators-for-python-sdk-and-microservice-templates/238143)
+- [Save time building your Cumulocity IoT solution with our accelerators](https://tech.forums.softwareag.com/t/save-time-building-your-cumulocity-iot-solution-with-our-accelerators/239205)
 
 
 **Owner**: SoftwareAG
@@ -272,6 +283,10 @@ solved by using Cumulocity Microservice SDK for Java.  Developed by Global Compe
 **Last Update**: 2022-04-12 13:19:07 
 
 **TechCommunity References**: 
+- [Cumulocity IoT accelerators for Python SDK and Microservice templates](https://tech.forums.softwareag.com/t/cumulocity-iot-accelerators-for-python-sdk-and-microservice-templates/238143)
+- [Introducing Software AG Open Source](https://tech.forums.softwareag.com/t/introducing-software-ag-open-source/239347)
+- [Save time building your Cumulocity IoT solution with our accelerators](https://tech.forums.softwareag.com/t/save-time-building-your-cumulocity-iot-solution-with-our-accelerators/239205)
+- [Triggering event upon alarm creation](https://tech.forums.softwareag.com/t/triggering-event-upon-alarm-creation/241650)
 
 
 **Owner**: SoftwareAG
@@ -349,6 +364,7 @@ cockpit clone. Created by Global Competency Center IoT.
 **Last Update**: 2022-04-21 07:49:32 
 
 **TechCommunity References**: 
+- [Cumulocity IoT Repositories moving to GitHub.com](https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554)
 
 
 **Owner**: SoftwareAG
@@ -406,6 +422,7 @@ cockpit clone. Created by Global Competency Center IoT.
 **Last Update**: 2021-10-26 13:30:30 
 
 **TechCommunity References**: 
+- [Cumulocity IoT - Software AG Open Source Projects](https://tech.forums.softwareag.com/t/cumulocity-iot-software-ag-open-source-projects/243559)
 
 
 **Owner**: SoftwareAG
@@ -879,25 +896,6 @@ WebSDK.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-pulsar](https://github.com/SoftwareAG/cumulocity-pulsar)
-
-
-**Description**: This is the officially supported Helm Chart for installing Apache Pulsar on Kubernetes.
-
-**Category**: Other
-
-**Stars**: 1
-
-**Language**: Shell
-
-**Last Update**: 2021-10-08 13:01:33 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [iot-cumulocity-advanced-asset-widget](https://github.com/SoftwareAG/iot-cumulocity-advanced-asset-widget)
 
 
@@ -918,18 +916,18 @@ example how to connect the datasource. Created by Global Competency Center IoT.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-client-reactive-spring-boot](https://github.com/SoftwareAG/cumulocity-client-reactive-spring-boot)
+## [cumulocity-pulsar](https://github.com/SoftwareAG/cumulocity-pulsar)
 
 
-**Description**: Cumulocity client using spring boot reactive stack (WebFlux). Developed by Global Competency Center IoT
+**Description**: This is the officially supported Helm Chart for installing Apache Pulsar on Kubernetes.
 
-**Category**: Client <br> CLI
+**Category**: Other
 
 **Stars**: 1
 
-**Language**: Java
+**Language**: Shell
 
-**Last Update**: 2022-02-24 13:34:59 
+**Last Update**: 2021-10-08 13:01:33 
 
 **TechCommunity References**: 
 
@@ -951,6 +949,25 @@ Runtime installation available. Created by Global Presales.
 **Language**: TypeScript
 
 **Last Update**: 2022-02-24 14:34:19 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-client-reactive-spring-boot](https://github.com/SoftwareAG/cumulocity-client-reactive-spring-boot)
+
+
+**Description**: Cumulocity client using spring boot reactive stack (WebFlux). Developed by Global Competency Center IoT
+
+**Category**: Client <br> CLI
+
+**Stars**: 1
+
+**Language**: Java
+
+**Last Update**: 2022-02-24 13:34:59 
 
 **TechCommunity References**: 
 
@@ -1350,45 +1367,6 @@ fading out, rotating an image and swapping from one image to another.  Developed
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-employee-proximity-check-widget](https://github.com/SoftwareAG/cumulocity-employee-proximity-check-widget)
-
-
-**Description**:  This widget displays list of Employee and its associated tag that came in contact with a particular 
-Employee. Runtime installation available. Created by Global Presales.
-
-**Category**: Widget
-
-**Stars**: 0
-
-**Language**: TypeScript
-
-**Last Update**: 2022-02-24 14:13:27 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-ttn-integration](https://github.com/SoftwareAG/cumulocity-ttn-integration)
-
-
-**Description**: Cumulocity Microservice to integrate devices and sensors from the The Things Network to Cumulocity.
-
-**Category**: Other
-
-**Stars**: 0
-
-**Language**: Java
-
-**Last Update**: 2022-01-21 14:37:30 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [cumulocity-markdown-widget](https://github.com/SoftwareAG/cumulocity-markdown-widget)
 
 
@@ -1450,18 +1428,38 @@ and the corresponding condition. In addition, it provides a recommendation on ho
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-webmethods-CoviDash](https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash)
+## [cumulocity-employee-proximity-check-widget](https://github.com/SoftwareAG/cumulocity-employee-proximity-check-widget)
 
 
-**Description**: CoviDash example on how to create a real time hospital capacity planning tool
+**Description**:  This widget displays list of Employee and its associated tag that came in contact with a particular 
+Employee. Runtime installation available. Created by Global Presales.
+
+**Category**: Widget
+
+**Stars**: 0
+
+**Language**: TypeScript
+
+**Last Update**: 2022-02-24 14:13:27 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-ttn-integration](https://github.com/SoftwareAG/cumulocity-ttn-integration)
+
+
+**Description**: Cumulocity Microservice to integrate devices and sensors from the The Things Network to Cumulocity.
 
 **Category**: Other
 
 **Stars**: 0
 
-**Language**: None
+**Language**: Java
 
-**Last Update**: 2022-02-04 09:30:41 
+**Last Update**: 2022-01-21 14:37:30 
 
 **TechCommunity References**: 
 
@@ -1482,6 +1480,25 @@ and the corresponding condition. In addition, it provides a recommendation on ho
 **Language**: Java
 
 **Last Update**: 2022-02-04 09:13:57 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-webmethods-CoviDash](https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash)
+
+
+**Description**: CoviDash example on how to create a real time hospital capacity planning tool
+
+**Category**: Other
+
+**Stars**: 0
+
+**Language**: None
+
+**Last Update**: 2022-02-04 09:30:41 
 
 **TechCommunity References**: 
 
@@ -1527,6 +1544,25 @@ and the corresponding condition. In addition, it provides a recommendation on ho
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
+## [c8y_pi_surveillance](https://github.com/SoftwareAG/c8y_pi_surveillance)
+
+
+**Description**: Simple Python script to detect movement and count people on the PI camera
+
+**Category**: Other
+
+**Stars**: 0
+
+**Language**: Python
+
+**Last Update**: 2021-10-19 07:19:00 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
 ## [cumulocity-sample-react-app](https://github.com/SoftwareAG/cumulocity-sample-react-app)
 
 
@@ -1540,25 +1576,6 @@ device details by taking an input from the user.
 **Language**: TypeScript
 
 **Last Update**: 2021-12-02 13:58:41 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [c8y_pi_surveillance](https://github.com/SoftwareAG/c8y_pi_surveillance)
-
-
-**Description**: Simple Python script to detect movement and count people on the PI camera
-
-**Category**: Other
-
-**Stars**: 0
-
-**Language**: Python
-
-**Last Update**: 2021-10-19 07:19:00 
 
 **TechCommunity References**: 
 
@@ -1665,27 +1682,6 @@ camera. Runtime installation available. Created by Global Presales.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-barchart-widget](https://github.com/SoftwareAG/cumulocity-barchart-widget)
-
-
-**Description**: Bar Chart widget is a Cumulocity IoT runtime widget. It allows you to define multiple datapoints as 
-constant values or realtime measurements from a device or device group. It has been developed by the Software AG Global 
-Presales team.
-
-**Category**: Widget
-
-**Stars**: 0
-
-**Language**: TypeScript
-
-**Last Update**: 2022-01-28 10:04:41 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [cumulocity-asset-viewer-widget](https://github.com/SoftwareAG/cumulocity-asset-viewer-widget)
 
 
@@ -1718,6 +1714,27 @@ navigation to template dashboards(App Builder only).. Runtime installation is av
 **Language**: TypeScript
 
 **Last Update**: 2021-12-02 13:41:54 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-barchart-widget](https://github.com/SoftwareAG/cumulocity-barchart-widget)
+
+
+**Description**: Bar Chart widget is a Cumulocity IoT runtime widget. It allows you to define multiple datapoints as 
+constant values or realtime measurements from a device or device group. It has been developed by the Software AG Global 
+Presales team.
+
+**Category**: Widget
+
+**Stars**: 0
+
+**Language**: TypeScript
+
+**Last Update**: 2022-01-28 10:04:41 
 
 **TechCommunity References**: 
 
@@ -1804,18 +1821,19 @@ URL and embedded YouTube, Vimeo, etc. videos. Please note that links must be HTT
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-iec104](https://github.com/SoftwareAG/cumulocity-iec104)
+## [cumulocity-mqttlistener](https://github.com/SoftwareAG/cumulocity-mqttlistener)
 
 
-**Description**: Cumulocity agent used for IEC 60870-5-104 protocol
+**Description**: MQTT listener on any MQTT broker and mapping data on a specific payload and topic layout into the C8Y 
+domain model.
 
 **Category**: Other
 
 **Stars**: 0
 
-**Language**: Java
+**Language**: Python
 
-**Last Update**: 2022-02-04 09:15:13 
+**Last Update**: 2022-02-02 14:03:31 
 
 **TechCommunity References**: 
 
@@ -1843,19 +1861,18 @@ URL and embedded YouTube, Vimeo, etc. videos. Please note that links must be HTT
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-mqttlistener](https://github.com/SoftwareAG/cumulocity-mqttlistener)
+## [cumulocity-iec104](https://github.com/SoftwareAG/cumulocity-iec104)
 
 
-**Description**: MQTT listener on any MQTT broker and mapping data on a specific payload and topic layout into the C8Y 
-domain model.
+**Description**: Cumulocity agent used for IEC 60870-5-104 protocol
 
 **Category**: Other
 
 **Stars**: 0
 
-**Language**: Python
+**Language**: Java
 
-**Last Update**: 2022-02-02 14:03:31 
+**Last Update**: 2022-02-04 09:15:13 
 
 **TechCommunity References**: 
 
@@ -1942,26 +1959,6 @@ c8y-thinedge-app.zip package.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-smart-echart-widget](https://github.com/SoftwareAG/cumulocity-smart-echart-widget)
-
-
-**Description**: The Smart Echart allows to display chart based on REST data or data from Datahub. Developed by Global 
-Presales.
-
-**Category**: Widget
-
-**Stars**: 0
-
-**Language**: TypeScript
-
-**Last Update**: 2022-04-13 06:14:06 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [cumulocity-tracking-replay-map-widget](https://github.com/SoftwareAG/cumulocity-tracking-replay-map-widget)
 
 
@@ -1975,6 +1972,26 @@ installation is available. Created by Global Presales.
 **Language**: TypeScript
 
 **Last Update**: 2022-04-18 11:10:05 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-smart-echart-widget](https://github.com/SoftwareAG/cumulocity-smart-echart-widget)
+
+
+**Description**: The Smart Echart allows to display chart based on REST data or data from Datahub. Developed by Global 
+Presales.
+
+**Category**: Widget
+
+**Stars**: 0
+
+**Language**: TypeScript
+
+**Last Update**: 2022-04-13 06:14:06 
 
 **TechCommunity References**: 
 
@@ -2042,64 +2059,6 @@ information relating to the names from the Api call.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-advanced-radial-gauge-widget](https://github.com/SoftwareAG/cumulocity-advanced-radial-gauge-widget)
-
-
-**Description**: Advanced Radial Gauge is Cumulocity IoT runtime widget. Developed by Global Presales team.
-
-**Category**: Widget
-
-**Stars**: 0
-
-**Language**: TypeScript
-
-**Last Update**: 2022-01-24 15:09:25 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-flexy-integration](https://github.com/SoftwareAG/cumulocity-flexy-integration)
-
-
-**Description**: Cumulocity flexy integration
-
-**Category**: Other
-
-**Stars**: 0
-
-**Language**: Python
-
-**Last Update**: 2022-04-12 00:11:23 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-compass-widget](https://github.com/SoftwareAG/cumulocity-compass-widget)
-
-
-**Description**: Displays an animated compass direction based on the measurement data provided. Developed by Global 
-Presales.
-
-**Category**: Widget
-
-**Stars**: 0
-
-**Language**: TypeScript
-
-**Last Update**: 2022-04-07 12:09:33 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [cumulocity-android-client-lib](https://github.com/SoftwareAG/cumulocity-android-client-lib)
 
 
@@ -2119,25 +2078,6 @@ Presales.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-flexy-integration-ui](https://github.com/SoftwareAG/cumulocity-flexy-integration-ui)
-
-
-**Description**: Cumulocity flexy integration ui
-
-**Category**: Other
-
-**Stars**: 0
-
-**Language**: TypeScript
-
-**Last Update**: 2022-04-08 14:55:26 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [cumulocity-clients-lua](https://github.com/SoftwareAG/cumulocity-clients-lua)
 
 
@@ -2150,6 +2090,25 @@ Presales.
 **Language**: Lua
 
 **Last Update**: 2021-09-28 11:47:01 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-flexy-integration-ui](https://github.com/SoftwareAG/cumulocity-flexy-integration-ui)
+
+
+**Description**: Cumulocity flexy integration ui
+
+**Category**: Other
+
+**Stars**: 0
+
+**Language**: TypeScript
+
+**Last Update**: 2022-04-08 14:55:26 
 
 **TechCommunity References**: 
 
@@ -2227,6 +2186,64 @@ icon, text, color and size. Runtime installation is available. Created by Global
 **Language**: TypeScript
 
 **Last Update**: 2022-04-07 11:37:41 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-advanced-radial-gauge-widget](https://github.com/SoftwareAG/cumulocity-advanced-radial-gauge-widget)
+
+
+**Description**: Advanced Radial Gauge is Cumulocity IoT runtime widget. Developed by Global Presales team.
+
+**Category**: Widget
+
+**Stars**: 0
+
+**Language**: TypeScript
+
+**Last Update**: 2022-01-24 15:09:25 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-flexy-integration](https://github.com/SoftwareAG/cumulocity-flexy-integration)
+
+
+**Description**: Cumulocity flexy integration
+
+**Category**: Other
+
+**Stars**: 0
+
+**Language**: Python
+
+**Last Update**: 2022-04-12 00:11:23 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-compass-widget](https://github.com/SoftwareAG/cumulocity-compass-widget)
+
+
+**Description**: Displays an animated compass direction based on the measurement data provided. Developed by Global 
+Presales.
+
+**Category**: Widget
+
+**Stars**: 0
+
+**Language**: TypeScript
+
+**Last Update**: 2022-04-07 12:09:33 
 
 **TechCommunity References**: 
 
@@ -2362,7 +2379,7 @@ additional content at TechCommunity
 
 **Language**: Python
 
-**Last Update**: 2022-04-21 08:00:41 
+**Last Update**: 2022-04-21 08:05:45 
 
 **TechCommunity References**: 
 
