@@ -35,6 +35,7 @@ Number of Open-Source Repos: **149**
 |[cumulocity-clients-java](https://github.com/SoftwareAG/cumulocity-clients-java)|This repository contains Cumulocity client libraries for Java.|Client <br> CLI|SAG-Org Repo|
 |[cumulocity-acme](https://github.com/SoftwareAG/cumulocity-acme)|ACME client microservice for the Cumulocity IoT Edge to automatically issue and renew valid certificates via e.g. Let's Encrypt.|Microservice|SAG-Org Repo|
 |[apama-cumulocity-raspberrypi](https://github.com/SoftwareAG/apama-cumulocity-raspberrypi)|Apama reading temperature data from Raspberry Pi sensehat and sending it to Cumulocity IoT for real-time analysis. Developed by Global Presales.|Agent <br> Example|SAG-Org Repo|
+|[cumulocity-agents-linux](https://github.com/SoftwareAG/cumulocity-agents-linux)|Cumulocity Linux agent is a generic agent for connecting Linux-powered devices to Cumulocity's IoT platform. It runs on all major Linux distributions (Ubuntu, Debian, Raspberry Pi OS, CentOS, etc.).|Agent|SAG-Org Repo|
 |[cumulocity-examples](https://github.com/SoftwareAG/cumulocity-examples)|This repository contains example applications created using Cumulocity SDK.|Example|SAG-Org Repo|
 |[cumulocity-remote-access-agent](https://github.com/SoftwareAG/cumulocity-remote-access-agent)|This is a python agent to demonstrate the Cloud Remote Access Feature of Cumulocity.|Agent <br> Extension|SAG-Org Repo|
 |[cumulocityr](https://github.com/SoftwareAG/cumulocityr)|R client for the Cumulocity API|Client|SAG-Org Repo|
@@ -60,30 +61,29 @@ Number of Open-Source Repos: **149**
 |[iot-cumulocity-advanced-asset-widget](https://github.com/SoftwareAG/iot-cumulocity-advanced-asset-widget)|The advanced asset table widget -  enables usage of the latest c8y-data-grid as widget and provides an example how to connect the datasource. Created by Global Competency Center IoT.|Widget|SAG-Org Repo|
 |[cumulocity-client-reactive-spring-boot](https://github.com/SoftwareAG/cumulocity-client-reactive-spring-boot)|Cumulocity client using spring boot reactive stack (WebFlux). Developed by Global Competency Center IoT|Client <br> CLI|SAG-Org Repo|
 |[cumulocity-microservice-archetype](https://github.com/SoftwareAG/cumulocity-microservice-archetype)|Maven archetype for cumulocity microservice. Developed by Global Competency Center IoT|Microservice|SAG-Org Repo|
-|[CumulocityClient](https://github.com/elpinjo/CumulocityClient)|Arduino library for connecting your WiFi enabled Arduino to Cumulocity IoT platform over MQTT|Other|Open-Source Repo|
 |[c8y-ios-lib](https://github.com/johnpcarter/c8y-ios-lib)|iOS swift library to integrate your apps easily with your Cumulocity IoT tenant|Other|Open-Source Repo|
-|[CumulocityIoT-Examples](https://github.com/SoftwareAG/CumulocityIoT-Examples)|Smart Trashcan for Cumulocity IoT as seen at IoT World 2019. This is utilizing a HR-SC-4 ultrasonic sensor on Raspberry Pi.|Other|SAG-Org Repo|
+|[CumulocityClient](https://github.com/elpinjo/CumulocityClient)|Arduino library for connecting your WiFi enabled Arduino to Cumulocity IoT platform over MQTT|Agent <br> Client|Open-Source Repo|
+|[CumulocityIoT-Examples](https://github.com/SoftwareAG/CumulocityIoT-Examples)|Smart Trashcan for Cumulocity IoT as seen at IoT World 2019. This is utilizing a HR-SC-4 ultrasonic sensor on Raspberry Pi.|Example|SAG-Org Repo|
 |[c8y_microservice-nodejs](https://github.com/manasesjesus/c8y_microservice-nodejs)|Cumulocity IoT - Microservice developed using Node.js and Docker. It notifies a Slack channel when there are alarms in the subscribed tenants.|Microservice|Open-Source Repo|
-|[cumulocity-agents-linux](https://github.com/SoftwareAG/cumulocity-agents-linux)|Cumulocity Linux agent is a generic agent for connecting Linux-powered devices to Cumulocity's IoT platform. It runs on all major Linux distributions (Ubuntu, Debian, Raspberry Pi OS, CentOS, etc.).|Agent|SAG-Org Repo|
 |[sag-c8y-nb-iot-demo](https://github.com/I8C/sag-c8y-nb-iot-demo)|Internship project of Brent Swaenen, implementing a weather station, based on an Arduino devkit, that syncs data to Cumulocity over the Orange NB-IoT network.|Other|Open-Source Repo|
 |[cumulocity-datapoints-charting-widget](https://github.com/SoftwareAG/cumulocity-datapoints-charting-widget)|Cumulocity IoT Widget that allows you to create charts showing  data from one or more devices. You can create many chart types including line, spline, bar, radar, scatter and bubble. Developed by Global Presales. |Widget|SAG-Org Repo|
 |[cumulocity-pulsar](https://github.com/SoftwareAG/cumulocity-pulsar)|This is the officially supported Helm Chart for installing Apache Pulsar on Kubernetes.|Other|SAG-Org Repo|
-|[cumulocity-sdk-c](https://github.com/SoftwareAG/cumulocity-sdk-c)|Cumulocity C++ Library is an asynchronous, event-driven networking library to ease your development for connecting to the Cumulocity cloud. The library uses Cumulocity's self invented SmartREST protocol for M2M communication which targets any device that are capable of running embedded Linux.|Other|SAG-Org Repo|
-|[cumulocity-agents-netcomm](https://github.com/SoftwareAG/cumulocity-agents-netcomm)|Cumulocity NetComm Agent is a dedicated agent software for connecting the NetComm router to Cumulocity.|Agent|SAG-Org Repo|
-|[cumulocity-opcua-gateway-solution](https://github.com/SoftwareAG/cumulocity-opcua-gateway-solution)|This solution creates a sample OPCServer including the required gateway to connect the OPC server to Cumulocity.|Other|SAG-Org Repo|
-|[cumulocity-devicemanagement-docker-example](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example)|Cumulocity Example for a Thin Edge based application on Docker|Example|SAG-Org Repo|
-|[cumulocity-hono-agent](https://github.com/SoftwareAG/cumulocity-hono-agent)|Cumulocity Agent which integrates to Eclipse Hono. Telemetry + Command & Control is supported!|Agent|SAG-Org Repo|
-|[cumulocity-SmartKanban](https://github.com/SoftwareAG/cumulocity-SmartKanban)|This is an example for sniffing data packages inside a network and filtering connection packages. This can be used e.g. to make IoTDashbuttons trigger Events and thus whole actions in Cumulocity. The Event how ever can be used as a Smart Kanbas inside a storage system as a real industrial IoT example.|Other|SAG-Org Repo|
-|[cumulocity-dt-integration-microservice](https://github.com/SoftwareAG/cumulocity-dt-integration-microservice)|Cumulocity Microservice to Integrate with Disruptive Technologies Devices|Microservice|SAG-Org Repo|
 |[cumulocity-esp](https://github.com/SoftwareAG/cumulocity-esp)|Example on how to make ESP communicate with Cumulocity|Other|SAG-Org Repo|
+|[cumulocity-sdk-c](https://github.com/SoftwareAG/cumulocity-sdk-c)|Cumulocity C++ Library is an asynchronous, event-driven networking library to ease your development for connecting to the Cumulocity cloud. The library uses Cumulocity's self invented SmartREST protocol for M2M communication which targets any device that are capable of running embedded Linux.|Client|SAG-Org Repo|
 |[cumulocity-oee-widget](https://github.com/SoftwareAG/cumulocity-oee-widget)|OEE widget|Widget|SAG-Org Repo|
+|[cumulocity-agents-netcomm](https://github.com/SoftwareAG/cumulocity-agents-netcomm)|Cumulocity NetComm Agent is a dedicated agent software for connecting the NetComm router to Cumulocity.|Agent|SAG-Org Repo|
 |[cumulocity-microservice-servicenow](https://github.com/SoftwareAG/cumulocity-microservice-servicenow)|This project is a microservice for managing incidents in SerivceNow.|Microservice|SAG-Org Repo|
+|[cumulocity-SmartKanban](https://github.com/SoftwareAG/cumulocity-SmartKanban)|This is an example for sniffing data packages inside a network and filtering connection packages. This can be used e.g. to make IoTDashbuttons trigger Events and thus whole actions in Cumulocity. The Event how ever can be used as a Smart Kanbas inside a storage system as a real industrial IoT example.|Example|SAG-Org Repo|
 |[cumulocity-smart-map-settings-widget](https://github.com/SoftwareAG/cumulocity-smart-map-settings-widget)|This is configuration widget for Smart Map Widget. Runtime installation is available. Created by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-os-repo-overview](https://github.com/SoftwareAG/cumulocity-os-repo-overview)|This Repository gives a brief overview of all available IoT Open-Source Repositories including additional content at TechCommunity|Other|SAG-Org Repo|
-|[cumulocity-subtenant-management](https://github.com/SoftwareAG/cumulocity-subtenant-management)|Tool for managing subtenants from a c8y management or enterprise tenant|Other|SAG-Org Repo|
-|[cumulocity-processing-widget](https://github.com/SoftwareAG/cumulocity-processing-widget)|This is an Angular 8 widget, which is designed to display the current process state based on the latest event. Updates the state whenever a new event is subscribed. Runtime Installation available. Created by Global Presales.|Widget|SAG-Org Repo|
+|[cumulocity-dt-integration-microservice](https://github.com/SoftwareAG/cumulocity-dt-integration-microservice)|Cumulocity Microservice to Integrate with Disruptive Technologies Devices|Microservice|SAG-Org Repo|
+|[cumulocity-opcua-gateway-solution](https://github.com/SoftwareAG/cumulocity-opcua-gateway-solution)|This solution creates a sample OPCServer including the required gateway to connect the OPC server to Cumulocity.|Example|SAG-Org Repo|
+|[cumulocity-hono-agent](https://github.com/SoftwareAG/cumulocity-hono-agent)|Cumulocity Agent which integrates to Eclipse Hono. Telemetry + Command & Control is supported!|Microservice <br> Agent|SAG-Org Repo|
+|[cumulocity-devicemanagement-docker-example](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example)|Cumulocity Example for a Thin Edge based application on Docker|Agent <br> Example <br> Extension|SAG-Org Repo|
+|[cumulocity-subtenant-management](https://github.com/SoftwareAG/cumulocity-subtenant-management)|Tool for managing subtenants from a c8y management or enterprise tenant|Microservice <br> WebApp|SAG-Org Repo|
 |[cumulocity-event-chart-widget](https://github.com/SoftwareAG/cumulocity-event-chart-widget)|This is an Angular 8 widget, which is designed to display the chart for the specific event type. It groups the events based on the entered group by parameter and displays the count for each group by the parameter value. Runtime installation available. Created by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-data-points-map-widget](https://github.com/SoftwareAG/cumulocity-data-points-map-widget)|The Data Points Map widget help you to display measurements and device locations on map. Runtime installation is available. Created by Global Presales.|Widget|SAG-Org Repo|
+|[cumulocity-processing-widget](https://github.com/SoftwareAG/cumulocity-processing-widget)|This is an Angular 8 widget, which is designed to display the current process state based on the latest event. Updates the state whenever a new event is subscribed. Runtime Installation available. Created by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-image-animation-widget](https://github.com/SoftwareAG/cumulocity-image-animation-widget)|The Cumulocity Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.  Developed by Global Presales.|Widget|SAG-Org Repo|
 |[c8y_hw_mqtt](https://github.com/manasesjesus/c8y_hw_mqtt)|Cumulocity IoT - Device integration using MQTT in Java, Python, Node.js and C# (using Docker).|Other|Open-Source Repo|
 |[c8y-microservice-hw-java](https://github.com/SoftwareAG/c8y-microservice-hw-java)|Cumulocity IoT Microservice - Hello World example developed using Java|Microservice|SAG-Org Repo|
@@ -118,8 +118,8 @@ Number of Open-Source Repos: **149**
 |[cumulocity-ttn-integration](https://github.com/SoftwareAG/cumulocity-ttn-integration)|Cumulocity Microservice to integrate devices and sensors from the The Things Network to Cumulocity.|Other|SAG-Org Repo|
 |[cumulocity-indoor-data-point-map](https://github.com/SoftwareAG/cumulocity-indoor-data-point-map)|Display devices and their measurements on an indoor floor plan. |Other|SAG-Org Repo|
 |[cluster-map](https://github.com/SoftwareAG/cluster-map)|Server side map clustering example|Other|SAG-Org Repo|
-|[cumulocity-sample-react-app](https://github.com/SoftwareAG/cumulocity-sample-react-app)|Sample React App which uses react library to fetch and display device details. It also updates the device details by taking an input from the user.|Other|SAG-Org Repo|
 |[c8y_pi_surveillance](https://github.com/SoftwareAG/c8y_pi_surveillance)|Simple Python script to detect movement and count people on the PI camera|Other|SAG-Org Repo|
+|[cumulocity-sample-react-app](https://github.com/SoftwareAG/cumulocity-sample-react-app)|Sample React App which uses react library to fetch and display device details. It also updates the device details by taking an input from the user.|Other|SAG-Org Repo|
 |[cumulocity-clients-javascript](https://github.com/SoftwareAG/cumulocity-clients-javascript)|This repository contains Cumulocity client libraries for Javascript and additional utilities named Smart Apps Toolkit.|Client <br> CLI|SAG-Org Repo|
 |[cumulocity-dbc2json.js](https://github.com/SoftwareAG/cumulocity-dbc2json.js)|None|Other|SAG-Org Repo|
 |[cumulocity-sample-react-library](https://github.com/SoftwareAG/cumulocity-sample-react-library)|A sample react library which fetches and displays the device details based on the device id.|Other|SAG-Org Repo|
@@ -130,18 +130,18 @@ Number of Open-Source Repos: **149**
 |[cumulocity-flexy-integration](https://github.com/SoftwareAG/cumulocity-flexy-integration)|Cumulocity flexy integration|Other|SAG-Org Repo|
 |[cumulocity-flexy-integration-ui](https://github.com/SoftwareAG/cumulocity-flexy-integration-ui)|Cumulocity flexy integration ui|Other|SAG-Org Repo|
 |[cumulocity-clients-lua](https://github.com/SoftwareAG/cumulocity-clients-lua)|Cumulocity client library for the Lua programming language.|Client <br> CLI|SAG-Org Repo|
-|[c8y-swmigration](https://github.com/ButKor/c8y-swmigration)|Project to migrate Cumulocity Software Repostiory entries towards the new model introduced with v10.7|Other|Open-Source Repo|
 |[c8y-measurement-batchcollector](https://github.com/ButKor/c8y-measurement-batchcollector)|A project to efficiently request and store Cumulocity Measurements in CSV format|Other|Open-Source Repo|
+|[c8y-swmigration](https://github.com/ButKor/c8y-swmigration)|Project to migrate Cumulocity Software Repostiory entries towards the new model introduced with v10.7|Other|Open-Source Repo|
 |[cumulocity-python-device-onboarding](https://github.com/SoftwareAG/cumulocity-python-device-onboarding)|This repositories contains Python scripts compatible with Python 2.7+ and Python 3.|Other|SAG-Org Repo|
 |[cumulocity-sdk-cs](https://github.com/SoftwareAG/cumulocity-sdk-cs)|None|Other|SAG-Org Repo|
 |[cumulocity-agents-opc](https://github.com/SoftwareAG/cumulocity-agents-opc)|This repository contains Cumulocity OPC-UA agent for Java. |Agent|SAG-Org Repo|
-|[cumulocity-subtenant-usage-metering-microservice](https://github.com/SoftwareAG/cumulocity-subtenant-usage-metering-microservice)|This project is a microservice in python that requests tenant statistics for all its subtenants and historicizes them as measurements. |Microservice|SAG-Org Repo|
 |[c8y-python-decoder-example-microservice](https://github.com/SoftwareAG/c8y-python-decoder-example-microservice)|Python Microservice decoding Base64 Hex String|Microservice <br> Example|SAG-Org Repo|
+|[cumulocity-subtenant-usage-metering-microservice](https://github.com/SoftwareAG/cumulocity-subtenant-usage-metering-microservice)|This project is a microservice in python that requests tenant statistics for all its subtenants and historicizes them as measurements. |Microservice|SAG-Org Repo|
 |[cumulocity-provision-epl](https://github.com/SoftwareAG/cumulocity-provision-epl)|This microservice provides a POST endpoint provision to deploy an EPL model from the enterprise tenant to a subscribed target tenant.|Other|SAG-Org Repo|
 |[cumulocity-proteus](https://github.com/SoftwareAG/cumulocity-proteus)|Cumulocity proteus|Other|SAG-Org Repo|
 |[cumulocity-clients-cs](https://github.com/SoftwareAG/cumulocity-clients-cs)|None|Client <br> CLI|SAG-Org Repo|
-|[cumulocity-webmethods-CoviDash](https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash)|CoviDash example on how to create a real time hospital capacity planning tool|Other|SAG-Org Repo|
 |[cumulocity-measurement-aggregator](https://github.com/SoftwareAG/cumulocity-measurement-aggregator)|A simple microservice that perform aggregations of several measurements an time series from a static or dynamic group of devices.|Microservice|SAG-Org Repo|
+|[cumulocity-webmethods-CoviDash](https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash)|CoviDash example on how to create a real time hospital capacity planning tool|Other|SAG-Org Repo|
 |[cumulocity-data-grid-samples](https://github.com/SoftwareAG/cumulocity-data-grid-samples)|Multiple sample projects to showcase how the Cumulocity data-grid from the Web SDK can be used.|Other|SAG-Org Repo|
 |[cumulocity-android-client-lib](https://github.com/SoftwareAG/cumulocity-android-client-lib)|Android v.28 library (.aar) to allow you leverage your Cumulocity Platform when developing your apps|Client <br> CLI|SAG-Org Repo|
 |[cumulocity-tedge-setup](https://github.com/SoftwareAG/cumulocity-tedge-setup)|Standalone web ui to setup edge|Agent <br> Extension|SAG-Org Repo|
@@ -160,8 +160,8 @@ Number of Open-Source Repos: **149**
 |[cumulocity-device-control-widget](https://github.com/SoftwareAG/cumulocity-device-control-widget)|Widget to allow display and control of devices and groups of devices.  Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-safe-interaction-overview-widget](https://github.com/SoftwareAG/cumulocity-safe-interaction-overview-widget)|This widget is designed for Smart Social Distancing Demo. The widget displays the count of total, assigned, available and non operational tags. Runtime installation available. Created by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-rest-based-grid-widget](https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget)|The Cumulocity Rest Based Grid Widget help you to display API data in Grid view with configurable columns and headings. This widget also supports Nested lists, search and server side pagination, etc.. Runtime installation is available. Created by Global Presales.|Widget|SAG-Org Repo|
-|[cumulocity-silo-capacity-widget](https://github.com/SoftwareAG/cumulocity-silo-capacity-widget)|Displays a configurable silo capacity graphic with fill levels, foreground image overlay, optional background image and colorized thresholds. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-device-at-risk-widget](https://github.com/SoftwareAG/cumulocity-device-at-risk-widget)|This is an Angular 8 widget designed to get a list of devices based on a group selection and display any device that has a Critical/Major Alarm or Medium/High-Risk Firmware raised against it. Runtime installation is available. Created by Global Presales.|Widget|SAG-Org Repo|
+|[cumulocity-silo-capacity-widget](https://github.com/SoftwareAG/cumulocity-silo-capacity-widget)|Displays a configurable silo capacity graphic with fill levels, foreground image overlay, optional background image and colorized thresholds. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-smart-echart-widget](https://github.com/SoftwareAG/cumulocity-smart-echart-widget)|The Smart Echart allows to display chart based on REST data or data from Datahub. Developed by Global Presales.|Widget|SAG-Org Repo|
 |[cumulocity-compass-widget](https://github.com/SoftwareAG/cumulocity-compass-widget)|Displays an animated compass direction based on the measurement data provided. Developed by Global Presales.|Widget|SAG-Org Repo|
 
@@ -201,6 +201,7 @@ of Cumulocity IoT
 **Last Update**: 2022-03-04 11:22:15 
 
 **TechCommunity References**: 
+- [Getting Started with Cumulocity IoT Device Management](https://tech.forums.softwareag.com/t/getting-started-with-cumulocity-iot-device-management/256401)
 
 
 **Owner**: SoftwareAG
@@ -346,13 +347,14 @@ cockpit clone. Created by Global Competency Center IoT.
 
 **Category**: Example
 
-**Stars**: 6
+**Stars**: 7
 
 **Language**: Python
 
 **Last Update**: 2021-03-29 08:01:06 
 
 **TechCommunity References**: 
+- [Cumulocity Integration with ESP32 and ESP8266](https://tech.forums.softwareag.com/t/cumulocity-integration-with-esp32-and-esp8266/256889)
 
 
 **Owner**: SoftwareAG
@@ -369,7 +371,7 @@ cockpit clone. Created by Global Competency Center IoT.
 
 **Language**: SCSS
 
-**Last Update**: 2022-04-21 09:13:45 
+**Last Update**: 2022-04-21 18:45:57 
 
 **TechCommunity References**: 
 - [Cumulocity IoT Repositories moving to GitHub.com](https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554)
@@ -524,7 +526,7 @@ Cumulocity IoT
 
 **Language**: Java
 
-**Last Update**: 2022-04-21 11:32:08 
+**Last Update**: 2022-04-21 17:16:52 
 
 **TechCommunity References**: 
 
@@ -572,6 +574,26 @@ time analysis. Developed by Global Presales.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
+## [cumulocity-agents-linux](https://github.com/SoftwareAG/cumulocity-agents-linux)
+
+
+**Description**: Cumulocity Linux agent is a generic agent for connecting Linux-powered devices to Cumulocity's IoT 
+platform. It runs on all major Linux distributions (Ubuntu, Debian, Raspberry Pi OS, CentOS, etc.).
+
+**Category**: Agent
+
+**Stars**: 3
+
+**Language**: HTML
+
+**Last Update**: 2021-10-08 12:37:16 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
 ## [cumulocity-examples](https://github.com/SoftwareAG/cumulocity-examples)
 
 
@@ -583,7 +605,7 @@ time analysis. Developed by Global Presales.
 
 **Language**: Java
 
-**Last Update**: 2022-04-21 09:21:19 
+**Last Update**: 2022-04-21 17:16:53 
 
 **TechCommunity References**: 
 
@@ -1056,25 +1078,6 @@ example how to connect the datasource. Created by Global Competency Center IoT.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [CumulocityClient](https://github.com/elpinjo/CumulocityClient)
-
-
-**Description**: Arduino library for connecting your WiFi enabled Arduino to Cumulocity IoT platform over MQTT
-
-**Category**: Other
-
-**Stars**: 1
-
-**Language**: C++
-
-**Last Update**: 2020-12-10 08:12:01 
-
-**TechCommunity References**: 
-
-
-**Owner**: elpinjo
-
-**Relation**: Open-Source Repo
 ## [c8y-ios-lib](https://github.com/johnpcarter/c8y-ios-lib)
 
 
@@ -1094,13 +1097,32 @@ example how to connect the datasource. Created by Global Competency Center IoT.
 **Owner**: johnpcarter
 
 **Relation**: Open-Source Repo
+## [CumulocityClient](https://github.com/elpinjo/CumulocityClient)
+
+
+**Description**: Arduino library for connecting your WiFi enabled Arduino to Cumulocity IoT platform over MQTT
+
+**Category**: Agent <br> Client
+
+**Stars**: 2
+
+**Language**: C++
+
+**Last Update**: 2020-12-10 08:12:01 
+
+**TechCommunity References**: 
+
+
+**Owner**: elpinjo
+
+**Relation**: Open-Source Repo
 ## [CumulocityIoT-Examples](https://github.com/SoftwareAG/CumulocityIoT-Examples)
 
 
 **Description**: Smart Trashcan for Cumulocity IoT as seen at IoT World 2019. This is utilizing a HR-SC-4 ultrasonic 
 sensor on Raspberry Pi.
 
-**Category**: Other
+**Category**: Example
 
 **Stars**: 1
 
@@ -1134,26 +1156,6 @@ there are alarms in the subscribed tenants.
 **Owner**: manasesjesus
 
 **Relation**: Open-Source Repo
-## [cumulocity-agents-linux](https://github.com/SoftwareAG/cumulocity-agents-linux)
-
-
-**Description**: Cumulocity Linux agent is a generic agent for connecting Linux-powered devices to Cumulocity's IoT 
-platform. It runs on all major Linux distributions (Ubuntu, Debian, Raspberry Pi OS, CentOS, etc.).
-
-**Category**: Agent
-
-**Stars**: 3
-
-**Language**: HTML
-
-**Last Update**: 2021-10-08 12:37:16 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [sag-c8y-nb-iot-demo](https://github.com/I8C/sag-c8y-nb-iot-demo)
 
 
@@ -1213,144 +1215,6 @@ create many chart types including line, spline, bar, radar, scatter and bubble. 
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-sdk-c](https://github.com/SoftwareAG/cumulocity-sdk-c)
-
-
-**Description**: Cumulocity C++ Library is an asynchronous, event-driven networking library to ease your development for
- connecting to the Cumulocity cloud. The library uses Cumulocity's self invented SmartREST protocol for M2M 
-communication which targets any device that are capable of running embedded Linux.
-
-**Category**: Other
-
-**Stars**: 1
-
-**Language**: C++
-
-**Last Update**: 2021-10-08 13:00:07 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-agents-netcomm](https://github.com/SoftwareAG/cumulocity-agents-netcomm)
-
-
-**Description**: Cumulocity NetComm Agent is a dedicated agent software for connecting the NetComm router to Cumulocity.
-
-**Category**: Agent
-
-**Stars**: 1
-
-**Language**: C++
-
-**Last Update**: 2021-10-08 12:55:22 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-opcua-gateway-solution](https://github.com/SoftwareAG/cumulocity-opcua-gateway-solution)
-
-
-**Description**: This solution creates a sample OPCServer including the required gateway to connect the OPC server to 
-Cumulocity.
-
-**Category**: Other
-
-**Stars**: 1
-
-**Language**: Python
-
-**Last Update**: 2021-12-24 04:50:42 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-devicemanagement-docker-example](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example)
-
-
-**Description**: Cumulocity Example for a Thin Edge based application on Docker
-
-**Category**: Example
-
-**Stars**: 1
-
-**Language**: Python
-
-**Last Update**: 2022-02-24 13:58:09 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-hono-agent](https://github.com/SoftwareAG/cumulocity-hono-agent)
-
-
-**Description**: Cumulocity Agent which integrates to Eclipse Hono. Telemetry + Command & Control is supported!
-
-**Category**: Agent
-
-**Stars**: 1
-
-**Language**: Java
-
-**Last Update**: 2022-02-02 14:10:54 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-SmartKanban](https://github.com/SoftwareAG/cumulocity-SmartKanban)
-
-
-**Description**: This is an example for sniffing data packages inside a network and filtering connection packages. This 
-can be used e.g. to make IoTDashbuttons trigger Events and thus whole actions in Cumulocity. The Event how ever can be 
-used as a Smart Kanbas inside a storage system as a real industrial IoT example.
-
-**Category**: Other
-
-**Stars**: 1
-
-**Language**: Python
-
-**Last Update**: 2022-02-04 09:05:55 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-dt-integration-microservice](https://github.com/SoftwareAG/cumulocity-dt-integration-microservice)
-
-
-**Description**: Cumulocity Microservice to Integrate with Disruptive Technologies Devices
-
-**Category**: Microservice
-
-**Stars**: 1
-
-**Language**: Java
-
-**Last Update**: 2022-02-02 13:37:46 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [cumulocity-esp](https://github.com/SoftwareAG/cumulocity-esp)
 
 
@@ -1363,6 +1227,27 @@ used as a Smart Kanbas inside a storage system as a real industrial IoT example.
 **Language**: C++
 
 **Last Update**: 2022-02-02 13:58:07 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-sdk-c](https://github.com/SoftwareAG/cumulocity-sdk-c)
+
+
+**Description**: Cumulocity C++ Library is an asynchronous, event-driven networking library to ease your development for
+ connecting to the Cumulocity cloud. The library uses Cumulocity's self invented SmartREST protocol for M2M 
+communication which targets any device that are capable of running embedded Linux.
+
+**Category**: Client
+
+**Stars**: 1
+
+**Language**: C++
+
+**Last Update**: 2021-10-08 13:00:07 
 
 **TechCommunity References**: 
 
@@ -1389,6 +1274,25 @@ used as a Smart Kanbas inside a storage system as a real industrial IoT example.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
+## [cumulocity-agents-netcomm](https://github.com/SoftwareAG/cumulocity-agents-netcomm)
+
+
+**Description**: Cumulocity NetComm Agent is a dedicated agent software for connecting the NetComm router to Cumulocity.
+
+**Category**: Agent
+
+**Stars**: 1
+
+**Language**: C++
+
+**Last Update**: 2021-10-08 12:55:22 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
 ## [cumulocity-microservice-servicenow](https://github.com/SoftwareAG/cumulocity-microservice-servicenow)
 
 
@@ -1401,6 +1305,27 @@ used as a Smart Kanbas inside a storage system as a real industrial IoT example.
 **Language**: JavaScript
 
 **Last Update**: 2022-04-09 05:37:58 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-SmartKanban](https://github.com/SoftwareAG/cumulocity-SmartKanban)
+
+
+**Description**: This is an example for sniffing data packages inside a network and filtering connection packages. This 
+can be used e.g. to make IoTDashbuttons trigger Events and thus whole actions in Cumulocity. The Event how ever can be 
+used as a Smart Kanbas inside a storage system as a real industrial IoT example.
+
+**Category**: Example
+
+**Stars**: 1
+
+**Language**: Python
+
+**Last Update**: 2022-02-04 09:05:55 
 
 **TechCommunity References**: 
 
@@ -1440,7 +1365,84 @@ additional content at TechCommunity
 
 **Language**: Python
 
-**Last Update**: 2022-04-21 11:50:39 
+**Last Update**: 2022-04-21 11:51:33 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-dt-integration-microservice](https://github.com/SoftwareAG/cumulocity-dt-integration-microservice)
+
+
+**Description**: Cumulocity Microservice to Integrate with Disruptive Technologies Devices
+
+**Category**: Microservice
+
+**Stars**: 1
+
+**Language**: Java
+
+**Last Update**: 2022-02-02 13:37:46 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-opcua-gateway-solution](https://github.com/SoftwareAG/cumulocity-opcua-gateway-solution)
+
+
+**Description**: This solution creates a sample OPCServer including the required gateway to connect the OPC server to 
+Cumulocity.
+
+**Category**: Example
+
+**Stars**: 1
+
+**Language**: Python
+
+**Last Update**: 2021-12-24 04:50:42 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-hono-agent](https://github.com/SoftwareAG/cumulocity-hono-agent)
+
+
+**Description**: Cumulocity Agent which integrates to Eclipse Hono. Telemetry + Command & Control is supported!
+
+**Category**: Microservice <br> Agent
+
+**Stars**: 1
+
+**Language**: Java
+
+**Last Update**: 2022-02-02 14:10:54 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-devicemanagement-docker-example](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example)
+
+
+**Description**: Cumulocity Example for a Thin Edge based application on Docker
+
+**Category**: Agent <br> Example <br> Extension
+
+**Stars**: 1
+
+**Language**: Python
+
+**Last Update**: 2022-02-24 13:58:09 
 
 **TechCommunity References**: 
 
@@ -1453,34 +1455,13 @@ additional content at TechCommunity
 
 **Description**: Tool for managing subtenants from a c8y management or enterprise tenant
 
-**Category**: Other
+**Category**: Microservice <br> WebApp
 
 **Stars**: 1
 
 **Language**: TypeScript
 
 **Last Update**: 2021-12-14 12:49:49 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [cumulocity-processing-widget](https://github.com/SoftwareAG/cumulocity-processing-widget)
-
-
-**Description**: This is an Angular 8 widget, which is designed to display the current process state based on the latest
- event. Updates the state whenever a new event is subscribed. Runtime Installation available. Created by Global 
-Presales.
-
-**Category**: Widget
-
-**Stars**: 1
-
-**Language**: TypeScript
-
-**Last Update**: 2022-03-14 09:54:32 
 
 **TechCommunity References**: 
 
@@ -1522,6 +1503,27 @@ installation is available. Created by Global Presales.
 **Language**: TypeScript
 
 **Last Update**: 2022-02-24 14:17:05 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-processing-widget](https://github.com/SoftwareAG/cumulocity-processing-widget)
+
+
+**Description**: This is an Angular 8 widget, which is designed to display the current process state based on the latest
+ event. Updates the state whenever a new event is subscribed. Runtime Installation available. Created by Global 
+Presales.
+
+**Category**: Widget
+
+**Stars**: 1
+
+**Language**: TypeScript
+
+**Last Update**: 2022-03-14 09:54:32 
 
 **TechCommunity References**: 
 
@@ -2188,6 +2190,25 @@ widget. It fetches Inventory data based on the device id and displays the same i
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
+## [c8y_pi_surveillance](https://github.com/SoftwareAG/c8y_pi_surveillance)
+
+
+**Description**: Simple Python script to detect movement and count people on the PI camera
+
+**Category**: Other
+
+**Stars**: 0
+
+**Language**: Python
+
+**Last Update**: 2021-10-19 07:19:00 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
 ## [cumulocity-sample-react-app](https://github.com/SoftwareAG/cumulocity-sample-react-app)
 
 
@@ -2201,25 +2222,6 @@ device details by taking an input from the user.
 **Language**: TypeScript
 
 **Last Update**: 2021-12-02 13:58:41 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [c8y_pi_surveillance](https://github.com/SoftwareAG/c8y_pi_surveillance)
-
-
-**Description**: Simple Python script to detect movement and count people on the PI camera
-
-**Category**: Other
-
-**Stars**: 0
-
-**Language**: Python
-
-**Last Update**: 2021-10-19 07:19:00 
 
 **TechCommunity References**: 
 
@@ -2420,25 +2422,6 @@ c8y-thinedge-app.zip package.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [c8y-swmigration](https://github.com/ButKor/c8y-swmigration)
-
-
-**Description**: Project to migrate Cumulocity Software Repostiory entries towards the new model introduced with v10.7
-
-**Category**: Other
-
-**Stars**: 0
-
-**Language**: Go
-
-**Last Update**: 2022-01-25 09:14:04 
-
-**TechCommunity References**: 
-
-
-**Owner**: ButKor
-
-**Relation**: Open-Source Repo
 ## [c8y-measurement-batchcollector](https://github.com/ButKor/c8y-measurement-batchcollector)
 
 
@@ -2451,6 +2434,25 @@ c8y-thinedge-app.zip package.
 **Language**: Java
 
 **Last Update**: 2022-04-06 07:04:52 
+
+**TechCommunity References**: 
+
+
+**Owner**: ButKor
+
+**Relation**: Open-Source Repo
+## [c8y-swmigration](https://github.com/ButKor/c8y-swmigration)
+
+
+**Description**: Project to migrate Cumulocity Software Repostiory entries towards the new model introduced with v10.7
+
+**Category**: Other
+
+**Stars**: 1
+
+**Language**: Go
+
+**Last Update**: 2022-04-21 13:57:55 
 
 **TechCommunity References**: 
 
@@ -2515,6 +2517,25 @@ c8y-thinedge-app.zip package.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
+## [c8y-python-decoder-example-microservice](https://github.com/SoftwareAG/c8y-python-decoder-example-microservice)
+
+
+**Description**: Python Microservice decoding Base64 Hex String
+
+**Category**: Microservice <br> Example
+
+**Stars**: 0
+
+**Language**: Python
+
+**Last Update**: 2022-04-06 13:22:32 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
 ## [cumulocity-subtenant-usage-metering-microservice](https://github.com/SoftwareAG/cumulocity-subtenant-usage-metering-microservice)
 
 
@@ -2528,25 +2549,6 @@ historicizes them as measurements.
 **Language**: Python
 
 **Last Update**: 2022-04-05 14:11:41 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
-## [c8y-python-decoder-example-microservice](https://github.com/SoftwareAG/c8y-python-decoder-example-microservice)
-
-
-**Description**: Python Microservice decoding Base64 Hex String
-
-**Category**: Microservice <br> Example
-
-**Stars**: 0
-
-**Language**: Python
-
-**Last Update**: 2022-04-06 13:22:32 
 
 **TechCommunity References**: 
 
@@ -2612,25 +2614,6 @@ to a subscribed target tenant.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-webmethods-CoviDash](https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash)
-
-
-**Description**: CoviDash example on how to create a real time hospital capacity planning tool
-
-**Category**: Other
-
-**Stars**: 0
-
-**Language**: None
-
-**Last Update**: 2022-02-04 09:30:41 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [cumulocity-measurement-aggregator](https://github.com/SoftwareAG/cumulocity-measurement-aggregator)
 
 
@@ -2644,6 +2627,25 @@ to a subscribed target tenant.
 **Language**: Java
 
 **Last Update**: 2022-02-04 09:13:57 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-webmethods-CoviDash](https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash)
+
+
+**Description**: CoviDash example on how to create a real time hospital capacity planning tool
+
+**Category**: Other
+
+**Stars**: 0
+
+**Language**: None
+
+**Last Update**: 2022-02-04 09:30:41 
 
 **TechCommunity References**: 
 
@@ -3011,26 +3013,6 @@ installation is available. Created by Global Presales.
 **Owner**: SoftwareAG
 
 **Relation**: SAG-Org Repo
-## [cumulocity-silo-capacity-widget](https://github.com/SoftwareAG/cumulocity-silo-capacity-widget)
-
-
-**Description**: Displays a configurable silo capacity graphic with fill levels, foreground image overlay, optional 
-background image and colorized thresholds. Developed by Global Presales.
-
-**Category**: Widget
-
-**Stars**: 0
-
-**Language**: TypeScript
-
-**Last Update**: 2022-04-07 11:56:10 
-
-**TechCommunity References**: 
-
-
-**Owner**: SoftwareAG
-
-**Relation**: SAG-Org Repo
 ## [cumulocity-device-at-risk-widget](https://github.com/SoftwareAG/cumulocity-device-at-risk-widget)
 
 
@@ -3045,6 +3027,26 @@ available. Created by Global Presales.
 **Language**: TypeScript
 
 **Last Update**: 2022-02-07 13:38:04 
+
+**TechCommunity References**: 
+
+
+**Owner**: SoftwareAG
+
+**Relation**: SAG-Org Repo
+## [cumulocity-silo-capacity-widget](https://github.com/SoftwareAG/cumulocity-silo-capacity-widget)
+
+
+**Description**: Displays a configurable silo capacity graphic with fill levels, foreground image overlay, optional 
+background image and colorized thresholds. Developed by Global Presales.
+
+**Category**: Widget
+
+**Stars**: 0
+
+**Language**: TypeScript
+
+**Last Update**: 2022-04-07 11:56:10 
 
 **TechCommunity References**: 
 
