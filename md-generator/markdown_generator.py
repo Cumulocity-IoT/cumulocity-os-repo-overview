@@ -199,12 +199,15 @@ class MarkdownGenerator():
             owner = repo['owner']['login']
             if owner == 'SoftwareAG':
                 relation = 'SAG%20Org'
+                relation_md = 'SAG Org'
                 relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-blue.svg)]()'
             elif owner in trusted_owners:
                 relation = 'Trusted%20Contributor'
+                relation_md = 'Trusted Contributor'
                 relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-green.svg)]()'
             else:
                 relation = 'Open%20Source'
+                relation_md = 'Open Source'
                 relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-yellow.svg)]()'
             # relation = 'SAG-Org Repo'
             category_paragraph = ""
@@ -214,5 +217,5 @@ class MarkdownGenerator():
                 cat = " <br> ".join(str(cat) for cat in cat_list)
             else:
                 cat = "Other"
-            text_list.extend(["[" + name + "](" + url + ")", desc, cat, relation])
+            text_list.extend(["[" + name + "](" + url + ")", desc, cat, relation_md])
         return text_list
