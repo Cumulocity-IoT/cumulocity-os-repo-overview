@@ -36,6 +36,7 @@ class MarkdownGenerator():
 
         self.mdFile = MdUtils(file_name='../README.md', title='Cumulocity IoT Open-Source Repository Overview')
         # mdFile.new_header(level=1, title='Cumulocity IoT Open-Source Repository Overview')
+        self.mdFile.new_table_of_contents()
         self.mdFile.new_paragraph(
             "This Repository generates on a daily basis a Table of all Open-Source Repositories for Cumulocity-IoT "
             "having the topic 'cumulocity-iot'. It should give a brief overview of all available IoT Open-Source "
@@ -63,7 +64,6 @@ class MarkdownGenerator():
 
     def get_cat_list(self, name, topics):
         cat_list = []
-        cat = '-'
         if 'cumulocity-microservice' in topics or 'microservice' in name or 'microservice' in topics:
             cat = 'Microservice'
             cat_list.append(cat)
@@ -97,6 +97,8 @@ class MarkdownGenerator():
         if 'cli' in name or 'cumulocity-cli' in name or 'cumulocity-cli' in topics or 'cli' in topics:
             cat = 'CLI'
             cat_list.append(cat)
+        if len(cat_list) == 0:
+            cat_list.append('Other')
         return cat_list
 
     def build_detail_list(self, repos, trusted_owners):
@@ -105,19 +107,19 @@ class MarkdownGenerator():
             desc = repo['description']
             topics = repo['topics']
             cat_list = self.get_cat_list(name, topics)
-            if len(cat_list) > 0:
-                cat = " <br> ".join(str(cat) for cat in cat_list)
-            else:
-                cat = 'Other'
-            if len(topics) > 0:
-                topic_string = " ".join(str(topic) for topic in topics)
-            else:
-                topic_string = '-'
+            #if len(cat_list) > 0:
+            #    cat = " <br> ".join(str(cat) for cat in cat_list)
+            #else:
+            #    cat = 'Other'
+            #if len(topics) > 0:
+            #    topic_string = " ".join(str(topic) for topic in topics)
             lang = repo['language']
             last_updated = repo['pushed_at']
             date_time_obj = datetime.strptime(last_updated, '%Y-%m-%dT%H:%M:%SZ')
             date_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
             stars = repo['stargazers_count']
+            full_name = repo['full_name']
+            default_branch = repo['default_branch']
             url = repo['html_url']
             tc_references = self.tc_client.get_all_entries_for_repo(url)
             references_list = []
@@ -135,33 +137,49 @@ class MarkdownGenerator():
                 relation = 'Trusted-Contributor Repo'
             else:
                 relation = 'Open-Source Repo'
+
+            if owner == 'SoftwareAG':
+                relation = 'SAG%20Org'
+                relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-blue.svg)]()'
+            elif owner in trusted_owners:
+                relation = 'Trusted%20Contributor'
+                relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-green.svg)]()'
+            else:
+                relation = 'Open%20Source'
+                relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-yellow.svg)]()'
             # relation = 'SAG-Org Repo'
             self.mdFile.new_header(level=2, title='[' + name + '](' + url + ')')
             self.mdFile.new_paragraph(f'**Description**: {desc}')
-            self.mdFile.new_paragraph(f'**Category**: {cat}')
-            self.mdFile.new_paragraph(f'**Stars**: {stars}')
+            self.mdFile.new_paragraph(f'**Owner**: {owner}')
+            category_paragraph = ""
+            for cat in cat_list:
+                category_paragraph = category_paragraph + f'[![Generic badge](https://img.shields.io/badge/category-{cat}-blue.svg)]() '
+            self.mdFile.new_paragraph(category_paragraph, wrap_width=0)
+            self.mdFile.new_paragraph(f'{relation_badge}')
+            self.mdFile.new_paragraph(f'[![GitHub license](https://badgen.net/github/license/{full_name})]({url}/blob/{default_branch}/LICENSE)', wrap_width=0)
+            self.mdFile.new_paragraph(f' [![GitHub stars](https://badgen.net/github/stars/{full_name})]({url}/stargazers)', wrap_width=0)
+            self.mdFile.new_paragraph(f'[![GitHub latest commit](https://badgen.net/github/last-commit/{full_name}/{default_branch})]({url}/commits)', wrap_width=0)
             self.mdFile.new_paragraph(f'**Language**: {lang}')
-            self.mdFile.new_paragraph(f'**Last Update**: {date_string}')
             self.mdFile.new_paragraph(f'**TechCommunity References**: ')
             self.mdFile.new_list(references_list)
-            self.mdFile.new_paragraph(f'**Owner**: {owner}')
-            self.mdFile.new_paragraph(f'**Relation**: {relation}')
+
+
 
 
 
     def build_table_list(self, repos, trusted_owners):
         #text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
         #             'References', 'Relation']
-        text_list = ['Repo Name', 'Description', 'Category', 'Relation']
+        text_list = ['Repo Name', 'Description', '<div style="width:160px">Category</div>', '<div style="width:160px">Relation</div>']
         for repo in repos:
             name = repo['name']
             desc = repo['description']
             topics = repo['topics']
             cat_list = self.get_cat_list(name, topics)
-            if len(cat_list) > 0:
-                cat = " <br> ".join(str(cat) for cat in cat_list)
-            else:
-                cat = 'Other'
+            #if len(cat_list) > 0:
+            #    cat = " <br> ".join(str(cat) for cat in cat_list)
+            #else:
+            #    cat = 'Other'
             if len(topics) > 0:
                 topic_string = " ".join(str(topic) for topic in topics)
             else:
@@ -180,11 +198,18 @@ class MarkdownGenerator():
             #    references_string = '-'
             owner = repo['owner']['login']
             if owner == 'SoftwareAG':
-                relation = 'SAG-Org Repo'
+                relation = 'SAG%20Org'
+                relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-blue.svg)]()'
             elif owner in trusted_owners:
-                relation = 'Trusted-Contributor Repo'
+                relation = 'Trusted%20Contributor'
+                relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-green.svg)]()'
             else:
-                relation = 'Open-Source Repo'
+                relation = 'Open%20Source'
+                relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-yellow.svg)]()'
             # relation = 'SAG-Org Repo'
-            text_list.extend(["[" + name + "](" + url + ")", desc, cat, relation])
+            category_paragraph = ""
+            for cat in cat_list:
+                category_paragraph = category_paragraph + f'[![Generic badge](https://img.shields.io/badge/category-{cat}-blue.svg)]() '
+
+            text_list.extend(["[" + name + "](" + url + ")", desc, category_paragraph, relation_badge])
         return text_list
