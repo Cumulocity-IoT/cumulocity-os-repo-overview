@@ -210,6 +210,9 @@ class MarkdownGenerator():
             category_paragraph = ""
             for cat in cat_list:
                 category_paragraph = category_paragraph + f'[![Generic badge](https://img.shields.io/badge/category-{cat}-blue.svg)]() '
-
-            text_list.extend(["[" + name + "](" + url + ")", desc, category_paragraph, relation_badge])
+            if len(cat_list) > 0:
+                cat = " <br> ".join(str(cat) for cat in cat_list)
+            else:
+                cat = "Other"
+            text_list.extend(["[" + name + "](" + url + ")", desc, cat, relation])
         return text_list
