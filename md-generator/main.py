@@ -23,7 +23,7 @@ from github_rest_client import GitHubRestClient
 
 from markdown_generator import MarkdownGenerator
 
-trusted_owners = ['TyrManuZ', 'reubenmiller']
+trusted_owners = ['TyrManuZ', 'reubenmiller', 'ButKor']
 def start():
     token = os.getenv('GEN_GITHUB_TOKEN')
 

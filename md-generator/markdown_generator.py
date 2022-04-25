@@ -43,10 +43,10 @@ class MarkdownGenerator():
             "This Repository generates on a daily basis a Table of all Open-Source Repositories for Cumulocity-IoT "
             "having the topic 'cumulocity-iot'. It should give a brief overview of all available IoT Open-Source "
             "Repositories for Cumulocity IoT including additional content at TechCommunity.")
-        self.mdFile.create_marker('toc')
-        self.mdFile.new_paragraph(
-            "Please use this [link](https://github.com/SoftwareAG/cumulocity-os-repo-overview/blob/main/README.md) to have a proper view on the table.")
         self.mdFile.new_paragraph("Number of Open-Source Repos: **" + str(len(repos)) + "**")
+        self.mdFile.new_paragraph('')
+        self.mdFile.create_marker('toc')
+
         self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
         list = self.build_table_list(repos, trusted_owners)
         self.mdFile.new_table(4, len(repos) + 1, list)
