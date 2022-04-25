@@ -19,10 +19,12 @@ from mdutils.mdutils import MdUtils
 from datetime import datetime, timezone
 from tc_client import TechCommunityClient
 
+
 class MarkdownGenerator():
 
     def __init__(self):
-        self.cat_list = []
+        self.cat_list = ['Microservice', 'Widget', 'Webapp', 'Agent', 'Example', 'Client', 'Simulator', 'Documentation',
+                         'Tutorial', 'Extension', 'CLI', 'Other']
         self.tc_client = TechCommunityClient()
         self.mdFile = None
 
@@ -32,24 +34,29 @@ class MarkdownGenerator():
 
     def create_md_file(self, repos, trusted_owners):
 
-        #repos = self.filter_repo_list(repos)
+        # repos = self.filter_repo_list(repos)
 
         self.mdFile = MdUtils(file_name='../README.md', title='Cumulocity IoT Open-Source Repository Overview')
         # mdFile.new_header(level=1, title='Cumulocity IoT Open-Source Repository Overview')
-        self.mdFile.new_table_of_contents()
+
         self.mdFile.new_paragraph(
             "This Repository generates on a daily basis a Table of all Open-Source Repositories for Cumulocity-IoT "
             "having the topic 'cumulocity-iot'. It should give a brief overview of all available IoT Open-Source "
             "Repositories for Cumulocity IoT including additional content at TechCommunity.")
-
-        self.mdFile.new_paragraph("Please use this [link](https://github.com/SoftwareAG/cumulocity-os-repo-overview/blob/main/README.md) to have a proper view on the table.")
+        self.mdFile.create_marker('toc')
         self.mdFile.new_paragraph(
-            "Number of Open-Source Repos: **" + str(len(repos)) + "**")
+            "Please use this [link](https://github.com/SoftwareAG/cumulocity-os-repo-overview/blob/main/README.md) to have a proper view on the table.")
+        self.mdFile.new_paragraph("Number of Open-Source Repos: **" + str(len(repos)) + "**")
         self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
         list = self.build_table_list(repos, trusted_owners)
         self.mdFile.new_table(4, len(repos) + 1, list)
-        self.mdFile.new_header(level=1, title='Open-Source Repository Detail List')
+        self.mdFile.new_header(level=1, title='Open-Source Repository Detail Lists')
+        self.mdFile.new_header(level=2, title='All Categories')
         self.build_detail_list(repos, trusted_owners)
+        for cat in self.cat_list:
+            self.mdFile.new_header(level=2, title=f'{cat}s')
+            self.build_detail_list(repos, trusted_owners, cat_filter=cat)
+        self.mdFile.new_table_of_contents(depth=2, marker='##--[toc]--##')
         self.mdFile.create_md_file()
 
     def filter_repo_list(self, repos):
@@ -79,7 +86,7 @@ class MarkdownGenerator():
         if 'cumulocity-example' in topics or 'example' in name or 'example' in topics:
             cat = 'Example'
             cat_list.append(cat)
-        if 'cumulocity-client' in topics or 'client' in name or'api' in name or 'api' in topics:
+        if 'cumulocity-client' in topics or 'client' in name or 'api' in name or 'api' in topics:
             cat = 'Client'
             cat_list.append(cat)
         if 'cumulocity-simulator' in topics or 'simulator' in name or 'simulator' in topics:
@@ -101,17 +108,19 @@ class MarkdownGenerator():
             cat_list.append('Other')
         return cat_list
 
-    def build_detail_list(self, repos, trusted_owners):
+    def build_detail_list(self, repos, trusted_owners, cat_filter=None):
         for repo in repos:
             name = repo['name']
             desc = repo['description']
             topics = repo['topics']
             cat_list = self.get_cat_list(name, topics)
-            #if len(cat_list) > 0:
+            if cat_filter != None and cat_filter not in cat_list:
+                continue
+            # if len(cat_list) > 0:
             #    cat = " <br> ".join(str(cat) for cat in cat_list)
-            #else:
+            # else:
             #    cat = 'Other'
-            #if len(topics) > 0:
+            # if len(topics) > 0:
             #    topic_string = " ".join(str(topic) for topic in topics)
             lang = repo['language']
             last_updated = repo['pushed_at']
@@ -124,9 +133,9 @@ class MarkdownGenerator():
             tc_references = self.tc_client.get_all_entries_for_repo(url)
             references_list = []
             if tc_references:
-                #references_string = " * ".join('['+reference['title']+']('+reference['topic_url']+')' for reference in tc_references)
+                # references_string = " * ".join('['+reference['title']+']('+reference['topic_url']+')' for reference in tc_references)
                 for reference in tc_references:
-                    reference_string = '['+reference['title']+']('+reference['topic_url']+')'
+                    reference_string = '[' + reference['title'] + '](' + reference['topic_url'] + ')'
                     references_list.append(reference_string)
             else:
                 references_string = '-'
@@ -148,7 +157,7 @@ class MarkdownGenerator():
                 relation = 'Open%20Source'
                 relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-yellow.svg)]()'
             # relation = 'SAG-Org Repo'
-            self.mdFile.new_header(level=2, title='[' + name + '](' + url + ')')
+            self.mdFile.new_header(level=3, title='[' + name + '](' + url + ')')
             self.mdFile.new_paragraph(f'**Description**: {desc}')
             self.mdFile.new_paragraph(f'**Owner**: {owner}')
             category_paragraph = ""
@@ -156,45 +165,47 @@ class MarkdownGenerator():
                 category_paragraph = category_paragraph + f'[![Generic badge](https://img.shields.io/badge/category-{cat}-blue.svg)]() '
             self.mdFile.new_paragraph(category_paragraph, wrap_width=0)
             self.mdFile.new_paragraph(f'{relation_badge}')
-            self.mdFile.new_paragraph(f'[![GitHub license](https://badgen.net/github/license/{full_name})]({url}/blob/{default_branch}/LICENSE)', wrap_width=0)
-            self.mdFile.new_paragraph(f' [![GitHub stars](https://badgen.net/github/stars/{full_name})]({url}/stargazers)', wrap_width=0)
-            self.mdFile.new_paragraph(f'[![GitHub latest commit](https://badgen.net/github/last-commit/{full_name}/{default_branch})]({url}/commits)', wrap_width=0)
+            self.mdFile.new_paragraph(
+                f'[![GitHub license](https://badgen.net/github/license/{full_name})]({url}/blob/{default_branch}/LICENSE)',
+                wrap_width=0)
+            self.mdFile.new_paragraph(
+                f' [![GitHub stars](https://badgen.net/github/stars/{full_name})]({url}/stargazers)', wrap_width=0)
+            self.mdFile.new_paragraph(
+                f'[![GitHub latest commit](https://badgen.net/github/last-commit/{full_name}/{default_branch})]({url}/commits)',
+                wrap_width=0)
             self.mdFile.new_paragraph(f'**Language**: {lang}')
             self.mdFile.new_paragraph(f'**TechCommunity References**: ')
             self.mdFile.new_list(references_list)
 
-
-
-
-
     def build_table_list(self, repos, trusted_owners):
-        #text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
+        # text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
         #             'References', 'Relation']
-        text_list = ['Repo Name', 'Description', '<div style="width:160px">Category</div>', '<div style="width:160px">Relation</div>']
+        text_list = ['Repo Name', 'Description', '<div style="width:160px">Category</div>',
+                     '<div style="width:160px">Relation</div>']
         for repo in repos:
             name = repo['name']
             desc = repo['description']
             topics = repo['topics']
             cat_list = self.get_cat_list(name, topics)
-            #if len(cat_list) > 0:
+            # if len(cat_list) > 0:
             #    cat = " <br> ".join(str(cat) for cat in cat_list)
-            #else:
+            # else:
             #    cat = 'Other'
             if len(topics) > 0:
                 topic_string = " ".join(str(topic) for topic in topics)
             else:
                 topic_string = '-'
-            #lang = repo['language']
+            # lang = repo['language']
             last_updated = repo['pushed_at']
             date_time_obj = datetime.strptime(last_updated, '%Y-%m-%dT%H:%M:%SZ')
-            #date_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
-            #stars = repo['stargazers_count']
+            # date_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
+            # stars = repo['stargazers_count']
             url = repo['html_url']
-            #tc_references = self.tc_client.get_all_entries_for_repo(url)
-            #if tc_references:
+            # tc_references = self.tc_client.get_all_entries_for_repo(url)
+            # if tc_references:
             #    references_string = "<ul><li>" + "<li> ".join('['+reference['title']+']('+reference['topic_url']+') </li>' for reference in tc_references)
             #    references_string = references_string + "</ul>"
-            #else:
+            # else:
             #    references_string = '-'
             owner = repo['owner']['login']
             if owner == 'SoftwareAG':
