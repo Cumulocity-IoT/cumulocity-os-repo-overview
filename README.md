@@ -79,9 +79,9 @@ Table of contents
 |[c8y-python-microservice-sdk](https://github.com/TyrManuZ/c8y-python-microservice-sdk)|A slim SDK to build python microservices for Cumulocity IoT|Microservice|Trusted Contributor|
 |[iot-cumulocity-advanced-asset-widget](https://github.com/SoftwareAG/iot-cumulocity-advanced-asset-widget)|The advanced asset table widget -  enables usage of the latest c8y-data-grid as widget and provides an example how to connect the datasource. Created by Global Competency Center IoT.|Widget|SAG Org|
 |[cumulocity-client-reactive-spring-boot](https://github.com/SoftwareAG/cumulocity-client-reactive-spring-boot)|Cumulocity client using spring boot reactive stack (WebFlux). Developed by Global Competency Center IoT|Client <br> CLI|SAG Org|
+|[cumulocity-microservice-archetype](https://github.com/SoftwareAG/cumulocity-microservice-archetype)|Maven archetype for cumulocity microservice. Developed by Global Competency Center IoT|Microservice|SAG Org|
 |[c8y-ios-lib](https://github.com/johnpcarter/c8y-ios-lib)|iOS swift library to integrate your apps easily with your Cumulocity IoT tenant|Other|Open Source|
 |[CumulocityClient](https://github.com/elpinjo/CumulocityClient)|Arduino library for connecting your WiFi enabled Arduino to Cumulocity IoT platform over MQTT|Agent <br> Client|Open Source|
-|[cumulocity-microservice-archetype](https://github.com/SoftwareAG/cumulocity-microservice-archetype)|Maven archetype for cumulocity microservice. Developed by Global Competency Center IoT|Microservice|SAG Org|
 |[CumulocityIoT-Examples](https://github.com/SoftwareAG/CumulocityIoT-Examples)|Smart Trashcan for Cumulocity IoT as seen at IoT World 2019. This is utilizing a HR-SC-4 ultrasonic sensor on Raspberry Pi.|Example|SAG Org|
 |[c8y_microservice-nodejs](https://github.com/manasesjesus/c8y_microservice-nodejs)|Cumulocity IoT - Microservice developed using Node.js and Docker. It notifies a Slack channel when there are alarms in the subscribed tenants.|Microservice|Open Source|
 |[sag-c8y-nb-iot-demo](https://github.com/I8C/sag-c8y-nb-iot-demo)|Internship project of Brent Swaenen, implementing a weather station, based on an Arduino devkit, that syncs data to Cumulocity over the Orange NB-IoT network.|Other|Open Source|
@@ -100,8 +100,8 @@ Table of contents
 |[cumulocity-dt-integration-microservice](https://github.com/SoftwareAG/cumulocity-dt-integration-microservice)|Cumulocity Microservice to Integrate with Disruptive Technologies Devices|Microservice|SAG Org|
 |[cumulocity-event-chart-widget](https://github.com/SoftwareAG/cumulocity-event-chart-widget)|This is an Angular 8 widget, which is designed to display the chart for the specific event type. It groups the events based on the entered group by parameter and displays the count for each group by the parameter value. Runtime installation available. Created by Global Presales.|Widget|SAG Org|
 |[cumulocity-data-points-map-widget](https://github.com/SoftwareAG/cumulocity-data-points-map-widget)|The Data Points Map widget help you to display measurements and device locations on map. Runtime installation is available. Created by Global Presales.|Widget|SAG Org|
-|[cumulocity-processing-widget](https://github.com/SoftwareAG/cumulocity-processing-widget)|This is an Angular 8 widget, which is designed to display the current process state based on the latest event. Updates the state whenever a new event is subscribed. Runtime Installation available. Created by Global Presales.|Widget|SAG Org|
 |[cumulocity-devicemanagement-docker-example](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example)|Cumulocity Example for a Thin Edge based application on Docker|Agent <br> Example <br> Extension|SAG Org|
+|[cumulocity-processing-widget](https://github.com/SoftwareAG/cumulocity-processing-widget)|This is an Angular 8 widget, which is designed to display the current process state based on the latest event. Updates the state whenever a new event is subscribed. Runtime Installation available. Created by Global Presales.|Widget|SAG Org|
 |[cumulocity-subtenant-management](https://github.com/SoftwareAG/cumulocity-subtenant-management)|Tool for managing subtenants from a c8y management or enterprise tenant|Microservice <br> WebApp|SAG Org|
 |[cumulocity-esp](https://github.com/SoftwareAG/cumulocity-esp)|Example on how to make ESP communicate with Cumulocity|Agent <br> Example|SAG Org|
 |[cumulocity-image-animation-widget](https://github.com/SoftwareAG/cumulocity-image-animation-widget)|The Cumulocity Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.  Developed by Global Presales.|Widget|SAG Org|
@@ -153,9 +153,9 @@ Table of contents
 |[cumulocity-python-device-onboarding](https://github.com/SoftwareAG/cumulocity-python-device-onboarding)|This repositories contains Python scripts compatible with Python 2.7+ and Python 3.|Example|SAG Org|
 |[cumulocity-measurement-aggregator](https://github.com/SoftwareAG/cumulocity-measurement-aggregator)|A simple microservice that perform aggregations of several measurements an time series from a static or dynamic group of devices.|Microservice|SAG Org|
 |[cumulocity-sample-react-app](https://github.com/SoftwareAG/cumulocity-sample-react-app)|Sample React App which uses react library to fetch and display device details. It also updates the device details by taking an input from the user.|WebApp|SAG Org|
+|[cumulocity-sample-react-library](https://github.com/SoftwareAG/cumulocity-sample-react-library)|A sample react library which fetches and displays the device details based on the device id.|Client|SAG Org|
 |[cumulocity-iec104](https://github.com/SoftwareAG/cumulocity-iec104)|Cumulocity agent used for IEC 60870-5-104 protocol|Agent|SAG Org|
 |[cumulocity-mqttlistener](https://github.com/SoftwareAG/cumulocity-mqttlistener)|MQTT listener on any MQTT broker and mapping data on a specific payload and topic layout into the C8Y domain model.|Microservice|SAG Org|
-|[cumulocity-sample-react-library](https://github.com/SoftwareAG/cumulocity-sample-react-library)|A sample react library which fetches and displays the device details based on the device id.|Client|SAG Org|
 |[cumulocity-android-client-lib](https://github.com/SoftwareAG/cumulocity-android-client-lib)|Android v.28 library (.aar) to allow you leverage your Cumulocity Platform when developing your apps|Client <br> CLI|SAG Org|
 |[cumulocity-agents-opc](https://github.com/SoftwareAG/cumulocity-agents-opc)|This repository contains Cumulocity OPC-UA agent for Java. |Agent|SAG Org|
 |[cumulocity-clients-cs](https://github.com/SoftwareAG/cumulocity-clients-cs)|None|Client <br> CLI|SAG Org|
@@ -1191,6 +1191,27 @@ example how to connect the datasource. Created by Global Competency Center IoT.
 
 **TechCommunity References**: 
 
+### [cumulocity-microservice-archetype](https://github.com/SoftwareAG/cumulocity-microservice-archetype)
+
+
+**Description**: Maven archetype for cumulocity microservice. Developed by Global Competency Center IoT
+
+**Owner**: SoftwareAG
+
+[![Generic badge](https://img.shields.io/badge/category-Microservice-blue.svg)]() 
+
+[![Generic badge](https://img.shields.io/badge/relation-SAG%20Org-blue.svg)]()
+
+[![GitHub license](https://badgen.net/github/license/SoftwareAG/cumulocity-microservice-archetype)](https://github.com/SoftwareAG/cumulocity-microservice-archetype/blob/master/LICENSE)
+
+ [![GitHub stars](https://badgen.net/github/stars/SoftwareAG/cumulocity-microservice-archetype)](https://github.com/SoftwareAG/cumulocity-microservice-archetype/stargazers)
+
+[![GitHub latest commit](https://badgen.net/github/last-commit/SoftwareAG/cumulocity-microservice-archetype/master)](https://github.com/SoftwareAG/cumulocity-microservice-archetype/commits)
+
+**Language**: Java
+
+**TechCommunity References**: 
+
 ### [c8y-ios-lib](https://github.com/johnpcarter/c8y-ios-lib)
 
 
@@ -1230,27 +1251,6 @@ example how to connect the datasource. Created by Global Competency Center IoT.
 [![GitHub latest commit](https://badgen.net/github/last-commit/elpinjo/CumulocityClient/master)](https://github.com/elpinjo/CumulocityClient/commits)
 
 **Language**: C++
-
-**TechCommunity References**: 
-
-### [cumulocity-microservice-archetype](https://github.com/SoftwareAG/cumulocity-microservice-archetype)
-
-
-**Description**: Maven archetype for cumulocity microservice. Developed by Global Competency Center IoT
-
-**Owner**: SoftwareAG
-
-[![Generic badge](https://img.shields.io/badge/category-Microservice-blue.svg)]() 
-
-[![Generic badge](https://img.shields.io/badge/relation-SAG%20Org-blue.svg)]()
-
-[![GitHub license](https://badgen.net/github/license/SoftwareAG/cumulocity-microservice-archetype)](https://github.com/SoftwareAG/cumulocity-microservice-archetype/blob/master/LICENSE)
-
- [![GitHub stars](https://badgen.net/github/stars/SoftwareAG/cumulocity-microservice-archetype)](https://github.com/SoftwareAG/cumulocity-microservice-archetype/stargazers)
-
-[![GitHub latest commit](https://badgen.net/github/last-commit/SoftwareAG/cumulocity-microservice-archetype/master)](https://github.com/SoftwareAG/cumulocity-microservice-archetype/commits)
-
-**Language**: Java
 
 **TechCommunity References**: 
 
@@ -1646,6 +1646,27 @@ installation is available. Created by Global Presales.
 
 **TechCommunity References**: 
 
+### [cumulocity-devicemanagement-docker-example](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example)
+
+
+**Description**: Cumulocity Example for a Thin Edge based application on Docker
+
+**Owner**: SoftwareAG
+
+[![Generic badge](https://img.shields.io/badge/category-Agent-blue.svg)]() [![Generic badge](https://img.shields.io/badge/category-Example-blue.svg)]() [![Generic badge](https://img.shields.io/badge/category-Extension-blue.svg)]() 
+
+[![Generic badge](https://img.shields.io/badge/relation-SAG%20Org-blue.svg)]()
+
+[![GitHub license](https://badgen.net/github/license/SoftwareAG/cumulocity-devicemanagement-docker-example)](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example/blob/main/LICENSE)
+
+ [![GitHub stars](https://badgen.net/github/stars/SoftwareAG/cumulocity-devicemanagement-docker-example)](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example/stargazers)
+
+[![GitHub latest commit](https://badgen.net/github/last-commit/SoftwareAG/cumulocity-devicemanagement-docker-example/main)](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example/commits)
+
+**Language**: Python
+
+**TechCommunity References**: 
+
 ### [cumulocity-processing-widget](https://github.com/SoftwareAG/cumulocity-processing-widget)
 
 
@@ -1666,27 +1687,6 @@ Presales.
 [![GitHub latest commit](https://badgen.net/github/last-commit/SoftwareAG/cumulocity-processing-widget/master)](https://github.com/SoftwareAG/cumulocity-processing-widget/commits)
 
 **Language**: TypeScript
-
-**TechCommunity References**: 
-
-### [cumulocity-devicemanagement-docker-example](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example)
-
-
-**Description**: Cumulocity Example for a Thin Edge based application on Docker
-
-**Owner**: SoftwareAG
-
-[![Generic badge](https://img.shields.io/badge/category-Agent-blue.svg)]() [![Generic badge](https://img.shields.io/badge/category-Example-blue.svg)]() [![Generic badge](https://img.shields.io/badge/category-Extension-blue.svg)]() 
-
-[![Generic badge](https://img.shields.io/badge/relation-SAG%20Org-blue.svg)]()
-
-[![GitHub license](https://badgen.net/github/license/SoftwareAG/cumulocity-devicemanagement-docker-example)](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example/blob/main/LICENSE)
-
- [![GitHub stars](https://badgen.net/github/stars/SoftwareAG/cumulocity-devicemanagement-docker-example)](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example/stargazers)
-
-[![GitHub latest commit](https://badgen.net/github/last-commit/SoftwareAG/cumulocity-devicemanagement-docker-example/main)](https://github.com/SoftwareAG/cumulocity-devicemanagement-docker-example/commits)
-
-**Language**: Python
 
 **TechCommunity References**: 
 
@@ -2778,6 +2778,27 @@ device details by taking an input from the user.
 
 **TechCommunity References**: 
 
+### [cumulocity-sample-react-library](https://github.com/SoftwareAG/cumulocity-sample-react-library)
+
+
+**Description**: A sample react library which fetches and displays the device details based on the device id.
+
+**Owner**: SoftwareAG
+
+[![Generic badge](https://img.shields.io/badge/category-Client-blue.svg)]() 
+
+[![Generic badge](https://img.shields.io/badge/relation-SAG%20Org-blue.svg)]()
+
+[![GitHub license](https://badgen.net/github/license/SoftwareAG/cumulocity-sample-react-library)](https://github.com/SoftwareAG/cumulocity-sample-react-library/blob/main/LICENSE)
+
+ [![GitHub stars](https://badgen.net/github/stars/SoftwareAG/cumulocity-sample-react-library)](https://github.com/SoftwareAG/cumulocity-sample-react-library/stargazers)
+
+[![GitHub latest commit](https://badgen.net/github/last-commit/SoftwareAG/cumulocity-sample-react-library/main)](https://github.com/SoftwareAG/cumulocity-sample-react-library/commits)
+
+**Language**: TypeScript
+
+**TechCommunity References**: 
+
 ### [cumulocity-iec104](https://github.com/SoftwareAG/cumulocity-iec104)
 
 
@@ -2818,27 +2839,6 @@ domain model.
 [![GitHub latest commit](https://badgen.net/github/last-commit/SoftwareAG/cumulocity-mqttlistener/master)](https://github.com/SoftwareAG/cumulocity-mqttlistener/commits)
 
 **Language**: Python
-
-**TechCommunity References**: 
-
-### [cumulocity-sample-react-library](https://github.com/SoftwareAG/cumulocity-sample-react-library)
-
-
-**Description**: A sample react library which fetches and displays the device details based on the device id.
-
-**Owner**: SoftwareAG
-
-[![Generic badge](https://img.shields.io/badge/category-Client-blue.svg)]() 
-
-[![Generic badge](https://img.shields.io/badge/relation-SAG%20Org-blue.svg)]()
-
-[![GitHub license](https://badgen.net/github/license/SoftwareAG/cumulocity-sample-react-library)](https://github.com/SoftwareAG/cumulocity-sample-react-library/blob/main/LICENSE)
-
- [![GitHub stars](https://badgen.net/github/stars/SoftwareAG/cumulocity-sample-react-library)](https://github.com/SoftwareAG/cumulocity-sample-react-library/stargazers)
-
-[![GitHub latest commit](https://badgen.net/github/last-commit/SoftwareAG/cumulocity-sample-react-library/main)](https://github.com/SoftwareAG/cumulocity-sample-react-library/commits)
-
-**Language**: TypeScript
 
 **TechCommunity References**: 
 
