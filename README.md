@@ -31,21 +31,6 @@ Table of contents
 
 # Open-Source Repository Overview Table
 
-<style>
-table th:first-of-type {
-    width: 20%;
-}
-table th:nth-of-type(2) {
-    width: 40%;
-}
-table th:nth-of-type(3) {
-    width: 20%;
-}
-table th:nth-of-type(4) {
-    width: 20%;
-}
-</style>
-
 |Repo Name|Description|Category|Relation|
 | :---: | :---: | :---: | :---: |
 |[cumulocity-devicemanagement-agent](https://github.com/SoftwareAG/cumulocity-devicemanagement-agent)|Cumulocity Reference Agent written in Python to demonstrate most of the Device Management Capabilities of Cumulocity IoT|Agent|SAG Org|
