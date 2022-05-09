@@ -15,6 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+import logging
 from mdutils.mdutils import MdUtils
 from datetime import datetime, timezone
 from tc_client import TechCommunityClient
@@ -23,6 +24,7 @@ from tc_client import TechCommunityClient
 class MarkdownGenerator():
 
     def __init__(self):
+        self.logger = logging.getLogger(__name__)
         self.cat_list = ['Microservice', 'Widget', 'Webapp', 'Agent', 'Example', 'Client', 'Simulator', 'Documentation',
                          'Tutorial', 'Extension', 'CLI', 'Other']
         self.tc_client = TechCommunityClient()
@@ -52,10 +54,10 @@ class MarkdownGenerator():
         self.mdFile.new_table(4, len(repos) + 1, list)
         self.mdFile.new_header(level=1, title='Open-Source Repository Detail Lists')
         self.mdFile.new_header(level=2, title='All Categories')
-        self.build_detail_list(repos, trusted_owners)
+        self.build_detail_list(repos, trusted_owners, with_tc_posts=True)
         for cat in self.cat_list:
             self.mdFile.new_header(level=2, title=f'{cat}s')
-            self.build_detail_list(repos, trusted_owners, cat_filter=cat)
+            self.build_detail_list(repos, trusted_owners, cat_filter=cat, with_tc_posts=False)
         self.mdFile.new_table_of_contents(depth=2, marker='##--[toc]--##')
         self.mdFile.create_md_file()
 
@@ -66,7 +68,7 @@ class MarkdownGenerator():
                 if "cumulocity" in repo['name'] or "c8y" in repo['name'] or "cumulocity-iot" in repo[
                     'topics'] or "cumulocity" in repo['topics']:
                     filtered_list.append(repo)
-        filtered_list = sorted(filtered_list, key=lambda d: d['stargazers_count'], reverse=True)
+        #filtered_list = sorted(filtered_list, key=lambda d: d['stargazers_count'], reverse=True)
         return filtered_list
 
     def get_cat_list(self, name, topics):
@@ -108,9 +110,10 @@ class MarkdownGenerator():
             cat_list.append('Other')
         return cat_list
 
-    def build_detail_list(self, repos, trusted_owners, cat_filter=None):
+    def build_detail_list(self, repos, trusted_owners, cat_filter=None, with_tc_posts=False):
         for repo in repos:
-            name = repo['name']
+            #name = repo['name']
+            name = repo['full_name']
             desc = repo['description']
             topics = repo['topics']
             cat_list = self.get_cat_list(name, topics)
@@ -130,15 +133,16 @@ class MarkdownGenerator():
             full_name = repo['full_name']
             default_branch = repo['default_branch']
             url = repo['html_url']
-            tc_references = self.tc_client.get_all_entries_for_repo(url)
             references_list = []
-            if tc_references:
-                # references_string = " * ".join('['+reference['title']+']('+reference['topic_url']+')' for reference in tc_references)
-                for reference in tc_references:
-                    reference_string = '[' + reference['title'] + '](' + reference['topic_url'] + ')'
-                    references_list.append(reference_string)
-            else:
-                references_string = '-'
+            if with_tc_posts:
+                tc_references = self.tc_client.get_all_entries_for_repo(url)
+                if tc_references:
+                    # references_string = " * ".join('['+reference['title']+']('+reference['topic_url']+')' for reference in tc_references)
+                    for reference in tc_references:
+                        reference_string = '[' + reference['title'] + '](' + reference['topic_url'] + ')'
+                        references_list.append(reference_string)
+                else:
+                    references_string = '-'
             owner = repo['owner']['login']
             if owner == 'SoftwareAG':
                 relation = 'SAG-Org Repo'
@@ -183,7 +187,8 @@ class MarkdownGenerator():
         text_list = ['Repo Name', 'Description', '<div style="width:160px">Category</div>',
                      '<div style="width:160px">Relation</div>']
         for repo in repos:
-            name = repo['name']
+            #name = repo['name']
+            name = repo['full_name']
             desc = repo['description']
             topics = repo['topics']
             cat_list = self.get_cat_list(name, topics)
