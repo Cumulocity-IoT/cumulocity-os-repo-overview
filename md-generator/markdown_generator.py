@@ -191,7 +191,7 @@ class MarkdownGenerator():
         for repo in repos:
             name = repo['name']
             #name = repo['full_name']
-            name = re.sub(r'(?<!^)(?=[A-Z])', '-', name)
+            name = re.sub('(?!^)([A-Z]+)', r'-\1', name)
             if '_' in name:
                 name = name.replace('_', '-')
             desc = repo['description']
