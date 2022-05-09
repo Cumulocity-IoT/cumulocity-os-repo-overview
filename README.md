@@ -31,7 +31,7 @@ Table of contents
 
 # Open-Source Repository Overview Table
 
-|div style="width:100px">Repo Name</div>|Description|<div style="width:80px">Category</div>|<div style="width:80px">Relation</div>|
+|<div style="width:100px">Repo Name</div>|Description|<div style="width:80px">Category</div>|<div style="width:80px">Relation</div>|
 | :---: | :---: | :---: | :---: |
 |[cumulocity-devicemanagement-agent](https://github.com/SoftwareAG/cumulocity-devicemanagement-agent)|Cumulocity Reference Agent written in Python to demonstrate most of the Device Management Capabilities of Cumulocity IoT|Agent|SAG Org|
 |[go-c8y-cli](https://github.com/reubenmiller/go-c8y-cli)|Unofficial go c8y cli tool for interacting with the Cumulocity REST API.|CLI|Trusted Contributor|
