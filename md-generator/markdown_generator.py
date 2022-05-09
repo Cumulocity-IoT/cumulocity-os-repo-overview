@@ -187,8 +187,8 @@ class MarkdownGenerator():
         text_list = ['Repo Name', 'Description', '<div style="width:160px">Category</div>',
                      '<div style="width:160px">Relation</div>']
         for repo in repos:
-            #name = repo['name']
-            name = repo['full_name']
+            name = repo['name']
+            #name = repo['full_name']
             desc = repo['description']
             topics = repo['topics']
             cat_list = self.get_cat_list(name, topics)
