@@ -185,7 +185,7 @@ class MarkdownGenerator():
     def build_table_list(self, repos, trusted_owners):
         # text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
         #             'References', 'Relation']
-        text_list = ['div style="width:100px">Repo Name</div>', 'Description',
+        text_list = ['<div style="width:100px">Repo Name</div>', 'Description',
                      '<div style="width:80px">Category</div>',
                      '<div style="width:80px">Relation</div>']
         for repo in repos:
