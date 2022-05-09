@@ -16,6 +16,7 @@
 # limitations under the License.
 #
 import logging
+import re
 from mdutils.mdutils import MdUtils
 from datetime import datetime
 from tc_client import TechCommunityClient
@@ -184,12 +185,15 @@ class MarkdownGenerator():
     def build_table_list(self, repos, trusted_owners):
         # text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
         #             'References', 'Relation']
-        text_list = ['Repo Name', 'Description',
-                     '<div style="width:130px">Category</div>',
-                     '<div style="width:130px">Relation</div>']
+        text_list = ['div style="width:100px">Repo Name</div>', 'Description',
+                     '<div style="width:80px">Category</div>',
+                     '<div style="width:80px">Relation</div>']
         for repo in repos:
             name = repo['name']
             #name = repo['full_name']
+            name = re.sub(r'(?<!^)(?=[A-Z])', '-', name)
+            if '_' in name:
+                name = name.replace('_', '-')
             desc = repo['description']
             if desc and u'\xa0' in desc:
                 desc = desc.replace(u'\xa0', u' ')
