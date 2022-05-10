@@ -191,9 +191,14 @@ class MarkdownGenerator():
         for repo in repos:
             name = repo['name']
             #name = repo['full_name']
-            name = re.sub('(?!^)([A-Z]+)', r'-\1', name)
-            if '_' in name:
-                name = name.replace('_', '-')
+            #name = re.sub('(?!^)([A-Z]+)', r'-\1', name)
+            name_parts = name.split('-')
+            for name_part in name_parts:
+                if len(name_part) > 20:
+                    name = re.sub('(?!^)([A-Z]+)', r'-\1', name)
+                    name.replace('--', '-')
+                    if '_' in name:
+                        name = name.replace('_', '-')
             desc = repo['description']
             if desc and u'\xa0' in desc:
                 desc = desc.replace(u'\xa0', u' ')
