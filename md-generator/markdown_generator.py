@@ -200,8 +200,17 @@ class MarkdownGenerator():
                     if '_' in name:
                         name = name.replace('_', '-')
             desc = repo['description']
+            full_name = repo['full_name']
+            url = repo['html_url']
+            default_branch = repo['default_branch']
             if desc and u'\xa0' in desc:
                 desc = desc.replace(u'\xa0', u' ')
+            stars = f' [![GitHub stars](https://badgen.net/github/stars/{full_name})]({url}/stargazers)'
+            last_commit = f'[![GitHub latest commit](https://badgen.net/github/last-commit/{full_name}/{default_branch})]({url}/commits)'
+            if desc:
+                desc = stars + ' ' + last_commit + ' <br/> ' + desc
+            else:
+                desc = stars + ' ' + last_commit
             topics = repo['topics']
             cat_list = self.get_cat_list(name, topics)
             # if len(cat_list) > 0:
