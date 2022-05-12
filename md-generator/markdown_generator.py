@@ -43,9 +43,9 @@ class MarkdownGenerator():
         # mdFile.new_header(level=1, title='Cumulocity IoT Open-Source Repository Overview')
 
         self.mdFile.new_paragraph(
-            "This Repository generates on a daily basis a Table of all Open-Source Repositories for Cumulocity-IoT "
-            "having the topic 'cumulocity-iot'. It should give a brief overview of all available IoT Open-Source "
-            "Repositories for Cumulocity IoT including additional content at TechCommunity.")
+            "This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. "
+            "It should give a brief overview of all available IoT open-source "
+            "repositories for Cumulocity IoT including additional content at TechCommunity.")
         self.mdFile.new_paragraph("Number of Open-Source Repos: **" + str(len(repos)) + "**")
         self.mdFile.new_paragraph('')
         self.mdFile.create_marker('toc')
