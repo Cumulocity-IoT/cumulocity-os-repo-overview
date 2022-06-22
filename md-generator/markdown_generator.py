@@ -50,6 +50,8 @@ class MarkdownGenerator():
         self.mdFile.new_paragraph('')
         self.mdFile.create_marker('toc')
 
+        self.mdFile.new_header(level=1, title='5 Newest Repositories')
+        self.build_newest_repos_list(repos)
         self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
         list = self.build_table_list(repos, trusted_owners)
         self.mdFile.new_table(4, len(repos) + 1, list)
@@ -110,6 +112,20 @@ class MarkdownGenerator():
         if len(cat_list) == 0:
             cat_list.append('Other')
         return cat_list
+
+    def build_newest_repos_list(self, repos):
+        sorted_repos = sorted(repos, key=lambda repo: repo['created_at'], reverse=True)
+        counter = 0
+        for repo in sorted_repos:
+            if counter < 5:
+                name = repo['full_name']
+                desc = repo['description']
+                url = repo['html_url']
+                repo_string = f'[' + name + '](' + url + ')'
+                self.mdFile.new_paragraph(repo_string)
+                counter = counter+1
+            else:
+                break
 
     def build_detail_list(self, repos, trusted_owners, cat_filter=None, with_tc_posts=False):
         for repo in repos:
