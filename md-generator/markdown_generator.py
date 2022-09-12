@@ -37,7 +37,7 @@ class MarkdownGenerator():
         return file
     
     def convert_md_to_html(self):
-        with open('../README.md', 'r', encoding="utf8", errors="ignore") as f:
+        with open('../README_FULL.md', 'r', encoding="utf8", errors="ignore") as f:
             text = f.read()
             html_header = '''
 <html>
