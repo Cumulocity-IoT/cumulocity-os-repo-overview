@@ -17,6 +17,7 @@
 #
 import logging
 import re
+import markdown
 from mdutils.mdutils import MdUtils
 from datetime import datetime
 from tc_client import TechCommunityClient
@@ -34,6 +35,36 @@ class MarkdownGenerator():
     def read_md_file(self):
         file = self.mdFile.read_md_file('./README.md')
         return file
+    
+    def convert_md_to_html(self):
+        with open('../README.md', 'r', encoding="utf8", errors="ignore") as f:
+            text = f.read()
+            html_header = '''
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="../github-markdown.css" rel="stylesheet">
+    <style>
+	            .markdown-body {
+		            box-sizing: border-box;
+		            min-width: 200px;
+		            max-width: 1200px;
+		            margin: 0 auto;
+		            padding: 45px;
+	            }
+    </style>
+</head>
+<body>
+<article class="markdown-body">
+%s
+</article>
+</body>
+</html>
+            '''
+            html = markdown.markdown(text, extensions=['extra', 'toc'])
+            md_html = html_header % html
+        with open('../index.html', 'w', encoding="utf8", errors="ignore") as f:
+            f.write(md_html)
 
     def create_md_file(self, repos, trusted_owners):
 

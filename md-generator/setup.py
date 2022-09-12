@@ -35,5 +35,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         "mdutils 1.3.1"
+        "Markdown 3.4.1"
     ],
     zip_safe=False)
