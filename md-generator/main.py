@@ -42,6 +42,7 @@ def start():
 
     md_gen = MarkdownGenerator()
     md_gen.create_md_file(repos, trusted_owners)
+    md_gen.create_shortend_md_file(repos, trusted_owners)
     md_gen.convert_md_to_html()
 
 if __name__ == '__main__':

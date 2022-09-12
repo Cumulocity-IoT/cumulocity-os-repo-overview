@@ -66,10 +66,7 @@ class MarkdownGenerator():
         with open('../index.html', 'w', encoding="utf8", errors="ignore") as f:
             f.write(md_html)
 
-    def create_md_file(self, repos, trusted_owners):
-
-        # repos = self.filter_repo_list(repos)
-
+    def create_shortend_md_file(self, repos, trusted_owners):
         self.mdFile = MdUtils(file_name='../README.md', title='Cumulocity IoT Open-Source Repository Overview')
         # mdFile.new_header(level=1, title='Cumulocity IoT Open-Source Repository Overview')
 
@@ -78,6 +75,35 @@ class MarkdownGenerator():
             "It should give a brief overview of all available IoT open-source "
             "repositories for Cumulocity IoT including additional content at TechCommunity.")
         self.mdFile.new_paragraph("Number of Open-Source Repos: **" + str(len(repos)) + "**")
+        self.mdFile.new_paragraph('')
+        self.mdFile.new_paragraph('Link to detail view:')
+        self.mdFile.new_paragraph('>**https://open-source.softwareag.com/cumulocity-os-repo-overview/**')
+        self.mdFile.new_paragraph('')
+        self.mdFile.create_marker('toc')
+
+        self.mdFile.new_header(level=1, title='5 Newest Repositories')
+        self.build_newest_repos_list(repos)
+        self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
+        list = self.build_table_list(repos, trusted_owners)
+        self.mdFile.new_table(4, len(repos) + 1, list)
+        self.mdFile.new_table_of_contents(depth=2, marker='##--[toc]--##')
+        self.mdFile.create_md_file()
+
+    def create_md_file(self, repos, trusted_owners):
+
+        # repos = self.filter_repo_list(repos)
+
+        self.mdFile = MdUtils(file_name='../README_FULL.md', title='Cumulocity IoT Open-Source Repository Overview')
+        # mdFile.new_header(level=1, title='Cumulocity IoT Open-Source Repository Overview')
+
+        self.mdFile.new_paragraph(
+            "This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. "
+            "It should give a brief overview of all available IoT open-source "
+            "repositories for Cumulocity IoT including additional content at TechCommunity.")
+        self.mdFile.new_paragraph("Number of Open-Source Repos: **" + str(len(repos)) + "**")
+        self.mdFile.new_paragraph('')
+        self.mdFile.new_paragraph('Link to detail view:')
+        self.mdFile.new_paragraph('>**https://open-source.softwareag.com/cumulocity-os-repo-overview/**')
         self.mdFile.new_paragraph('')
         self.mdFile.create_marker('toc')
 
