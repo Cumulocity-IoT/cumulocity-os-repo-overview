@@ -84,7 +84,7 @@ class MarkdownGenerator():
         self.mdFile.new_header(level=1, title='5 Newest Repositories')
         self.build_newest_repos_list(repos)
         self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
-        list = self.build_table_list(repos, trusted_owners)
+        list = self.build_table_list(repos, trusted_owners, small_columns=True)
         self.mdFile.new_table(4, len(repos) + 1, list)
         self.mdFile.new_table_of_contents(depth=2, marker='##--[toc]--##')
         self.mdFile.create_md_file()
@@ -110,7 +110,7 @@ class MarkdownGenerator():
         self.mdFile.new_header(level=1, title='5 Newest Repositories')
         self.build_newest_repos_list(repos)
         self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
-        list = self.build_table_list(repos, trusted_owners)
+        list = self.build_table_list(repos, trusted_owners, small_columns=False)
         self.mdFile.new_table(4, len(repos) + 1, list)
         self.mdFile.new_header(level=1, title='Open-Source Repository Detail Lists')
         self.mdFile.new_header(level=2, title='All Categories')
@@ -255,12 +255,17 @@ class MarkdownGenerator():
             self.mdFile.new_paragraph(f'**TechCommunity References**: ')
             self.mdFile.new_list(references_list)
 
-    def build_table_list(self, repos, trusted_owners):
+    def build_table_list(self, repos, trusted_owners, small_columns):
         # text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
         #             'References', 'Relation']
-        text_list = ['<div style="width:100px">Repo Name</div>', 'Description',
-                     '<div style="width:80px">Category</div>',
-                     '<div style="width:80px">Relation</div>']
+        if small_columns:
+            text_list = ['<div style="width:100px">Repo Name</div>', 'Description',
+                         '<div style="width:80px">Category</div>',
+                         '<div style="width:80px">Relation</div>']
+        else:
+            text_list = ['Repo Name', 'Description',
+                         'Category',
+                         'Relation']
         for repo in repos:
             name = repo['name']
             #name = repo['full_name']
