@@ -102,9 +102,6 @@ class MarkdownGenerator():
             "repositories for Cumulocity IoT including additional content at TechCommunity.")
         self.mdFile.new_paragraph("Number of Open-Source Repos: **" + str(len(repos)) + "**")
         self.mdFile.new_paragraph('')
-        self.mdFile.new_paragraph('Link to detail view:')
-        self.mdFile.new_paragraph('>**https://open-source.softwareag.com/cumulocity-os-repo-overview/**')
-        self.mdFile.new_paragraph('')
         self.mdFile.create_marker('toc')
 
         self.mdFile.new_header(level=1, title='5 Newest Repositories')
