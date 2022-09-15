@@ -43,7 +43,7 @@ class MarkdownGenerator():
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link href="../github-markdown.css" rel="stylesheet">
+    <link href="github-markdown.css" rel="stylesheet">
     <style>
 	            .markdown-body {
 		            box-sizing: border-box;
