@@ -23,7 +23,8 @@ from github_rest_client import GitHubRestClient
 
 from markdown_generator import MarkdownGenerator
 
-trusted_owners = ['TyrManuZ', 'reubenmiller', 'ButKor']
+trusted_owners = ['TyrManuZ', 'reubenmiller', 'ButKor', 'janhommes', 'hnaether-sag', 'elpinjo', 'sagIoTPower',
+                  'mbay-ODW', 'hansb001']
 def start():
     logger = logging.getLogger(__name__)
     log_console_formatter = logging.Formatter('%(asctime)s %(threadName)s %(levelname)s %(name)s %(message)s')

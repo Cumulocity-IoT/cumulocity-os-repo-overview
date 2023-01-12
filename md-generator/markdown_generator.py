@@ -108,7 +108,7 @@ class MarkdownGenerator():
         self.build_newest_repos_list(repos)
         self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
         list = self.build_table_list(repos, trusted_owners, small_columns=False)
-        self.mdFile.new_table(4, len(repos) + 1, list)
+        self.mdFile.new_table(5, len(repos) + 1, list)
         self.mdFile.new_header(level=1, title='Open-Source Repository Detail Lists')
         self.mdFile.new_header(level=2, title='All Categories')
         self.build_detail_list(repos, trusted_owners, with_tc_posts=True)
@@ -260,7 +260,7 @@ class MarkdownGenerator():
                          '<div style="width:80px">Category</div>',
                          '<div style="width:80px">Relation</div>']
         else:
-            text_list = ['Repo Name', 'Description',
+            text_list = ['Repo Name', 'Description', 'Owner',
                          'Category',
                          'Relation']
         for repo in repos:
@@ -329,5 +329,8 @@ class MarkdownGenerator():
                 cat = " <br> ".join(str(cat) for cat in cat_list)
             else:
                 cat = "Other"
-            text_list.extend(["[" + name + "](" + url + ")", desc, cat, relation_md])
+            if small_columns:
+                text_list.extend(["[" + name + "](" + url + ")", desc, cat, relation_md])
+            else:
+                text_list.extend(["[" + name + "](" + url + ")", desc, owner, cat, relation_md])
         return text_list
