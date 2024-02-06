@@ -101,3 +101,26 @@ class GitHubRestClient():
         except Exception as e:
             self.logger.error('Error on retrieving GitHub Repos: %s' % (str(e)))
             return None
+
+    def create_fork_for_repo(self, repo):
+        try:
+            name = repo['name']
+            owner = repo['owner']['login']
+            if name is not None and owner is not None:
+                url = f'{self.GITHUB_URL}/repos/{owner}/{name}/forks'
+                headers = self.get_auth_header()
+                headers['Accept'] = 'application/vnd.github.v3+json'
+                #payload = {
+                #    "name": name,
+                #    "default_branch_only": True
+                #}
+                response = requests.request("POST", url, headers=headers)
+                self.logger.debug('Response from request: ' + str(response.text))
+                self.logger.debug('Response from request with code : ' + str(response.status_code))
+                if response.status_code == 202:
+                    self.logger.info('Response from request with code : ' + str(response.status_code))
+                else:
+                    self.logger.warning(f'Error while creating fork of {owner}/{name} with status_code: {response.status_code}')
+
+        except Exception as e:
+            self.logger.error('Error on retrieving GitHub Repos: %s' % (str(e)))

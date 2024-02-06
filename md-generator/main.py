@@ -24,9 +24,11 @@ from github_rest_client import GitHubRestClient
 from markdown_generator import MarkdownGenerator
 
 trusted_owners = ['TyrManuZ', 'reubenmiller', 'ButKor', 'janhommes', 'hnaether-sag', 'elpinjo', 'sagIoTPower',
-                  'mbay-ODW', 'hansb001']
+                  'mbay-ODW']
+
+logger = logging.getLogger(__name__)
+
 def start():
-    logger = logging.getLogger(__name__)
     log_console_formatter = logging.Formatter('%(asctime)s %(threadName)s %(levelname)s %(name)s %(message)s')
     # Set default log format
     console_handler = logging.StreamHandler()
@@ -40,6 +42,8 @@ def start():
     repos = gh_client.get_all_repos_for_topic('cumulocity')
     logging.info(f'Number of GitHub Repos found: {len(repos)}')
     #logging.info(f'GitHub Repos found: {repos}')
+    for repo in repos:
+        gh_client.create_fork_for_repo(repo)
 
     md_gen = MarkdownGenerator()
     md_gen.create_md_file(repos, trusted_owners)
@@ -47,4 +51,5 @@ def start():
     md_gen.convert_md_to_html()
 
 if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
     start()
