@@ -42,13 +42,13 @@ def start():
     repos = gh_client.get_all_repos_for_topic('cumulocity')
     logging.info(f'Number of GitHub Repos found: {len(repos)}')
     #logging.info(f'GitHub Repos found: {repos}')
-    for repo in repos:
-        gh_client.create_fork_for_repo(repo)
+#    for repo in repos:
+#        gh_client.create_fork_for_repo(repo)
 
-    md_gen = MarkdownGenerator()
-    md_gen.create_md_file(repos, trusted_owners)
-    md_gen.create_shortend_md_file(repos, trusted_owners)
-    md_gen.convert_md_to_html()
+#    md_gen = MarkdownGenerator()
+#    md_gen.create_md_file(repos, trusted_owners)
+#    md_gen.create_shortend_md_file(repos, trusted_owners)
+#    md_gen.convert_md_to_html()
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)

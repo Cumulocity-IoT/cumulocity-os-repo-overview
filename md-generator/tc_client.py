@@ -52,7 +52,7 @@ class TechCommunityClient():
                         result_list.append(tech_result)
             else:
                 self.logger.warning(
-                      'Response from request: ' + str(response.text))
+                      'Response from TC request: ' + str(response.text))
                 self.logger.warning('Got response with status_code: ' +
                                     str(response.status_code))
             return result_list
