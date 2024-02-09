@@ -40,10 +40,10 @@ def start():
     gh_client = GitHubRestClient(token)
     #repos = gh_client.get_all_repos_for_org('SoftwareAG', None)
     repos = gh_client.get_all_repos_for_topic('cumulocity')
-    logging.info(f'Number of GitHub Repos found: {len(repos)}')
+    logger.info(f'Number of GitHub Repos found: {len(repos)}')
+    #gh_client.store_repos_in_json_file(repos)
     #logging.info(f'GitHub Repos found: {repos}')
-#    for repo in repos:
-#        gh_client.create_fork_for_repo(repo)
+    gh_client.create_forks_for_new_repos(repos)
 
     md_gen = MarkdownGenerator()
     md_gen.create_md_file(repos, trusted_owners)

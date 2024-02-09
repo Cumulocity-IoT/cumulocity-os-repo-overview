@@ -17,6 +17,8 @@
 #
 import logging
 import re
+import time
+
 import markdown
 from mdutils.mdutils import MdUtils
 from datetime import datetime
@@ -207,6 +209,7 @@ class MarkdownGenerator():
             references_list = []
             if with_tc_posts:
                 tc_references = self.tc_client.get_all_entries_for_repo(url)
+                time.sleep(5)
                 if tc_references:
                     # references_string = " * ".join('['+reference['title']+']('+reference['topic_url']+')' for reference in tc_references)
                     for reference in tc_references:

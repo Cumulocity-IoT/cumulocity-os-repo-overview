@@ -23,18 +23,17 @@ class TechCommunityClient():
 
 
     def __init__(self):
-        self.logger = logging.Logger(__name__)
+        self.logger = logging.getLogger(__name__)
 
     def get_all_entries_for_repo(self, repo_url):
         try:
             url = f'https://tech.forums.softwareag.com/search/query?term={repo_url}'
             headers = {'Accept': 'application/json'}
+            self.logger.info(f'Requesting TC articles: {url}...')
             response = requests.request("GET", url, headers=headers)
             result_list = []
-
-            self.logger.debug('Response from request: ' + str(response.text))
-            self.logger.debug('Response from request with code : ' + str(response.status_code))
             if response.status_code == 200:
+                self.logger.info(f'Response from TC request: {response.status_code} - {response.text}')
                 json_data = response.json()
                 if 'topics' in json_data:
                     topics = json_data['topics']
@@ -52,9 +51,7 @@ class TechCommunityClient():
                         result_list.append(tech_result)
             else:
                 self.logger.warning(
-                      'Response from TC request: ' + str(response.text))
-                self.logger.warning('Got response with status_code: ' +
-                                    str(response.status_code))
+                      'Response from TC request: '+str(response.status_code)+'- ' + str(response.text))
             return result_list
         except Exception as e:
             self.logger.error('Error on retrieving TechArticles: %s' % (str(e)))
