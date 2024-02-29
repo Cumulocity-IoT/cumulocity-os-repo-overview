@@ -18,11 +18,12 @@
 import logging
 import re
 import time
+import utils
 
 import markdown
 from mdutils.mdutils import MdUtils
 from datetime import datetime
-from tc_client import TechCommunityClient
+
 
 
 class MarkdownGenerator():
@@ -31,8 +32,8 @@ class MarkdownGenerator():
         self.logger = logging.getLogger(__name__)
         self.cat_list = ['Microservice', 'Widget', 'Webapp', 'Agent', 'Example', 'Client', 'Simulator', 'Documentation',
                          'Tutorial', 'Extension', 'CLI', 'Other']
-        self.tc_client = TechCommunityClient()
         self.mdFile = None
+
 
     def read_md_file(self):
         file = self.mdFile.read_md_file('./README.md')
@@ -91,7 +92,7 @@ class MarkdownGenerator():
         self.mdFile.new_table_of_contents(depth=2, marker='##--[toc]--##')
         self.mdFile.create_md_file()
 
-    def create_md_file(self, repos, trusted_owners):
+    def create_md_file(self, repos, trusted_owners, tc_references):
 
         # repos = self.filter_repo_list(repos)
 
@@ -113,61 +114,13 @@ class MarkdownGenerator():
         self.mdFile.new_table(5, len(repos) + 1, list)
         self.mdFile.new_header(level=1, title='Open-Source Repository Detail Lists')
         self.mdFile.new_header(level=2, title='All Categories')
-        self.build_detail_list(repos, trusted_owners, with_tc_posts=True)
+        self.build_detail_list(repos, trusted_owners, tc_references)
         for cat in self.cat_list:
             self.mdFile.new_header(level=2, title=f'{cat}s')
-            self.build_detail_list(repos, trusted_owners, cat_filter=cat, with_tc_posts=False)
+            self.build_detail_list(repos, trusted_owners, cat_filter=cat)
         self.mdFile.new_table_of_contents(depth=2, marker='##--[toc]--##')
         self.mdFile.create_md_file()
 
-    def filter_repo_list(self, repos):
-        filtered_list = []
-        for repo in repos:
-            if repo['visibility'] == 'public':
-                if "cumulocity" in repo['name'] or "c8y" in repo['name'] or "cumulocity-iot" in repo[
-                    'topics'] or "cumulocity" in repo['topics']:
-                    filtered_list.append(repo)
-        #filtered_list = sorted(filtered_list, key=lambda d: d['stargazers_count'], reverse=True)
-        return filtered_list
-
-    def get_cat_list(self, name, topics):
-        cat_list = []
-        if 'cumulocity-microservice' in topics or 'microservice' in name or 'microservice' in topics:
-            cat = 'Microservice'
-            cat_list.append(cat)
-        if 'cumulocity-widget' in topics or 'widget' in name or 'widget' in topics or 'widgets' in topics:
-            cat = 'Widget'
-            cat_list.append(cat)
-        if 'cumulocity-webapp' in name or 'cumulocity-webapp' in topics or 'webapp' in name or 'webapp' in topics:
-            cat = 'WebApp'
-            cat_list.append(cat)
-        if 'cumulocity-agent' in name or 'cumulocity-agent' in topics or 'agent' in name or 'agent' in topics:
-            cat = 'Agent'
-            cat_list.append(cat)
-        if 'cumulocity-example' in topics or 'example' in name or 'example' in topics:
-            cat = 'Example'
-            cat_list.append(cat)
-        if 'cumulocity-client' in topics or 'client' in name or 'api' in name or 'api' in topics:
-            cat = 'Client'
-            cat_list.append(cat)
-        if 'cumulocity-simulator' in topics or 'simulator' in name or 'simulator' in topics:
-            cat = 'Simulator'
-            cat_list.append(cat)
-        if 'cumulocity-documentation' in topics or 'docs' in name or 'documentation' in topics:
-            cat = 'Documentation'
-            cat_list.append(cat)
-        if 'cumulocity-tutorial' in topics or 'tutorial' in name or 'tutorial' in topics:
-            cat = 'Tutorial'
-            cat_list.append(cat)
-        if 'cumulocity-extension' in topics or 'extension' in topics or 'remote-access' in name or 'remote-access' in topics:
-            cat = 'Extension'
-            cat_list.append(cat)
-        if 'cli' in name or 'cumulocity-cli' in name or 'cumulocity-cli' in topics or 'cli' in topics:
-            cat = 'CLI'
-            cat_list.append(cat)
-        if len(cat_list) == 0:
-            cat_list.append('Other')
-        return cat_list
 
     def build_newest_repos_list(self, repos):
         sorted_repos = sorted(repos, key=lambda repo: repo['created_at'], reverse=True)
@@ -183,13 +136,13 @@ class MarkdownGenerator():
             else:
                 break
 
-    def build_detail_list(self, repos, trusted_owners, cat_filter=None, with_tc_posts=False):
+    def build_detail_list(self, repos, trusted_owners, cat_filter=None, tech_community_references=None):
         for repo in repos:
             #name = repo['name']
             name = repo['full_name']
             desc = repo['description']
             topics = repo['topics']
-            cat_list = self.get_cat_list(name, topics)
+            cat_list = utils.get_cat_list(name, topics)
             if cat_filter != None and cat_filter not in cat_list:
                 continue
             # if len(cat_list) > 0:
@@ -207,16 +160,11 @@ class MarkdownGenerator():
             default_branch = repo['default_branch']
             url = repo['html_url']
             references_list = []
-            if with_tc_posts:
-                tc_references = self.tc_client.get_all_entries_for_repo(url)
-                time.sleep(5)
-                if tc_references:
-                    # references_string = " * ".join('['+reference['title']+']('+reference['topic_url']+')' for reference in tc_references)
-                    for reference in tc_references:
-                        reference_string = '[' + reference['title'] + '](' + reference['topic_url'] + ')'
-                        references_list.append(reference_string)
-                else:
-                    references_string = '-'
+            if tech_community_references:
+                tc_references = tech_community_references[url]
+                for reference in tc_references:
+                    reference_string = '[' + reference['title'] + '](' + reference['topic_url'] + ')'
+                    references_list.append(reference_string)
             owner = repo['owner']['login']
             if owner == 'SoftwareAG':
                 relation = 'SAG-Org Repo'
@@ -290,7 +238,7 @@ class MarkdownGenerator():
             else:
                 desc = stars + ' ' + last_commit
             topics = repo['topics']
-            cat_list = self.get_cat_list(name, topics)
+            cat_list = utils.get_cat_list(name, topics)
             # if len(cat_list) > 0:
             #    cat = " <br> ".join(str(cat) for cat in cat_list)
             # else:

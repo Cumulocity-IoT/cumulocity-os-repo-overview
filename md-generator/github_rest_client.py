@@ -15,6 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+import datetime
 
 import requests
 import logging
@@ -157,7 +158,10 @@ class GitHubRestClient():
         if existing_repos is not None:
             for repo in repos:
                 repo_name = repo['name']
+                is_fork = repo['fork']
                 repo_already_forked = False
+                if is_fork:
+                    continue
                 for existing_repo in existing_repos:
                     existing_repo_name = existing_repo['name']
                     if existing_repo_name == repo_name:
@@ -167,6 +171,3 @@ class GitHubRestClient():
                     self._create_fork_for_repo(repo)
                     time.sleep(10)
 
-    def store_repos_in_json_file(self, repos):
-        with open('../repos.json', 'w') as fp:
-            json.dump(repos, fp, indent=4)
