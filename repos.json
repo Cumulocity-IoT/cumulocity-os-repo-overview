@@ -65,7 +65,38 @@
         "full_name": "SoftwareAG/cumulocity-devicemanagement-agent",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-devicemanagement-agent",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "getting-started-with-cumulocity-iot-device-management",
+                "topic_id": 256401,
+                "topic_url": "https://tech.forums.softwareag.com/t/getting-started-with-cumulocity-iot-device-management/256401",
+                "title": "Getting Started with Cumulocity IoT Device Management"
+            },
+            {
+                "slug": "sending-multiple-configuration-to-a-device",
+                "topic_id": 276388,
+                "topic_url": "https://tech.forums.softwareag.com/t/sending-multiple-configuration-to-a-device/276388",
+                "title": "Sending multiple configuration to a device"
+            },
+            {
+                "slug": "sending-operations-to-device",
+                "topic_id": 264928,
+                "topic_url": "https://tech.forums.softwareag.com/t/sending-operations-to-device/264928",
+                "title": "Sending operations to device"
+            },
+            {
+                "slug": "via-mqtt-profileid-to-update-managedobject-is-unknown",
+                "topic_id": 258083,
+                "topic_url": "https://tech.forums.softwareag.com/t/via-mqtt-profileid-to-update-managedobject-is-unknown/258083",
+                "title": "Via MQTT ProfileId to update ManagedObject is unknown"
+            },
+            {
+                "slug": "push-data-from-raspberry-pi-4-b-to-cumulocity",
+                "topic_id": 268593,
+                "topic_url": "https://tech.forums.softwareag.com/t/push-data-from-raspberry-pi-4-b-to-cumulocity/268593",
+                "title": "Push data from Raspberry pi 4 B to Cumulocity"
+            }
+        ],
         "os-categories": [
             "Agent"
         ],
@@ -93,7 +124,38 @@
         "full_name": "SoftwareAG/cumulocity-migration-tool",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-migration-tool",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "copy-dashboard-from-one-group-to-another-in-a-ms",
+                "topic_id": 290667,
+                "topic_url": "https://tech.forums.softwareag.com/t/copy-dashboard-from-one-group-to-another-in-a-ms/290667",
+                "title": "Copy dashboard from one group to another in a MS"
+            },
+            {
+                "slug": "moving-devices-between-tenants",
+                "topic_id": 287908,
+                "topic_url": "https://tech.forums.softwareag.com/t/moving-devices-between-tenants/287908",
+                "title": "Moving devices between tenants"
+            },
+            {
+                "slug": "copy-and-reuse-dashboards-in-subtenant-or-in-other-tenant",
+                "topic_id": 280324,
+                "topic_url": "https://tech.forums.softwareag.com/t/copy-and-reuse-dashboards-in-subtenant-or-in-other-tenant/280324",
+                "title": "Copy and reuse dashboards in subtenant or in other tenant"
+            },
+            {
+                "slug": "cumulocity-iot-accelerators-for-python-sdk-and-microservice-templates",
+                "topic_id": 238143,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-accelerators-for-python-sdk-and-microservice-templates/238143",
+                "title": "Cumulocity IoT accelerators for Python SDK and Microservice templates"
+            },
+            {
+                "slug": "save-time-building-your-cumulocity-iot-solution-with-our-accelerators",
+                "topic_id": 239205,
+                "topic_url": "https://tech.forums.softwareag.com/t/save-time-building-your-cumulocity-iot-solution-with-our-accelerators/239205",
+                "title": "Save time building your Cumulocity IoT solution with our accelerators"
+            }
+        ],
         "os-categories": [
             "Widget",
             "WebApp",
@@ -121,7 +183,38 @@
         "full_name": "SoftwareAG/cumulocity-python-api",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-python-api",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "notification-2-0-with-python-websockets-microservice-ssl-wrong-version-number",
+                "topic_id": 275823,
+                "topic_url": "https://tech.forums.softwareag.com/t/notification-2-0-with-python-websockets-microservice-ssl-wrong-version-number/275823",
+                "title": "Notification 2.0 with python websockets microservice: SSL: WRONG_VERSION_NUMBER"
+            },
+            {
+                "slug": "getting-started-with-the-cumulocity-python-api",
+                "topic_id": 264700,
+                "topic_url": "https://tech.forums.softwareag.com/t/getting-started-with-the-cumulocity-python-api/264700",
+                "title": "Getting started with the Cumulocity Python API"
+            },
+            {
+                "slug": "cumulocity-iot-accelerators-for-python-sdk-and-microservice-templates",
+                "topic_id": 238143,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-accelerators-for-python-sdk-and-microservice-templates/238143",
+                "title": "Cumulocity IoT accelerators for Python SDK and Microservice templates"
+            },
+            {
+                "slug": "basic-cumulocity-iot-microservice-monitoring",
+                "topic_id": 275424,
+                "topic_url": "https://tech.forums.softwareag.com/t/basic-cumulocity-iot-microservice-monitoring/275424",
+                "title": "Basic Cumulocity IoT Microservice Monitoring"
+            },
+            {
+                "slug": "q4-2022-highlights-of-the-iot-developer-ecosystem",
+                "topic_id": 266343,
+                "topic_url": "https://tech.forums.softwareag.com/t/q4-2022-highlights-of-the-iot-developer-ecosystem/266343",
+                "title": "Q4 2022 Highlights of the IoT Developer Ecosystem"
+            }
+        ],
         "os-categories": [
             "Agent",
             "Client"
@@ -151,7 +244,38 @@
         "full_name": "SoftwareAG/cumulocity-app-builder",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-app-builder",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "application-builder-2-1-0-release-highlights",
+                "topic_id": 287619,
+                "topic_url": "https://tech.forums.softwareag.com/t/application-builder-2-1-0-release-highlights/287619",
+                "title": "Application Builder 2.1.0 Release Highlights"
+            },
+            {
+                "slug": "simulating-csv-data-in-cumulocity-iot-two-approaches",
+                "topic_id": 281502,
+                "topic_url": "https://tech.forums.softwareag.com/t/simulating-csv-data-in-cumulocity-iot-two-approaches/281502",
+                "title": "Simulating CSV Data in Cumulocity IoT - Two Approaches"
+            },
+            {
+                "slug": "getting-cumulocity-versioning-error-in-run-time-widget-load-how-to-resolve-it",
+                "topic_id": 277978,
+                "topic_url": "https://tech.forums.softwareag.com/t/getting-cumulocity-versioning-error-in-run-time-widget-load-how-to-resolve-it/277978",
+                "title": "Getting Cumulocity versioning error in run time widget load how to resolve it"
+            },
+            {
+                "slug": "how-to-modifiy-an-existing-widget-e-g-color",
+                "topic_id": 235874,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-modifiy-an-existing-widget-e-g-color/235874",
+                "title": "How to modifiy an existing Widget (e.g. Color)"
+            },
+            {
+                "slug": "edge-unable-to-unpack-webapp-zip-app-builder",
+                "topic_id": 269013,
+                "topic_url": "https://tech.forums.softwareag.com/t/edge-unable-to-unpack-webapp-zip-app-builder/269013",
+                "title": "Edge: unable to unpack WebApp zip (App Builder)"
+            }
+        ],
         "os-categories": [
             "Widget",
             "WebApp"
@@ -175,7 +299,26 @@
         "full_name": "SoftwareAG/c8y-docs",
         "default_branch": "develop",
         "url": "https://github.com/SoftwareAG/c8y-docs",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            },
+            {
+                "slug": "acknowledge-via-mqtt-issue",
+                "topic_id": 287689,
+                "topic_url": "https://tech.forums.softwareag.com/t/acknowledge-via-mqtt-issue/287689",
+                "title": "Acknowledge via MQTT issue"
+            },
+            {
+                "slug": "adding-a-custom-component-to-a-hybrid-application",
+                "topic_id": 282034,
+                "topic_url": "https://tech.forums.softwareag.com/t/adding-a-custom-component-to-a-hybrid-application/282034",
+                "title": "Adding a custom component to a Hybrid Application"
+            }
+        ],
         "os-categories": [
             "Documentation"
         ],
@@ -201,7 +344,14 @@
         "full_name": "mstoffel-sag/c8yMQTT",
         "default_branch": "master",
         "url": "https://github.com/mstoffel-sag/c8yMQTT",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-get-started-with-cloud-remote-access-for-cumulocity-iot",
+                "topic_id": 258446,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-get-started-with-cloud-remote-access-for-cumulocity-iot/258446",
+                "title": "How to get started with Cloud Remote Access for Cumulocity IoT"
+            }
+        ],
         "os-categories": [
             "Agent"
         ],
@@ -224,7 +374,26 @@
         "full_name": "SoftwareAG/cumulocity-alarmapp",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-alarmapp",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-alarm-management-app-open-source",
+                "topic_id": 282030,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-alarm-management-app-open-source/282030",
+                "title": "Cumulocity IoT Alarm Management App: Open Source"
+            },
+            {
+                "slug": "cumulocity-iot-may-2023-update",
+                "topic_id": 283385,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-may-2023-update/283385",
+                "title": "Cumulocity IoT May 2023 update"
+            },
+            {
+                "slug": "technews-issue-1-2023",
+                "topic_id": 275322,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-1-2023/275322",
+                "title": "TECHnews - Issue 1, 2023"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -255,7 +424,38 @@
         "full_name": "SoftwareAG/cumulocity-microservice-templates",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-microservice-templates",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "switching-default-context-in-microservice-sdk-from-service-user-to-user-context",
+                "topic_id": 281232,
+                "topic_url": "https://tech.forums.softwareag.com/t/switching-default-context-in-microservice-sdk-from-service-user-to-user-context/281232",
+                "title": "Switching default context in Microservice SDK: From Service User to User Context"
+            },
+            {
+                "slug": "advanced-cumulocity-iot-microservice-monitoring-part-1",
+                "topic_id": 274963,
+                "topic_url": "https://tech.forums.softwareag.com/t/advanced-cumulocity-iot-microservice-monitoring-part-1/274963",
+                "title": "Advanced Cumulocity IoT Microservice Monitoring - Part 1"
+            },
+            {
+                "slug": "how-to-listen-all-measurementfragment-in-microservice",
+                "topic_id": 278520,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-listen-all-measurementfragment-in-microservice/278520",
+                "title": "How to listen all MeasurementFragment in microservice"
+            },
+            {
+                "slug": "microservice-statistics",
+                "topic_id": 291554,
+                "topic_url": "https://tech.forums.softwareag.com/t/microservice-statistics/291554",
+                "title": "Microservice Statistics"
+            },
+            {
+                "slug": "error-in-scheduling-function",
+                "topic_id": 285315,
+                "topic_url": "https://tech.forums.softwareag.com/t/error-in-scheduling-function/285315",
+                "title": "Error in Scheduling Function"
+            }
+        ],
         "os-categories": [
             "Microservice",
             "Example"
@@ -277,7 +477,32 @@
         "full_name": "SoftwareAG/cumulocity-digital-twin-manager",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-digital-twin-manager",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-digital-twin-manager-early-preview-release",
+                "topic_id": 258437,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-digital-twin-manager-early-preview-release/258437",
+                "title": "Cumulocity Digital Twin Manager - Early Preview Release"
+            },
+            {
+                "slug": "the-results-of-the-iot-hackathon-2023",
+                "topic_id": 280076,
+                "topic_url": "https://tech.forums.softwareag.com/t/the-results-of-the-iot-hackathon-2023/280076",
+                "title": "The results of the IoT Hackathon 2023!"
+            },
+            {
+                "slug": "the-child-devices-are-not-visible-in-digital-twin-manager-though-they-are-linked-to-the-parent-device-using-api-call",
+                "topic_id": 264160,
+                "topic_url": "https://tech.forums.softwareag.com/t/the-child-devices-are-not-visible-in-digital-twin-manager-though-they-are-linked-to-the-parent-device-using-api-call/264160",
+                "title": "The child devices are not visible in Digital twin manager though they are linked to the parent device using API call"
+            },
+            {
+                "slug": "creation-of-custom-fragments",
+                "topic_id": 260741,
+                "topic_url": "https://tech.forums.softwareag.com/t/creation-of-custom-fragments/260741",
+                "title": "Creation of Custom_Fragments"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -299,7 +524,20 @@
         "full_name": "SoftwareAG/cumulocity-clients-java-v2",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-clients-java-v2",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-create-an-android-app-and-own-app-store",
+                "topic_id": 279398,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-create-an-android-app-and-own-app-store/279398",
+                "title": "How to create an android app and own app store"
+            },
+            {
+                "slug": "technews-issue-1-2023",
+                "topic_id": 275322,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-1-2023/275322",
+                "title": "TECHnews - Issue 1, 2023"
+            }
+        ],
         "os-categories": [
             "Client",
             "CLI"
@@ -339,7 +577,26 @@
         "full_name": "SoftwareAG/cumulocity-lora",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-lora",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "create-your-private-lora-network-with-cumulocity-thick-edge-and-chirpstack",
+                "topic_id": 289684,
+                "topic_url": "https://tech.forums.softwareag.com/t/create-your-private-lora-network-with-cumulocity-thick-edge-and-chirpstack/289684",
+                "title": "Create your private LoRa network with Cumulocity Thick-Edge and Chirpstack"
+            },
+            {
+                "slug": "lora-connectivity-for-cumulocity",
+                "topic_id": 279974,
+                "topic_url": "https://tech.forums.softwareag.com/t/lora-connectivity-for-cumulocity/279974",
+                "title": "LoRa Connectivity for Cumulocity"
+            },
+            {
+                "slug": "the-things-network-web-hook-receiving-message-cannot-access-endpoint-service-ttn-integration",
+                "topic_id": 260702,
+                "topic_url": "https://tech.forums.softwareag.com/t/the-things-network-web-hook-receiving-message-cannot-access-endpoint-service-ttn-integration/260702",
+                "title": "The Things Network web hook receiving message \"cannot access endpoint: /service/ttn-integration\""
+            }
+        ],
         "os-categories": [
             "Microservice",
             "Extension",
@@ -359,12 +616,25 @@
         ],
         "lang": "HTML",
         "license": "Apache License 2.0",
-        "last_updated": "2024-02-29 00:54:05 ",
+        "last_updated": "2024-02-29 15:16:48 ",
         "stars": 9,
         "full_name": "SoftwareAG/cumulocity-os-repo-overview",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-os-repo-overview",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "q4-2022-highlights-of-the-iot-developer-ecosystem",
+                "topic_id": 266343,
+                "topic_url": "https://tech.forums.softwareag.com/t/q4-2022-highlights-of-the-iot-developer-ecosystem/266343",
+                "title": "Q4 2022 Highlights of the IoT Developer Ecosystem"
+            },
+            {
+                "slug": "top-content-and-updates-h1-2022",
+                "topic_id": 259730,
+                "topic_url": "https://tech.forums.softwareag.com/t/top-content-and-updates-h1-2022/259730",
+                "title": "Top content and updates \u2013 H1, 2022"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -387,7 +657,38 @@
         "full_name": "SoftwareAG/cumulocity-examples",
         "default_branch": "develop",
         "url": "https://github.com/SoftwareAG/cumulocity-examples",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "unsubscribe-subscriber-in-notification-2-0",
+                "topic_id": 286087,
+                "topic_url": "https://tech.forums.softwareag.com/t/unsubscribe-subscriber-in-notification-2-0/286087",
+                "title": "Unsubscribe subscriber in notification 2.0"
+            },
+            {
+                "slug": "step-by-step-instruction-for-cumulocity-notification-2-0",
+                "topic_id": 281764,
+                "topic_url": "https://tech.forums.softwareag.com/t/step-by-step-instruction-for-cumulocity-notification-2-0/281764",
+                "title": "Step-by-step instruction for Cumulocity Notification 2.0"
+            },
+            {
+                "slug": "question-about-decoder-microservice-and-decoderresult",
+                "topic_id": 278946,
+                "topic_url": "https://tech.forums.softwareag.com/t/question-about-decoder-microservice-and-decoderresult/278946",
+                "title": "Question about Decoder Microservice and DecoderResult"
+            },
+            {
+                "slug": "how-to-listen-all-measurementfragment-in-microservice",
+                "topic_id": 278520,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-listen-all-measurementfragment-in-microservice/278520",
+                "title": "How to listen all MeasurementFragment in microservice"
+            },
+            {
+                "slug": "error-when-upload-application-to-microservice",
+                "topic_id": 266142,
+                "topic_url": "https://tech.forums.softwareag.com/t/error-when-upload-application-to-microservice/266142",
+                "title": "Error when upload application to Microservice"
+            }
+        ],
         "os-categories": [
             "Example"
         ],
@@ -411,7 +712,38 @@
         "full_name": "SoftwareAG/cumulocity-clients-java",
         "default_branch": "develop",
         "url": "https://github.com/SoftwareAG/cumulocity-clients-java",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            },
+            {
+                "slug": "cumulocity-iot-sdk-java-client-supports-group-api-methods",
+                "topic_id": 264623,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-sdk-java-client-supports-group-api-methods/264623",
+                "title": "Cumulocity IoT SDK/Java client supports /group/* API methods?"
+            },
+            {
+                "slug": "how-to-create-an-android-app-and-own-app-store",
+                "topic_id": 279398,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-create-an-android-app-and-own-app-store/279398",
+                "title": "How to create an android app and own app store"
+            },
+            {
+                "slug": "technews-issue-1-2023",
+                "topic_id": 275322,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-1-2023/275322",
+                "title": "TECHnews - Issue 1, 2023"
+            },
+            {
+                "slug": "microservice-sdk-java-best-way-to-call-unsupperted-but-available-rest-endpoints",
+                "topic_id": 275406,
+                "topic_url": "https://tech.forums.softwareag.com/t/microservice-sdk-java-best-way-to-call-unsupperted-but-available-rest-endpoints/275406",
+                "title": "Microservice SDK (java) best way to call unsupperted but available REST endpoints"
+            }
+        ],
         "os-categories": [
             "Client",
             "CLI"
@@ -438,7 +770,20 @@
         "full_name": "SoftwareAG/oee-simulators",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/oee-simulators",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "oee-simulators-introduction",
+                "topic_id": 277727,
+                "topic_url": "https://tech.forums.softwareag.com/t/oee-simulators-introduction/277727",
+                "title": "OEE-simulators Introduction"
+            },
+            {
+                "slug": "virtual-device-simulator",
+                "topic_id": 274997,
+                "topic_url": "https://tech.forums.softwareag.com/t/virtual-device-simulator/274997",
+                "title": "Virtual Device Simulator"
+            }
+        ],
         "os-categories": [
             "Simulator"
         ],
@@ -469,7 +814,38 @@
         "full_name": "SoftwareAG/cumulocity-node-red",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-node-red",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "manage-node-red-flows-with-cumulocity-iot-and-thin-edge-io",
+                "topic_id": 267827,
+                "topic_url": "https://tech.forums.softwareag.com/t/manage-node-red-flows-with-cumulocity-iot-and-thin-edge-io/267827",
+                "title": "Manage Node-red flows with Cumulocity IoT and thin-edge.io"
+            },
+            {
+                "slug": "send-control-signal-from-cumulocity-iot-to-node-red",
+                "topic_id": 286718,
+                "topic_url": "https://tech.forums.softwareag.com/t/send-control-signal-from-cumulocity-iot-to-node-red/286718",
+                "title": "Send control signal from Cumulocity IoT to Node RED"
+            },
+            {
+                "slug": "how-to-change-default-header-title-and-icon-in-cumulocity-tutorial-app",
+                "topic_id": 277951,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-change-default-header-title-and-icon-in-cumulocity-tutorial-app/277951",
+                "title": "How to change default header title and icon in cumulocity tutorial app"
+            },
+            {
+                "slug": "custom-app-icon",
+                "topic_id": 282484,
+                "topic_url": "https://tech.forums.softwareag.com/t/custom-app-icon/282484",
+                "title": "Custom app icon"
+            },
+            {
+                "slug": "get-user-credentials",
+                "topic_id": 282677,
+                "topic_url": "https://tech.forums.softwareag.com/t/get-user-credentials/282677",
+                "title": "Get user credentials"
+            }
+        ],
         "os-categories": [
             "Microservice",
             "WebApp",
@@ -495,7 +871,20 @@
         "full_name": "SoftwareAG/cumulocity-cypress",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-cypress",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "technews-issue-4-2023",
+                "topic_id": 288795,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-4-2023/288795",
+                "title": "TECHnews - Issue 4, 2023"
+            },
+            {
+                "slug": "recommended-e2e-testing-framework",
+                "topic_id": 285616,
+                "topic_url": "https://tech.forums.softwareag.com/t/recommended-e2e-testing-framework/285616",
+                "title": "Recommended E2E testing framework"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -520,7 +909,32 @@
         "full_name": "SoftwareAG/cumulocity-tenant-option-management-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-tenant-option-management-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-ecosystem-enriched-with-new-ui-extensions",
+                "topic_id": 289964,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-ecosystem-enriched-with-new-ui-extensions/289964",
+                "title": "Cumulocity IoT Ecosystem enriched with new UI Extensions"
+            },
+            {
+                "slug": "enterprise-development-workflows-with-epl-apps-and-github",
+                "topic_id": 288760,
+                "topic_url": "https://tech.forums.softwareag.com/t/enterprise-development-workflows-with-epl-apps-and-github/288760",
+                "title": "Enterprise Development Workflows with EPL Apps and GitHub"
+            },
+            {
+                "slug": "technews-issue-4-2023",
+                "topic_id": 288795,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-4-2023/288795",
+                "title": "TECHnews - Issue 4, 2023"
+            },
+            {
+                "slug": "tenant-option-with-encrypted-values-cannot-be-deleted",
+                "topic_id": 287127,
+                "topic_url": "https://tech.forums.softwareag.com/t/tenant-option-with-encrypted-values-cannot-be-deleted/287127",
+                "title": "Tenant Option with encrypted values cannot be deleted"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -552,7 +966,14 @@
         "full_name": "SoftwareAG/cumulocity-dynamic-mapper",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-dynamic-mapper",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "thin-edge-connection-with-generic-mqtt-broker",
+                "topic_id": 288555,
+                "topic_url": "https://tech.forums.softwareag.com/t/thin-edge-connection-with-generic-mqtt-broker/288555",
+                "title": "Thin-Edge connection with generic MQTT broker"
+            }
+        ],
         "os-categories": [
             "Microservice",
             "Agent"
@@ -634,7 +1055,26 @@
         "full_name": "SoftwareAG/cumulocity-remote-access-local-proxy",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-remote-access-local-proxy",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-get-started-with-cloud-remote-access-for-cumulocity-iot",
+                "topic_id": 258446,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-get-started-with-cloud-remote-access-for-cumulocity-iot/258446",
+                "title": "How to get started with Cloud Remote Access for Cumulocity IoT"
+            },
+            {
+                "slug": "remote-connect-to-your-devices",
+                "topic_id": 239639,
+                "topic_url": "https://tech.forums.softwareag.com/t/remote-connect-to-your-devices/239639",
+                "title": "Remote connect to your devices"
+            },
+            {
+                "slug": "avoid-storing-credentials-for-cloud-remote-access",
+                "topic_id": 258183,
+                "topic_url": "https://tech.forums.softwareag.com/t/avoid-storing-credentials-for-cloud-remote-access/258183",
+                "title": "Avoid storing credentials for Cloud Remote Access"
+            }
+        ],
         "os-categories": [
             "Extension",
             "CLI"
@@ -701,7 +1141,20 @@
         "full_name": "SoftwareAG/cumulocity-advanced-simulator",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-advanced-simulator",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-software-ag-open-source-projects",
+                "topic_id": 243559,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-software-ag-open-source-projects/243559",
+                "title": "Cumulocity IoT - Software AG Open Source Projects"
+            },
+            {
+                "slug": "virtual-device-simulator",
+                "topic_id": 274997,
+                "topic_url": "https://tech.forums.softwareag.com/t/virtual-device-simulator/274997",
+                "title": "Virtual Device Simulator"
+            }
+        ],
         "os-categories": [
             "Simulator",
             "Extension"
@@ -725,7 +1178,20 @@
         "full_name": "SoftwareAG/cumulocity-iot-examples",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-iot-examples",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "esp32-registering-to-cumulocity-iot",
+                "topic_id": 279586,
+                "topic_url": "https://tech.forums.softwareag.com/t/esp32-registering-to-cumulocity-iot/279586",
+                "title": "Esp32 registering to Cumulocity IoT"
+            },
+            {
+                "slug": "cumulocity-integration-with-esp32-and-esp8266",
+                "topic_id": 256889,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-integration-with-esp32-and-esp8266/256889",
+                "title": "Cumulocity Integration with ESP32 and ESP8266"
+            }
+        ],
         "os-categories": [
             "Example"
         ],
@@ -799,7 +1265,26 @@
         "full_name": "SoftwareAG/cumulocity-agents-linux",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-agents-linux",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-get-started-with-cloud-remote-access-for-cumulocity-iot",
+                "topic_id": 258446,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-get-started-with-cloud-remote-access-for-cumulocity-iot/258446",
+                "title": "How to get started with Cloud Remote Access for Cumulocity IoT"
+            },
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            },
+            {
+                "slug": "apama-advent-calendar-17-dec-2021-enhancing-cloud-fieldbus-using-apama",
+                "topic_id": 253984,
+                "topic_url": "https://tech.forums.softwareag.com/t/apama-advent-calendar-17-dec-2021-enhancing-cloud-fieldbus-using-apama/253984",
+                "title": "Apama Advent Calendar - 17 Dec 2021 - Enhancing Cloud Fieldbus using Apama"
+            }
+        ],
         "os-categories": [
             "Agent"
         ],
@@ -875,7 +1360,14 @@
         "full_name": "SoftwareAG/cumulocity-acme",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-acme",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "top-content-and-updates-h1-2022",
+                "topic_id": 259730,
+                "topic_url": "https://tech.forums.softwareag.com/t/top-content-and-updates-h1-2022/259730",
+                "title": "Top content and updates \u2013 H1, 2022"
+            }
+        ],
         "os-categories": [
             "Microservice"
         ],
@@ -935,7 +1427,14 @@
         "full_name": "SoftwareAG/cumulocity-remote-access-cloud-http-proxy",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-remote-access-cloud-http-proxy",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-get-started-with-cloud-remote-access-for-cumulocity-iot",
+                "topic_id": 258446,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-get-started-with-cloud-remote-access-for-cumulocity-iot/258446",
+                "title": "How to get started with Cloud Remote Access for Cumulocity IoT"
+            }
+        ],
         "os-categories": [
             "Microservice",
             "WebApp",
@@ -989,7 +1488,20 @@
         "full_name": "SoftwareAG/apama-cumulocity-raspberrypi",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/apama-cumulocity-raspberrypi",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "apama-on-the-thin-edge-with-cumulocity-iot",
+                "topic_id": 255178,
+                "topic_url": "https://tech.forums.softwareag.com/t/apama-on-the-thin-edge-with-cumulocity-iot/255178",
+                "title": "Apama on the Thin Edge with Cumulocity IoT"
+            },
+            {
+                "slug": "apama-raspberry-pi-python-plugin-with-cumulocity",
+                "topic_id": 237286,
+                "topic_url": "https://tech.forums.softwareag.com/t/apama-raspberry-pi-python-plugin-with-cumulocity/237286",
+                "title": "Apama Raspberry Pi Python Plugin with Cumulocity"
+            }
+        ],
         "os-categories": [
             "Agent",
             "Example"
@@ -1041,7 +1553,32 @@
         "full_name": "SoftwareAG/cumulocity-data-grid-samples",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-data-grid-samples",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-data-grid-tutorial-series-part-3",
+                "topic_id": 274859,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-data-grid-tutorial-series-part-3/274859",
+                "title": "Cumulocity Data-Grid Tutorial Series - Part 3"
+            },
+            {
+                "slug": "cumulocity-data-grid-tutorial-series-part-2",
+                "topic_id": 274847,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-data-grid-tutorial-series-part-2/274847",
+                "title": "Cumulocity Data-Grid Tutorial Series - Part 2"
+            },
+            {
+                "slug": "connect-c8y-data-grid-with-service-to-fetch-device-data",
+                "topic_id": 233725,
+                "topic_url": "https://tech.forums.softwareag.com/t/connect-c8y-data-grid-with-service-to-fetch-device-data/233725",
+                "title": "Connect c8y-data-grid with service to fetch device data"
+            },
+            {
+                "slug": "cumulocity-iot-data-grid-tutorial-series-part-1",
+                "topic_id": 240747,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-data-grid-tutorial-series-part-1/240747",
+                "title": "Cumulocity IoT Data-Grid Tutorial Series - Part 1"
+            }
+        ],
         "os-categories": [
             "Example"
         ],
@@ -1067,7 +1604,26 @@
         "full_name": "SoftwareAG/cumulocity-layered-map-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-layered-map-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-map-based-widgets",
+                "topic_id": 281192,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-map-based-widgets/281192",
+                "title": "Enhancing Cumulocity IoT Capabilities: Map-Based Widgets"
+            },
+            {
+                "slug": "cumulocity-iot-ecosystem-enriched-with-new-ui-extensions",
+                "topic_id": 289964,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-ecosystem-enriched-with-new-ui-extensions/289964",
+                "title": "Cumulocity IoT Ecosystem enriched with new UI Extensions"
+            },
+            {
+                "slug": "widget-resize-event",
+                "topic_id": 282248,
+                "topic_url": "https://tech.forums.softwareag.com/t/widget-resize-event/282248",
+                "title": "Widget resize event"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -1092,7 +1648,14 @@
         "full_name": "TyrManuZ/cumulocity-python-agent",
         "default_branch": "master",
         "url": "https://github.com/TyrManuZ/cumulocity-python-agent",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-mqtt-bootstrap-credentials",
+                "topic_id": 203829,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-mqtt-bootstrap-credentials/203829",
+                "title": "Cumulocity MQTT bootstrap credentials"
+            }
+        ],
         "os-categories": [
             "Agent"
         ],
@@ -1197,7 +1760,14 @@
         "full_name": "SoftwareAG/cumulocityr",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocityr",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-core-platform-10-5-7",
+                "topic_id": 207395,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-core-platform-10-5-7/207395",
+                "title": "Cumulocity IoT Core Platform 10.5.7"
+            }
+        ],
         "os-categories": [
             "Client"
         ],
@@ -1224,7 +1794,20 @@
         "full_name": "SoftwareAG/cumulocity-remote-access-agent",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-remote-access-agent",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-get-started-with-cloud-remote-access-for-cumulocity-iot",
+                "topic_id": 258446,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-get-started-with-cloud-remote-access-for-cumulocity-iot/258446",
+                "title": "How to get started with Cloud Remote Access for Cumulocity IoT"
+            },
+            {
+                "slug": "remote-connect-to-your-devices",
+                "topic_id": 239639,
+                "topic_url": "https://tech.forums.softwareag.com/t/remote-connect-to-your-devices/239639",
+                "title": "Remote connect to your devices"
+            }
+        ],
         "os-categories": [
             "Agent",
             "Example",
@@ -1251,7 +1834,14 @@
         "full_name": "hms-networks/flexy-cumulocity-connector",
         "default_branch": "main",
         "url": "https://github.com/hms-networks/flexy-cumulocity-connector",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "i-cant-get-my-ewon-flexy-device-registered",
+                "topic_id": 263413,
+                "topic_url": "https://tech.forums.softwareag.com/t/i-cant-get-my-ewon-flexy-device-registered/263413",
+                "title": "I can't get my Ewon Flexy device registered"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -1280,7 +1870,32 @@
         "full_name": "SoftwareAG/cumulocity-demo-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-demo-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-run-runtime-widget-code-on-my-local-for-observe-changes-in-widget",
+                "topic_id": 277987,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-run-runtime-widget-code-on-my-local-for-observe-changes-in-widget/277987",
+                "title": "How to run , runtime widget code on my local for observe changes in widget"
+            },
+            {
+                "slug": "widget-need-credential-login",
+                "topic_id": 255684,
+                "topic_url": "https://tech.forums.softwareag.com/t/widget-need-credential-login/255684",
+                "title": "Widget need credential login"
+            },
+            {
+                "slug": "how-to-create-custom-widget-for-cumulocity-iot-in-angular-latest-version-or-angular-8-version",
+                "topic_id": 239764,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-create-custom-widget-for-cumulocity-iot-in-angular-latest-version-or-angular-8-version/239764",
+                "title": "How to create custom widget for Cumulocity IoT in angular latest version or Angular 8 version?"
+            },
+            {
+                "slug": "cumulocity-customize-widget-demo",
+                "topic_id": 258979,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-customize-widget-demo/258979",
+                "title": "Cumulocity Customize widget demo"
+            }
+        ],
         "os-categories": [
             "Widget",
             "Example"
@@ -1304,7 +1919,14 @@
         "full_name": "SoftwareAG/cumulocity-swagger-openapi",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-swagger-openapi",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-integration-with-api-portal-and-api-gateway",
+                "topic_id": 237323,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-integration-with-api-portal-and-api-gateway/237323",
+                "title": "Cumulocity integration with API Portal and API Gateway"
+            }
+        ],
         "os-categories": [
             "Client"
         ],
@@ -1327,7 +1949,14 @@
         "full_name": "SoftwareAG/cumulocity-clients-kotlin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-clients-kotlin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-create-an-android-app-and-own-app-store",
+                "topic_id": 279398,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-create-an-android-app-and-own-app-store/279398",
+                "title": "How to create an android app and own app store"
+            }
+        ],
         "os-categories": [
             "Client",
             "CLI"
@@ -1349,7 +1978,14 @@
         "full_name": "SoftwareAG/edge-k8s-operator-docs",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/edge-k8s-operator-docs",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-edge-fault-tolerance-and-data-resilience-vs-high-availability-ha",
+                "topic_id": 280454,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-edge-fault-tolerance-and-data-resilience-vs-high-availability-ha/280454",
+                "title": "Cumulocity IoT Edge: Fault Tolerance and Data Resilience vs High Availability (HA)"
+            }
+        ],
         "os-categories": [
             "Documentation"
         ],
@@ -1546,7 +2182,14 @@
         "full_name": "SoftwareAG/cumulocity-microservice-archetype",
         "default_branch": "develop",
         "url": "https://github.com/SoftwareAG/cumulocity-microservice-archetype",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "jump-start-your-next-cumulocity-microservice-project-in-java",
+                "topic_id": 257641,
+                "topic_url": "https://tech.forums.softwareag.com/t/jump-start-your-next-cumulocity-microservice-project-in-java/257641",
+                "title": "Jump-Start your next Cumulocity microservice project in java"
+            }
+        ],
         "os-categories": [
             "Microservice"
         ],
@@ -1570,7 +2213,38 @@
         "full_name": "SoftwareAG/cumulocity-translation-manager",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-translation-manager",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iots-multilingual-capabilities-with-translation-manager-plugin",
+                "topic_id": 284974,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iots-multilingual-capabilities-with-translation-manager-plugin/284974",
+                "title": "Enhancing Cumulocity IoT's multilingual capabilities with Translation Manager plugin"
+            },
+            {
+                "slug": "user-language-specific-messages",
+                "topic_id": 282024,
+                "topic_url": "https://tech.forums.softwareag.com/t/user-language-specific-messages/282024",
+                "title": "User-language specific messages"
+            },
+            {
+                "slug": "cumulocity-iot-ecosystem-enriched-with-new-ui-extensions",
+                "topic_id": 289964,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-ecosystem-enriched-with-new-ui-extensions/289964",
+                "title": "Cumulocity IoT Ecosystem enriched with new UI Extensions"
+            },
+            {
+                "slug": "technews-issue-3-2023",
+                "topic_id": 282808,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-3-2023/282808",
+                "title": "TECHnews - Issue 3, 2023"
+            },
+            {
+                "slug": "technews-issue-2-2023",
+                "topic_id": 278905,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-2-2023/278905",
+                "title": "TECHnews - Issue 2, 2023"
+            }
+        ],
         "os-categories": [
             "UI Plugin"
         ],
@@ -1598,7 +2272,32 @@
         "full_name": "SoftwareAG/cumulocity-subtenant-management",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-subtenant-management",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-software-ag-open-source-projects",
+                "topic_id": 243559,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-software-ag-open-source-projects/243559",
+                "title": "Cumulocity IoT - Software AG Open Source Projects"
+            },
+            {
+                "slug": "iot-community-champions-q4-2023",
+                "topic_id": 289942,
+                "topic_url": "https://tech.forums.softwareag.com/t/iot-community-champions-q4-2023/289942",
+                "title": "IoT Community Champions Q4 2023!"
+            },
+            {
+                "slug": "how-to-change-default-header-title-and-icon-in-cumulocity-tutorial-app",
+                "topic_id": 277951,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-change-default-header-title-and-icon-in-cumulocity-tutorial-app/277951",
+                "title": "How to change default header title and icon in cumulocity tutorial app"
+            },
+            {
+                "slug": "cumulocity-new-user-resend-login-email-after-time-out",
+                "topic_id": 260492,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-new-user-resend-login-email-after-time-out/260492",
+                "title": "Cumulocity new user resend login email after time out"
+            }
+        ],
         "os-categories": [
             "Microservice",
             "WebApp",
@@ -1629,36 +2328,29 @@
         "full_name": "SoftwareAG/iot-cumulocity-events-graph",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/iot-cumulocity-events-graph",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-ecosystem-enriched-with-new-ui-extensions",
+                "topic_id": 289964,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-ecosystem-enriched-with-new-ui-extensions/289964",
+                "title": "Cumulocity IoT Ecosystem enriched with new UI Extensions"
+            },
+            {
+                "slug": "top-community-members-and-highlights-q3-2023",
+                "topic_id": 284055,
+                "topic_url": "https://tech.forums.softwareag.com/t/top-community-members-and-highlights-q3-2023/284055",
+                "title": "Top community members and highlights - Q3 2023"
+            },
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
+                "topic_id": 281191,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
+                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
-        ],
-        "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-datahub-widget",
-        "owner": "SoftwareAG",
-        "desc": "An example widget that pulls data from Cumulocity IoT DataHub (written by Software AG Global Presales)",
-        "topics": [
-            "cumulocity",
-            "cumulocity-datahub-widget",
-            "cumulocity-iot",
-            "cumulocity-iot-datahub",
-            "cumulocity-widget",
-            "iot-analytics",
-            "widget"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "last_updated": "2023-10-11 00:33:27 ",
-        "stars": 3,
-        "full_name": "SoftwareAG/cumulocity-datahub-widget",
-        "default_branch": "master",
-        "url": "https://github.com/SoftwareAG/cumulocity-datahub-widget",
-        "tc_references": [],
-        "os-categories": [
-            "Widget"
         ],
         "trust_level": "Official"
     },
@@ -1681,6 +2373,39 @@
         "trust_level": "Unofficial"
     },
     {
+        "name": "cumulocity-datahub-widget",
+        "owner": "SoftwareAG",
+        "desc": "An example widget that pulls data from Cumulocity IoT DataHub (written by Software AG Global Presales)",
+        "topics": [
+            "cumulocity",
+            "cumulocity-datahub-widget",
+            "cumulocity-iot",
+            "cumulocity-iot-datahub",
+            "cumulocity-widget",
+            "iot-analytics",
+            "widget"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "last_updated": "2023-10-11 00:33:27 ",
+        "stars": 3,
+        "full_name": "SoftwareAG/cumulocity-datahub-widget",
+        "default_branch": "master",
+        "url": "https://github.com/SoftwareAG/cumulocity-datahub-widget",
+        "tc_references": [
+            {
+                "slug": "introducing-software-ag-open-source",
+                "topic_id": 239347,
+                "topic_url": "https://tech.forums.softwareag.com/t/introducing-software-ag-open-source/239347",
+                "title": "Introducing Software AG Open Source"
+            }
+        ],
+        "os-categories": [
+            "Widget"
+        ],
+        "trust_level": "Official"
+    },
+    {
         "name": "cumulocity-note-widget-plugin",
         "owner": "SoftwareAG",
         "desc": "Easily manage and share notes for your device and asset",
@@ -1698,7 +2423,20 @@
         "full_name": "SoftwareAG/cumulocity-note-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-note-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-ecosystem-enriched-with-new-ui-extensions",
+                "topic_id": 289964,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-ecosystem-enriched-with-new-ui-extensions/289964",
+                "title": "Cumulocity IoT Ecosystem enriched with new UI Extensions"
+            },
+            {
+                "slug": "technews-issue-4-2023",
+                "topic_id": 288795,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-4-2023/288795",
+                "title": "TECHnews - Issue 4, 2023"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -1724,7 +2462,14 @@
         "full_name": "SoftwareAG/cumulocity-subtenant-usage-metering-microservice",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-subtenant-usage-metering-microservice",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "top-content-and-updates-h1-2022",
+                "topic_id": 259730,
+                "topic_url": "https://tech.forums.softwareag.com/t/top-content-and-updates-h1-2022/259730",
+                "title": "Top content and updates \u2013 H1, 2022"
+            }
+        ],
         "os-categories": [
             "Microservice",
             "Extension"
@@ -1756,7 +2501,14 @@
         "full_name": "SoftwareAG/cumulocity-python-agent",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-python-agent",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "raspberrypi-sensor-data-transfer-to-cumulocity",
+                "topic_id": 205605,
+                "topic_url": "https://tech.forums.softwareag.com/t/raspberrypi-sensor-data-transfer-to-cumulocity/205605",
+                "title": "RaspberryPi Sensor Data Transfer to Cumulocity"
+            }
+        ],
         "os-categories": [
             "Agent"
         ],
@@ -1774,7 +2526,14 @@
         "full_name": "Cumulocity/ui-customization",
         "default_branch": "master",
         "url": "https://github.com/Cumulocity/ui-customization",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "ui-customization",
+                "topic_id": 279249,
+                "topic_url": "https://tech.forums.softwareag.com/t/ui-customization/279249",
+                "title": "UI customization"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -1801,7 +2560,20 @@
         "full_name": "SoftwareAG/cumulocity-smart-map-settings-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-smart-map-settings-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-map-based-widgets",
+                "topic_id": 281192,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-map-based-widgets/281192",
+                "title": "Enhancing Cumulocity IoT Capabilities: Map-Based Widgets"
+            },
+            {
+                "slug": "correct-url-to-image-assets-in-plugin",
+                "topic_id": 275462,
+                "topic_url": "https://tech.forums.softwareag.com/t/correct-url-to-image-assets-in-plugin/275462",
+                "title": "Correct Url to image assets in Plugin"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -1844,7 +2616,26 @@
         "full_name": "SoftwareAG/cumulocity-bookmark-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-bookmark-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-install-extension-packages-in-cumulocity-iot-ui-applications",
+                "topic_id": 281798,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-install-extension-packages-in-cumulocity-iot-ui-applications/281798",
+                "title": "How to install Extension Packages in Cumulocity IoT UI Applications?"
+            },
+            {
+                "slug": "technews-issue-1-2023",
+                "topic_id": 275322,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-1-2023/275322",
+                "title": "TECHnews - Issue 1, 2023"
+            },
+            {
+                "slug": "is-there-a-feature-where-i-can-add-an-extra-button-to-the-left-menu",
+                "topic_id": 282195,
+                "topic_url": "https://tech.forums.softwareag.com/t/is-there-a-feature-where-i-can-add-an-extra-button-to-the-left-menu/282195",
+                "title": "Is there a feature where I can add an extra button to the left menu?"
+            }
+        ],
         "os-categories": [
             "UI Plugin"
         ],
@@ -1867,7 +2658,38 @@
         "full_name": "SoftwareAG/cumulocity-self-service-certification",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-self-service-certification",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "raspberry-pi-from-box-to-c8y",
+                "topic_id": 259766,
+                "topic_url": "https://tech.forums.softwareag.com/t/raspberry-pi-from-box-to-c8y/259766",
+                "title": "Raspberry Pi: From Box to C8y"
+            },
+            {
+                "slug": "cumulocity-iot-tips-and-tricks-mqtt-cheat-sheet",
+                "topic_id": 237187,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-tips-and-tricks-mqtt-cheat-sheet/237187",
+                "title": "Cumulocity IoT Tips and Tricks - MQTT cheat sheet"
+            },
+            {
+                "slug": "recording-best-practices-cumulocity-iot-domain-model-design",
+                "topic_id": 281353,
+                "topic_url": "https://tech.forums.softwareag.com/t/recording-best-practices-cumulocity-iot-domain-model-design/281353",
+                "title": "Recording: Best Practices Cumulocity IoT Domain model design"
+            },
+            {
+                "slug": "upload-device-text-config-via-mqtt",
+                "topic_id": 258624,
+                "topic_url": "https://tech.forums.softwareag.com/t/upload-device-text-config-via-mqtt/258624",
+                "title": "Upload device text config via MQTT"
+            },
+            {
+                "slug": "via-mqtt-profileid-to-update-managedobject-is-unknown",
+                "topic_id": 258083,
+                "topic_url": "https://tech.forums.softwareag.com/t/via-mqtt-profileid-to-update-managedobject-is-unknown/258083",
+                "title": "Via MQTT ProfileId to update ManagedObject is unknown"
+            }
+        ],
         "os-categories": [
             "Documentation"
         ],
@@ -2048,7 +2870,14 @@
         "full_name": "SoftwareAG/cumulocity-runtime-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-runtime-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-application-builder-build-and-deploy-custom-widget",
+                "topic_id": 237548,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-application-builder-build-and-deploy-custom-widget/237548",
+                "title": "Cumulocity Application Builder - Build and Deploy Custom widget"
+            }
+        ],
         "os-categories": [
             "Widget",
             "Example"
@@ -2129,7 +2958,14 @@
         "full_name": "SoftwareAG/cumulocity-provision-sso",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-provision-sso",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "scaling-single-sign-on-in-cumulocity-iot-challenges-and-solution-approach",
+                "topic_id": 288366,
+                "topic_url": "https://tech.forums.softwareag.com/t/scaling-single-sign-on-in-cumulocity-iot-challenges-and-solution-approach/288366",
+                "title": "Scaling Single Sign-On in Cumulocity IoT: Challenges and Solution Approach"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -2206,7 +3042,20 @@
         "full_name": "SoftwareAG/cumulocity-community-plugins",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-community-plugins",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "improved-data-point-graph-widget-for-cumulocity-iot",
+                "topic_id": 281793,
+                "topic_url": "https://tech.forums.softwareag.com/t/improved-data-point-graph-widget-for-cumulocity-iot/281793",
+                "title": "Improved Data Point Graph Widget for Cumulocity IoT"
+            },
+            {
+                "slug": "how-to-update-default-data-point-widget-in-cumulocity",
+                "topic_id": 281014,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-update-default-data-point-widget-in-cumulocity/281014",
+                "title": "How to update default Data point widget in Cumulocity"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -2231,7 +3080,14 @@
         "full_name": "SoftwareAG/cumulocity-sdk-c",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-sdk-c",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            }
+        ],
         "os-categories": [
             "Client"
         ],
@@ -2394,7 +3250,32 @@
         "full_name": "SoftwareAG/cumulocity-device-chart-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-device-chart-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-software-ag-open-source-projects",
+                "topic_id": 243559,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-software-ag-open-source-projects/243559",
+                "title": "Cumulocity IoT - Software AG Open Source Projects"
+            },
+            {
+                "slug": "chart-js-and-ng2-chart-in-cumulocity",
+                "topic_id": 282403,
+                "topic_url": "https://tech.forums.softwareag.com/t/chart-js-and-ng2-chart-in-cumulocity/282403",
+                "title": "Chart.js and Ng2-Chart in Cumulocity"
+            },
+            {
+                "slug": "issue-in-building-the-open-source-chart-widget-i-e-cumulocity-device-chart-widget",
+                "topic_id": 239521,
+                "topic_url": "https://tech.forums.softwareag.com/t/issue-in-building-the-open-source-chart-widget-i-e-cumulocity-device-chart-widget/239521",
+                "title": "Issue in building the open source chart widget i.e: cumulocity-device-chart-widget"
+            },
+            {
+                "slug": "how-to-use-existing-cumulocity-widgets-pie-chart-as-part-of-custom-widget",
+                "topic_id": 234848,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-use-existing-cumulocity-widgets-pie-chart-as-part-of-custom-widget/234848",
+                "title": "How to use existing cumulocity widgets(pie chart) as part of custom widget"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -2422,7 +3303,38 @@
         "full_name": "SoftwareAG/cumulocity-datapoints-charting-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-datapoints-charting-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-software-ag-open-source-projects",
+                "topic_id": 243559,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-software-ag-open-source-projects/243559",
+                "title": "Cumulocity IoT - Software AG Open Source Projects"
+            },
+            {
+                "slug": "allow-to-plot-other-datatypes-on-x-axis-other-than-timeseries",
+                "topic_id": 268366,
+                "topic_url": "https://tech.forums.softwareag.com/t/allow-to-plot-other-datatypes-on-x-axis-other-than-timeseries/268366",
+                "title": "Allow to plot other datatypes on X Axis other than timeseries"
+            },
+            {
+                "slug": "how-to-update-default-data-point-widget-in-cumulocity",
+                "topic_id": 281014,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-update-default-data-point-widget-in-cumulocity/281014",
+                "title": "How to update default Data point widget in Cumulocity"
+            },
+            {
+                "slug": "errors-received-while-trying-to-build-the-customised-cumulocity-datapoints-charting-widget",
+                "topic_id": 266346,
+                "topic_url": "https://tech.forums.softwareag.com/t/errors-received-while-trying-to-build-the-customised-cumulocity-datapoints-charting-widget/266346",
+                "title": "Errors received while trying to build the customised cumulocity-datapoints-charting-widget"
+            },
+            {
+                "slug": "ready-made-widgets-for-visualizing-a-particular-kpi",
+                "topic_id": 264451,
+                "topic_url": "https://tech.forums.softwareag.com/t/ready-made-widgets-for-visualizing-a-particular-kpi/264451",
+                "title": "Ready made widgets for visualizing a particular KPI"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -2452,7 +3364,14 @@
         "full_name": "SoftwareAG/cumulocity-device-chart-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-device-chart-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "chart-js-and-ng2-chart-in-cumulocity",
+                "topic_id": 282403,
+                "topic_url": "https://tech.forums.softwareag.com/t/chart-js-and-ng2-chart-in-cumulocity/282403",
+                "title": "Chart.js and Ng2-Chart in Cumulocity"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -2682,7 +3601,14 @@
         "full_name": "SoftwareAG/cumulocity-agents-netcomm",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-agents-netcomm",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            }
+        ],
         "os-categories": [
             "Agent"
         ],
@@ -2813,7 +3739,32 @@
         "full_name": "reubenmiller/go-c8y",
         "default_branch": "main",
         "url": "https://github.com/reubenmiller/go-c8y",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "q4-2022-highlights-of-the-iot-developer-ecosystem",
+                "topic_id": 266343,
+                "topic_url": "https://tech.forums.softwareag.com/t/q4-2022-highlights-of-the-iot-developer-ecosystem/266343",
+                "title": "Q4 2022 Highlights of the IoT Developer Ecosystem"
+            },
+            {
+                "slug": "iot-community-champions-q4-2023",
+                "topic_id": 289942,
+                "topic_url": "https://tech.forums.softwareag.com/t/iot-community-champions-q4-2023/289942",
+                "title": "IoT Community Champions Q4 2023!"
+            },
+            {
+                "slug": "moving-devices-between-tenants",
+                "topic_id": 287908,
+                "topic_url": "https://tech.forums.softwareag.com/t/moving-devices-between-tenants/287908",
+                "title": "Moving devices between tenants"
+            },
+            {
+                "slug": "recording-powerful-scripting-with-go-c8y-cli-for-cumulocity-iot",
+                "topic_id": 283308,
+                "topic_url": "https://tech.forums.softwareag.com/t/recording-powerful-scripting-with-go-c8y-cli-for-cumulocity-iot/283308",
+                "title": "Recording: Powerful scripting with go-c8y-cli for Cumulocity IoT"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -2834,7 +3785,14 @@
         "full_name": "SoftwareAG/cumulocity-electron-agent",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-electron-agent",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "building-a-rpi-kiosk-device-ui-authentication-question",
+                "topic_id": 284205,
+                "topic_url": "https://tech.forums.softwareag.com/t/building-a-rpi-kiosk-device-ui-authentication-question/284205",
+                "title": "Building a RPi Kiosk - Device / UI Authentication Question"
+            }
+        ],
         "os-categories": [
             "Agent"
         ],
@@ -2920,7 +3878,14 @@
         "full_name": "SoftwareAG/cumulocity-esp",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-esp",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-integration-with-esp32-and-esp8266",
+                "topic_id": 256889,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-integration-with-esp32-and-esp8266/256889",
+                "title": "Cumulocity Integration with ESP32 and ESP8266"
+            }
+        ],
         "os-categories": [
             "Agent",
             "Example"
@@ -2960,7 +3925,14 @@
         "full_name": "SoftwareAG/cumulocity-rss-microservice",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-rss-microservice",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "the-cumulocity-iot-rss-microservice",
+                "topic_id": 272693,
+                "topic_url": "https://tech.forums.softwareag.com/t/the-cumulocity-iot-rss-microservice/272693",
+                "title": "The Cumulocity IoT RSS Microservice"
+            }
+        ],
         "os-categories": [
             "Microservice"
         ],
@@ -3134,7 +4106,14 @@
         "full_name": "SoftwareAG/cumulocity-webrtc-webcam-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-webrtc-webcam-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "technews-issue-2-2023",
+                "topic_id": 278905,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-2-2023/278905",
+                "title": "TECHnews - Issue 2, 2023"
+            }
+        ],
         "os-categories": [
             "UI Plugin"
         ],
@@ -3179,7 +4158,14 @@
         "full_name": "SoftwareAG/cumulocity-pulsar",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-pulsar",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -3204,7 +4190,14 @@
         "full_name": "SoftwareAG/c8y-ticketing-integration-accelerator",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/c8y-ticketing-integration-accelerator",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "seamless-ticketing-integration-for-cumulocity-iot",
+                "topic_id": 281769,
+                "topic_url": "https://tech.forums.softwareag.com/t/seamless-ticketing-integration-for-cumulocity-iot/281769",
+                "title": "Seamless Ticketing Integration for Cumulocity IoT"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -3545,7 +4538,26 @@
         "full_name": "SoftwareAG/cumulocity-processing-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-processing-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
+                "topic_id": 281191,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
+                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
+            },
+            {
+                "slug": "how-i-can-create-and-register-custom-templates-for-sending-messurmentes-in-cumulocity-iot",
+                "topic_id": 256000,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-i-can-create-and-register-custom-templates-for-sending-messurmentes-in-cumulocity-iot/256000",
+                "title": "How i can create and register custom templates for sending messurmentes in cumulocity iot"
+            },
+            {
+                "slug": "how-to-visualize-enum-or-string-data-in-cumulocity-cloud",
+                "topic_id": 256809,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-visualize-enum-or-string-data-in-cumulocity-cloud/256809",
+                "title": "How to visualize Enum or String Data in Cumulocity Cloud"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -3568,7 +4580,20 @@
         "full_name": "SoftwareAG/cumulocity-library-blueprint",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-library-blueprint",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "top-content-and-updates-h1-2022",
+                "topic_id": 259730,
+                "topic_url": "https://tech.forums.softwareag.com/t/top-content-and-updates-h1-2022/259730",
+                "title": "Top content and updates \u2013 H1, 2022"
+            },
+            {
+                "slug": "reuse-custom-widgets-for-multiple-projects",
+                "topic_id": 254505,
+                "topic_url": "https://tech.forums.softwareag.com/t/reuse-custom-widgets-for-multiple-projects/254505",
+                "title": "Reuse custom widgets for multiple projects"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -3593,7 +4618,14 @@
         "full_name": "SoftwareAG/cumulocity-sdk-cs",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-sdk-cs",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            }
+        ],
         "os-categories": [
             "Client"
         ],
@@ -3659,7 +4691,26 @@
         "full_name": "SoftwareAG/cumulocity-smart-echart-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-smart-echart-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-highchart",
+                "topic_id": 281518,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-highchart/281518",
+                "title": "Cumulocity Highchart"
+            },
+            {
+                "slug": "top-content-and-updates-h1-2022",
+                "topic_id": 259730,
+                "topic_url": "https://tech.forums.softwareag.com/t/top-content-and-updates-h1-2022/259730",
+                "title": "Top content and updates \u2013 H1, 2022"
+            },
+            {
+                "slug": "how-to-import-smart-echart-widgets-into-c8y-application",
+                "topic_id": 282101,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-import-smart-echart-widgets-into-c8y-application/282101",
+                "title": "How to import Smart eChart widgets into C8Y application?"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -3687,7 +4738,14 @@
         "full_name": "SoftwareAG/cumulocity-event-chart-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-event-chart-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
+                "topic_id": 281191,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
+                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -3708,7 +4766,26 @@
         "full_name": "SoftwareAG/cumulocity-translation-manager-api",
         "default_branch": "develop",
         "url": "https://github.com/SoftwareAG/cumulocity-translation-manager-api",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "user-language-specific-messages",
+                "topic_id": 282024,
+                "topic_url": "https://tech.forums.softwareag.com/t/user-language-specific-messages/282024",
+                "title": "User-language specific messages"
+            },
+            {
+                "slug": "technews-issue-3-2023",
+                "topic_id": 282808,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-3-2023/282808",
+                "title": "TECHnews - Issue 3, 2023"
+            },
+            {
+                "slug": "enhancing-cumulocity-iots-multilingual-capabilities-with-translation-manager-plugin",
+                "topic_id": 284974,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iots-multilingual-capabilities-with-translation-manager-plugin/284974",
+                "title": "Enhancing Cumulocity IoT's multilingual capabilities with Translation Manager plugin"
+            }
+        ],
         "os-categories": [
             "Client"
         ],
@@ -3730,7 +4807,14 @@
         "full_name": "SoftwareAG/cumulocity-to-aris-pm",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-to-aris-pm",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "transfer-cumulocity-iot-data-to-an-aris-process-mining-tenant",
+                "topic_id": 282478,
+                "topic_url": "https://tech.forums.softwareag.com/t/transfer-cumulocity-iot-data-to-an-aris-process-mining-tenant/282478",
+                "title": "Transfer Cumulocity IoT data to an ARIS Process Mining tenant"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -3760,7 +4844,20 @@
         "full_name": "SoftwareAG/cumulocity-image-animation-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-image-animation-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            },
+            {
+                "slug": "poc-using-the-smart-agriculture-demo",
+                "topic_id": 283660,
+                "topic_url": "https://tech.forums.softwareag.com/t/poc-using-the-smart-agriculture-demo/283660",
+                "title": "PoC using the Smart Agriculture demo"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -3784,7 +4881,14 @@
         "full_name": "SoftwareAG/cumulocity-favorites-manager-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-favorites-manager-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-ecosystem-enriched-with-new-ui-extensions",
+                "topic_id": 289964,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-ecosystem-enriched-with-new-ui-extensions/289964",
+                "title": "Cumulocity IoT Ecosystem enriched with new UI Extensions"
+            }
+        ],
         "os-categories": [
             "UI Plugin"
         ],
@@ -3829,7 +4933,14 @@
         "full_name": "SoftwareAG/cumulocity-indoor-air-quality-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-indoor-air-quality-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "ui-compoment-state-persistency",
+                "topic_id": 259065,
+                "topic_url": "https://tech.forums.softwareag.com/t/ui-compoment-state-persistency/259065",
+                "title": "UI compoment state persistency"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -3908,7 +5019,26 @@
         "full_name": "SoftwareAG/cumulocity-tracking-replay-map-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-tracking-replay-map-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-create-a-generic-or-common-dashboard-for-a-particular-group-of-assets",
+                "topic_id": 284978,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-create-a-generic-or-common-dashboard-for-a-particular-group-of-assets/284978",
+                "title": "How to create a generic or common dashboard for a particular group of assets"
+            },
+            {
+                "slug": "tracking-replay-widget-not-working",
+                "topic_id": 279855,
+                "topic_url": "https://tech.forums.softwareag.com/t/tracking-replay-widget-not-working/279855",
+                "title": "Tracking Replay Widget not working"
+            },
+            {
+                "slug": "visualizing-data-from-3rd-party-systems",
+                "topic_id": 244669,
+                "topic_url": "https://tech.forums.softwareag.com/t/visualizing-data-from-3rd-party-systems/244669",
+                "title": "Visualizing Data from 3rd party systems"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -3937,7 +5067,14 @@
         "full_name": "SoftwareAG/cumulocity-data-points-map-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-data-points-map-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-software-ag-open-source-projects",
+                "topic_id": 243559,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-software-ag-open-source-projects/243559",
+                "title": "Cumulocity IoT - Software AG Open Source Projects"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -3958,7 +5095,14 @@
         "full_name": "SoftwareAG/cumulocity-iot-replacement-wizard-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-iot-replacement-wizard-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-install-extension-packages-in-cumulocity-iot-ui-applications",
+                "topic_id": 281798,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-install-extension-packages-in-cumulocity-iot-ui-applications/281798",
+                "title": "How to install Extension Packages in Cumulocity IoT UI Applications?"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -3979,7 +5123,14 @@
         "full_name": "SoftwareAG/cumulocity-dbc2json.js",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-dbc2json.js",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -4019,7 +5170,14 @@
         "full_name": "SoftwareAG/cumulocity-microservice-service-request-mgmt",
         "default_branch": "develop",
         "url": "https://github.com/SoftwareAG/cumulocity-microservice-service-request-mgmt",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "exploring-system-integration-options-for-cumulocity-iot",
+                "topic_id": 288341,
+                "topic_url": "https://tech.forums.softwareag.com/t/exploring-system-integration-options-for-cumulocity-iot/288341",
+                "title": "Exploring System Integration options for Cumulocity IoT"
+            }
+        ],
         "os-categories": [
             "Microservice"
         ],
@@ -4086,7 +5244,14 @@
         "full_name": "SoftwareAG/c8y-python-source-transformer-microservice",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/c8y-python-source-transformer-microservice",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "introducing-the-cumulocity-iot-source-transformer-microservice-simplifying-iot-data-interactions",
+                "topic_id": 282124,
+                "topic_url": "https://tech.forums.softwareag.com/t/introducing-the-cumulocity-iot-source-transformer-microservice-simplifying-iot-data-interactions/282124",
+                "title": "Introducing the Cumulocity IoT Source Transformer Microservice: Simplifying IoT Data Interactions"
+            }
+        ],
         "os-categories": [
             "Microservice"
         ],
@@ -4253,7 +5418,14 @@
         "full_name": "SoftwareAG/cumulocity-lwm2m-demo",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-lwm2m-demo",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "getting-started-with-lwm2m",
+                "topic_id": 280993,
+                "topic_url": "https://tech.forums.softwareag.com/t/getting-started-with-lwm2m/280993",
+                "title": "Getting started with LwM2M"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -4303,7 +5475,14 @@
         "full_name": "SoftwareAG/cumulocity-asset-viewer-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-asset-viewer-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "dynamic-dashboard-and-detail-page-application-builder",
+                "topic_id": 264570,
+                "topic_url": "https://tech.forums.softwareag.com/t/dynamic-dashboard-and-detail-page-application-builder/264570",
+                "title": "Dynamic Dashboard and Detail Page-Application Builder"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -4326,7 +5505,14 @@
         "full_name": "SoftwareAG/cumulocity-indoor-data-point-map",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-indoor-data-point-map",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-add-a-preview-to-a-custom-widget-which-is-hooked-on-the-cockpit",
+                "topic_id": 258449,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-add-a-preview-to-a-custom-widget-which-is-hooked-on-the-cockpit/258449",
+                "title": "How to add a preview to a custom widget which is hooked on the cockpit?"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -4401,7 +5587,14 @@
         "full_name": "SoftwareAG/cumulocity-proteus",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-proteus",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -4521,7 +5714,38 @@
         "full_name": "SoftwareAG/cumulocity-web-development-tutorial",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-web-development-tutorial",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-web-development-tutorial-part-5-provide-widget-as-a-ui-plugin",
+                "topic_id": 275464,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-5-provide-widget-as-a-ui-plugin/275464",
+                "title": "Cumulocity IoT Web Development Tutorial - Part 5: Provide widget as a UI Plugin"
+            },
+            {
+                "slug": "cumulocity-iot-web-development-tutorial-part-4-convert-component-into-a-widget",
+                "topic_id": 275224,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-4-convert-component-into-a-widget/275224",
+                "title": "Cumulocity IoT Web Development Tutorial - Part 4: Convert component into a widget"
+            },
+            {
+                "slug": "cumulocity-iot-web-development-tutorial-part-2-create-your-first-component",
+                "topic_id": 265762,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-2-create-your-first-component/265762",
+                "title": "Cumulocity IoT Web Development Tutorial - Part 2: Create your first component"
+            },
+            {
+                "slug": "cumulocity-iot-web-development-tutorial-part-1-start-your-journey",
+                "topic_id": 259613,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-1-start-your-journey/259613",
+                "title": "Cumulocity IoT Web Development Tutorial - Part 1: Start your journey"
+            },
+            {
+                "slug": "cumulocity-iot-web-development-tutorial-part-3-query-data-from-cumulocity-iot",
+                "topic_id": 266388,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-3-query-data-from-cumulocity-iot/266388",
+                "title": "Cumulocity IoT Web Development Tutorial - Part 3: Query data from Cumulocity IoT"
+            }
+        ],
         "os-categories": [
             "WebApp",
             "Tutorial"
@@ -4638,7 +5862,14 @@
         "full_name": "SoftwareAG/cumulocity-route-tracker",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-route-tracker",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-map-based-widgets",
+                "topic_id": 281192,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-map-based-widgets/281192",
+                "title": "Enhancing Cumulocity IoT Capabilities: Map-Based Widgets"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -4943,7 +6174,32 @@
         "full_name": "SoftwareAG/cumulocity-ttn-integration",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-ttn-integration",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-connect-lora-devices-via-the-things-network",
+                "topic_id": 243701,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-connect-lora-devices-via-the-things-network/243701",
+                "title": "Cumulocity IoT - Connect LoRa Devices via The Things Network"
+            },
+            {
+                "slug": "lpwan-tab-has-disappeared-in-device-management",
+                "topic_id": 289725,
+                "topic_url": "https://tech.forums.softwareag.com/t/lpwan-tab-has-disappeared-in-device-management/289725",
+                "title": "LPWAN TAB has disappeared in Device Management"
+            },
+            {
+                "slug": "ttn-downlink-payload-with-the-c8y-ttn-integration-microservice",
+                "topic_id": 264644,
+                "topic_url": "https://tech.forums.softwareag.com/t/ttn-downlink-payload-with-the-c8y-ttn-integration-microservice/264644",
+                "title": "TTN Downlink Payload with the c8y-ttn-integration microservice"
+            },
+            {
+                "slug": "the-things-network-web-hook-receiving-message-cannot-access-endpoint-service-ttn-integration",
+                "topic_id": 260702,
+                "topic_url": "https://tech.forums.softwareag.com/t/the-things-network-web-hook-receiving-message-cannot-access-endpoint-service-ttn-integration/260702",
+                "title": "The Things Network web hook receiving message \"cannot access endpoint: /service/ttn-integration\""
+            }
+        ],
         "os-categories": [
             "Microservice",
             "Extension"
@@ -5848,7 +7104,14 @@
         "full_name": "SoftwareAG/aws-lambda-c8y",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/aws-lambda-c8y",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "technews-issue-3-2023",
+                "topic_id": 282808,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-3-2023/282808",
+                "title": "TECHnews - Issue 3, 2023"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -6007,7 +7270,14 @@
         "full_name": "mjj29/streaminganalytics-github-sync",
         "default_branch": "main",
         "url": "https://github.com/mjj29/streaminganalytics-github-sync",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enterprise-development-workflows-with-epl-apps-and-github",
+                "topic_id": 288760,
+                "topic_url": "https://tech.forums.softwareag.com/t/enterprise-development-workflows-with-epl-apps-and-github/288760",
+                "title": "Enterprise Development Workflows with EPL Apps and GitHub"
+            }
+        ],
         "os-categories": [
             "Extension"
         ],
@@ -6477,7 +7747,14 @@
         "full_name": "SoftwareAG/cumulocity-barchart-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-barchart-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
+                "topic_id": 281191,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
+                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -6576,7 +7853,14 @@
         "full_name": "SoftwareAG/cumulocity-advanced-radial-gauge-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-advanced-radial-gauge-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -6643,7 +7927,14 @@
         "full_name": "SoftwareAG/cumulocity-video-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-video-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "widget-for-webcam",
+                "topic_id": 264156,
+                "topic_url": "https://tech.forums.softwareag.com/t/widget-for-webcam/264156",
+                "title": "Widget for Webcam"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -6702,7 +7993,14 @@
         "full_name": "zhong-ys/C8Y-Integration-with-Event-Hubs",
         "default_branch": "main",
         "url": "https://github.com/zhong-ys/C8Y-Integration-with-Event-Hubs",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "integration-with-microsoft-azure-event-hubs-using-cumulocity-notification-2-0-api",
+                "topic_id": 288363,
+                "topic_url": "https://tech.forums.softwareag.com/t/integration-with-microsoft-azure-event-hubs-using-cumulocity-notification-2-0-api/288363",
+                "title": "Integration with Microsoft Azure Event Hubs using Cumulocity Notification 2.0 API"
+            }
+        ],
         "os-categories": [
             "Other"
         ],
@@ -6774,7 +8072,14 @@
         "full_name": "SoftwareAG/cumulocity-measurement-aggregator",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-measurement-aggregator",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "need-to-calculate-average-of-measurement-in-java-microservice",
+                "topic_id": 290692,
+                "topic_url": "https://tech.forums.softwareag.com/t/need-to-calculate-average-of-measurement-in-java-microservice/290692",
+                "title": "Need to calculate average of measurement in java microservice"
+            }
+        ],
         "os-categories": [
             "Microservice"
         ],
@@ -6799,7 +8104,14 @@
         "full_name": "SoftwareAG/cumulocity-blueprint-forge",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-blueprint-forge",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "build-cumulocity-iot-applications-effortlessly-with-blueprint-forge",
+                "topic_id": 284129,
+                "topic_url": "https://tech.forums.softwareag.com/t/build-cumulocity-iot-applications-effortlessly-with-blueprint-forge/284129",
+                "title": "Build Cumulocity IoT applications effortlessly with Blueprint Forge"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin",
@@ -6858,7 +8170,14 @@
         "full_name": "SoftwareAG/cumulocity-plugin-example",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-plugin-example",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "the-power-of-micro-frontends-how-to-dynamically-extend-cumulocity-iot-frontends",
+                "topic_id": 266665,
+                "topic_url": "https://tech.forums.softwareag.com/t/the-power-of-micro-frontends-how-to-dynamically-extend-cumulocity-iot-frontends/266665",
+                "title": "The power of micro frontends \u2013 How to dynamically extend Cumulocity IoT Frontends"
+            }
+        ],
         "os-categories": [
             "Example"
         ],
@@ -6900,7 +8219,14 @@
         "full_name": "SoftwareAG/cumulocity-clients-cs",
         "default_branch": "develop",
         "url": "https://github.com/SoftwareAG/cumulocity-clients-cs",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            }
+        ],
         "os-categories": [
             "Client",
             "CLI"
@@ -6972,7 +8298,14 @@
         "full_name": "SoftwareAG/cumulocity-clients-javascript",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-clients-javascript",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-iot-repositories-moving-to-github-com",
+                "topic_id": 244554,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-repositories-moving-to-github-com/244554",
+                "title": "Cumulocity IoT Repositories moving to GitHub.com"
+            }
+        ],
         "os-categories": [
             "Client",
             "CLI"
@@ -7064,7 +8397,20 @@
         "full_name": "SoftwareAG/cumulocity-kpi-trend-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-kpi-trend-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "zip-file-is-not-found-while-build-using-npm-run-build",
+                "topic_id": 278629,
+                "topic_url": "https://tech.forums.softwareag.com/t/zip-file-is-not-found-while-build-using-npm-run-build/278629",
+                "title": "Zip file is not found while build using npm run build"
+            },
+            {
+                "slug": "cannot-find-the-insatlled-widget-in-one-application-which-is-availbale-in-the-another-application",
+                "topic_id": 265017,
+                "topic_url": "https://tech.forums.softwareag.com/t/cannot-find-the-insatlled-widget-in-one-application-which-is-availbale-in-the-another-application/265017",
+                "title": "Cannot find the insatlled widget in one application which is availbale in the another application"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -7129,7 +8475,14 @@
         "full_name": "SoftwareAG/cumulocity-sample-react-library",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-sample-react-library",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-i-get-alarms-on-custom-widget",
+                "topic_id": 277388,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-i-get-alarms-on-custom-widget/277388",
+                "title": "How to I get alarms on custom widget"
+            }
+        ],
         "os-categories": [
             "Client"
         ],
@@ -7173,66 +8526,6 @@
             "Other"
         ],
         "trust_level": "Unofficial"
-    },
-    {
-        "name": "cumulocity-python-client",
-        "owner": "jmhooks",
-        "desc": null,
-        "topics": [],
-        "lang": "Python",
-        "license": "",
-        "last_updated": "2018-05-22 06:11:55 ",
-        "stars": 0,
-        "full_name": "jmhooks/cumulocity-python-client",
-        "default_branch": "master",
-        "url": "https://github.com/jmhooks/cumulocity-python-client",
-        "tc_references": [],
-        "os-categories": [
-            "Client",
-            "CLI"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "IoT-Cumulocity",
-        "owner": "nirmal-dhanaraj",
-        "desc": null,
-        "topics": [],
-        "lang": "Java",
-        "license": "",
-        "last_updated": "2020-06-23 01:26:08 ",
-        "stars": 0,
-        "full_name": "nirmal-dhanaraj/IoT-Cumulocity",
-        "default_branch": "master",
-        "url": "https://github.com/nirmal-dhanaraj/IoT-Cumulocity",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "cumulocity-provision-epl",
-        "owner": "SoftwareAG",
-        "desc": "This microservice provides a POST endpoint provision to deploy an EPL model from the enterprise tenant to a subscribed target tenant.",
-        "topics": [
-            "cumulocity-iot",
-            "cumulocity-microservice",
-            "iot-analytics",
-            "microservice"
-        ],
-        "lang": "Java",
-        "license": "Apache License 2.0",
-        "last_updated": "2022-04-20 08:48:08 ",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-provision-epl",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-provision-epl",
-        "tc_references": [],
-        "os-categories": [
-            "Microservice"
-        ],
-        "trust_level": "Official"
     },
     {
         "name": "cumulocity-video-widget-plugin",
@@ -7309,10 +8602,84 @@
         "full_name": "SoftwareAG/Cumulocity-Asset-overview-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/Cumulocity-Asset-overview-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "is-it-possible-to-get-dtm-app-as-a-plugin",
+                "topic_id": 291946,
+                "topic_url": "https://tech.forums.softwareag.com/t/is-it-possible-to-get-dtm-app-as-a-plugin/291946",
+                "title": "Is it possible to get DTM app as a plugin"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-python-client",
+        "owner": "jmhooks",
+        "desc": null,
+        "topics": [],
+        "lang": "Python",
+        "license": "",
+        "last_updated": "2018-05-22 06:11:55 ",
+        "stars": 0,
+        "full_name": "jmhooks/cumulocity-python-client",
+        "default_branch": "master",
+        "url": "https://github.com/jmhooks/cumulocity-python-client",
+        "tc_references": [],
+        "os-categories": [
+            "Client",
+            "CLI"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "IoT-Cumulocity",
+        "owner": "nirmal-dhanaraj",
+        "desc": null,
+        "topics": [],
+        "lang": "Java",
+        "license": "",
+        "last_updated": "2020-06-23 01:26:08 ",
+        "stars": 0,
+        "full_name": "nirmal-dhanaraj/IoT-Cumulocity",
+        "default_branch": "master",
+        "url": "https://github.com/nirmal-dhanaraj/IoT-Cumulocity",
+        "tc_references": [
+            {
+                "slug": "how-to-capture-real-time-events-and-alarms-using-java-web-services",
+                "topic_id": 227900,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-capture-real-time-events-and-alarms-using-java-web-services/227900",
+                "title": "How to Capture real-time Events and Alarms using Java web Services"
+            }
+        ],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "cumulocity-provision-epl",
+        "owner": "SoftwareAG",
+        "desc": "This microservice provides a POST endpoint provision to deploy an EPL model from the enterprise tenant to a subscribed target tenant.",
+        "topics": [
+            "cumulocity-iot",
+            "cumulocity-microservice",
+            "iot-analytics",
+            "microservice"
+        ],
+        "lang": "Java",
+        "license": "Apache License 2.0",
+        "last_updated": "2022-04-20 08:48:08 ",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-provision-epl",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-provision-epl",
+        "tc_references": [],
+        "os-categories": [
+            "Microservice"
         ],
         "trust_level": "Official"
     },
@@ -7466,7 +8833,14 @@
         "full_name": "SoftwareAG/cumulocity-processing-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-processing-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
+                "topic_id": 281191,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
+                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -7496,7 +8870,14 @@
         "full_name": "SoftwareAG/builtio-monitoring-cumulocity-microservices",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/builtio-monitoring-cumulocity-microservices",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "back-monitoring-cumulocity-microservices-using-built-io-flow",
+                "topic_id": 237288,
+                "topic_url": "https://tech.forums.softwareag.com/t/back-monitoring-cumulocity-microservices-using-built-io-flow/237288",
+                "title": "Back Monitoring Cumulocity microservices using Built.io Flow"
+            }
+        ],
         "os-categories": [
             "Microservice",
             "Extension"
@@ -7519,7 +8900,14 @@
         "full_name": "SoftwareAG/cumulocity-plugin-raise-alarm",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-plugin-raise-alarm",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "preview-image-for-plugin-widget-is-not-displayed",
+                "topic_id": 279767,
+                "topic_url": "https://tech.forums.softwareag.com/t/preview-image-for-plugin-widget-is-not-displayed/279767",
+                "title": "Preview image for plugin/widget is not displayed?"
+            }
+        ],
         "os-categories": [
             "UI Plugin"
         ],
@@ -7543,7 +8931,14 @@
         "full_name": "switschel/cumulocity-hello-world-metrics",
         "default_branch": "main",
         "url": "https://github.com/switschel/cumulocity-hello-world-metrics",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "monitoring-of-cumulocity-iot-microservices",
+                "topic_id": 276323,
+                "topic_url": "https://tech.forums.softwareag.com/t/monitoring-of-cumulocity-iot-microservices/276323",
+                "title": "Monitoring of Cumulocity IoT Microservices"
+            }
+        ],
         "os-categories": [
             "Microservice"
         ],
@@ -7757,7 +9152,20 @@
         "full_name": "SoftwareAG/cumulocity-silo-capacity-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-silo-capacity-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            },
+            {
+                "slug": "how-to-modifiy-an-existing-widget-e-g-color",
+                "topic_id": 235874,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-modifiy-an-existing-widget-e-g-color/235874",
+                "title": "How to modifiy an existing Widget (e.g. Color)"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -7799,7 +9207,20 @@
         "full_name": "SoftwareAG/cumulocity-react-runtime-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-react-runtime-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-i-get-alarms-on-custom-widget",
+                "topic_id": 277388,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-i-get-alarms-on-custom-widget/277388",
+                "title": "How to I get alarms on custom widget"
+            },
+            {
+                "slug": "react-instead-of-angular-with-cumulocity-web-sdk",
+                "topic_id": 255121,
+                "topic_url": "https://tech.forums.softwareag.com/t/react-instead-of-angular-with-cumulocity-web-sdk/255121",
+                "title": "REACT instead of Angular with Cumulocity Web SDK"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -8040,7 +9461,26 @@
         "full_name": "SoftwareAG/cumulocity-weather-forecast-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-weather-forecast-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            },
+            {
+                "slug": "how-to-install-extension-packages-in-cumulocity-iot-ui-applications",
+                "topic_id": 281798,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-install-extension-packages-in-cumulocity-iot-ui-applications/281798",
+                "title": "How to install Extension Packages in Cumulocity IoT UI Applications?"
+            },
+            {
+                "slug": "access-external-rest-api",
+                "topic_id": 291877,
+                "topic_url": "https://tech.forums.softwareag.com/t/access-external-rest-api/291877",
+                "title": "Access external REST API"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -8068,7 +9508,14 @@
         "full_name": "SoftwareAG/cumulocity-device-control-widget",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/cumulocity-device-control-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-we-can-execute-shell-command-from-custom-widget-using-code",
+                "topic_id": 277498,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-we-can-execute-shell-command-from-custom-widget-using-code/277498",
+                "title": "How we can execute shell command from custom widget using code"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -8096,7 +9543,14 @@
         "full_name": "SoftwareAG/cumulocity-device-details-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-device-details-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -8138,7 +9592,14 @@
         "full_name": "SoftwareAG/cumulocity-indoor-air-quality-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-indoor-air-quality-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "technews-issue-3-2023",
+                "topic_id": 282808,
+                "topic_url": "https://tech.forums.softwareag.com/t/technews-issue-3-2023/282808",
+                "title": "TECHnews - Issue 3, 2023"
+            }
+        ],
         "os-categories": [
             "UI Plugin"
         ],
@@ -8232,7 +9693,14 @@
         "full_name": "SoftwareAG/cumulocity-barchart-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-barchart-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
+                "topic_id": 281191,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
+                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -8262,7 +9730,14 @@
         "full_name": "SoftwareAG/cumulocity-power-bi-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-power-bi-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "regarding-power-bi-widget",
+                "topic_id": 279007,
+                "topic_url": "https://tech.forums.softwareag.com/t/regarding-power-bi-widget/279007",
+                "title": "Regarding Power Bi widget"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -8294,7 +9769,14 @@
         "full_name": "SoftwareAG/cumulocity-route-tracker-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-route-tracker-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-map-based-widgets",
+                "topic_id": 281192,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-map-based-widgets/281192",
+                "title": "Enhancing Cumulocity IoT Capabilities: Map-Based Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -8350,7 +9832,20 @@
         "full_name": "SoftwareAG/cumulocity-device-control-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-device-control-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-device-control-and-configuration-widgets",
+                "topic_id": 281188,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-device-control-and-configuration-widgets/281188",
+                "title": "Enhancing Cumulocity IoT Capabilities: Device Control and Configuration Widgets"
+            },
+            {
+                "slug": "smart-agriculture-demo",
+                "topic_id": 282330,
+                "topic_url": "https://tech.forums.softwareag.com/t/smart-agriculture-demo/282330",
+                "title": "Smart Agriculture Demo"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -8444,7 +9939,20 @@
         "full_name": "SoftwareAG/cumulocity-datapoints-charting-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-datapoints-charting-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "allow-to-plot-other-datatypes-on-x-axis-other-than-timeseries",
+                "topic_id": 268366,
+                "topic_url": "https://tech.forums.softwareag.com/t/allow-to-plot-other-datatypes-on-x-axis-other-than-timeseries/268366",
+                "title": "Allow to plot other datatypes on X Axis other than timeseries"
+            },
+            {
+                "slug": "how-to-update-default-data-point-widget-in-cumulocity",
+                "topic_id": 281014,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-update-default-data-point-widget-in-cumulocity/281014",
+                "title": "How to update default Data point widget in Cumulocity"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -8476,7 +9984,20 @@
         "full_name": "SoftwareAG/cumulocity-image-animation-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-image-animation-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            },
+            {
+                "slug": "poc-using-the-smart-agriculture-demo",
+                "topic_id": 283660,
+                "topic_url": "https://tech.forums.softwareag.com/t/poc-using-the-smart-agriculture-demo/283660",
+                "title": "PoC using the Smart Agriculture demo"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -8507,7 +10028,14 @@
         "full_name": "SoftwareAG/cumulocity-device-details-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-device-details-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -8539,7 +10067,14 @@
         "full_name": "SoftwareAG/cumulocity-event-chart-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-event-chart-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
+                "topic_id": 281191,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
+                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -8652,7 +10187,26 @@
         "full_name": "SoftwareAG/cumulocity-rest-based-grid-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-run-the-rest-based-grid-widget-in-local",
+                "topic_id": 277956,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-run-the-rest-based-grid-widget-in-local/277956",
+                "title": "How to run the rest based grid widget in local"
+            },
+            {
+                "slug": "rest-based-grid-widget-configuration",
+                "topic_id": 291185,
+                "topic_url": "https://tech.forums.softwareag.com/t/rest-based-grid-widget-configuration/291185",
+                "title": "Rest Based Grid widget configuration"
+            },
+            {
+                "slug": "api-endpoint-to-query-poll-live-event-data-of-device-all-device",
+                "topic_id": 265010,
+                "topic_url": "https://tech.forums.softwareag.com/t/api-endpoint-to-query-poll-live-event-data-of-device-all-device/265010",
+                "title": "API Endpoint to query/poll live event data of device/all device"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -8682,10 +10236,52 @@
         "full_name": "SoftwareAG/cumulocity-silo-capacity-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-silo-capacity-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-3d-model-viewer-widget",
+        "owner": "SoftwareAG",
+        "desc": "3D Model Viewer is Cumulocity IoT runtime widget to view 3d collada models (.dae). It has been developed by the Global Presales team.",
+        "topics": [
+            "3d-model-viewer",
+            "cockpit",
+            "cumulocity",
+            "cumulocity-iot",
+            "cumulocity-widget",
+            "global-presales",
+            "iot-analytics",
+            "runtime",
+            "widget"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "last_updated": "2023-08-29 06:00:22 ",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-3d-model-viewer-widget",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-3d-model-viewer-widget",
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
+        "os-categories": [
+            "Widget"
         ],
         "trust_level": "Official"
     },
@@ -8715,38 +10311,23 @@
         "full_name": "SoftwareAG/cumulocity-weather-forecast-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-weather-forecast-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            },
+            {
+                "slug": "how-to-install-extension-packages-in-cumulocity-iot-ui-applications",
+                "topic_id": 281798,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-install-extension-packages-in-cumulocity-iot-ui-applications/281798",
+                "title": "How to install Extension Packages in Cumulocity IoT UI Applications?"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
-        ],
-        "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-3d-model-viewer-widget",
-        "owner": "SoftwareAG",
-        "desc": "3D Model Viewer is Cumulocity IoT runtime widget to view 3d collada models (.dae). It has been developed by the Global Presales team.",
-        "topics": [
-            "3d-model-viewer",
-            "cockpit",
-            "cumulocity",
-            "cumulocity-iot",
-            "cumulocity-widget",
-            "global-presales",
-            "iot-analytics",
-            "runtime",
-            "widget"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "last_updated": "2023-08-29 06:00:22 ",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-3d-model-viewer-widget",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-3d-model-viewer-widget",
-        "tc_references": [],
-        "os-categories": [
-            "Widget"
         ],
         "trust_level": "Official"
     },
@@ -8773,7 +10354,20 @@
         "full_name": "SoftwareAG/cumulocity-smart-map-settings-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-smart-map-settings-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-map-based-widgets",
+                "topic_id": 281192,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-map-based-widgets/281192",
+                "title": "Enhancing Cumulocity IoT Capabilities: Map-Based Widgets"
+            },
+            {
+                "slug": "correct-url-to-image-assets-in-plugin",
+                "topic_id": 275462,
+                "topic_url": "https://tech.forums.softwareag.com/t/correct-url-to-image-assets-in-plugin/275462",
+                "title": "Correct Url to image assets in Plugin"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -8821,7 +10415,14 @@
         "full_name": "SoftwareAG/cumulocity-event-image-viewer-widget",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-event-image-viewer-widget",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
         "os-categories": [
             "Widget"
         ],
@@ -8901,7 +10502,14 @@
         "full_name": "SoftwareAG/cumulocity-smart-echart-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-smart-echart-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "cumulocity-highchart",
+                "topic_id": 281518,
+                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-highchart/281518",
+                "title": "Cumulocity Highchart"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -8932,7 +10540,14 @@
         "full_name": "SoftwareAG/cumulocity-advanced-radial-gauge-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-advanced-radial-gauge-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -9026,7 +10641,14 @@
         "full_name": "SoftwareAG/cumulocity-event-image-viewer-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-event-image-viewer-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -9058,7 +10680,20 @@
         "full_name": "SoftwareAG/cumulocity-tracking-replay-map-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-tracking-replay-map-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-create-a-generic-or-common-dashboard-for-a-particular-group-of-assets",
+                "topic_id": 284978,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-create-a-generic-or-common-dashboard-for-a-particular-group-of-assets/284978",
+                "title": "How to create a generic or common dashboard for a particular group of assets"
+            },
+            {
+                "slug": "tracking-replay-widget-not-working",
+                "topic_id": 279855,
+                "topic_url": "https://tech.forums.softwareag.com/t/tracking-replay-widget-not-working/279855",
+                "title": "Tracking Replay Widget not working"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -9109,7 +10744,20 @@
         "full_name": "SoftwareAG/cumulocity-rest-based-grid-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "how-to-run-the-rest-based-grid-widget-in-local",
+                "topic_id": 277956,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-run-the-rest-based-grid-widget-in-local/277956",
+                "title": "How to run the rest based grid widget in local"
+            },
+            {
+                "slug": "rest-based-grid-widget-configuration",
+                "topic_id": 291185,
+                "topic_url": "https://tech.forums.softwareag.com/t/rest-based-grid-widget-configuration/291185",
+                "title": "Rest Based Grid widget configuration"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -9142,7 +10790,14 @@
         "full_name": "SoftwareAG/cumulocity-3d-model-viewer-widget-plugin",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-3d-model-viewer-widget-plugin",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
         "os-categories": [
             "Widget",
             "UI Plugin"
@@ -9321,7 +10976,14 @@
         "full_name": "SoftwareAG/c8y-ticketing-integration-microservice",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/c8y-ticketing-integration-microservice",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "seamless-ticketing-integration-for-cumulocity-iot",
+                "topic_id": 281769,
+                "topic_url": "https://tech.forums.softwareag.com/t/seamless-ticketing-integration-for-cumulocity-iot/281769",
+                "title": "Seamless Ticketing Integration for Cumulocity IoT"
+            }
+        ],
         "os-categories": [
             "Microservice"
         ],
@@ -9396,7 +11058,14 @@
         "full_name": "johnpcarter/c8yPhilipsHueAgent",
         "default_branch": "main",
         "url": "https://github.com/johnpcarter/c8yPhilipsHueAgent",
-        "tc_references": [],
+        "tc_references": [
+            {
+                "slug": "webmethods-packages-from-a-developers-perspective",
+                "topic_id": 257088,
+                "topic_url": "https://tech.forums.softwareag.com/t/webmethods-packages-from-a-developers-perspective/257088",
+                "title": "webMethods packages from a developers perspective"
+            }
+        ],
         "os-categories": [
             "Microservice",
             "Agent"
