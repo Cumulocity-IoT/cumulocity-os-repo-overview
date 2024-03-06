@@ -58,6 +58,9 @@ def get_cat_list(name, topics):
     if 'cumulocity-blueprint' in topics:
         cat = 'Blueprint'
         cat_list.append(cat)
+    if 'streaming-analytics' in name or 'apama' in name or 'apama-analytics-builder' in topics or 'apama' in topics:
+        cat = 'Streaming Analytics'
+        cat_list.append(cat)
     if len(cat_list) == 0:
         cat_list.append('Other')
     return cat_list
