@@ -40,7 +40,7 @@ class MarkdownGenerator():
         return file
     
     def convert_md_to_html(self):
-        with open('../README_FULL.md', 'r', encoding="utf8", errors="ignore") as f:
+        with open('../README_FULL.md', 'r', encoding="utf-8", errors="ignore") as f:
             text = f.read()
             html_header = '''
 <html>
@@ -66,7 +66,7 @@ class MarkdownGenerator():
             '''
             html = markdown.markdown(text, extensions=['extra', 'toc'])
             md_html = html_header % html
-        with open('../index.html', 'w', encoding="utf8", errors="ignore") as f:
+        with open('../index.html', 'w', encoding="utf-8", errors="ignore") as f:
             f.write(md_html)
 
     def create_shortend_md_file(self, repos, trusted_owners):
@@ -207,7 +207,7 @@ class MarkdownGenerator():
         # text_list = ['Repo Name', 'Description', 'Category', 'Topics', 'Language', 'Last Updated', 'Stars',
         #             'References', 'Relation']
         if small_columns:
-            text_list = ['<div style="width:100px">Repo Name</div>', 'Description',
+            text_list = ['<div style="width:100px">Repo Name</div>', '<div style="width:300px">Description</div>',
                          '<div style="width:80px">Category</div>',
                          '<div style="width:80px">Relation</div>']
         else:
@@ -231,6 +231,13 @@ class MarkdownGenerator():
             default_branch = repo['default_branch']
             if desc and u'\xa0' in desc:
                 desc = desc.replace(u'\xa0', u' ')
+            if desc:
+                words = desc.split(" ")
+                for word in words:
+                    if len(word) >= 100 and word.startswith("http"):
+                        shorten_url = '[link]('+word+')'
+                        desc = desc.replace(word, shorten_url)
+
             stars = f' [![GitHub stars](https://badgen.net/github/stars/{full_name})]({url}/stargazers)'
             last_commit = f'[![GitHub latest commit](https://badgen.net/github/last-commit/{full_name}/{default_branch})]({url}/commits)'
             if desc:
