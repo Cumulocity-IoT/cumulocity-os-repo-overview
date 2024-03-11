@@ -59,7 +59,7 @@ def start():
         store_repos_in_json_file(repos, tech_community_references)
         # gh_client.store_repos_in_json_file(repos)
         # logging.info(f'GitHub Repos found: {repos}')
-        gh_client.create_forks_for_new_repos(repos)
+        # gh_client.create_forks_for_new_repos(repos)
 
         md_gen = MarkdownGenerator()
         md_gen.create_md_file(repos, trusted_owners, tc_references)
