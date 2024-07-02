@@ -76,8 +76,11 @@ def store_repos_in_json_file( repos, tech_community_references):
         topics = repo['topics']
         lang = repo['language']
         last_updated = repo['pushed_at']
-        date_time_obj = datetime.strptime(last_updated, '%Y-%m-%dT%H:%M:%SZ')
-        date_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
+        #date_time_obj = datetime.strptime(last_updated, '%Y-%m-%dT%H:%M:%SZ')
+        #last_updated_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
+        created_at = repo['created_at']
+        #date_time_obj = datetime.strptime(created_at, '%Y-%m-%dT%H:%M:%SZ')
+        #created_at_string = date_time_obj.strftime('%Y-%m-%d %H:%M:%S %Z')
         stars = repo['stargazers_count']
         full_name = repo['full_name']
         default_branch = repo['default_branch']
@@ -92,7 +95,7 @@ def store_repos_in_json_file( repos, tech_community_references):
         except KeyError as e:
             logger.info(f'Could not find any TC Reference for repo {url}')
         cat_list = utils.get_cat_list(name, topics)
-        optimized_repos.append({"name": name, "owner": owner, "desc": desc, "topics": topics, "lang": lang, "license": license, "last_updated": date_string, "stars": stars, "full_name": full_name, "default_branch": default_branch, "url": url, "tc_references": tc_references, "os-categories": cat_list, "trust_level": trusted_level})
+        optimized_repos.append({"name": name, "owner": owner, "desc": desc, "topics": topics, "lang": lang, "license": license, "created_at": created_at, "last_updated": last_updated, "stars": stars, "full_name": full_name, "default_branch": default_branch, "url": url, "tc_references": tc_references, "os-categories": cat_list, "trust_level": trusted_level})
 
     with open('../repos.json', 'w') as fp:
         json.dump(optimized_repos, fp, indent=4)
