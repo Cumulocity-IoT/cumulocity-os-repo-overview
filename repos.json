@@ -642,7 +642,7 @@
         "lang": "HTML",
         "license": "Apache License 2.0",
         "created_at": "2022-04-13T11:04:36Z",
-        "last_updated": "2024-08-03T00:56:43Z",
+        "last_updated": "2024-08-04T00:58:26Z",
         "stars": 10,
         "full_name": "SoftwareAG/cumulocity-os-repo-overview",
         "default_branch": "main",
@@ -1075,7 +1075,7 @@
         "lang": "TypeScript",
         "license": "Apache License 2.0",
         "created_at": "2023-10-23T18:40:25Z",
-        "last_updated": "2024-08-02T07:23:37Z",
+        "last_updated": "2024-08-04T06:44:53Z",
         "stars": 8,
         "full_name": "SoftwareAG/cumulocity-cypress",
         "default_branch": "main",
@@ -2499,6 +2499,39 @@
         "trust_level": "Official"
     },
     {
+        "name": "pysys-vscode-extension",
+        "owner": "ApamaCommunity",
+        "desc": "This is a vscode extension for the pysys framwork it enables the use of this testing framework in Visual Studio Code allowing the use of the UI to interact with and create tests for your software projects..",
+        "topics": [
+            "apama",
+            "cumulocity",
+            "pysys-framework",
+            "python",
+            "tool",
+            "vscode-extension"
+        ],
+        "lang": "TypeScript",
+        "license": "",
+        "created_at": "2020-07-01T11:30:31Z",
+        "last_updated": "2023-03-05T10:08:44Z",
+        "stars": 3,
+        "full_name": "ApamaCommunity/pysys-vscode-extension",
+        "default_branch": "master",
+        "url": "https://github.com/ApamaCommunity/pysys-vscode-extension",
+        "tc_references": [
+            {
+                "slug": "internship-and-enhancing-epl-testing-part-1",
+                "topic_id": 254772,
+                "topic_url": "https://tech.forums.softwareag.com/t/internship-and-enhancing-epl-testing-part-1/254772",
+                "title": "Internship and Enhancing EPL Testing (Part 1)"
+            }
+        ],
+        "os-categories": [
+            "Streaming Analytics"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "cumulocity-translation-manager",
         "owner": "SoftwareAG",
         "desc": "Dynamically manage your translations in Cumulocity using the Translation Manager UI Plugin",
@@ -2553,39 +2586,6 @@
             "UI Plugin"
         ],
         "trust_level": "Official"
-    },
-    {
-        "name": "pysys-vscode-extension",
-        "owner": "ApamaCommunity",
-        "desc": "This is a vscode extension for the pysys framwork it enables the use of this testing framework in Visual Studio Code allowing the use of the UI to interact with and create tests for your software projects..",
-        "topics": [
-            "apama",
-            "cumulocity",
-            "pysys-framework",
-            "python",
-            "tool",
-            "vscode-extension"
-        ],
-        "lang": "TypeScript",
-        "license": "",
-        "created_at": "2020-07-01T11:30:31Z",
-        "last_updated": "2023-03-05T10:08:44Z",
-        "stars": 3,
-        "full_name": "ApamaCommunity/pysys-vscode-extension",
-        "default_branch": "master",
-        "url": "https://github.com/ApamaCommunity/pysys-vscode-extension",
-        "tc_references": [
-            {
-                "slug": "internship-and-enhancing-epl-testing-part-1",
-                "topic_id": 254772,
-                "topic_url": "https://tech.forums.softwareag.com/t/internship-and-enhancing-epl-testing-part-1/254772",
-                "title": "Internship and Enhancing EPL Testing (Part 1)"
-            }
-        ],
-        "os-categories": [
-            "Streaming Analytics"
-        ],
-        "trust_level": "Unofficial"
     },
     {
         "name": "cumulocity-subtenant-management",
@@ -4397,7 +4397,7 @@
         "full_name": "confraria/c8y-angular-polymer-boilerplate",
         "default_branch": "master",
         "url": "https://github.com/confraria/c8y-angular-polymer-boilerplate",
-        "tc_references": [],
+        "tc_references": null,
         "os-categories": [
             "Other"
         ],
@@ -4416,7 +4416,7 @@
         "full_name": "DarkToast/cumulocity-app",
         "default_branch": "master",
         "url": "https://github.com/DarkToast/cumulocity-app",
-        "tc_references": [],
+        "tc_references": null,
         "os-categories": [
             "Other"
         ],
@@ -4844,6 +4844,31 @@
         "trust_level": "Unofficial"
     },
     {
+        "name": "c8y-ios-lib",
+        "owner": "johnpcarter",
+        "desc": "iOS swift library to integrate your apps easily with your Cumulocity IoT tenant",
+        "topics": [
+            "cumulocity",
+            "cumulocity-iot",
+            "cumulocity-tenant",
+            "swift",
+            "xcode"
+        ],
+        "lang": "Swift",
+        "license": "",
+        "created_at": "2020-08-05T12:55:35Z",
+        "last_updated": "2021-02-23T11:36:14Z",
+        "stars": 1,
+        "full_name": "johnpcarter/c8y-ios-lib",
+        "default_branch": "master",
+        "url": "https://github.com/johnpcarter/c8y-ios-lib",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "cumulocity-pulsar",
         "owner": "SoftwareAG",
         "desc": "This is the officially supported Helm Chart for installing Apache Pulsar on Kubernetes.",
@@ -4871,31 +4896,6 @@
             "Other"
         ],
         "trust_level": "Official"
-    },
-    {
-        "name": "c8y-ios-lib",
-        "owner": "johnpcarter",
-        "desc": "iOS swift library to integrate your apps easily with your Cumulocity IoT tenant",
-        "topics": [
-            "cumulocity",
-            "cumulocity-iot",
-            "cumulocity-tenant",
-            "swift",
-            "xcode"
-        ],
-        "lang": "Swift",
-        "license": "",
-        "created_at": "2020-08-05T12:55:35Z",
-        "last_updated": "2021-02-23T11:36:14Z",
-        "stars": 1,
-        "full_name": "johnpcarter/c8y-ios-lib",
-        "default_branch": "master",
-        "url": "https://github.com/johnpcarter/c8y-ios-lib",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
     },
     {
         "name": "c8y-ticketing-integration-accelerator",
@@ -4974,7 +4974,7 @@
         "full_name": "thin-edge/c8y-command-plugin",
         "default_branch": "main",
         "url": "https://github.com/thin-edge/c8y-command-plugin",
-        "tc_references": [],
+        "tc_references": null,
         "os-categories": [
             "Other"
         ],
@@ -4993,7 +4993,7 @@
         "full_name": "iotfes/alcohol-sensor",
         "default_branch": "master",
         "url": "https://github.com/iotfes/alcohol-sensor",
-        "tc_references": [],
+        "tc_references": null,
         "os-categories": [
             "Other"
         ],
@@ -5501,6 +5501,42 @@
         "trust_level": "Unofficial"
     },
     {
+        "name": "cumulocity-event-chart-widget",
+        "owner": "SoftwareAG",
+        "desc": "This is an Angular 8 widget, which is designed to display the chart for the specific event type. It groups the events based on the entered group by parameter and displays the count for each group by the parameter value. Runtime installation available. Created by Global Presales.",
+        "topics": [
+            "chart",
+            "cockpit",
+            "cumulocity",
+            "cumulocity-iot",
+            "cumulocity-widget",
+            "global-presales",
+            "iot-analytics",
+            "runtime",
+            "widget"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2020-09-08T10:50:05Z",
+        "last_updated": "2023-08-28T15:49:08Z",
+        "stars": 1,
+        "full_name": "SoftwareAG/cumulocity-event-chart-widget",
+        "default_branch": "master",
+        "url": "https://github.com/SoftwareAG/cumulocity-event-chart-widget",
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
+                "topic_id": 281191,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
+                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
+            }
+        ],
+        "os-categories": [
+            "Widget"
+        ],
+        "trust_level": "Official"
+    },
+    {
         "name": "Monitor-a-process-with-Cumulocity-and-open-source",
         "owner": "hansb001",
         "desc": "This is a tutorial to build a process monitoring system using Cumulocity, Node-Red and other technologies",
@@ -5631,42 +5667,6 @@
         ],
         "os-categories": [
             "Other"
-        ],
-        "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-event-chart-widget",
-        "owner": "SoftwareAG",
-        "desc": "This is an Angular 8 widget, which is designed to display the chart for the specific event type. It groups the events based on the entered group by parameter and displays the count for each group by the parameter value. Runtime installation available. Created by Global Presales.",
-        "topics": [
-            "chart",
-            "cockpit",
-            "cumulocity",
-            "cumulocity-iot",
-            "cumulocity-widget",
-            "global-presales",
-            "iot-analytics",
-            "runtime",
-            "widget"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2020-09-08T10:50:05Z",
-        "last_updated": "2023-08-28T15:49:08Z",
-        "stars": 1,
-        "full_name": "SoftwareAG/cumulocity-event-chart-widget",
-        "default_branch": "master",
-        "url": "https://github.com/SoftwareAG/cumulocity-event-chart-widget",
-        "tc_references": [
-            {
-                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
-                "topic_id": 281191,
-                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
-                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
-            }
-        ],
-        "os-categories": [
-            "Widget"
         ],
         "trust_level": "Official"
     },
@@ -6021,7 +6021,7 @@
         "full_name": "SoftwareAG/c8y-microservice-hw-java",
         "default_branch": "master",
         "url": "https://github.com/SoftwareAG/c8y-microservice-hw-java",
-        "tc_references": [],
+        "tc_references": null,
         "os-categories": [
             "Microservice",
             "Example"
@@ -6047,38 +6047,7 @@
         "full_name": "SoftwareAG/cumulocity-web-development-tutorial",
         "default_branch": "main",
         "url": "https://github.com/SoftwareAG/cumulocity-web-development-tutorial",
-        "tc_references": [
-            {
-                "slug": "cumulocity-iot-web-development-tutorial-part-5-provide-widget-as-a-ui-plugin",
-                "topic_id": 275464,
-                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-5-provide-widget-as-a-ui-plugin/275464",
-                "title": "Cumulocity IoT Web Development Tutorial - Part 5: Provide widget as a UI Plugin"
-            },
-            {
-                "slug": "cumulocity-iot-web-development-tutorial-part-4-convert-component-into-a-widget",
-                "topic_id": 275224,
-                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-4-convert-component-into-a-widget/275224",
-                "title": "Cumulocity IoT Web Development Tutorial - Part 4: Convert component into a widget"
-            },
-            {
-                "slug": "cumulocity-iot-web-development-tutorial-part-2-create-your-first-component",
-                "topic_id": 265762,
-                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-2-create-your-first-component/265762",
-                "title": "Cumulocity IoT Web Development Tutorial - Part 2: Create your first component"
-            },
-            {
-                "slug": "cumulocity-iot-web-development-tutorial-part-1-start-your-journey",
-                "topic_id": 259613,
-                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-1-start-your-journey/259613",
-                "title": "Cumulocity IoT Web Development Tutorial - Part 1: Start your journey"
-            },
-            {
-                "slug": "cumulocity-iot-web-development-tutorial-part-3-query-data-from-cumulocity-iot",
-                "topic_id": 266388,
-                "topic_url": "https://tech.forums.softwareag.com/t/cumulocity-iot-web-development-tutorial-part-3-query-data-from-cumulocity-iot/266388",
-                "title": "Cumulocity IoT Web Development Tutorial - Part 3: Query data from Cumulocity IoT"
-            }
-        ],
+        "tc_references": null,
         "os-categories": [
             "WebApp",
             "Tutorial"
@@ -6659,35 +6628,6 @@
         "trust_level": "Official"
     },
     {
-        "name": "cumulocity-route-tracker",
-        "owner": "SoftwareAG",
-        "desc": "Cumulocity route tracker widget",
-        "topics": [
-            "cumulocity-iot",
-            "iot-analytics"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2022-05-06T13:45:57Z",
-        "last_updated": "2023-08-28T15:57:09Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-route-tracker",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-route-tracker",
-        "tc_references": [
-            {
-                "slug": "enhancing-cumulocity-iot-capabilities-map-based-widgets",
-                "topic_id": 281192,
-                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-map-based-widgets/281192",
-                "title": "Enhancing Cumulocity IoT Capabilities: Map-Based Widgets"
-            }
-        ],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Official"
-    },
-    {
         "name": "Monitoring",
         "owner": "mbay-ODW",
         "desc": "Monitoring microservice for cumulocity",
@@ -6736,6 +6676,35 @@
         "os-categories": [
             "Client",
             "CLI"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-route-tracker",
+        "owner": "SoftwareAG",
+        "desc": "Cumulocity route tracker widget",
+        "topics": [
+            "cumulocity-iot",
+            "iot-analytics"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2022-05-06T13:45:57Z",
+        "last_updated": "2023-08-28T15:57:09Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-route-tracker",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-route-tracker",
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-map-based-widgets",
+                "topic_id": 281192,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-map-based-widgets/281192",
+                "title": "Enhancing Cumulocity IoT Capabilities: Map-Based Widgets"
+            }
+        ],
+        "os-categories": [
+            "Other"
         ],
         "trust_level": "Official"
     },
@@ -7269,6 +7238,35 @@
         "trust_level": "Unofficial"
     },
     {
+        "name": "apama-vscode-extensions",
+        "owner": "ApamaCommunity",
+        "desc": "Support for EPL language , and tooling from the Apama product. See http://www.apamacommunity.com/ ",
+        "topics": [
+            "apama-community",
+            "apama-epl",
+            "correlator",
+            "cumulocity",
+            "cumulocity-iot",
+            "epl",
+            "epl-language",
+            "syntax-highlighting",
+            "vscode-extension"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2018-06-13T11:17:48Z",
+        "last_updated": "2023-03-04T02:42:39Z",
+        "stars": 0,
+        "full_name": "ApamaCommunity/apama-vscode-extensions",
+        "default_branch": "master",
+        "url": "https://github.com/ApamaCommunity/apama-vscode-extensions",
+        "tc_references": [],
+        "os-categories": [
+            "Streaming Analytics"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "cumulocity-microservice-part7",
         "owner": "switschel",
         "desc": "Cumulocity Microservice Tutorial Part 7 (Alarm handling)",
@@ -7383,35 +7381,6 @@
         "tc_references": [],
         "os-categories": [
             "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "apama-vscode-extensions",
-        "owner": "ApamaCommunity",
-        "desc": "Support for EPL language , and tooling from the Apama product. See http://www.apamacommunity.com/ ",
-        "topics": [
-            "apama-community",
-            "apama-epl",
-            "correlator",
-            "cumulocity",
-            "cumulocity-iot",
-            "epl",
-            "epl-language",
-            "syntax-highlighting",
-            "vscode-extension"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2018-06-13T11:17:48Z",
-        "last_updated": "2023-03-04T02:42:39Z",
-        "stars": 0,
-        "full_name": "ApamaCommunity/apama-vscode-extensions",
-        "default_branch": "master",
-        "url": "https://github.com/ApamaCommunity/apama-vscode-extensions",
-        "tc_references": [],
-        "os-categories": [
-            "Streaming Analytics"
         ],
         "trust_level": "Unofficial"
     },
@@ -8153,25 +8122,6 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "alarms",
-        "owner": "pjl1983",
-        "desc": "Consumes Cumulocity alarms API  and displays info in a list",
-        "topics": [],
-        "lang": "TypeScript",
-        "license": "",
-        "created_at": "2021-05-25T07:26:08Z",
-        "last_updated": "2021-05-25T07:27:18Z",
-        "stars": 0,
-        "full_name": "pjl1983/alarms",
-        "default_branch": "main",
-        "url": "https://github.com/pjl1983/alarms",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
         "name": "SoftwareAG",
         "owner": "damianpumaru3s8r",
         "desc": "Cumulocity IoT Microservice - Hello World example developed using Java",
@@ -8206,6 +8156,25 @@
         "tc_references": [],
         "os-categories": [
             "Microservice"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "alarms",
+        "owner": "pjl1983",
+        "desc": "Consumes Cumulocity alarms API  and displays info in a list",
+        "topics": [],
+        "lang": "TypeScript",
+        "license": "",
+        "created_at": "2021-05-25T07:26:08Z",
+        "last_updated": "2021-05-25T07:27:18Z",
+        "stars": 0,
+        "full_name": "pjl1983/alarms",
+        "default_branch": "main",
+        "url": "https://github.com/pjl1983/alarms",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
         ],
         "trust_level": "Unofficial"
     },
@@ -8341,28 +8310,6 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "c8y-measurement-batchcollector",
-        "owner": "ButKor",
-        "desc": "A project to efficiently request and store Cumulocity Measurements in CSV format",
-        "topics": [
-            "cumulocity-iot",
-            "java"
-        ],
-        "lang": "Java",
-        "license": "",
-        "created_at": "2022-03-27T13:12:45Z",
-        "last_updated": "2022-04-06T07:04:52Z",
-        "stars": 0,
-        "full_name": "ButKor/c8y-measurement-batchcollector",
-        "default_branch": "master",
-        "url": "https://github.com/ButKor/c8y-measurement-batchcollector",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Trusted"
-    },
-    {
         "name": "apama-random-plugin",
         "owner": "mjj29",
         "desc": "Apama EPL plugin for generating random numbers for statistical applications",
@@ -8388,23 +8335,26 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "cumulocity-microservice-part3",
-        "owner": "namnhatpham1995",
-        "desc": "Cumulocity Microservice Tutorial Part 3 (Microservice user context, external ID & default measurement creation)",
-        "topics": [],
-        "lang": null,
+        "name": "c8y-measurement-batchcollector",
+        "owner": "ButKor",
+        "desc": "A project to efficiently request and store Cumulocity Measurements in CSV format",
+        "topics": [
+            "cumulocity-iot",
+            "java"
+        ],
+        "lang": "Java",
         "license": "",
-        "created_at": "2021-11-22T15:43:16Z",
-        "last_updated": "2020-10-13T16:47:55Z",
+        "created_at": "2022-03-27T13:12:45Z",
+        "last_updated": "2022-04-06T07:04:52Z",
         "stars": 0,
-        "full_name": "namnhatpham1995/cumulocity-microservice-part3",
+        "full_name": "ButKor/c8y-measurement-batchcollector",
         "default_branch": "master",
-        "url": "https://github.com/namnhatpham1995/cumulocity-microservice-part3",
+        "url": "https://github.com/ButKor/c8y-measurement-batchcollector",
         "tc_references": [],
         "os-categories": [
-            "Microservice"
+            "Other"
         ],
-        "trust_level": "Unofficial"
+        "trust_level": "Trusted"
     },
     {
         "name": "node-red-contrib-c8y-measuremts",
@@ -8422,6 +8372,25 @@
         "tc_references": [],
         "os-categories": [
             "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "cumulocity-microservice-part3",
+        "owner": "namnhatpham1995",
+        "desc": "Cumulocity Microservice Tutorial Part 3 (Microservice user context, external ID & default measurement creation)",
+        "topics": [],
+        "lang": null,
+        "license": "",
+        "created_at": "2021-11-22T15:43:16Z",
+        "last_updated": "2020-10-13T16:47:55Z",
+        "stars": 0,
+        "full_name": "namnhatpham1995/cumulocity-microservice-part3",
+        "default_branch": "master",
+        "url": "https://github.com/namnhatpham1995/cumulocity-microservice-part3",
+        "tc_references": [],
+        "os-categories": [
+            "Microservice"
         ],
         "trust_level": "Unofficial"
     },
@@ -8586,45 +8555,6 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "cumulocity-client",
-        "owner": "filthz",
-        "desc": null,
-        "topics": [],
-        "lang": "Java",
-        "license": "",
-        "created_at": "2014-09-12T15:11:16Z",
-        "last_updated": "2014-09-12T15:12:32Z",
-        "stars": 0,
-        "full_name": "filthz/cumulocity-client",
-        "default_branch": "master",
-        "url": "https://github.com/filthz/cumulocity-client",
-        "tc_references": [],
-        "os-categories": [
-            "Client",
-            "CLI"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "cumulocity-documentation",
-        "owner": "hnaether-c8y",
-        "desc": "Sample project using compodoc. For everyone being too lazy to draw graphs of how modules/ components are structured, made by people who were to lazy to do so too. Compodoc just generates a documentation by parsing your code - can also be added as a pipeline step in order to generate a documentation webapp, or used as part of a test routine to check the JSDoc coverage.",
-        "topics": [],
-        "lang": "TypeScript",
-        "license": "",
-        "created_at": "2021-01-26T10:55:54Z",
-        "last_updated": "2021-01-26T11:45:10Z",
-        "stars": 0,
-        "full_name": "hnaether-c8y/cumulocity-documentation",
-        "default_branch": "master",
-        "url": "https://github.com/hnaether-c8y/cumulocity-documentation",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
         "name": "AzureCumulocity",
         "owner": "virtualsensor",
         "desc": null,
@@ -8664,6 +8594,45 @@
             "Other"
         ],
         "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-client",
+        "owner": "filthz",
+        "desc": null,
+        "topics": [],
+        "lang": "Java",
+        "license": "",
+        "created_at": "2014-09-12T15:11:16Z",
+        "last_updated": "2014-09-12T15:12:32Z",
+        "stars": 0,
+        "full_name": "filthz/cumulocity-client",
+        "default_branch": "master",
+        "url": "https://github.com/filthz/cumulocity-client",
+        "tc_references": [],
+        "os-categories": [
+            "Client",
+            "CLI"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "cumulocity-documentation",
+        "owner": "hnaether-c8y",
+        "desc": "Sample project using compodoc. For everyone being too lazy to draw graphs of how modules/ components are structured, made by people who were to lazy to do so too. Compodoc just generates a documentation by parsing your code - can also be added as a pipeline step in order to generate a documentation webapp, or used as part of a test routine to check the JSDoc coverage.",
+        "topics": [],
+        "lang": "TypeScript",
+        "license": "",
+        "created_at": "2021-01-26T10:55:54Z",
+        "last_updated": "2021-01-26T11:45:10Z",
+        "stars": 0,
+        "full_name": "hnaether-c8y/cumulocity-documentation",
+        "default_branch": "master",
+        "url": "https://github.com/hnaether-c8y/cumulocity-documentation",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
     },
     {
         "name": "cumulocity-nitrobox-widget",
@@ -8999,6 +8968,25 @@
         "trust_level": "Unofficial"
     },
     {
+        "name": "c8y_mvpApp",
+        "owner": "BrenooOliveira",
+        "desc": "reposit\u00f3rio inicial para etl com load no powerbi de dados da API do Cumulocity IoT",
+        "topics": [],
+        "lang": null,
+        "license": "",
+        "created_at": "2024-04-16T22:57:47Z",
+        "last_updated": "2024-04-17T02:26:20Z",
+        "stars": 0,
+        "full_name": "BrenooOliveira/c8y_mvpApp",
+        "default_branch": "main",
+        "url": "https://github.com/BrenooOliveira/c8y_mvpApp",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "Gadgetbridge-cumulocity-poc",
         "owner": "jduranmaster",
         "desc": "Modification of the Gadgetbridge project that allows to send data to \"Cumulocity\" using an API-REST.",
@@ -9072,25 +9060,6 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "c8y_mvpApp",
-        "owner": "BrenooOliveira",
-        "desc": "reposit\u00f3rio inicial para etl com load no powerbi de dados da API do Cumulocity IoT",
-        "topics": [],
-        "lang": null,
-        "license": "",
-        "created_at": "2024-04-16T22:57:47Z",
-        "last_updated": "2024-04-17T02:26:20Z",
-        "stars": 0,
-        "full_name": "BrenooOliveira/c8y_mvpApp",
-        "default_branch": "main",
-        "url": "https://github.com/BrenooOliveira/c8y_mvpApp",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
         "name": "cumulocity_plugin_001",
         "owner": "eddieparker27",
         "desc": null,
@@ -9129,34 +9098,6 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "cumulocity-tedge-setup",
-        "owner": "SoftwareAG",
-        "desc": "Standalone web ui to setup edge",
-        "topics": [
-            "agent",
-            "cumulocity-agent",
-            "cumulocity-extension",
-            "cumulocity-iot",
-            "extension",
-            "iot-analytics",
-            "thin-edge"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2021-11-04T07:10:33Z",
-        "last_updated": "2023-12-08T13:38:53Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-tedge-setup",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-tedge-setup",
-        "tc_references": [],
-        "os-categories": [
-            "Agent",
-            "Extension"
-        ],
-        "trust_level": "Official"
-    },
-    {
         "name": "cumulocity-clients-javascript",
         "owner": "SoftwareAG",
         "desc": "This repository contains Cumulocity client libraries for Javascript and additional utilities named Smart Apps Toolkit.",
@@ -9185,6 +9126,113 @@
         "os-categories": [
             "Client",
             "CLI"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-tedge-setup",
+        "owner": "SoftwareAG",
+        "desc": "Standalone web ui to setup edge",
+        "topics": [
+            "agent",
+            "cumulocity-agent",
+            "cumulocity-extension",
+            "cumulocity-iot",
+            "extension",
+            "iot-analytics",
+            "thin-edge"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2021-11-04T07:10:33Z",
+        "last_updated": "2023-12-08T13:38:53Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-tedge-setup",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-tedge-setup",
+        "tc_references": [],
+        "os-categories": [
+            "Agent",
+            "Extension"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-measurement-aggregator",
+        "owner": "SoftwareAG",
+        "desc": "A simple microservice that perform aggregations of several measurements an time series from a static or dynamic group of devices.",
+        "topics": [
+            "cumulocity",
+            "cumulocity-iot",
+            "cumulocity-microservice",
+            "iot-analytics",
+            "microservice"
+        ],
+        "lang": "Java",
+        "license": "Apache License 2.0",
+        "created_at": "2020-04-01T12:07:34Z",
+        "last_updated": "2023-12-12T13:41:36Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-measurement-aggregator",
+        "default_branch": "master",
+        "url": "https://github.com/SoftwareAG/cumulocity-measurement-aggregator",
+        "tc_references": [
+            {
+                "slug": "need-to-calculate-average-of-measurement-in-java-microservice",
+                "topic_id": 290692,
+                "topic_url": "https://tech.forums.softwareag.com/t/need-to-calculate-average-of-measurement-in-java-microservice/290692",
+                "title": "Need to calculate average of measurement in java microservice"
+            }
+        ],
+        "os-categories": [
+            "Microservice"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-blueprint-forge",
+        "owner": "SoftwareAG",
+        "desc": "Blueprint Forge provides a simple, coding-free way to build cumulocity application using pre-built solution templates. Developed by Global Presales.",
+        "topics": [
+            "cumulocity-blueprint",
+            "cumulocity-iot",
+            "cumulocity-package",
+            "cumulocity-widget",
+            "global-presales",
+            "iot-analytics"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2023-05-09T13:20:35Z",
+        "last_updated": "2024-06-21T09:05:45Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-blueprint-forge",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-blueprint-forge",
+        "tc_references": [
+            {
+                "slug": "build-cumulocity-iot-applications-effortlessly-with-blueprint-forge",
+                "topic_id": 284129,
+                "topic_url": "https://tech.forums.softwareag.com/t/build-cumulocity-iot-applications-effortlessly-with-blueprint-forge/284129",
+                "title": "Build Cumulocity IoT applications effortlessly with Blueprint Forge"
+            },
+            {
+                "slug": "accelerate-your-development-blueprint-forge-2-1-for-rapid-application-building",
+                "topic_id": 295349,
+                "topic_url": "https://tech.forums.softwareag.com/t/accelerate-your-development-blueprint-forge-2-1-for-rapid-application-building/295349",
+                "title": "Accelerate your development: Blueprint Forge 2.1 for Rapid Application Building!"
+            },
+            {
+                "slug": "creating-a-dashboard-based-on-existing-group-template",
+                "topic_id": 297686,
+                "topic_url": "https://tech.forums.softwareag.com/t/creating-a-dashboard-based-on-existing-group-template/297686",
+                "title": "Creating a dashboard based on existing group template"
+            }
+        ],
+        "os-categories": [
+            "Widget",
+            "UI Plugin",
+            "Blueprint"
         ],
         "trust_level": "Official"
     },
@@ -9339,85 +9387,6 @@
             "Other"
         ],
         "trust_level": "Unofficial"
-    },
-    {
-        "name": "cumulocity-measurement-aggregator",
-        "owner": "SoftwareAG",
-        "desc": "A simple microservice that perform aggregations of several measurements an time series from a static or dynamic group of devices.",
-        "topics": [
-            "cumulocity",
-            "cumulocity-iot",
-            "cumulocity-microservice",
-            "iot-analytics",
-            "microservice"
-        ],
-        "lang": "Java",
-        "license": "Apache License 2.0",
-        "created_at": "2020-04-01T12:07:34Z",
-        "last_updated": "2023-12-12T13:41:36Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-measurement-aggregator",
-        "default_branch": "master",
-        "url": "https://github.com/SoftwareAG/cumulocity-measurement-aggregator",
-        "tc_references": [
-            {
-                "slug": "need-to-calculate-average-of-measurement-in-java-microservice",
-                "topic_id": 290692,
-                "topic_url": "https://tech.forums.softwareag.com/t/need-to-calculate-average-of-measurement-in-java-microservice/290692",
-                "title": "Need to calculate average of measurement in java microservice"
-            }
-        ],
-        "os-categories": [
-            "Microservice"
-        ],
-        "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-blueprint-forge",
-        "owner": "SoftwareAG",
-        "desc": "Blueprint Forge provides a simple, coding-free way to build cumulocity application using pre-built solution templates. Developed by Global Presales.",
-        "topics": [
-            "cumulocity-blueprint",
-            "cumulocity-iot",
-            "cumulocity-package",
-            "cumulocity-widget",
-            "global-presales",
-            "iot-analytics"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2023-05-09T13:20:35Z",
-        "last_updated": "2024-06-21T09:05:45Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-blueprint-forge",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-blueprint-forge",
-        "tc_references": [
-            {
-                "slug": "build-cumulocity-iot-applications-effortlessly-with-blueprint-forge",
-                "topic_id": 284129,
-                "topic_url": "https://tech.forums.softwareag.com/t/build-cumulocity-iot-applications-effortlessly-with-blueprint-forge/284129",
-                "title": "Build Cumulocity IoT applications effortlessly with Blueprint Forge"
-            },
-            {
-                "slug": "accelerate-your-development-blueprint-forge-2-1-for-rapid-application-building",
-                "topic_id": 295349,
-                "topic_url": "https://tech.forums.softwareag.com/t/accelerate-your-development-blueprint-forge-2-1-for-rapid-application-building/295349",
-                "title": "Accelerate your development: Blueprint Forge 2.1 for Rapid Application Building!"
-            },
-            {
-                "slug": "creating-a-dashboard-based-on-existing-group-template",
-                "topic_id": 297686,
-                "topic_url": "https://tech.forums.softwareag.com/t/creating-a-dashboard-based-on-existing-group-template/297686",
-                "title": "Creating a dashboard based on existing group template"
-            }
-        ],
-        "os-categories": [
-            "Widget",
-            "UI Plugin",
-            "Blueprint"
-        ],
-        "trust_level": "Official"
     },
     {
         "name": "cumulocity-hello-world",
@@ -9580,6 +9549,25 @@
         "trust_level": "Official"
     },
     {
+        "name": "cumulocity-microservice-part4",
+        "owner": "switschel",
+        "desc": "Cumulocity Microservice Tutorial Part 4 (Read and display data from an external weather API & tenant options)",
+        "topics": [],
+        "lang": null,
+        "license": "",
+        "created_at": "2022-04-11T10:32:26Z",
+        "last_updated": "2020-10-13T16:48:01Z",
+        "stars": 0,
+        "full_name": "switschel/cumulocity-microservice-part4",
+        "default_branch": "master",
+        "url": "https://github.com/switschel/cumulocity-microservice-part4",
+        "tc_references": [],
+        "os-categories": [
+            "Microservice"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "cumulocity-python-client",
         "owner": "jmhooks",
         "desc": null,
@@ -9666,25 +9654,6 @@
             "CLI"
         ],
         "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-microservice-part4",
-        "owner": "switschel",
-        "desc": "Cumulocity Microservice Tutorial Part 4 (Read and display data from an external weather API & tenant options)",
-        "topics": [],
-        "lang": null,
-        "license": "",
-        "created_at": "2022-04-11T10:32:26Z",
-        "last_updated": "2020-10-13T16:48:01Z",
-        "stars": 0,
-        "full_name": "switschel/cumulocity-microservice-part4",
-        "default_branch": "master",
-        "url": "https://github.com/switschel/cumulocity-microservice-part4",
-        "tc_references": [],
-        "os-categories": [
-            "Microservice"
-        ],
-        "trust_level": "Unofficial"
     },
     {
         "name": "c8y-webMethodsIO-plant-demo",
@@ -10318,6 +10287,125 @@
         "trust_level": "Official"
     },
     {
+        "name": "cumulocity-ui-plugin-examples",
+        "owner": "yhegen",
+        "desc": null,
+        "topics": [],
+        "lang": "Less",
+        "license": "MIT License",
+        "created_at": "2020-10-16T08:16:24Z",
+        "last_updated": "2020-10-16T08:24:29Z",
+        "stars": 0,
+        "full_name": "yhegen/cumulocity-ui-plugin-examples",
+        "default_branch": "main",
+        "url": "https://github.com/yhegen/cumulocity-ui-plugin-examples",
+        "tc_references": [],
+        "os-categories": [
+            "Example"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "cumulocity-webmethods-CoviDash",
+        "owner": "SoftwareAG",
+        "desc": "CoviDash example on how to create a real time hospital capacity planning tool",
+        "topics": [
+            "cumulocity-iot",
+            "integration-server",
+            "iot-analytics",
+            "webmethods"
+        ],
+        "lang": null,
+        "license": "Apache License 2.0",
+        "created_at": "2020-05-11T09:29:26Z",
+        "last_updated": "2022-02-04T09:30:41Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-webmethods-CoviDash",
+        "default_branch": "master",
+        "url": "https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-ui-plugin-examples",
+        "owner": "SoftwareAG",
+        "desc": null,
+        "topics": [],
+        "lang": "Less",
+        "license": "MIT License",
+        "created_at": "2021-06-23T11:46:31Z",
+        "last_updated": "2021-09-24T14:19:52Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-ui-plugin-examples",
+        "default_branch": "master",
+        "url": "https://github.com/SoftwareAG/cumulocity-ui-plugin-examples",
+        "tc_references": [
+            {
+                "slug": "how-to-setup-translation-in-angular-16-with-websdk",
+                "topic_id": 295406,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-setup-translation-in-angular-16-with-websdk/295406",
+                "title": "How to setup translation in Angular 16 with WebSDK?"
+            }
+        ],
+        "os-categories": [
+            "Example"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-kpi-overview-plugin",
+        "owner": "SoftwareAG",
+        "desc": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size. Runtime Installation is available. Created by Global Presales.",
+        "topics": [
+            "cumulocity-iot",
+            "cumulocity-package",
+            "cumulocity-widget",
+            "global-presales",
+            "iot-analytics",
+            "kpi-overview",
+            "plugin",
+            "plugins",
+            "widget",
+            "widgets"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2023-01-10T06:42:37Z",
+        "last_updated": "2023-08-28T16:22:53Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-kpi-overview-plugin",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin",
+        "tc_references": [],
+        "os-categories": [
+            "Widget",
+            "UI Plugin"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-asset-properties-widget",
+        "owner": "amar-c8y",
+        "desc": null,
+        "topics": [],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2023-09-05T09:10:49Z",
+        "last_updated": "2023-09-05T09:31:22Z",
+        "stars": 0,
+        "full_name": "amar-c8y/cumulocity-asset-properties-widget",
+        "default_branch": "main",
+        "url": "https://github.com/amar-c8y/cumulocity-asset-properties-widget",
+        "tc_references": [],
+        "os-categories": [
+            "Widget"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "cumulocity-node-mqtt-example",
         "owner": "kallaspriit",
         "desc": "Minimalistic node.js application performing initial credentials request and periodically reporting measurements.",
@@ -10572,125 +10660,6 @@
         "tc_references": [],
         "os-categories": [
             "Example"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "cumulocity-ui-plugin-examples",
-        "owner": "yhegen",
-        "desc": null,
-        "topics": [],
-        "lang": "Less",
-        "license": "MIT License",
-        "created_at": "2020-10-16T08:16:24Z",
-        "last_updated": "2020-10-16T08:24:29Z",
-        "stars": 0,
-        "full_name": "yhegen/cumulocity-ui-plugin-examples",
-        "default_branch": "main",
-        "url": "https://github.com/yhegen/cumulocity-ui-plugin-examples",
-        "tc_references": [],
-        "os-categories": [
-            "Example"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "cumulocity-webmethods-CoviDash",
-        "owner": "SoftwareAG",
-        "desc": "CoviDash example on how to create a real time hospital capacity planning tool",
-        "topics": [
-            "cumulocity-iot",
-            "integration-server",
-            "iot-analytics",
-            "webmethods"
-        ],
-        "lang": null,
-        "license": "Apache License 2.0",
-        "created_at": "2020-05-11T09:29:26Z",
-        "last_updated": "2022-02-04T09:30:41Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-webmethods-CoviDash",
-        "default_branch": "master",
-        "url": "https://github.com/SoftwareAG/cumulocity-webmethods-CoviDash",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-ui-plugin-examples",
-        "owner": "SoftwareAG",
-        "desc": null,
-        "topics": [],
-        "lang": "Less",
-        "license": "MIT License",
-        "created_at": "2021-06-23T11:46:31Z",
-        "last_updated": "2021-09-24T14:19:52Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-ui-plugin-examples",
-        "default_branch": "master",
-        "url": "https://github.com/SoftwareAG/cumulocity-ui-plugin-examples",
-        "tc_references": [
-            {
-                "slug": "how-to-setup-translation-in-angular-16-with-websdk",
-                "topic_id": 295406,
-                "topic_url": "https://tech.forums.softwareag.com/t/how-to-setup-translation-in-angular-16-with-websdk/295406",
-                "title": "How to setup translation in Angular 16 with WebSDK?"
-            }
-        ],
-        "os-categories": [
-            "Example"
-        ],
-        "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-kpi-overview-plugin",
-        "owner": "SoftwareAG",
-        "desc": "The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size. Runtime Installation is available. Created by Global Presales.",
-        "topics": [
-            "cumulocity-iot",
-            "cumulocity-package",
-            "cumulocity-widget",
-            "global-presales",
-            "iot-analytics",
-            "kpi-overview",
-            "plugin",
-            "plugins",
-            "widget",
-            "widgets"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2023-01-10T06:42:37Z",
-        "last_updated": "2023-08-28T16:22:53Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-kpi-overview-plugin",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-kpi-overview-plugin",
-        "tc_references": [],
-        "os-categories": [
-            "Widget",
-            "UI Plugin"
-        ],
-        "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-asset-properties-widget",
-        "owner": "amar-c8y",
-        "desc": null,
-        "topics": [],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2023-09-05T09:10:49Z",
-        "last_updated": "2023-09-05T09:31:22Z",
-        "stars": 0,
-        "full_name": "amar-c8y/cumulocity-asset-properties-widget",
-        "default_branch": "main",
-        "url": "https://github.com/amar-c8y/cumulocity-asset-properties-widget",
-        "tc_references": [],
-        "os-categories": [
-            "Widget"
         ],
         "trust_level": "Unofficial"
     },
@@ -11308,6 +11277,85 @@
         "trust_level": "Official"
     },
     {
+        "name": "cumulocity-device-details-widget-plugin",
+        "owner": "SoftwareAG",
+        "desc": "The Device Details Widget is designed to display the details of the device. It shows current device details properties in widget. Created by Global Presales.",
+        "topics": [
+            "cockpit",
+            "cumulocity-iot",
+            "cumulocity-package",
+            "cumulocity-widget",
+            "device-details",
+            "global-presales",
+            "iot-analytics",
+            "plugin",
+            "plugins",
+            "runtime",
+            "widget"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2022-12-12T09:59:13Z",
+        "last_updated": "2023-08-08T09:05:16Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-device-details-widget-plugin",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-device-details-widget-plugin",
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
+            }
+        ],
+        "os-categories": [
+            "Widget",
+            "UI Plugin"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-event-chart-widget-plugin",
+        "owner": "SoftwareAG",
+        "desc": "The Event Chart widget is designed to display the chart for the specific event type. It groups the events based on the entered group by parameter and displays the count for each group by the parameter value. Created by Global Presales.",
+        "topics": [
+            "chart",
+            "cockpit",
+            "cumulocity",
+            "cumulocity-iot",
+            "cumulocity-package",
+            "cumulocity-widget",
+            "global-presales",
+            "iot-analytics",
+            "plugin",
+            "plugins",
+            "widget",
+            "widgets"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2023-01-25T09:53:47Z",
+        "last_updated": "2023-09-11T04:57:02Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-event-chart-widget-plugin",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-event-chart-widget-plugin",
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
+                "topic_id": 281191,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
+                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
+            }
+        ],
+        "os-categories": [
+            "Widget",
+            "UI Plugin"
+        ],
+        "trust_level": "Official"
+    },
+    {
         "name": "cumulocity-safe-interaction-overview-widget",
         "owner": "SoftwareAG",
         "desc": "This widget is designed for Smart Social Distancing Demo. The widget displays the count of total, assigned, available and non operational tags. Runtime installation available. Created by Global Presales.",
@@ -11521,85 +11569,6 @@
         ],
         "os-categories": [
             "Widget"
-        ],
-        "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-device-details-widget-plugin",
-        "owner": "SoftwareAG",
-        "desc": "The Device Details Widget is designed to display the details of the device. It shows current device details properties in widget. Created by Global Presales.",
-        "topics": [
-            "cockpit",
-            "cumulocity-iot",
-            "cumulocity-package",
-            "cumulocity-widget",
-            "device-details",
-            "global-presales",
-            "iot-analytics",
-            "plugin",
-            "plugins",
-            "runtime",
-            "widget"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2022-12-12T09:59:13Z",
-        "last_updated": "2023-08-08T09:05:16Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-device-details-widget-plugin",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-device-details-widget-plugin",
-        "tc_references": [
-            {
-                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
-                "topic_id": 281189,
-                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
-                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
-            }
-        ],
-        "os-categories": [
-            "Widget",
-            "UI Plugin"
-        ],
-        "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-event-chart-widget-plugin",
-        "owner": "SoftwareAG",
-        "desc": "The Event Chart widget is designed to display the chart for the specific event type. It groups the events based on the entered group by parameter and displays the count for each group by the parameter value. Created by Global Presales.",
-        "topics": [
-            "chart",
-            "cockpit",
-            "cumulocity",
-            "cumulocity-iot",
-            "cumulocity-package",
-            "cumulocity-widget",
-            "global-presales",
-            "iot-analytics",
-            "plugin",
-            "plugins",
-            "widget",
-            "widgets"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2023-01-25T09:53:47Z",
-        "last_updated": "2023-09-11T04:57:02Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-event-chart-widget-plugin",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-event-chart-widget-plugin",
-        "tc_references": [
-            {
-                "slug": "enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets",
-                "topic_id": 281191,
-                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-data-visualization-and-analysis-widgets/281191",
-                "title": "Enhancing Cumulocity IoT Capabilities: Data Visualization and Analysis Widgets"
-            }
-        ],
-        "os-categories": [
-            "Widget",
-            "UI Plugin"
         ],
         "trust_level": "Official"
     },
@@ -12064,25 +12033,6 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "ds18b20-sensor",
-        "owner": "iotfes",
-        "desc": "DS18B20\u6e29\u5ea6\u30bb\u30f3\u30b5\u304b\u3089\u6e29\u5ea6\u60c5\u5831\u3092\u53d6\u5f97\u3057\u3001Cumulocity\u306b\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3059\u308b\u30d7\u30ed\u30b0\u30e9\u30e0",
-        "topics": [],
-        "lang": "Ruby",
-        "license": "",
-        "created_at": "2017-01-04T05:42:43Z",
-        "last_updated": "2017-01-04T05:49:36Z",
-        "stars": 0,
-        "full_name": "iotfes/ds18b20-sensor",
-        "default_branch": "master",
-        "url": "https://github.com/iotfes/ds18b20-sensor",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
         "name": "cumulocity-3d-model-viewer-widget-plugin",
         "owner": "SoftwareAG",
         "desc": "This 3D Model Viewer is Cumulocity IoT runtime widget to view 3d collada models (.dae). It has been developed by the Global Presales team.",
@@ -12122,6 +12072,25 @@
             "UI Plugin"
         ],
         "trust_level": "Official"
+    },
+    {
+        "name": "ds18b20-sensor",
+        "owner": "iotfes",
+        "desc": "DS18B20\u6e29\u5ea6\u30bb\u30f3\u30b5\u304b\u3089\u6e29\u5ea6\u60c5\u5831\u3092\u53d6\u5f97\u3057\u3001Cumulocity\u306b\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3059\u308b\u30d7\u30ed\u30b0\u30e9\u30e0",
+        "topics": [],
+        "lang": "Ruby",
+        "license": "",
+        "created_at": "2017-01-04T05:42:43Z",
+        "last_updated": "2017-01-04T05:49:36Z",
+        "stars": 0,
+        "full_name": "iotfes/ds18b20-sensor",
+        "default_branch": "master",
+        "url": "https://github.com/iotfes/ds18b20-sensor",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
     },
     {
         "name": "magnetic-sensor",
