@@ -244,7 +244,7 @@
         "lang": "HTML",
         "license": "",
         "created_at": "2021-06-23T11:46:11Z",
-        "last_updated": "2024-08-23T14:48:21Z",
+        "last_updated": "2024-08-26T14:41:31Z",
         "stars": 17,
         "full_name": "SoftwareAG/c8y-docs",
         "default_branch": "develop",
@@ -642,7 +642,7 @@
         "lang": "HTML",
         "license": "Apache License 2.0",
         "created_at": "2022-04-13T11:04:36Z",
-        "last_updated": "2024-08-25T00:59:01Z",
+        "last_updated": "2024-08-26T00:56:43Z",
         "stars": 10,
         "full_name": "SoftwareAG/cumulocity-os-repo-overview",
         "default_branch": "main",
@@ -743,7 +743,7 @@
         "lang": "Java",
         "license": "Apache License 2.0",
         "created_at": "2020-09-29T13:39:01Z",
-        "last_updated": "2024-08-19T18:06:31Z",
+        "last_updated": "2024-08-26T17:58:21Z",
         "stars": 9,
         "full_name": "SoftwareAG/cumulocity-dynamic-mapper",
         "default_branch": "main",
@@ -1075,7 +1075,7 @@
         "lang": "TypeScript",
         "license": "Apache License 2.0",
         "created_at": "2023-10-23T18:40:25Z",
-        "last_updated": "2024-08-24T19:41:14Z",
+        "last_updated": "2024-08-26T20:54:22Z",
         "stars": 8,
         "full_name": "SoftwareAG/cumulocity-cypress",
         "default_branch": "develop",
@@ -2255,7 +2255,7 @@
         "lang": "Java",
         "license": "Apache License 2.0",
         "created_at": "2021-11-01T13:27:37Z",
-        "last_updated": "2024-08-22T19:57:07Z",
+        "last_updated": "2024-08-26T14:41:36Z",
         "stars": 3,
         "full_name": "hms-networks/flexy-cumulocity-connector",
         "default_branch": "main",
@@ -2700,6 +2700,25 @@
         "trust_level": "Unofficial"
     },
     {
+        "name": "cumulocity-hybrid-kitchen-sink",
+        "owner": "dwiyatci",
+        "desc": "\ud83c\udf5c A Cumulocity hybrid \"kitchen sink\" app for showcasing how to make half-boiled instant noodles, together with the fun and the struggles.",
+        "topics": [],
+        "lang": "TypeScript",
+        "license": "MIT License",
+        "created_at": "2019-08-26T15:55:44Z",
+        "last_updated": "2022-12-04T09:04:10Z",
+        "stars": 3,
+        "full_name": "dwiyatci/cumulocity-hybrid-kitchen-sink",
+        "default_branch": "master",
+        "url": "https://github.com/dwiyatci/cumulocity-hybrid-kitchen-sink",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "cumulocity-datahub-widget",
         "owner": "SoftwareAG",
         "desc": "An example widget that pulls data from Cumulocity IoT DataHub (written by Software AG Global Presales)",
@@ -2732,25 +2751,6 @@
             "Widget"
         ],
         "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-hybrid-kitchen-sink",
-        "owner": "dwiyatci",
-        "desc": "\ud83c\udf5c A Cumulocity hybrid \"kitchen sink\" app for showcasing how to make half-boiled instant noodles, together with the fun and the struggles.",
-        "topics": [],
-        "lang": "TypeScript",
-        "license": "MIT License",
-        "created_at": "2019-08-26T15:55:44Z",
-        "last_updated": "2022-12-04T09:04:10Z",
-        "stars": 3,
-        "full_name": "dwiyatci/cumulocity-hybrid-kitchen-sink",
-        "default_branch": "master",
-        "url": "https://github.com/dwiyatci/cumulocity-hybrid-kitchen-sink",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
     },
     {
         "name": "cumulocity-note-widget-plugin",
@@ -3284,7 +3284,7 @@
         "lang": "TypeScript",
         "license": "Apache License 2.0",
         "created_at": "2024-05-21T11:58:24Z",
-        "last_updated": "2024-07-22T09:28:59Z",
+        "last_updated": "2024-08-26T08:07:14Z",
         "stars": 2,
         "full_name": "SoftwareAG/cumulocity-reminder-plugin",
         "default_branch": "main",
@@ -3315,7 +3315,7 @@
         "lang": "TypeScript",
         "license": "Apache License 2.0",
         "created_at": "2024-02-12T10:28:03Z",
-        "last_updated": "2024-07-10T11:31:39Z",
+        "last_updated": "2024-08-26T08:23:00Z",
         "stars": 2,
         "full_name": "SoftwareAG/cumulocity-kpi-aggregator-widget-plugin",
         "default_branch": "main",
@@ -3460,6 +3460,30 @@
         "trust_level": "Trusted"
     },
     {
+        "name": "cumulocity-kitchensink",
+        "owner": "dwiyatci",
+        "desc": "\ud83c\udf9b A Cumulocity \"kitchen sink\" container app for showcasing the usage of some rather \"advanced\" Cumulocity UI services and components, as well as revealing the mechanics to extend/adapt the default applications",
+        "topics": [
+            "c8y-frontend",
+            "c8y-ui",
+            "cumulocity",
+            "kitchen-sink"
+        ],
+        "lang": "JavaScript",
+        "license": "MIT License",
+        "created_at": "2018-06-09T19:49:33Z",
+        "last_updated": "2023-01-04T01:23:14Z",
+        "stars": 2,
+        "full_name": "dwiyatci/cumulocity-kitchensink",
+        "default_branch": "master",
+        "url": "https://github.com/dwiyatci/cumulocity-kitchensink",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "cumulocity-provision-sso",
         "owner": "SoftwareAG",
         "desc": "The Cumulocity IoT sso provisioning microservice is a Java-based application designed to streamline the process of configuring Single Sign-On (SSO) settings for subtenants within the Cumulocity IoT platform.",
@@ -3487,30 +3511,6 @@
             "Other"
         ],
         "trust_level": "Official"
-    },
-    {
-        "name": "cumulocity-kitchensink",
-        "owner": "dwiyatci",
-        "desc": "\ud83c\udf9b A Cumulocity \"kitchen sink\" container app for showcasing the usage of some rather \"advanced\" Cumulocity UI services and components, as well as revealing the mechanics to extend/adapt the default applications",
-        "topics": [
-            "c8y-frontend",
-            "c8y-ui",
-            "cumulocity",
-            "kitchen-sink"
-        ],
-        "lang": "JavaScript",
-        "license": "MIT License",
-        "created_at": "2018-06-09T19:49:33Z",
-        "last_updated": "2023-01-04T01:23:14Z",
-        "stars": 2,
-        "full_name": "dwiyatci/cumulocity-kitchensink",
-        "default_branch": "master",
-        "url": "https://github.com/dwiyatci/cumulocity-kitchensink",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
     },
     {
         "name": "cumulocity-simulator",
@@ -4937,25 +4937,6 @@
         "trust_level": "Official"
     },
     {
-        "name": "alcohol-sensor",
-        "owner": "iotfes",
-        "desc": "\u30a2\u30eb\u30b3\u30fc\u30eb\u30bb\u30f3\u30b5\u304c\u53d6\u5f97\u3057\u305f\u5024\u3092Cumulocity\u306b\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3059\u308b\u30d7\u30ed\u30b0\u30e9\u30e0",
-        "topics": [],
-        "lang": "Python",
-        "license": "",
-        "created_at": "2017-01-04T03:46:47Z",
-        "last_updated": "2017-01-04T03:58:03Z",
-        "stars": 1,
-        "full_name": "iotfes/alcohol-sensor",
-        "default_branch": "master",
-        "url": "https://github.com/iotfes/alcohol-sensor",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
         "name": "c8y-command-plugin",
         "owner": "thin-edge",
         "desc": "Community thin-edge.io plugin for the Cumulocity IoT command/shell operation \ud83d\udcbb ",
@@ -4974,6 +4955,25 @@
         "full_name": "thin-edge/c8y-command-plugin",
         "default_branch": "main",
         "url": "https://github.com/thin-edge/c8y-command-plugin",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "alcohol-sensor",
+        "owner": "iotfes",
+        "desc": "\u30a2\u30eb\u30b3\u30fc\u30eb\u30bb\u30f3\u30b5\u304c\u53d6\u5f97\u3057\u305f\u5024\u3092Cumulocity\u306b\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3059\u308b\u30d7\u30ed\u30b0\u30e9\u30e0",
+        "topics": [],
+        "lang": "Python",
+        "license": "",
+        "created_at": "2017-01-04T03:46:47Z",
+        "last_updated": "2017-01-04T03:58:03Z",
+        "stars": 1,
+        "full_name": "iotfes/alcohol-sensor",
+        "default_branch": "master",
+        "url": "https://github.com/iotfes/alcohol-sensor",
         "tc_references": [],
         "os-categories": [
             "Other"
@@ -5827,7 +5827,7 @@
         "lang": "Java",
         "license": "Apache License 2.0",
         "created_at": "2023-02-10T07:55:40Z",
-        "last_updated": "2024-08-16T12:51:18Z",
+        "last_updated": "2024-08-26T18:11:13Z",
         "stars": 1,
         "full_name": "SoftwareAG/cumulocity-microservice-service-request-mgmt",
         "default_branch": "develop",
@@ -6765,25 +6765,6 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "ESP_C8Y",
-        "owner": "mbay-ODW",
-        "desc": "Cumulocity connector on ESP board",
-        "topics": [],
-        "lang": "C++",
-        "license": "",
-        "created_at": "2019-12-03T09:32:32Z",
-        "last_updated": "2019-12-03T09:36:08Z",
-        "stars": 0,
-        "full_name": "mbay-ODW/ESP_C8Y",
-        "default_branch": "master",
-        "url": "https://github.com/mbay-ODW/ESP_C8Y",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Trusted"
-    },
-    {
         "name": "cumulocity",
         "owner": "ShkAdnan",
         "desc": "Dashboard",
@@ -6822,23 +6803,23 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "c8y-ng-boilerplate",
-        "owner": "rahulthakur319",
-        "desc": "Cumulocity Angular Starter Boilerplate",
+        "name": "ESP_C8Y",
+        "owner": "mbay-ODW",
+        "desc": "Cumulocity connector on ESP board",
         "topics": [],
-        "lang": "HTML",
+        "lang": "C++",
         "license": "",
-        "created_at": "2021-06-17T03:45:19Z",
-        "last_updated": "2021-06-17T03:45:46Z",
+        "created_at": "2019-12-03T09:32:32Z",
+        "last_updated": "2019-12-03T09:36:08Z",
         "stars": 0,
-        "full_name": "rahulthakur319/c8y-ng-boilerplate",
+        "full_name": "mbay-ODW/ESP_C8Y",
         "default_branch": "master",
-        "url": "https://github.com/rahulthakur319/c8y-ng-boilerplate",
+        "url": "https://github.com/mbay-ODW/ESP_C8Y",
         "tc_references": [],
         "os-categories": [
             "Other"
         ],
-        "trust_level": "Unofficial"
+        "trust_level": "Trusted"
     },
     {
         "name": "c8y-brockhaus-plugin",
@@ -6853,6 +6834,25 @@
         "full_name": "jperezbrockhaus/c8y-brockhaus-plugin",
         "default_branch": "master",
         "url": "https://github.com/jperezbrockhaus/c8y-brockhaus-plugin",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "c8y-ng-boilerplate",
+        "owner": "rahulthakur319",
+        "desc": "Cumulocity Angular Starter Boilerplate",
+        "topics": [],
+        "lang": "HTML",
+        "license": "",
+        "created_at": "2021-06-17T03:45:19Z",
+        "last_updated": "2021-06-17T03:45:46Z",
+        "stars": 0,
+        "full_name": "rahulthakur319/c8y-ng-boilerplate",
+        "default_branch": "master",
+        "url": "https://github.com/rahulthakur319/c8y-ng-boilerplate",
         "tc_references": [],
         "os-categories": [
             "Other"
@@ -7194,30 +7194,6 @@
         "trust_level": "Trusted"
     },
     {
-        "name": "cumulocity-asset-properties-widget",
-        "owner": "SoftwareAG",
-        "desc": "Cumulocity IoT Asset Properties Widget Plugin",
-        "topics": [
-            "cumulocity-iot",
-            "cumulocity-package",
-            "iot-analytics"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2023-09-05T11:30:09Z",
-        "last_updated": "2024-05-26T16:38:17Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-asset-properties-widget",
-        "default_branch": "develop",
-        "url": "https://github.com/SoftwareAG/cumulocity-asset-properties-widget",
-        "tc_references": [],
-        "os-categories": [
-            "Widget",
-            "UI Plugin"
-        ],
-        "trust_level": "Official"
-    },
-    {
         "name": "cumulocity-microservice-part8",
         "owner": "switschel",
         "desc": "Cumulocity Microservice Tutorial Part 8 (Event handling)",
@@ -7254,6 +7230,30 @@
             "Other"
         ],
         "trust_level": "Unofficial"
+    },
+    {
+        "name": "cumulocity-asset-properties-widget",
+        "owner": "SoftwareAG",
+        "desc": "Cumulocity IoT Asset Properties Widget Plugin",
+        "topics": [
+            "cumulocity-iot",
+            "cumulocity-package",
+            "iot-analytics"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2023-09-05T11:30:09Z",
+        "last_updated": "2024-05-26T16:38:17Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-asset-properties-widget",
+        "default_branch": "develop",
+        "url": "https://github.com/SoftwareAG/cumulocity-asset-properties-widget",
+        "tc_references": [],
+        "os-categories": [
+            "Widget",
+            "UI Plugin"
+        ],
+        "trust_level": "Official"
     },
     {
         "name": "c8y_widget",
@@ -7294,35 +7294,6 @@
         "tc_references": [],
         "os-categories": [
             "Agent"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "apama-vscode-extensions",
-        "owner": "ApamaCommunity",
-        "desc": "Support for EPL language , and tooling from the Apama product. See http://www.apamacommunity.com/ ",
-        "topics": [
-            "apama-community",
-            "apama-epl",
-            "correlator",
-            "cumulocity",
-            "cumulocity-iot",
-            "epl",
-            "epl-language",
-            "syntax-highlighting",
-            "vscode-extension"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2018-06-13T11:17:48Z",
-        "last_updated": "2023-03-04T02:42:39Z",
-        "stars": 0,
-        "full_name": "ApamaCommunity/apama-vscode-extensions",
-        "default_branch": "master",
-        "url": "https://github.com/ApamaCommunity/apama-vscode-extensions",
-        "tc_references": [],
-        "os-categories": [
-            "Streaming Analytics"
         ],
         "trust_level": "Unofficial"
     },
@@ -7403,21 +7374,31 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "Cumulocity",
-        "owner": "Mikey44ever",
-        "desc": null,
-        "topics": [],
-        "lang": "JavaScript",
-        "license": "",
-        "created_at": "2018-04-20T05:33:55Z",
-        "last_updated": "2018-04-20T06:23:16Z",
+        "name": "apama-vscode-extensions",
+        "owner": "ApamaCommunity",
+        "desc": "Support for EPL language , and tooling from the Apama product. See http://www.apamacommunity.com/ ",
+        "topics": [
+            "apama-community",
+            "apama-epl",
+            "correlator",
+            "cumulocity",
+            "cumulocity-iot",
+            "epl",
+            "epl-language",
+            "syntax-highlighting",
+            "vscode-extension"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2018-06-13T11:17:48Z",
+        "last_updated": "2023-03-04T02:42:39Z",
         "stars": 0,
-        "full_name": "Mikey44ever/Cumulocity",
+        "full_name": "ApamaCommunity/apama-vscode-extensions",
         "default_branch": "master",
-        "url": "https://github.com/Mikey44ever/Cumulocity",
+        "url": "https://github.com/ApamaCommunity/apama-vscode-extensions",
         "tc_references": [],
         "os-categories": [
-            "Other"
+            "Streaming Analytics"
         ],
         "trust_level": "Unofficial"
     },
@@ -7437,6 +7418,25 @@
         "tc_references": [],
         "os-categories": [
             "Microservice"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "Cumulocity",
+        "owner": "Mikey44ever",
+        "desc": null,
+        "topics": [],
+        "lang": "JavaScript",
+        "license": "",
+        "created_at": "2018-04-20T05:33:55Z",
+        "last_updated": "2018-04-20T06:23:16Z",
+        "stars": 0,
+        "full_name": "Mikey44ever/Cumulocity",
+        "default_branch": "master",
+        "url": "https://github.com/Mikey44ever/Cumulocity",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
         ],
         "trust_level": "Unofficial"
     },
@@ -7813,25 +7813,6 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "cumulocity-java-agent",
-        "owner": "kallaspriit",
-        "desc": "Basic gradle-based Cumulocity IoT platform Java agent",
-        "topics": [],
-        "lang": "Java",
-        "license": "",
-        "created_at": "2016-07-05T07:37:29Z",
-        "last_updated": "2016-07-05T11:32:29Z",
-        "stars": 0,
-        "full_name": "kallaspriit/cumulocity-java-agent",
-        "default_branch": "master",
-        "url": "https://github.com/kallaspriit/cumulocity-java-agent",
-        "tc_references": [],
-        "os-categories": [
-            "Agent"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
         "name": "Mi-Repositorio",
         "owner": "Nacho45",
         "desc": "Cosas que voy consiguiendo hacer en Cumulocity/MQTT/Java...",
@@ -7847,6 +7828,25 @@
         "tc_references": [],
         "os-categories": [
             "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "cumulocity-java-agent",
+        "owner": "kallaspriit",
+        "desc": "Basic gradle-based Cumulocity IoT platform Java agent",
+        "topics": [],
+        "lang": "Java",
+        "license": "",
+        "created_at": "2016-07-05T07:37:29Z",
+        "last_updated": "2016-07-05T11:32:29Z",
+        "stars": 0,
+        "full_name": "kallaspriit/cumulocity-java-agent",
+        "default_branch": "master",
+        "url": "https://github.com/kallaspriit/cumulocity-java-agent",
+        "tc_references": [],
+        "os-categories": [
+            "Agent"
         ],
         "trust_level": "Unofficial"
     },
@@ -8787,6 +8787,25 @@
         "trust_level": "Unofficial"
     },
     {
+        "name": "cumulocity-alarm-widget",
+        "owner": "mstoffel-sag",
+        "desc": null,
+        "topics": [],
+        "lang": null,
+        "license": "",
+        "created_at": "2023-04-05T07:55:11Z",
+        "last_updated": "2023-04-05T07:55:12Z",
+        "stars": 0,
+        "full_name": "mstoffel-sag/cumulocity-alarm-widget",
+        "default_branch": "main",
+        "url": "https://github.com/mstoffel-sag/cumulocity-alarm-widget",
+        "tc_references": [],
+        "os-categories": [
+            "Widget"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "EPLApps_CorrelatorProcessTerminator",
         "owner": "kpalf",
         "desc": "A simple EPL utility for use with Cumulocity IoT and (Apama) Streaming Analytics EPL Apps",
@@ -8833,25 +8852,6 @@
         ],
         "os-categories": [
             "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "cumulocity-alarm-widget",
-        "owner": "mstoffel-sag",
-        "desc": null,
-        "topics": [],
-        "lang": null,
-        "license": "",
-        "created_at": "2023-04-05T07:55:11Z",
-        "last_updated": "2023-04-05T07:55:12Z",
-        "stars": 0,
-        "full_name": "mstoffel-sag/cumulocity-alarm-widget",
-        "default_branch": "main",
-        "url": "https://github.com/mstoffel-sag/cumulocity-alarm-widget",
-        "tc_references": [],
-        "os-categories": [
-            "Widget"
         ],
         "trust_level": "Unofficial"
     },
@@ -9507,94 +9507,6 @@
         "trust_level": "Unofficial"
     },
     {
-        "name": "cumulocity-python-client",
-        "owner": "jmhooks",
-        "desc": null,
-        "topics": [],
-        "lang": "Python",
-        "license": "",
-        "created_at": "2018-05-16T01:54:07Z",
-        "last_updated": "2018-05-22T06:11:55Z",
-        "stars": 0,
-        "full_name": "jmhooks/cumulocity-python-client",
-        "default_branch": "master",
-        "url": "https://github.com/jmhooks/cumulocity-python-client",
-        "tc_references": [],
-        "os-categories": [
-            "Client",
-            "CLI"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "IoT-Cumulocity",
-        "owner": "nirmal-dhanaraj",
-        "desc": null,
-        "topics": [],
-        "lang": "Java",
-        "license": "",
-        "created_at": "2020-06-23T00:19:08Z",
-        "last_updated": "2020-06-23T01:26:08Z",
-        "stars": 0,
-        "full_name": "nirmal-dhanaraj/IoT-Cumulocity",
-        "default_branch": "master",
-        "url": "https://github.com/nirmal-dhanaraj/IoT-Cumulocity",
-        "tc_references": [
-            {
-                "slug": "how-to-capture-real-time-events-and-alarms-using-java-web-services",
-                "topic_id": 227900,
-                "topic_url": "https://tech.forums.softwareag.com/t/how-to-capture-real-time-events-and-alarms-using-java-web-services/227900",
-                "title": "How to Capture real-time Events and Alarms using Java web Services"
-            }
-        ],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "cumulocity-provision-epl",
-        "owner": "SoftwareAG",
-        "desc": "This microservice provides a POST endpoint provision to deploy an EPL model from the enterprise tenant to a subscribed target tenant.",
-        "topics": [
-            "agent",
-            "cli",
-            "client",
-            "cumulocity-iot",
-            "cumulocity-microservice",
-            "example",
-            "extension",
-            "iot-analytics",
-            "microservice",
-            "microservices",
-            "simulator",
-            "tutorial",
-            "webapp",
-            "widget"
-        ],
-        "lang": "Java",
-        "license": "Apache License 2.0",
-        "created_at": "2022-04-06T05:18:12Z",
-        "last_updated": "2024-03-22T18:33:41Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-provision-epl",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-provision-epl",
-        "tc_references": [],
-        "os-categories": [
-            "Microservice",
-            "Widget",
-            "WebApp",
-            "Agent",
-            "Example",
-            "Simulator",
-            "Tutorial",
-            "Extension",
-            "CLI"
-        ],
-        "trust_level": "Official"
-    },
-    {
         "name": "cumulocity-video-widget-plugin",
         "owner": "SoftwareAG",
         "desc": "Plays streaming videos from sources such as HLS streams, on-demand videos (such as MP4, MKV, MOV) from URL and embedded YouTube, Vimeo, etc. videos. Please note that links must be HTTPS and Cross-Origin access enabled. This has been developed by Software AG Global Presales team.",
@@ -9708,6 +9620,116 @@
         "os-categories": [
             "Widget",
             "UI Plugin"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-python-client",
+        "owner": "jmhooks",
+        "desc": null,
+        "topics": [],
+        "lang": "Python",
+        "license": "",
+        "created_at": "2018-05-16T01:54:07Z",
+        "last_updated": "2018-05-22T06:11:55Z",
+        "stars": 0,
+        "full_name": "jmhooks/cumulocity-python-client",
+        "default_branch": "master",
+        "url": "https://github.com/jmhooks/cumulocity-python-client",
+        "tc_references": [],
+        "os-categories": [
+            "Client",
+            "CLI"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "IoT-Cumulocity",
+        "owner": "nirmal-dhanaraj",
+        "desc": null,
+        "topics": [],
+        "lang": "Java",
+        "license": "",
+        "created_at": "2020-06-23T00:19:08Z",
+        "last_updated": "2020-06-23T01:26:08Z",
+        "stars": 0,
+        "full_name": "nirmal-dhanaraj/IoT-Cumulocity",
+        "default_branch": "master",
+        "url": "https://github.com/nirmal-dhanaraj/IoT-Cumulocity",
+        "tc_references": [
+            {
+                "slug": "how-to-capture-real-time-events-and-alarms-using-java-web-services",
+                "topic_id": 227900,
+                "topic_url": "https://tech.forums.softwareag.com/t/how-to-capture-real-time-events-and-alarms-using-java-web-services/227900",
+                "title": "How to Capture real-time Events and Alarms using Java web Services"
+            }
+        ],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
+        "name": "cumulocity-provision-epl",
+        "owner": "SoftwareAG",
+        "desc": "This microservice provides a POST endpoint provision to deploy an EPL model from the enterprise tenant to a subscribed target tenant.",
+        "topics": [
+            "agent",
+            "cli",
+            "client",
+            "cumulocity-iot",
+            "cumulocity-microservice",
+            "example",
+            "extension",
+            "iot-analytics",
+            "microservice",
+            "microservices",
+            "simulator",
+            "tutorial",
+            "webapp",
+            "widget"
+        ],
+        "lang": "Java",
+        "license": "Apache License 2.0",
+        "created_at": "2022-04-06T05:18:12Z",
+        "last_updated": "2024-03-22T18:33:41Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-provision-epl",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-provision-epl",
+        "tc_references": [],
+        "os-categories": [
+            "Microservice",
+            "Widget",
+            "WebApp",
+            "Agent",
+            "Example",
+            "Simulator",
+            "Tutorial",
+            "Extension",
+            "CLI"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "subscription-timer",
+        "owner": "SoftwareAG",
+        "desc": "This is a microservice to subscribe and unsubscribe microservices in Cumulocity IoT platform at configured timestamps.",
+        "topics": [
+            "cumulocity-iot",
+            "iot-analytics"
+        ],
+        "lang": "Java",
+        "license": "Apache License 2.0",
+        "created_at": "2023-09-26T09:23:30Z",
+        "last_updated": "2023-12-12T13:45:31Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/subscription-timer",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/subscription-timer",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
         ],
         "trust_level": "Official"
     },
@@ -9829,28 +9851,6 @@
             "Other"
         ],
         "trust_level": "Unofficial"
-    },
-    {
-        "name": "subscription-timer",
-        "owner": "SoftwareAG",
-        "desc": "This is a microservice to subscribe and unsubscribe microservices in Cumulocity IoT platform at configured timestamps.",
-        "topics": [
-            "cumulocity-iot",
-            "iot-analytics"
-        ],
-        "lang": "Java",
-        "license": "Apache License 2.0",
-        "created_at": "2023-09-26T09:23:30Z",
-        "last_updated": "2023-12-12T13:45:31Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/subscription-timer",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/subscription-timer",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Official"
     },
     {
         "name": "cumulocity-plugin-helloworld",
@@ -11479,42 +11479,6 @@
         "trust_level": "Official"
     },
     {
-        "name": "cumulocity-3d-model-viewer-widget",
-        "owner": "SoftwareAG",
-        "desc": "3D Model Viewer is Cumulocity IoT runtime widget to view 3d collada models (.dae). It has been developed by the Global Presales team.",
-        "topics": [
-            "3d-model-viewer",
-            "cockpit",
-            "cumulocity",
-            "cumulocity-iot",
-            "cumulocity-widget",
-            "global-presales",
-            "iot-analytics",
-            "runtime",
-            "widget"
-        ],
-        "lang": "TypeScript",
-        "license": "Apache License 2.0",
-        "created_at": "2021-04-22T15:45:44Z",
-        "last_updated": "2023-08-29T06:00:22Z",
-        "stars": 0,
-        "full_name": "SoftwareAG/cumulocity-3d-model-viewer-widget",
-        "default_branch": "main",
-        "url": "https://github.com/SoftwareAG/cumulocity-3d-model-viewer-widget",
-        "tc_references": [
-            {
-                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
-                "topic_id": 281189,
-                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
-                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
-            }
-        ],
-        "os-categories": [
-            "Widget"
-        ],
-        "trust_level": "Official"
-    },
-    {
         "name": "cumulocity-safe-interaction-overview-widget",
         "owner": "SoftwareAG",
         "desc": "This widget is designed for Smart Social Distancing Demo. The widget displays the count of total, assigned, available and non operational tags. Runtime installation available. Created by Global Presales.",
@@ -11649,6 +11613,42 @@
                 "topic_id": 265010,
                 "topic_url": "https://tech.forums.softwareag.com/t/api-endpoint-to-query-poll-live-event-data-of-device-all-device/265010",
                 "title": "API Endpoint to query/poll live event data of device/all device"
+            }
+        ],
+        "os-categories": [
+            "Widget"
+        ],
+        "trust_level": "Official"
+    },
+    {
+        "name": "cumulocity-3d-model-viewer-widget",
+        "owner": "SoftwareAG",
+        "desc": "3D Model Viewer is Cumulocity IoT runtime widget to view 3d collada models (.dae). It has been developed by the Global Presales team.",
+        "topics": [
+            "3d-model-viewer",
+            "cockpit",
+            "cumulocity",
+            "cumulocity-iot",
+            "cumulocity-widget",
+            "global-presales",
+            "iot-analytics",
+            "runtime",
+            "widget"
+        ],
+        "lang": "TypeScript",
+        "license": "Apache License 2.0",
+        "created_at": "2021-04-22T15:45:44Z",
+        "last_updated": "2023-08-29T06:00:22Z",
+        "stars": 0,
+        "full_name": "SoftwareAG/cumulocity-3d-model-viewer-widget",
+        "default_branch": "main",
+        "url": "https://github.com/SoftwareAG/cumulocity-3d-model-viewer-widget",
+        "tc_references": [
+            {
+                "slug": "enhancing-cumulocity-iot-capabilities-custom-information-display-widgets",
+                "topic_id": 281189,
+                "topic_url": "https://tech.forums.softwareag.com/t/enhancing-cumulocity-iot-capabilities-custom-information-display-widgets/281189",
+                "title": "Enhancing Cumulocity IoT Capabilities: Custom Information Display Widgets"
             }
         ],
         "os-categories": [
@@ -12051,6 +12051,29 @@
         "trust_level": "Unofficial"
     },
     {
+        "name": "c8y-ParkingPi-CloudAgent",
+        "owner": "thecreator007",
+        "desc": "Agent to know status of parking pi. Link to my Agent repository : ",
+        "topics": [
+            "cumulocity",
+            "java",
+            "parking-lot"
+        ],
+        "lang": "Java",
+        "license": "",
+        "created_at": "2018-03-21T07:10:15Z",
+        "last_updated": "2018-03-21T07:17:49Z",
+        "stars": 0,
+        "full_name": "thecreator007/c8y-ParkingPi-CloudAgent",
+        "default_branch": "master",
+        "url": "https://github.com/thecreator007/c8y-ParkingPi-CloudAgent",
+        "tc_references": [],
+        "os-categories": [
+            "Other"
+        ],
+        "trust_level": "Unofficial"
+    },
+    {
         "name": "ds18b20-sensor",
         "owner": "iotfes",
         "desc": "DS18B20\u6e29\u5ea6\u30bb\u30f3\u30b5\u304b\u3089\u6e29\u5ea6\u60c5\u5831\u3092\u53d6\u5f97\u3057\u3001Cumulocity\u306b\u30a2\u30c3\u30d7\u30ed\u30fc\u30c9\u3059\u308b\u30d7\u30ed\u30b0\u30e9\u30e0",
@@ -12082,29 +12105,6 @@
         "full_name": "iotfes/roboba043-sensor",
         "default_branch": "master",
         "url": "https://github.com/iotfes/roboba043-sensor",
-        "tc_references": [],
-        "os-categories": [
-            "Other"
-        ],
-        "trust_level": "Unofficial"
-    },
-    {
-        "name": "c8y-ParkingPi-CloudAgent",
-        "owner": "thecreator007",
-        "desc": "Agent to know status of parking pi. Link to my Agent repository : ",
-        "topics": [
-            "cumulocity",
-            "java",
-            "parking-lot"
-        ],
-        "lang": "Java",
-        "license": "",
-        "created_at": "2018-03-21T07:10:15Z",
-        "last_updated": "2018-03-21T07:17:49Z",
-        "stars": 0,
-        "full_name": "thecreator007/c8y-ParkingPi-CloudAgent",
-        "default_branch": "master",
-        "url": "https://github.com/thecreator007/c8y-ParkingPi-CloudAgent",
         "tc_references": [],
         "os-categories": [
             "Other"
