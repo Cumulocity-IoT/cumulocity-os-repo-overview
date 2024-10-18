@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2022 Software AG, Darmstadt, Germany and/or its licensors
+# Copyright (c) 2024 Cumulocity GmbH, Düsseldorf, Germany and/or its licensors
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -67,7 +67,7 @@ def get_cat_list(name, topics):
 
 def get_trust_level(owner, trusted_owners):
     trust_level = "Unofficial"
-    if owner == 'SoftwareAG':
+    if owner == 'SoftwareAG' or owner == 'Cumulocity-IoT':
         trust_level = 'Official'
     elif owner in trusted_owners:
         trust_level = 'Trusted'

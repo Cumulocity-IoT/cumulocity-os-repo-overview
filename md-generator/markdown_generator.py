@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2022 Software AG, Darmstadt, Germany and/or its licensors
+# Copyright (c) 2024 Cumulocity GmbH, Düsseldorf, Germany and/or its licensors
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -80,7 +80,7 @@ class MarkdownGenerator():
         self.mdFile.new_paragraph("Number of Open-Source Repos: **" + str(len(repos)) + "**")
         self.mdFile.new_paragraph('')
         self.mdFile.new_paragraph('Link to detail view:')
-        self.mdFile.new_paragraph('>**https://open-source.softwareag.com/cumulocity-os-repo-overview/**')
+        self.mdFile.new_paragraph('>**https://cumulocity-iot.github.io/cumulocity-os-repo-overview/**')
         self.mdFile.new_paragraph('')
         self.mdFile.create_marker('toc')
 
@@ -166,15 +166,15 @@ class MarkdownGenerator():
                     reference_string = '[' + reference['title'] + '](' + reference['topic_url'] + ')'
                     references_list.append(reference_string)
             owner = repo['owner']['login']
-            if owner == 'SoftwareAG':
-                relation = 'SAG-Org Repo'
+            if owner == 'SoftwareAG' or owner == 'Cumulocity-IoT':
+                relation = 'Cumulocity-Org Repo'
             elif owner in trusted_owners:
                 relation = 'Trusted-Contributor Repo'
             else:
                 relation = 'Open-Source Repo'
 
-            if owner == 'SoftwareAG':
-                relation = 'SAG%20Org'
+            if owner == 'SoftwareAG' or owner == 'Cumulocity-IoT':
+                relation = 'Cumulocity%20Org'
                 relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-blue.svg)]()'
             elif owner in trusted_owners:
                 relation = 'Trusted%20Contributor'
@@ -267,9 +267,9 @@ class MarkdownGenerator():
             # else:
             #    references_string = '-'
             owner = repo['owner']['login']
-            if owner == 'SoftwareAG':
-                relation = 'SAG%20Org'
-                relation_md = 'SAG Org'
+            if owner == 'Cumulocity-IoT':
+                relation = 'Cumulocity%20Org'
+                relation_md = 'Cumulocity Org'
                 relation_badge = f'[![Generic badge](https://img.shields.io/badge/relation-{relation}-blue.svg)]()'
             elif owner in trusted_owners:
                 relation = 'Trusted%20Contributor'
