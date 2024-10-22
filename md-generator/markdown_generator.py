@@ -79,17 +79,20 @@ class MarkdownGenerator():
             "repositories for Cumulocity IoT including additional content at TechCommunity.")
         self.mdFile.new_paragraph("Number of Open-Source Repos: **" + str(len(repos)) + "**")
         self.mdFile.new_paragraph('')
-        self.mdFile.new_paragraph('Link to detail view:')
-        self.mdFile.new_paragraph('>**https://cumulocity-iot.github.io/cumulocity-os-repo-overview/**')
+        self.mdFile.new_paragraph('Link to full & filterable overview:')
+        self.mdFile.new_paragraph('>**https://open-source.c8y.io/**')
         self.mdFile.new_paragraph('')
-        self.mdFile.create_marker('toc')
+        self.mdFile.new_paragraph('Link to old view:')
+        self.mdFile.new_paragraph('https://cumulocity-iot.github.io/cumulocity-os-repo-overview/')
+        self.mdFile.new_paragraph('')
+        #self.mdFile.create_marker('toc')
 
-        self.mdFile.new_header(level=1, title='5 Newest Repositories')
+        self.mdFile.new_header(level=1, title='10 Newest Repositories')
         self.build_newest_repos_list(repos)
-        self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
-        list = self.build_table_list(repos, trusted_owners, small_columns=True)
-        self.mdFile.new_table(4, len(repos) + 1, list)
-        self.mdFile.new_table_of_contents(depth=2, marker='##--[toc]--##')
+        #self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
+        #list = self.build_table_list(repos, trusted_owners, small_columns=True)
+        #self.mdFile.new_table(4, len(repos) + 1, list)
+        #self.mdFile.new_table_of_contents(depth=2, marker='##--[toc]--##')
         self.mdFile.create_md_file()
 
     def create_md_file(self, repos, trusted_owners, tc_references):
@@ -107,7 +110,7 @@ class MarkdownGenerator():
         self.mdFile.new_paragraph('')
         self.mdFile.create_marker('toc')
 
-        self.mdFile.new_header(level=1, title='5 Newest Repositories')
+        self.mdFile.new_header(level=1, title='10 Newest Repositories')
         self.build_newest_repos_list(repos)
         self.mdFile.new_header(level=1, title='Open-Source Repository Overview Table')
         list = self.build_table_list(repos, trusted_owners, small_columns=False)
@@ -126,7 +129,7 @@ class MarkdownGenerator():
         sorted_repos = sorted(repos, key=lambda repo: repo['created_at'], reverse=True)
         counter = 0
         for repo in sorted_repos:
-            if counter < 5:
+            if counter < 10:
                 name = repo['full_name']
                 desc = repo['description']
                 url = repo['html_url']
