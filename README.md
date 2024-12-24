@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **471**
+Number of Open-Source Repos: **473**
 
 
 
@@ -23,7 +23,11 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[NJoudt10/ChainGuard](https://github.com/NJoudt10/ChainGuard)
+
 [Arsalan-c8y/cumulocity-microservice-alarm-monitoring](https://github.com/Arsalan-c8y/cumulocity-microservice-alarm-monitoring)
+
+[SoftwareAG/cumulocity-plugin-last-visited-devices](https://github.com/SoftwareAG/cumulocity-plugin-last-visited-devices)
 
 [Cumulocity-IoT/cumulocity-statistics-app](https://github.com/Cumulocity-IoT/cumulocity-statistics-app)
 
@@ -38,7 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [git-cycling/c8y-mapper](https://github.com/git-cycling/c8y-mapper)
 
 [r-universe/cumulocity-iot](https://github.com/r-universe/cumulocity-iot)
-
-[Cumulocity-IoT/cumulocity-saas-releases](https://github.com/Cumulocity-IoT/cumulocity-saas-releases)
-
-[Cumulocity-IoT/package-blueprint](https://github.com/Cumulocity-IoT/package-blueprint)
