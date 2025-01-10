@@ -27,7 +27,7 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [Arsalan-c8y/cumulocity-microservice-alarm-monitoring](https://github.com/Arsalan-c8y/cumulocity-microservice-alarm-monitoring)
 
-[SoftwareAG/cumulocity-plugin-last-visited-devices](https://github.com/SoftwareAG/cumulocity-plugin-last-visited-devices)
+[Cumulocity-IoT/cumulocity-plugin-last-visited-devices](https://github.com/Cumulocity-IoT/cumulocity-plugin-last-visited-devices)
 
 [Cumulocity-IoT/cumulocity-statistics-app](https://github.com/Cumulocity-IoT/cumulocity-statistics-app)
 
