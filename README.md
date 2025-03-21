@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **473**
+Number of Open-Source Repos: **474**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[mjj29/c8y-analytics-blocks](https://github.com/mjj29/c8y-analytics-blocks)
 
 [thin-edge/tedge-container-plugin-ui](https://github.com/thin-edge/tedge-container-plugin-ui)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [Mitso98/my-cumulocity-app](https://github.com/Mitso98/my-cumulocity-app)
 
 [chisou/cookiecutter-cumulocity-python-ms](https://github.com/chisou/cookiecutter-cumulocity-python-ms)
-
-[git-cycling/c8y-mapper](https://github.com/git-cycling/c8y-mapper)
