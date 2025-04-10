@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **475**
+Number of Open-Source Repos: **476**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[Cumulocity-IoT/cumulocity-mcp-server](https://github.com/Cumulocity-IoT/cumulocity-mcp-server)
 
 [reubenmiller/c8y-devicecert](https://github.com/reubenmiller/c8y-devicecert)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [chisou/cumulocity-python-ms](https://github.com/chisou/cumulocity-python-ms)
 
 [wiregrassio/dynamic-mapper-edge](https://github.com/wiregrassio/dynamic-mapper-edge)
-
-[Mitso98/my-cumulocity-app](https://github.com/Mitso98/my-cumulocity-app)
