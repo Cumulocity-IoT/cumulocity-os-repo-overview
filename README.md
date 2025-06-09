@@ -27,7 +27,7 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [syeddanishmehdi/IoT-cumulocity-REST-simulator](https://github.com/syeddanishmehdi/IoT-cumulocity-REST-simulator)
 
-[k-butz/c8y-get-certificate-from-ca](https://github.com/k-butz/c8y-get-certificate-from-ca)
+[k-butz/c8y-certificate-cli](https://github.com/k-butz/c8y-certificate-cli)
 
 [thomaswinkler/c8y-session-1password](https://github.com/thomaswinkler/c8y-session-1password)
 
@@ -35,7 +35,7 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [lunfman/cumulocity-arcgis-integration](https://github.com/lunfman/cumulocity-arcgis-integration)
 
-[k-butz/c8y-repository-integration](https://github.com/k-butz/c8y-repository-integration)
+[k-butz/c8y-devmgmt-repo-integration](https://github.com/k-butz/c8y-devmgmt-repo-integration)
 
 [Cumulocity-IoT/cumulocity-webdevelopment-training](https://github.com/Cumulocity-IoT/cumulocity-webdevelopment-training)
 
