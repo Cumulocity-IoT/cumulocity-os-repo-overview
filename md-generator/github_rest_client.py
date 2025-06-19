@@ -95,8 +95,10 @@ class GitHubRestClient():
                 #    self.repo_list.append(repo)
                 while 'next' in response.links.keys():
                     response = requests.get(response.links['next']['url'], headers=headers)
-                    repos = response.json()['items']
-                    self.repo_list.extend(repos)
+                    response_json = response.json()
+                    if response_json is not None and 'items' in response_json:
+                        repos = response.json()['items']
+                        self.repo_list.extend(repos)
             else:
                 self.logger.warning(
                     'Response from request: ' + str(response.text))

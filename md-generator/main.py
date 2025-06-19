@@ -27,7 +27,7 @@ from markdown_generator import MarkdownGenerator
 from tc_client import TechCommunityClient
 
 trusted_owners = ['TyrManuZ', 'reubenmiller', 'ButKor', 'janhommes', 'hnaether-sag', 'elpinjo', 'sagIoTPower',
-                  'mbay-ODW']
+                  'mbay-ODW', 'thin-edge' ]
 
 logger = logging.getLogger(__name__)
 
@@ -43,7 +43,7 @@ def start():
 
     gh_client = GitHubRestClient(token)
     # repos = gh_client.get_all_repos_for_org('SoftwareAG', None)
-    repos = gh_client.get_all_repos_for_topic('cumulocity')
+    repos = gh_client.get_all_repos_for_topic('cumulocity OR c8y OR "thin-edge.io" OR apama')
     if repos:
         logger.info(f'Number of GitHub Repos found: {len(repos)}')
         logger.info(f'Retrieving tech community articles...')
@@ -61,10 +61,10 @@ def start():
         # logging.info(f'GitHub Repos found: {repos}')
         # gh_client.create_forks_for_new_repos(repos)
 
-        md_gen = MarkdownGenerator()
-        md_gen.create_md_file(repos, trusted_owners, tc_references)
-        md_gen.create_shortend_md_file(repos, trusted_owners)
-        md_gen.convert_md_to_html()
+        #md_gen = MarkdownGenerator()
+        #md_gen.create_md_file(repos, trusted_owners, tc_references)
+        #md_gen.create_shortend_md_file(repos, trusted_owners)
+        #md_gen.convert_md_to_html()
 
 
 def store_repos_in_json_file( repos, tech_community_references):
@@ -104,5 +104,5 @@ def store_repos_in_json_file( repos, tech_community_references):
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.DEBUG)
     start()

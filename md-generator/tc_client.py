@@ -27,7 +27,7 @@ class TechCommunityClient():
 
     def get_all_entries_for_repo(self, repo_url):
         try:
-            url = f'https://tech.forums.softwareag.com/search/query?term={repo_url}'
+            url = f'https://techcommunity.cumulocity.com/search/query?term={repo_url}'
             headers = {'Accept': 'application/json'}
             self.logger.info(f'Requesting TC articles: {url}...')
             response = requests.request("GET", url, headers=headers)
@@ -41,7 +41,7 @@ class TechCommunityClient():
                         slug = topic['slug']
                         topic_id = topic['id']
                         title = topic['title']
-                        topic_url = f'https://tech.forums.softwareag.com/t/{slug}/{topic_id}'
+                        topic_url = f'https://techcommunity.cumulocity.com/t/{slug}/{topic_id}'
                         tech_result = {
                             'slug': slug,
                             'topic_id': topic_id,
