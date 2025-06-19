@@ -104,5 +104,5 @@ def store_repos_in_json_file( repos, tech_community_references):
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.INFO)
     start()
