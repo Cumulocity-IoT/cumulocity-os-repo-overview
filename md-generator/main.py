@@ -27,7 +27,7 @@ from markdown_generator import MarkdownGenerator
 from tc_client import TechCommunityClient
 
 trusted_owners = ['TyrManuZ', 'reubenmiller', 'ButKor', 'janhommes', 'hnaether-sag', 'elpinjo', 'sagIoTPower',
-                  'mbay-ODW', 'thin-edge' ]
+                  'mbay-ODW', 'thin-edge', 'k-butz', "ApamaCommunity", "mstoffel-sag", ]
 
 logger = logging.getLogger(__name__)
 
@@ -61,10 +61,10 @@ def start():
         # logging.info(f'GitHub Repos found: {repos}')
         # gh_client.create_forks_for_new_repos(repos)
 
-        #md_gen = MarkdownGenerator()
-        #md_gen.create_md_file(repos, trusted_owners, tc_references)
-        #md_gen.create_shortend_md_file(repos, trusted_owners)
-        #md_gen.convert_md_to_html()
+        md_gen = MarkdownGenerator()
+        md_gen.create_md_file(repos, trusted_owners, tc_references)
+        md_gen.create_shortend_md_file(repos, trusted_owners)
+        md_gen.convert_md_to_html()
 
 
 def store_repos_in_json_file( repos, tech_community_references):
