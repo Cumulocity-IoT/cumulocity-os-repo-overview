@@ -72,6 +72,7 @@ def store_repos_in_json_file( repos, tech_community_references):
     for repo in repos:
         name = repo['name']
         owner = repo['owner']['login']
+        avatar = repo['owner']['avatar_url']
         desc = repo['description']
         topics = repo['topics']
         lang = repo['language']
@@ -97,7 +98,7 @@ def store_repos_in_json_file( repos, tech_community_references):
         except KeyError as e:
             logger.info(f'Could not find any TC Reference for repo {url}')
         cat_list = utils.get_cat_list(name, topics)
-        optimized_repos.append({"name": name, "owner": owner, "desc": desc, "archived": archived, "topics": topics, "lang": lang, "license": license, "created_at": created_at, "last_updated": last_updated, "stars": stars, "forks": forks, "full_name": full_name, "default_branch": default_branch, "url": url, "tc_references": tc_references, "os-categories": cat_list, "trust_level": trusted_level})
+        optimized_repos.append({"name": name, "owner": owner, "avatar": avatar, "desc": desc, "archived": archived, "topics": topics, "lang": lang, "license": license, "created_at": created_at, "last_updated": last_updated, "stars": stars, "forks": forks, "full_name": full_name, "default_branch": default_branch, "url": url, "tc_references": tc_references, "os-categories": cat_list, "trust_level": trusted_level})
 
     with open('../repos.json', 'w') as fp:
         json.dump(optimized_repos, fp, indent=4)
