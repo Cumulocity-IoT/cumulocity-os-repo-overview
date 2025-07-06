@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **826**
+Number of Open-Source Repos: **827**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[reubenmiller/tedge-oscar](https://github.com/reubenmiller/tedge-oscar)
 
 [H4rl3q1n/apama](https://github.com/H4rl3q1n/apama)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [syeddanishmehdi/IoT-cumulocity-MQTT-simulator](https://github.com/syeddanishmehdi/IoT-cumulocity-MQTT-simulator)
 
 [syeddanishmehdi/IoT-cumulocity-REST-simulator](https://github.com/syeddanishmehdi/IoT-cumulocity-REST-simulator)
-
-[milkyway2069/C8YH77tuV78RF-UYIGV6787tigv6y](https://github.com/milkyway2069/C8YH77tuV78RF-UYIGV6787tigv6y)
