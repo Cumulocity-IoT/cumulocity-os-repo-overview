@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **827**
+Number of Open-Source Repos: **828**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[k-butz/c8y-tedge-setup](https://github.com/k-butz/c8y-tedge-setup)
 
 [fxlaa/FXL-c8yo4acc](https://github.com/fxlaa/FXL-c8yo4acc)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [Cumulocity-IoT/sample-plugin](https://github.com/Cumulocity-IoT/sample-plugin)
 
 [syeddanishmehdi/IoT-cumulocity-MQTT-simulator](https://github.com/syeddanishmehdi/IoT-cumulocity-MQTT-simulator)
-
-[syeddanishmehdi/IoT-cumulocity-REST-simulator](https://github.com/syeddanishmehdi/IoT-cumulocity-REST-simulator)
