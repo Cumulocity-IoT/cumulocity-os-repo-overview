@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **830**
+Number of Open-Source Repos: **831**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[k-butz/c8y-az-eventhub-connector](https://github.com/k-butz/c8y-az-eventhub-connector)
 
 [TahaSultanTemuri/CumulocityIOT](https://github.com/TahaSultanTemuri/CumulocityIOT)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [Cumulocity-IoT/cumulocity-ai-chat-widget](https://github.com/Cumulocity-IoT/cumulocity-ai-chat-widget)
 
 [k-butz/c8y-keycloak-sso](https://github.com/k-butz/c8y-keycloak-sso)
-
-[thomaswinkler/c8y-chrome-1password](https://github.com/thomaswinkler/c8y-chrome-1password)
