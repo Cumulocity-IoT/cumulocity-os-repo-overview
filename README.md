@@ -41,4 +41,4 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [totnikeron8/c8y9d](https://github.com/totnikeron8/c8y9d)
 
-[reubenmiller/tedge-oscar](https://github.com/reubenmiller/tedge-oscar)
+[thin-edge/tedge-oscar](https://github.com/thin-edge/tedge-oscar)
