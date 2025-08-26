@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **836**
+Number of Open-Source Repos: **800**
 
 
 
@@ -25,11 +25,7 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [k-butz/c8y-tedge-firmware-children](https://github.com/k-butz/c8y-tedge-firmware-children)
 
-[RoeiGlamDev/xstar-project-meiy25g4-c8ymbc](https://github.com/RoeiGlamDev/xstar-project-meiy25g4-c8ymbc)
-
 [syeddanishmehdi/Condition-Monitoring](https://github.com/syeddanishmehdi/Condition-Monitoring)
-
-[k-butz/c8y-python-notification-sample](https://github.com/k-butz/c8y-python-notification-sample)
 
 [kaztre/apama-control-interface](https://github.com/kaztre/apama-control-interface)
 
@@ -41,4 +37,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [aomalah/apamakau](https://github.com/aomalah/apamakau)
 
-[fxlaa/FXL-c8yo4acc](https://github.com/fxlaa/FXL-c8yo4acc)
+[totnikeron8/c8y9d](https://github.com/totnikeron8/c8y9d)
+
+[thin-edge/tedge-oscar](https://github.com/thin-edge/tedge-oscar)
+
+[H4rl3q1n/apama](https://github.com/H4rl3q1n/apama)
