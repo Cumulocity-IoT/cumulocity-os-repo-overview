@@ -23,6 +23,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[k-butz/c8y-misc](https://github.com/k-butz/c8y-misc)
+
 [syeddanishmehdi/conversational-physical-ai-mcp](https://github.com/syeddanishmehdi/conversational-physical-ai-mcp)
 
 [dariuslim633/IoT_platform_scripts](https://github.com/dariuslim633/IoT_platform_scripts)
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [k-butz/c8y-az-eventhub-connector](https://github.com/k-butz/c8y-az-eventhub-connector)
 
 [TahaSultanTemuri/CumulocityIOT](https://github.com/TahaSultanTemuri/CumulocityIOT)
-
-[k-butz/c8y-tedge-setup](https://github.com/k-butz/c8y-tedge-setup)
