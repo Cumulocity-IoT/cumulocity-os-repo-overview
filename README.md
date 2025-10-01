@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **839**
+Number of Open-Source Repos: **840**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[cdn-videy123/APAMAUMU.mp4](https://github.com/cdn-videy123/APAMAUMU.mp4)
 
 [quangtungvl/apama-frontend](https://github.com/quangtungvl/apama-frontend)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [RoeiGlamDev/xstar-project-meiy25g4-c8ymbc](https://github.com/RoeiGlamDev/xstar-project-meiy25g4-c8ymbc)
 
 [syeddanishmehdi/pharma-plant-condition-monitoring](https://github.com/syeddanishmehdi/pharma-plant-condition-monitoring)
-
-[k-butz/c8y-python-notification-sample](https://github.com/k-butz/c8y-python-notification-sample)
