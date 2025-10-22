@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **841**
+Number of Open-Source Repos: **842**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[geohuk/cumulocity-tiered-software-approval-plugin](https://github.com/geohuk/cumulocity-tiered-software-approval-plugin)
 
 [k-butz/c8y-device-simulator](https://github.com/k-butz/c8y-device-simulator)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [syeddanishmehdi/conversational-physical-ai-mcp](https://github.com/syeddanishmehdi/conversational-physical-ai-mcp)
 
 [dariuslim633/IoT_platform_scripts](https://github.com/dariuslim633/IoT_platform_scripts)
-
-[k-butz/c8y-tedge-firmware-children](https://github.com/k-butz/c8y-tedge-firmware-children)
