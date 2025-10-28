@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **845**
+Number of Open-Source Repos: **846**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[k-butz/c8y-latest-values](https://github.com/k-butz/c8y-latest-values)
 
 [Shibasankar-EY/cumulocity_microservice_testing](https://github.com/Shibasankar-EY/cumulocity_microservice_testing)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [ocean1966/flowd-c8y-connector](https://github.com/ocean1966/flowd-c8y-connector)
 
 [apamanes/apamanes](https://github.com/apamanes/apamanes)
-
-[k-butz/c8y-misc](https://github.com/k-butz/c8y-misc)
