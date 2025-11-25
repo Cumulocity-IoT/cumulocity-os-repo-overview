@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **852**
+Number of Open-Source Repos: **853**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[8rxn/c8y3wuzbc1jyd4evjc](https://github.com/8rxn/c8y3wuzbc1jyd4evjc)
 
 [nalin-pixel/backend-repo_p3r76blk_c8y4qh](https://github.com/nalin-pixel/backend-repo_p3r76blk_c8y4qh)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [Skayyz/cumulocity-measurement-sender](https://github.com/Skayyz/cumulocity-measurement-sender)
 
 [k-butz/c8y-latest-values](https://github.com/k-butz/c8y-latest-values)
-
-[Shibasankar-EY/cumulocity_microservice_testing](https://github.com/Shibasankar-EY/cumulocity_microservice_testing)
