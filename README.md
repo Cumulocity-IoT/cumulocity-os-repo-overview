@@ -27,7 +27,7 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [apamashiravi1383-hash/apamashiravi1383-hash](https://github.com/apamashiravi1383-hash/apamashiravi1383-hash)
 
-[hame-c8y/c8y-analytics](https://github.com/hame-c8y/c8y-analytics)
+[Cumulocity-IoT/c8y-analytics](https://github.com/Cumulocity-IoT/c8y-analytics)
 
 [schplitt/mc8yp](https://github.com/schplitt/mc8yp)
 
