@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **863**
+Number of Open-Source Repos: **864**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[Cumulocity-IoT/cumulocity-microservice-hello-devices](https://github.com/Cumulocity-IoT/cumulocity-microservice-hello-devices)
 
 [jmoo900/tedge-rugix-factory-reset](https://github.com/jmoo900/tedge-rugix-factory-reset)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [rafaeljvb/proyecto-apamate](https://github.com/rafaeljvb/proyecto-apamate)
 
 [apama2025/apama2025.github.io](https://github.com/apama2025/apama2025.github.io)
-
-[mstoffel-sag/sap-mqtt-ingestion](https://github.com/mstoffel-sag/sap-mqtt-ingestion)
