@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **869**
+Number of Open-Source Repos: **868**
 
 
 
@@ -22,8 +22,6 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
-
-[ChildrenFirstIntl/c8y5j63jsvwoioc](https://github.com/ChildrenFirstIntl/c8y5j63jsvwoioc)
 
 [cdnvid18/C8YpnxFY1.mp4](https://github.com/cdnvid18/C8YpnxFY1.mp4)
 
@@ -42,3 +40,5 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [schplitt/mc8yp](https://github.com/schplitt/mc8yp)
 
 [Cumulocity-IoT/apama-com-redirect](https://github.com/Cumulocity-IoT/apama-com-redirect)
+
+[k-butz/c8y-device-client-mqtt](https://github.com/k-butz/c8y-device-client-mqtt)
