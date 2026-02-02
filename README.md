@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **873**
+Number of Open-Source Repos: **874**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[ATS-UAE/c8y_Geofences-Plugin](https://github.com/ATS-UAE/c8y_Geofences-Plugin)
 
 [schplitt/c8y-nitro-starter](https://github.com/schplitt/c8y-nitro-starter)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [tunavis/gito-iot-platform](https://github.com/tunavis/gito-iot-platform)
 
 [Cumulocity-IoT/cumulocity-microservice-hello-devices](https://github.com/Cumulocity-IoT/cumulocity-microservice-hello-devices)
-
-[schplitt/c8y-nitro](https://github.com/schplitt/c8y-nitro)
