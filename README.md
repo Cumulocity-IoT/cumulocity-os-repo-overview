@@ -23,6 +23,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[ajay-123-tech/APamazon-clone](https://github.com/ajay-123-tech/APamazon-clone)
+
 [Cumulocity-IoT/api-doc](https://github.com/Cumulocity-IoT/api-doc)
 
 [schplitt/c8y-codex-mcp](https://github.com/schplitt/c8y-codex-mcp)
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [kasymman/apama_jardam](https://github.com/kasymman/apama_jardam)
 
 [Cumulocity-IoT/cumulocity-skills](https://github.com/Cumulocity-IoT/cumulocity-skills)
-
-[LFMello1358/Apamaiao2026Teste](https://github.com/LFMello1358/Apamaiao2026Teste)
