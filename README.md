@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **881**
+Number of Open-Source Repos: **882**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[LRCHub/askVrL_c8YE](https://github.com/LRCHub/askVrL_c8YE)
 
 [diegoooo0000/apama-site](https://github.com/diegoooo0000/apama-site)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [ATS-UAE/c8y_Driver-Management-Plugin](https://github.com/ATS-UAE/c8y_Driver-Management-Plugin)
 
 [ATS-UAE/c8y_Geofences-Plugin](https://github.com/ATS-UAE/c8y_Geofences-Plugin)
-
-[schplitt/c8y-nitro-starter](https://github.com/schplitt/c8y-nitro-starter)
