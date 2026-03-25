@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **884**
+Number of Open-Source Repos: **886**
 
 
 
@@ -23,6 +23,10 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[thin-edge/setup-tedge-repo](https://github.com/thin-edge/setup-tedge-repo)
+
+[the2soms/c8y9596g9e](https://github.com/the2soms/c8y9596g9e)
+
 [thin-edge/tedge-mapper-thingsboard](https://github.com/thin-edge/tedge-mapper-thingsboard)
 
 [LRCHub/askVrL_c8YE](https://github.com/LRCHub/askVrL_c8YE)
@@ -38,7 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [Cumulocity-IoT/api-doc](https://github.com/Cumulocity-IoT/api-doc)
 
 [schplitt/c8y-codex-mcp](https://github.com/schplitt/c8y-codex-mcp)
-
-[c8ya/c8ya.github.io](https://github.com/c8ya/c8ya.github.io)
-
-[alexbez/c8y-reporting](https://github.com/alexbez/c8y-reporting)
