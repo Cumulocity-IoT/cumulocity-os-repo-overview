@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **887**
+Number of Open-Source Repos: **888**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[Ajay817860/lib-c8ygqj2](https://github.com/Ajay817860/lib-c8ygqj2)
 
 [Lyzr-Apps/data-dashboard-bold-dock-c8yc](https://github.com/Lyzr-Apps/data-dashboard-bold-dock-c8yc)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [ajay-123-tech/APamazon-clone](https://github.com/ajay-123-tech/APamazon-clone)
 
 [clank8y/clank8y](https://github.com/clank8y/clank8y)
-
-[Cumulocity-IoT/api-doc](https://github.com/Cumulocity-IoT/api-doc)
