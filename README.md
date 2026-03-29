@@ -23,13 +23,13 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[FogorosDaniel/AI_Camera_Project-Cumulocity-](https://github.com/FogorosDaniel/AI_Camera_Project-Cumulocity-)
+
 [Ajay817860/lib-c8ygqj2](https://github.com/Ajay817860/lib-c8ygqj2)
 
 [Lyzr-Apps/data-dashboard-bold-dock-c8yc](https://github.com/Lyzr-Apps/data-dashboard-bold-dock-c8yc)
 
 [thin-edge/setup-tedge-repo](https://github.com/thin-edge/setup-tedge-repo)
-
-[the2soms/c8y9596g9e](https://github.com/the2soms/c8y9596g9e)
 
 [thin-edge/tedge-mapper-thingsboard](https://github.com/thin-edge/tedge-mapper-thingsboard)
 
