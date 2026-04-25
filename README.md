@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **890**
+Number of Open-Source Repos: **891**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[brgringe/c8y_pbe3](https://github.com/brgringe/c8y_pbe3)
 
 [thin-edge/tedge-ctrlx-os](https://github.com/thin-edge/tedge-ctrlx-os)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [diegoooo0000/apama-site](https://github.com/diegoooo0000/apama-site)
 
 [schplitt/c8y-realtime-globe](https://github.com/schplitt/c8y-realtime-globe)
-
-[Cumulocity-IoT/thin-edge-io-app](https://github.com/Cumulocity-IoT/thin-edge-io-app)
