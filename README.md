@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **891**
+Number of Open-Source Repos: **894**
 
 
 
@@ -23,7 +23,13 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[chisou/cumulocity-python-sdk](https://github.com/chisou/cumulocity-python-sdk)
+
+[Cumulocity-IoT/ui-breaking-changes-cli](https://github.com/Cumulocity-IoT/ui-breaking-changes-cli)
+
 [brgringe/c8y_pbe3](https://github.com/brgringe/c8y_pbe3)
+
+[masashishikatani17/rakuraku-apaman-cloud](https://github.com/masashishikatani17/rakuraku-apaman-cloud)
 
 [thin-edge/tedge-ctrlx-os](https://github.com/thin-edge/tedge-ctrlx-os)
 
@@ -36,9 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [Lyzr-Apps/data-dashboard-bold-dock-c8yc](https://github.com/Lyzr-Apps/data-dashboard-bold-dock-c8yc)
 
 [thin-edge/setup-tedge-repo](https://github.com/thin-edge/setup-tedge-repo)
-
-[thin-edge/tedge-mapper-thingsboard](https://github.com/thin-edge/tedge-mapper-thingsboard)
-
-[diegoooo0000/apama-site](https://github.com/diegoooo0000/apama-site)
-
-[schplitt/c8y-realtime-globe](https://github.com/schplitt/c8y-realtime-globe)
