@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **894**
+Number of Open-Source Repos: **893**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[reubenmiller/lab-ztp-provisioner](https://github.com/reubenmiller/lab-ztp-provisioner)
 
 [chisou/cumulocity-python-sdk](https://github.com/chisou/cumulocity-python-sdk)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [FogorosDaniel/AI_Camera_Project-Cumulocity-](https://github.com/FogorosDaniel/AI_Camera_Project-Cumulocity-)
 
 [Lyzr-Apps/data-dashboard-bold-dock-c8yc](https://github.com/Lyzr-Apps/data-dashboard-bold-dock-c8yc)
-
-[thin-edge/setup-tedge-repo](https://github.com/thin-edge/setup-tedge-repo)
