@@ -23,6 +23,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[k-butz/c8y-mqtt-svc-playground](https://github.com/k-butz/c8y-mqtt-svc-playground)
+
 [zahediadib/apamazon](https://github.com/zahediadib/apamazon)
 
 [reubenmiller/lab-ztp-provisioner](https://github.com/reubenmiller/lab-ztp-provisioner)
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [ShayneEdisonTW/CumulocityAPITest](https://github.com/ShayneEdisonTW/CumulocityAPITest)
 
 [thin-edge/tedge-mapper-c8y-mqttservice](https://github.com/thin-edge/tedge-mapper-c8y-mqttservice)
-
-[FogorosDaniel/AI_Camera_Project-Cumulocity-](https://github.com/FogorosDaniel/AI_Camera_Project-Cumulocity-)
