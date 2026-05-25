@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **903**
+Number of Open-Source Repos: **904**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[dannicarlo/etc_c8yr](https://github.com/dannicarlo/etc_c8yr)
 
 [Cumulocity-IoT/cumulocity-fleet-intelligence-demos](https://github.com/Cumulocity-IoT/cumulocity-fleet-intelligence-demos)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [k-butz/c8y-mqtt-svc-playground](https://github.com/k-butz/c8y-mqtt-svc-playground)
 
 [zahediadib/apamazon](https://github.com/zahediadib/apamazon)
-
-[reubenmiller/lab-ztp-provisioner](https://github.com/reubenmiller/lab-ztp-provisioner)
