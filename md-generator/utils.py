@@ -81,7 +81,8 @@ def is_spam_repo(repo):
     This is a conservative filter - only blocks obvious spam patterns.
     """
     import re
-    
+    from datetime import datetime
+
     name = repo.get('name', '').lower()
     desc = repo.get('description', '') or ''
     desc_lower = desc.lower()
@@ -96,7 +97,7 @@ def is_spam_repo(repo):
         return False
     
     # Exception: Repos with a programming language have actual code, so not spam
-    # UNLESS it's a profile repo (repo name = owner name)
+    # UNLESS it's a profile repo (repo name = owner name) OR it's a README-only repo
     if language and name != owner.lower():
         return False
     
@@ -166,6 +167,33 @@ def is_spam_repo(repo):
         # If no Apama product indicators and no content, probably spam
         if not any(apama_indicators) and not desc and not topics and not language:
             return True
+
+    # Spam pattern: README-only repositories (no code, minimal activity)
+    # These repos often have just a README.md file and nothing else
+    # This check comes AFTER technical name checks to avoid false positives
+    if not language and not topics:
+        # Check if repo has minimal activity (created and updated within seconds/minutes)
+        created = repo.get('created_at', '')
+        updated = repo.get('pushed_at', '') or repo.get('last_updated', '')
+
+        if created and updated:
+            try:
+                # Parse ISO timestamps
+                created_dt = datetime.fromisoformat(created.replace('Z', '+00:00'))
+                updated_dt = datetime.fromisoformat(updated.replace('Z', '+00:00'))
+
+                # If updated within 1 hour of creation, likely just a README commit
+                time_diff = abs((updated_dt - created_dt).total_seconds())
+                if time_diff < 3600:  # Less than 1 hour
+                    # README-only repo without meaningful content
+                    # Check if description is generic or non-English/irrelevant
+                    if not desc or len(desc) < 20 or not any(keyword in desc_lower for keyword in [
+                        'cumulocity', 'iot', 'apama', 'streaming', 'device', 'sensor',
+                        'mqtt', 'api', 'integration', 'software', 'code', 'tool'
+                    ]):
+                        return True
+            except (ValueError, AttributeError):
+                pass  # If timestamp parsing fails, continue with other checks
 
     # Helper function to check if description is tech/IoT/Cumulocity-related
     def has_relevant_description(description):
