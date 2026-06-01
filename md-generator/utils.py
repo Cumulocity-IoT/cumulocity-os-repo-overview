@@ -15,6 +15,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+import logging
+
+logger = logging.getLogger(__name__)
 
 """ Defining all Categories of Open-Source repos based on the name and topcis of a repo """
 def get_cat_list(name, topics):
@@ -76,8 +79,8 @@ def get_trust_level(owner, trusted_owners):
 def is_spam_repo(repo):
     """
     Detect spam/irrelevant repositories based on multiple criteria.
-    Returns True if the repo is likely spam.
-    
+    Returns (is_spam, reason) tuple.
+
     This is a conservative filter - only blocks obvious spam patterns.
     """
     import re
@@ -94,23 +97,23 @@ def is_spam_repo(repo):
     # Exception: Official/Trusted owners are never spam
     trusted_patterns = ['cumulocity', 'software', 'thin-edge', 'apamacommunity']
     if owner and any(pattern in owner.lower() for pattern in trusted_patterns):
-        return False
-    
+        return False, None
+
     # Exception: Repos with a programming language have actual code, so not spam
     # UNLESS it's a profile repo (repo name = owner name) OR it's a README-only repo
     if language and name != owner.lower():
-        return False
-    
+        return False, None
+
     # Exception: Repos with stars are likely legitimate (community validation)
     if stars >= 2:
-        return False
-    
+        return False, None
+
     # Spam pattern: GitHub profile repos (repo name = owner name)
     # These are usually just README profile pages, not actual projects
     if name == owner.lower():
         # Profile repos often have "config" in description or topics
         if 'config' in desc_lower or 'config' in str(topics).lower():
-            return True
+            return True, "Profile repo with config (Pattern 4: GitHub Profile Repo)"
         # Profile repos with "apama" in username but no Apama-related content
         if 'apama' in owner.lower():
             has_apama_content = (
@@ -120,18 +123,18 @@ def is_spam_repo(repo):
                 any('apama' in t for t in topics)
             )
             if not has_apama_content:
-                return True
+                return True, f"Apama profile repo without Apama content (Pattern 5: False Positive Apama)"
         # Profile repo with no content at all
         if not desc and not topics and not language:
-            return True
+            return True, "Profile repo with no content (Pattern 4: GitHub Profile Repo)"
 
     # Spam pattern: "apama" in name but not related to Apama product
     if 'apama' in name or 'apama' in owner.lower():
         # Exception: Known good Apama contributors
         trusted_apama_users = ['apamacommunity', 'mjj29', 'ben-spiller', 'rpeach-sag', 'yhegen']
         if owner.lower() in trusted_apama_users:
-            return False
-        
+            return False, None
+
         # Check if repo name itself is descriptive/technical (indicates real project)
         # Examples: apama-energy-forecast-example, apama-streaming-analytics-*, apama-epl-*
         technical_name_indicators = [
@@ -147,8 +150,8 @@ def is_spam_repo(repo):
         name_parts = name.replace('-', ' ').replace('_', ' ').lower().split()
         technical_parts = [part for part in name_parts if part in technical_name_indicators]
         if len(technical_parts) >= 1:  # At least 1 technical term
-            return False
-        
+            return False, None
+
         # Check if repo is actually about Apama product
         apama_indicators = [
             'apama' in desc_lower,
@@ -162,11 +165,11 @@ def is_spam_repo(repo):
         
         # Apama Lajeado is a place in Brazil, not the product
         if 'lajeado' in desc_lower:
-            return True
-        
+            return True, "Apama Lajeado (Brazil), not Apama product (Pattern 5: False Positive Apama)"
+
         # If no Apama product indicators and no content, probably spam
         if not any(apama_indicators) and not desc and not topics and not language:
-            return True
+            return True, f"Apama in name/owner but no Apama content (Pattern 5: False Positive Apama)"
 
     # Spam pattern: README-only repositories (no code, minimal activity)
     # These repos often have just a README.md file and nothing else
@@ -191,7 +194,7 @@ def is_spam_repo(repo):
                         'cumulocity', 'iot', 'apama', 'streaming', 'device', 'sensor',
                         'mqtt', 'api', 'integration', 'software', 'code', 'tool'
                     ]):
-                        return True
+                        return True, f"README-only repo with minimal activity ({int(time_diff)}s between create/update) (Pattern 6: README-only)"
             except (ValueError, AttributeError):
                 pass  # If timestamp parsing fails, continue with other checks
 
@@ -246,28 +249,28 @@ def is_spam_repo(repo):
         if re.match(pattern, name):
             # If it has topics, likely legitimate
             if topics:
-                return False
+                return False, None
             # Check if description is actually tech-related
             if desc and has_relevant_description(desc):
-                return False
+                return False, None
             # Clear spam: matches pattern AND (no content OR irrelevant content)
-            return True
-    
+            return True, f"Random c8y pattern '{name}' with generic content (Pattern 1: C8Y Spam Pattern)"
+
     # Spam pattern 2: No description, no topics, suspicious short name with numbers
     if not desc and not topics and len(name) < 15:
         # Count how many numbers in the name
         num_count = sum(1 for c in name if c.isdigit())
         # If more than 2 numbers in a short name with c8y, likely spam
         if num_count >= 2 and ('c8y' in name or 'cumulocity' in name):
-            return True
-    
+            return True, f"Short c8y name with {num_count} numbers and no content (Pattern 2: Suspicious Short Name)"
+
     # Spam pattern 3: Generic description with suspicious name
     # Repos with c8y in name but only generic motivational text
     if 'c8y' in name and desc and not topics:
         if not has_relevant_description(desc):
-            return True
-        
-    return False
+            return True, f"C8Y repo with generic/motivational description (Pattern 3: Generic Description)"
+
+    return False, None
 
 
 def is_cumulocity_relevant(repo):
@@ -323,19 +326,34 @@ def filter_repo_list(repos):
     while excluding spam/irrelevant repos.
     """
     filtered_list = []
+    spam_count = 0
+    visibility_filtered_count = 0
+
     for repo in repos:
-        if repo.get('visibility') == 'public':
-            # First check: basic relevance
-            if "cumulocity" in repo['name'] or "c8y" in repo['name'] or \
-               "cumulocity-iot" in repo['topics'] or "cumulocity" in repo['topics'] or \
-               "thin-edge" in repo['name'] or "apama" in repo['name']:
+        repo_name = repo.get('full_name', repo.get('name', 'unknown'))
 
-                # Second check: exclude spam
-                if is_spam_repo(repo):
-                    continue
+        # Filter by visibility (not logged as per requirement)
+        if repo.get('visibility') != 'public':
+            visibility_filtered_count += 1
+            continue
 
-                # Third check: validate relevance
-                if is_cumulocity_relevant(repo):
-                    filtered_list.append(repo)
+        # First check: basic relevance
+        if "cumulocity" in repo['name'] or "c8y" in repo['name'] or \
+           "cumulocity-iot" in repo['topics'] or "cumulocity" in repo['topics'] or \
+           "thin-edge" in repo['name'] or "apama" in repo['name']:
 
+            # Second check: exclude spam
+            is_spam, spam_reason = is_spam_repo(repo)
+            if is_spam:
+                spam_count += 1
+                logger.info(f"FILTERED (spam): {repo_name} - Reason: {spam_reason}")
+                continue
+
+            # Third check: validate relevance
+            if is_cumulocity_relevant(repo):
+                filtered_list.append(repo)
+            else:
+                logger.info(f"FILTERED (not relevant): {repo_name} - No Cumulocity/C8Y/thin-edge/Apama indicators")
+
+    logger.info(f"Filtering complete: {len(filtered_list)} repos kept, {spam_count} spam filtered, {visibility_filtered_count} non-public filtered")
     return filtered_list

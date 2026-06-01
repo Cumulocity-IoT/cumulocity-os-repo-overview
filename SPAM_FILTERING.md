@@ -123,6 +123,24 @@ Examples:
 - ❌ FILTERED: `lastho0pe/apama` - Generic name, no content
 - ❌ FILTERED: `apamashiravi1383-hash/apamashiravi1383-hash` - Profile repo, no content
 
+#### Pattern 6: README-only Repositories
+Repositories that contain only a README.md file with no actual code are often spam or placeholder repositories.
+
+**Detection criteria:**
+- No programming language (no code files)
+- No topics
+- Created and last updated within 1 hour (minimal activity)
+- Description is missing, very short (<20 characters), or lacks tech-related keywords
+
+**Tech keywords checked in description:**
+cumulocity, iot, apama, streaming, device, sensor, mqtt, api, integration, software, code, tool
+
+**Important:** This check runs AFTER technical name checks, so repos with descriptive names like `apama-energy-forecast-example` are protected even without code.
+
+**Examples:**
+- ❌ FILTERED: `kasymman/apama_jardam` - Kyrgyz text description, no code, created/updated within 1 second
+- ✅ KEPT: `yhegen/apama-energy-forecast-example` - Technical name protects it even without code
+
 ### 2. Relevance Validation
 A repository is considered Cumulocity-relevant if it meets at least one of these criteria. **This is a permissive check** - we prefer to include rather than exclude.
 
