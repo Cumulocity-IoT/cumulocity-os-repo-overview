@@ -5,9 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-**Note:** The repository list is automatically filtered to exclude spam and irrelevant repositories. See [SPAM_FILTERING.md](SPAM_FILTERING.md) for details about the validation criteria.
-
-Number of Open-Source Repos: **906**
+Number of Open-Source Repos: **688**
 
 
 
@@ -41,6 +39,6 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [estinok/c8y_g89l](https://github.com/estinok/c8y_g89l)
 
-[felipedu-sag/testDevContainer](https://github.com/felipedu-sag/testDevContainer)
-
 [driblam/h27_c8y9](https://github.com/driblam/h27_c8y9)
+
+[k-butz/c8y-tedge-util](https://github.com/k-butz/c8y-tedge-util)
