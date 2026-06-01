@@ -88,15 +88,58 @@ def is_spam_repo(repo):
     topics = repo.get('topics', [])
     owner = repo.get('owner', {}).get('login', '') if isinstance(repo.get('owner'), dict) else repo.get('owner', '')
     stars = repo.get('stargazers_count', 0)
+    language = repo.get('language') or repo.get('lang')
     
     # Exception: Official/Trusted owners are never spam
     trusted_patterns = ['cumulocity', 'software', 'thin-edge', 'apama']
     if owner and any(pattern in owner.lower() for pattern in trusted_patterns):
         return False
     
+    # Exception: Repos with a programming language have actual code, so not spam
+    if language:
+        return False
+    
     # Exception: Repos with stars are likely legitimate (community validation)
     if stars >= 2:
         return False
+    
+    # Helper function to check if description is tech/IoT/Cumulocity-related
+    def has_relevant_description(description):
+        if not description or len(description) < 10:
+            return False
+        desc_low = description.lower()
+        
+        # Check for tech/IoT keywords
+        tech_keywords = [
+            'iot', 'cumulocity', 'device', 'sensor', 'mqtt', 'api', 'agent',
+            'microservice', 'cloud', 'platform', 'data', 'monitor', 'application',
+            'software', 'code', 'library', 'sdk', 'client', 'server', 'integration',
+            'thin-edge', 'apama', 'analytics', 'widget', 'dashboard', 'web',
+            'rest', 'http', 'protocol', 'management', 'automation', 'edge',
+            'cli', 'tool', 'addon', 'extension', 'plugin', 'fork', 'patch',
+            'npm', 'package', 'module', 'session', 'provider', 'repository',
+            'homebrew', 'tap', 'script', 'template', 'view', 'support',
+            'backend', 'frontend', 'docker', 'kubernetes', 'deployment'
+        ]
+        
+        # If description contains any tech keywords, it's likely relevant
+        if any(keyword in desc_low for keyword in tech_keywords):
+            return True
+            
+        # Check for generic spam phrases (motivational/generic text)
+        spam_phrases = [
+            'voyage of dreams', 'creating your own legend', 'brilliance of life',
+            'hold firm to your beliefs', 'bright', 'future', 'accumulates wealth',
+            'winding the road', 'brilliant tomorrow', 'fearless journey',
+            'every wave braved', 'every effort', 'no matter how'
+        ]
+        
+        # If it contains spam phrases and no tech keywords, probably spam
+        spam_phrase_count = sum(1 for phrase in spam_phrases if phrase in desc_low)
+        if spam_phrase_count >= 2:
+            return False
+            
+        return False  # No tech keywords found
     
     # Spam pattern 1: Random prefix/suffix with c8y pattern (e.g., etc_c8yr, e61_c8yw, c8y_g89l)
     # These are very specific spam patterns
@@ -109,10 +152,13 @@ def is_spam_repo(repo):
     
     for pattern in spam_name_patterns:
         if re.match(pattern, name):
-            # Even with spam pattern, if it has ANY content it might be legitimate
-            if topics or (desc and len(desc) > 10):
+            # If it has topics, likely legitimate
+            if topics:
                 return False
-            # Clear spam: matches pattern AND no content
+            # Check if description is actually tech-related
+            if desc and has_relevant_description(desc):
+                return False
+            # Clear spam: matches pattern AND (no content OR irrelevant content)
             return True
     
     # Spam pattern 2: No description, no topics, suspicious short name with numbers
@@ -121,6 +167,12 @@ def is_spam_repo(repo):
         num_count = sum(1 for c in name if c.isdigit())
         # If more than 2 numbers in a short name with c8y, likely spam
         if num_count >= 2 and ('c8y' in name or 'cumulocity' in name):
+            return True
+    
+    # Spam pattern 3: Generic description with suspicious name
+    # Repos with c8y in name but only generic motivational text
+    if 'c8y' in name and desc and not topics:
+        if not has_relevant_description(desc):
             return True
         
     return False
