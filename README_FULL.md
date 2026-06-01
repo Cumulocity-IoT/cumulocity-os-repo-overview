@@ -269,8 +269,8 @@ Table of contents
 |[cumulocity-processing-widget-plugin](https://github.com/Cumulocity-IoT/cumulocity-processing-widget-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-processing-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-processing-widget-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-processing-widget-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-processing-widget-plugin/commits) <br/> The Processing Widgets displays the current process state based on the latest event. Updates the state whenever a new event is subscribed.Created by Global Presales.|Cumulocity-IoT|Widget <br> UI Plugin|Cumulocity Org|
 |[cumulocity-event-chart-widget](https://github.com/Cumulocity-IoT/cumulocity-event-chart-widget)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-event-chart-widget)](https://github.com/Cumulocity-IoT/cumulocity-event-chart-widget/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-event-chart-widget/master)](https://github.com/Cumulocity-IoT/cumulocity-event-chart-widget/commits) <br/> This is an Angular 8 widget, which is designed to display the chart for the specific event type. It groups the events based on the entered group by parameter and displays the count for each group by the parameter value. Runtime installation available. Created by Global Presales.|Cumulocity-IoT|Widget|Cumulocity Org|
 |[cumulocity-image-animation-widget](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-image-animation-widget)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-image-animation-widget/master)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget/commits) <br/> The Cumulocity Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another.  Developed by Global Presales.|Cumulocity-IoT|Widget|Cumulocity Org|
-|[c8y-runtime-customization](https://github.com/confraria/c8y-runtime-customization)| [![GitHub stars](https://badgen.net/github/stars/confraria/c8y-runtime-customization)](https://github.com/confraria/c8y-runtime-customization/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/confraria/c8y-runtime-customization/master)](https://github.com/confraria/c8y-runtime-customization/commits)|confraria|Other|Open Source|
 |[cumulocity-barchart-widget-plugin](https://github.com/Cumulocity-IoT/cumulocity-barchart-widget-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-barchart-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-barchart-widget-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-barchart-widget-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-barchart-widget-plugin/commits) <br/> The Bar Chart Widget allows you to define multiple datapoints as constant values or realtime measurements from a device or device group. Created by Global Presales.|Cumulocity-IoT|Widget <br> UI Plugin|Cumulocity Org|
+|[c8y-runtime-customization](https://github.com/confraria/c8y-runtime-customization)| [![GitHub stars](https://badgen.net/github/stars/confraria/c8y-runtime-customization)](https://github.com/confraria/c8y-runtime-customization/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/confraria/c8y-runtime-customization/master)](https://github.com/confraria/c8y-runtime-customization/commits)|confraria|Other|Open Source|
 |[devity-c8y-integration](https://github.com/Cumulocity-IoT/devity-c8y-integration)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/devity-c8y-integration)](https://github.com/Cumulocity-IoT/devity-c8y-integration/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/devity-c8y-integration/main)](https://github.com/Cumulocity-IoT/devity-c8y-integration/commits)|Cumulocity-IoT|Other|Cumulocity Org|
 |[cumulocity-datapoints-charting-widget-plugin](https://github.com/Cumulocity-IoT/cumulocity-datapoints-charting-widget-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-datapoints-charting-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-datapoints-charting-widget-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-datapoints-charting-widget-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-datapoints-charting-widget-plugin/commits) <br/> Cumulocity Datapoints Charting Widget allows you to create charts showing data from one or more devices. You can create many chart types including line, spline, bar, radar, scatter and bubble. Runtime Installation is available. Created by Global Presales. |Cumulocity-IoT|Widget <br> UI Plugin|Cumulocity Org|
 |[ubirch-esp32-cumulocity-client](https://github.com/ubirch/ubirch-esp32-cumulocity-client)| [![GitHub stars](https://badgen.net/github/stars/ubirch/ubirch-esp32-cumulocity-client)](https://github.com/ubirch/ubirch-esp32-cumulocity-client/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/ubirch/ubirch-esp32-cumulocity-client/master)](https://github.com/ubirch/ubirch-esp32-cumulocity-client/commits)|ubirch|Client <br> CLI|Open Source|
@@ -303,7 +303,7 @@ Table of contents
 |[c8y-misc](https://github.com/k-butz/c8y-misc)| [![GitHub stars](https://badgen.net/github/stars/k-butz/c8y-misc)](https://github.com/k-butz/c8y-misc/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/k-butz/c8y-misc/main)](https://github.com/k-butz/c8y-misc/commits) <br/> Useful utilities when working with Cumulocity|k-butz|Other|Trusted Contributor|
 |[luclib-c8y-mosqpp-demo](https://github.com/luclib/luclib-c8y-mosqpp-demo)| [![GitHub stars](https://badgen.net/github/stars/luclib/luclib-c8y-mosqpp-demo)](https://github.com/luclib/luclib-c8y-mosqpp-demo/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/luclib/luclib-c8y-mosqpp-demo/master)](https://github.com/luclib/luclib-c8y-mosqpp-demo/commits) <br/> C++/MQTT demo with Cumulocity|luclib|CLI|Open Source|
 |[c8y-brockhaus-plugin](https://github.com/jperezbrockhaus/c8y-brockhaus-plugin)| [![GitHub stars](https://badgen.net/github/stars/jperezbrockhaus/c8y-brockhaus-plugin)](https://github.com/jperezbrockhaus/c8y-brockhaus-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/jperezbrockhaus/c8y-brockhaus-plugin/master)](https://github.com/jperezbrockhaus/c8y-brockhaus-plugin/commits) <br/> Development of a Cumulocity plugin|jperezbrockhaus|Other|Open Source|
-|[cumulocity-api](https://github.com/eickler/cumulocity-api)| [![GitHub stars](https://badgen.net/github/stars/eickler/cumulocity-api)](https://github.com/eickler/cumulocity-api/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/eickler/cumulocity-api/master)](https://github.com/eickler/cumulocity-api/commits) <br/> Cumulocity REST API specification|eickler|Client|Open Source|
+|[cumulocity-api](https://github.com/eickler/cumulocity-api)| [![GitHub stars](https://badgen.net/github/stars/eickler/cumulocity-api)](https://github.com/eickler/cumulocity-api/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/eickler/cumulocity-api/master)](https://github.com/eickler/cumulocity-api/commits) <br/> Cumulocity REST API specification|eickler|Client|Trusted Contributor|
 |[c8y-microservice](https://github.com/desertmark/c8y-microservice)| [![GitHub stars](https://badgen.net/github/stars/desertmark/c8y-microservice)](https://github.com/desertmark/c8y-microservice/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/desertmark/c8y-microservice/main)](https://github.com/desertmark/c8y-microservice/commits) <br/> Cumulocity IoT NodeJS microservice example|desertmark|Microservice|Open Source|
 |[Andriod-c8y](https://github.com/CreatorTyagi/Andriod-c8y)| [![GitHub stars](https://badgen.net/github/stars/CreatorTyagi/Andriod-c8y)](https://github.com/CreatorTyagi/Andriod-c8y/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/CreatorTyagi/Andriod-c8y/master)](https://github.com/CreatorTyagi/Andriod-c8y/commits) <br/> Simulator Mobile device for Cumulocity Platform.|CreatorTyagi|Other|Open Source|
 |[c8y_app](https://github.com/BrenooOliveira/c8y_app)| [![GitHub stars](https://badgen.net/github/stars/BrenooOliveira/c8y_app)](https://github.com/BrenooOliveira/c8y_app/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/BrenooOliveira/c8y_app/main)](https://github.com/BrenooOliveira/c8y_app/commits) <br/> a c8y data app based on Cumulocity IoT tenant |BrenooOliveira|Other|Open Source|
@@ -375,8 +375,8 @@ Table of contents
 |[cumulocity](https://github.com/GeorgN/cumulocity)| [![GitHub stars](https://badgen.net/github/stars/GeorgN/cumulocity)](https://github.com/GeorgN/cumulocity/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/GeorgN/cumulocity/master)](https://github.com/GeorgN/cumulocity/commits) <br/> pruebas de cumulocity|GeorgN|Other|Open Source|
 |[thin-edge.io-roadmap](https://github.com/thin-edge/thin-edge.io-roadmap)| [![GitHub stars](https://badgen.net/github/stars/thin-edge/thin-edge.io-roadmap)](https://github.com/thin-edge/thin-edge.io-roadmap/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/thin-edge/thin-edge.io-roadmap/main)](https://github.com/thin-edge/thin-edge.io-roadmap/commits)|thin-edge|Other|Trusted Contributor|
 |[thin-edge.io_analytics](https://github.com/thin-edge/thin-edge.io_analytics)| [![GitHub stars](https://badgen.net/github/stars/thin-edge/thin-edge.io_analytics)](https://github.com/thin-edge/thin-edge.io_analytics/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/thin-edge/thin-edge.io_analytics/main)](https://github.com/thin-edge/thin-edge.io_analytics/commits)|thin-edge|Other|Trusted Contributor|
-|[thin-edge.io_analytics](https://github.com/abelikt/thin-edge.io_analytics)| [![GitHub stars](https://badgen.net/github/stars/abelikt/thin-edge.io_analytics)](https://github.com/abelikt/thin-edge.io_analytics/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/abelikt/thin-edge.io_analytics/main)](https://github.com/abelikt/thin-edge.io_analytics/commits)|abelikt|Other|Open Source|
 |[widget-plugin](https://github.com/Cumulocity-IoT/widget-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/widget-plugin)](https://github.com/Cumulocity-IoT/widget-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/widget-plugin/main)](https://github.com/Cumulocity-IoT/widget-plugin/commits) <br/> A repository containing the latest sources of the Cumulocity Web SDK based "widget-plugin" application. It also allows to compare the differences between Web SDK versions for this application easily. To quickly get started using the Web SDK, this application can also be just forked instead of the usualy scaffolding approach.|Cumulocity-IoT|Widget <br> Extension|Cumulocity Org|
+|[thin-edge.io_analytics](https://github.com/abelikt/thin-edge.io_analytics)| [![GitHub stars](https://badgen.net/github/stars/abelikt/thin-edge.io_analytics)](https://github.com/abelikt/thin-edge.io_analytics/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/abelikt/thin-edge.io_analytics/main)](https://github.com/abelikt/thin-edge.io_analytics/commits)|abelikt|Other|Open Source|
 |[experimental-thin-edge.io](https://github.com/abelikt/experimental-thin-edge.io)| [![GitHub stars](https://badgen.net/github/stars/abelikt/experimental-thin-edge.io)](https://github.com/abelikt/experimental-thin-edge.io/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/abelikt/experimental-thin-edge.io/main)](https://github.com/abelikt/experimental-thin-edge.io/commits)|abelikt|Other|Open Source|
 |[thin-edge-io-app](https://github.com/Cumulocity-IoT/thin-edge-io-app)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/thin-edge-io-app)](https://github.com/Cumulocity-IoT/thin-edge-io-app/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/thin-edge-io-app/main)](https://github.com/Cumulocity-IoT/thin-edge-io-app/commits) <br/> This repos is used to develop and maintain the thinEdge io App for the Bosch Rexroth ctrlX App store|Cumulocity-IoT|Other|Cumulocity Org|
 |[builtio-monitoring-cumulocity-microservices](https://github.com/Cumulocity-IoT/builtio-monitoring-cumulocity-microservices)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/builtio-monitoring-cumulocity-microservices)](https://github.com/Cumulocity-IoT/builtio-monitoring-cumulocity-microservices/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/builtio-monitoring-cumulocity-microservices/master)](https://github.com/Cumulocity-IoT/builtio-monitoring-cumulocity-microservices/commits) <br/> Monitoring Cumulocity IoT microservices using Built.io Flow actions, create an alarm and notify a Slack channel (tutorial).|Cumulocity-IoT|Microservice <br> Extension|Cumulocity Org|
@@ -546,9 +546,9 @@ Table of contents
 |[cumulocity-asset-properties-widget](https://github.com/amar-c8y/cumulocity-asset-properties-widget)| [![GitHub stars](https://badgen.net/github/stars/amar-c8y/cumulocity-asset-properties-widget)](https://github.com/amar-c8y/cumulocity-asset-properties-widget/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/amar-c8y/cumulocity-asset-properties-widget/main)](https://github.com/amar-c8y/cumulocity-asset-properties-widget/commits)|amar-c8y|Widget|Open Source|
 |[c8y-reporting](https://github.com/alexbez/c8y-reporting)| [![GitHub stars](https://badgen.net/github/stars/alexbez/c8y-reporting)](https://github.com/alexbez/c8y-reporting/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/alexbez/c8y-reporting/main)](https://github.com/alexbez/c8y-reporting/commits) <br/> reporting script|alexbez|Other|Open Source|
 |[apama-um-correlator-receiver-container](https://github.com/MelanieMonnereau/apama-um-correlator-receiver-container)| [![GitHub stars](https://badgen.net/github/stars/MelanieMonnereau/apama-um-correlator-receiver-container)](https://github.com/MelanieMonnereau/apama-um-correlator-receiver-container/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/MelanieMonnereau/apama-um-correlator-receiver-container/main)](https://github.com/MelanieMonnereau/apama-um-correlator-receiver-container/commits)|MelanieMonnereau|Streaming Analytics|Open Source|
-|[cumulocity-python-sdk](https://github.com/chisou/cumulocity-python-sdk)| [![GitHub stars](https://badgen.net/github/stars/chisou/cumulocity-python-sdk)](https://github.com/chisou/cumulocity-python-sdk/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/chisou/cumulocity-python-sdk/main)](https://github.com/chisou/cumulocity-python-sdk/commits)|chisou|Other|Open Source|
 |[Gadgetbridge-cumulocity-poc](https://github.com/jduranmaster/Gadgetbridge-cumulocity-poc)| [![GitHub stars](https://badgen.net/github/stars/jduranmaster/Gadgetbridge-cumulocity-poc)](https://github.com/jduranmaster/Gadgetbridge-cumulocity-poc/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/jduranmaster/Gadgetbridge-cumulocity-poc/master)](https://github.com/jduranmaster/Gadgetbridge-cumulocity-poc/commits) <br/> Modification of the Gadgetbridge project that allows to send data to "Cumulocity" using an API-REST.|jduranmaster|Other|Open Source|
 |[cumulocity-video-widget](https://github.com/Cumulocity-IoT/cumulocity-video-widget)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-video-widget)](https://github.com/Cumulocity-IoT/cumulocity-video-widget/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-video-widget/master)](https://github.com/Cumulocity-IoT/cumulocity-video-widget/commits) <br/> Plays streaming videos from sources such as HLS streams, on-demand videos (such as MP4, MKV, MOV) from URL and embedded YouTube, Vimeo, etc. videos. Please note that links must be HTTPS and Cross-Origin access enabled. This has been developed by Software AG Global Presales team.|Cumulocity-IoT|Widget|Cumulocity Org|
+|[cumulocity-python-sdk](https://github.com/chisou/cumulocity-python-sdk)| [![GitHub stars](https://badgen.net/github/stars/chisou/cumulocity-python-sdk)](https://github.com/chisou/cumulocity-python-sdk/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/chisou/cumulocity-python-sdk/main)](https://github.com/chisou/cumulocity-python-sdk/commits)|chisou|Other|Open Source|
 |[cumulocity-saas-releases](https://github.com/Cumulocity-IoT/cumulocity-saas-releases)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-saas-releases)](https://github.com/Cumulocity-IoT/cumulocity-saas-releases/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-saas-releases/main)](https://github.com/Cumulocity-IoT/cumulocity-saas-releases/commits) <br/> This repo contains different release ready versions of saas enablement team products|Cumulocity-IoT|UI Plugin|Cumulocity Org|
 |[apama-base64-plugin](https://github.com/mjj29/apama-base64-plugin)| [![GitHub stars](https://badgen.net/github/stars/mjj29/apama-base64-plugin)](https://github.com/mjj29/apama-base64-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/mjj29/apama-base64-plugin/master)](https://github.com/mjj29/apama-base64-plugin/commits) <br/> Base64 codec and plugin for apama connectivity and EPL|mjj29|Streaming Analytics|Open Source|
 |[cumulocity-device-control-widget](https://github.com/Cumulocity-IoT/cumulocity-device-control-widget)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-device-control-widget)](https://github.com/Cumulocity-IoT/cumulocity-device-control-widget/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-device-control-widget/master)](https://github.com/Cumulocity-IoT/cumulocity-device-control-widget/commits) <br/> Widget to allow display and control of devices and groups of devices.  Developed by Global Presales.|Cumulocity-IoT|Widget|Cumulocity Org|
@@ -571,8 +571,8 @@ Table of contents
 |[revpi-cumulocity-docu](https://github.com/crismancich/revpi-cumulocity-docu)| [![GitHub stars](https://badgen.net/github/stars/crismancich/revpi-cumulocity-docu)](https://github.com/crismancich/revpi-cumulocity-docu/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/crismancich/revpi-cumulocity-docu/main)](https://github.com/crismancich/revpi-cumulocity-docu/commits)|crismancich|Other|Open Source|
 |[cumulocity-plugin-helloworld](https://github.com/dwiyatci/cumulocity-plugin-helloworld)| [![GitHub stars](https://badgen.net/github/stars/dwiyatci/cumulocity-plugin-helloworld)](https://github.com/dwiyatci/cumulocity-plugin-helloworld/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/dwiyatci/cumulocity-plugin-helloworld/master)](https://github.com/dwiyatci/cumulocity-plugin-helloworld/commits) <br/> Simple hello world plugin|dwiyatci|Other|Open Source|
 |[cumulocity-health-widget](https://github.com/emrekaankocoglu/cumulocity-health-widget)| [![GitHub stars](https://badgen.net/github/stars/emrekaankocoglu/cumulocity-health-widget)](https://github.com/emrekaankocoglu/cumulocity-health-widget/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/emrekaankocoglu/cumulocity-health-widget/master)](https://github.com/emrekaankocoglu/cumulocity-health-widget/commits)|emrekaankocoglu|Widget|Open Source|
-|[Q1AA1_Ca_apamaylaon](https://github.com/aurieepam/Q1AA1_Ca_apamaylaon)| [![GitHub stars](https://badgen.net/github/stars/aurieepam/Q1AA1_Ca_apamaylaon)](https://github.com/aurieepam/Q1AA1_Ca_apamaylaon/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/aurieepam/Q1AA1_Ca_apamaylaon/main)](https://github.com/aurieepam/Q1AA1_Ca_apamaylaon/commits)|aurieepam|Streaming Analytics|Open Source|
 |[cumulocity-python-client](https://github.com/jmhooks/cumulocity-python-client)| [![GitHub stars](https://badgen.net/github/stars/jmhooks/cumulocity-python-client)](https://github.com/jmhooks/cumulocity-python-client/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/jmhooks/cumulocity-python-client/master)](https://github.com/jmhooks/cumulocity-python-client/commits)|jmhooks|Client <br> CLI|Open Source|
+|[Q1AA1_Ca_apamaylaon](https://github.com/aurieepam/Q1AA1_Ca_apamaylaon)| [![GitHub stars](https://badgen.net/github/stars/aurieepam/Q1AA1_Ca_apamaylaon)](https://github.com/aurieepam/Q1AA1_Ca_apamaylaon/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/aurieepam/Q1AA1_Ca_apamaylaon/main)](https://github.com/aurieepam/Q1AA1_Ca_apamaylaon/commits)|aurieepam|Streaming Analytics|Open Source|
 |[cumulocity-hello-world-metrics](https://github.com/switschel/cumulocity-hello-world-metrics)| [![GitHub stars](https://badgen.net/github/stars/switschel/cumulocity-hello-world-metrics)](https://github.com/switschel/cumulocity-hello-world-metrics/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/switschel/cumulocity-hello-world-metrics/main)](https://github.com/switschel/cumulocity-hello-world-metrics/commits) <br/> A hello-world microservice to demonstrate monitoring capabilities with python|switschel|Microservice|Open Source|
 |[c8y-sdk](https://github.com/tkopacki/c8y-sdk)| [![GitHub stars](https://badgen.net/github/stars/tkopacki/c8y-sdk)](https://github.com/tkopacki/c8y-sdk/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/tkopacki/c8y-sdk/master)](https://github.com/tkopacki/c8y-sdk/commits)|tkopacki|Other|Open Source|
 |[c8y-devext](https://github.com/reubenmiller/c8y-devext)| [![GitHub stars](https://badgen.net/github/stars/reubenmiller/c8y-devext)](https://github.com/reubenmiller/c8y-devext/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/reubenmiller/c8y-devext/main)](https://github.com/reubenmiller/c8y-devext/commits) <br/> Example only! go-c8y-cli extension to interact with the software management API|reubenmiller|Other|Trusted Contributor|
@@ -619,9 +619,9 @@ Table of contents
 |[cumulocity-webmethods-CoviDash](https://github.com/Cumulocity-IoT/cumulocity-webmethods-CoviDash)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-webmethods-CoviDash)](https://github.com/Cumulocity-IoT/cumulocity-webmethods-CoviDash/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-webmethods-CoviDash/master)](https://github.com/Cumulocity-IoT/cumulocity-webmethods-CoviDash/commits) <br/> CoviDash example on how to create a real time hospital capacity planning tool|Cumulocity-IoT|Other|Cumulocity Org|
 |[cumulocity-ui-plugin-examples](https://github.com/Cumulocity-IoT/cumulocity-ui-plugin-examples)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-ui-plugin-examples)](https://github.com/Cumulocity-IoT/cumulocity-ui-plugin-examples/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-ui-plugin-examples/master)](https://github.com/Cumulocity-IoT/cumulocity-ui-plugin-examples/commits)|Cumulocity-IoT|Example|Cumulocity Org|
 |[cumulocity-kpi-overview-plugin](https://github.com/Cumulocity-IoT/cumulocity-kpi-overview-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-kpi-overview-plugin)](https://github.com/Cumulocity-IoT/cumulocity-kpi-overview-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-kpi-overview-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-kpi-overview-plugin/commits) <br/> The KPI Overview Widget help you to display the Device KPIs with customised KPI Name, icon, text, color and size. Runtime Installation is available. Created by Global Presales.|Cumulocity-IoT|Widget <br> UI Plugin|Cumulocity Org|
-|[cookiecutter-cumulocity-python-ms](https://github.com/chisou/cookiecutter-cumulocity-python-ms)| [![GitHub stars](https://badgen.net/github/stars/chisou/cookiecutter-cumulocity-python-ms)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/chisou/cookiecutter-cumulocity-python-ms/main)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/commits)|chisou|Other|Open Source|
 |[angular-c8y-assetmanager](https://github.com/mlhoffmann/angular_c8y_assetmanager)| [![GitHub stars](https://badgen.net/github/stars/mlhoffmann/angular_c8y_assetmanager)](https://github.com/mlhoffmann/angular_c8y_assetmanager/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/mlhoffmann/angular_c8y_assetmanager/master)](https://github.com/mlhoffmann/angular_c8y_assetmanager/commits)|mlhoffmann|Other|Open Source|
 |[c8y-deploy-action](https://github.com/spau6/c8y-deploy-action)| [![GitHub stars](https://badgen.net/github/stars/spau6/c8y-deploy-action)](https://github.com/spau6/c8y-deploy-action/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/spau6/c8y-deploy-action/main)](https://github.com/spau6/c8y-deploy-action/commits)|spau6|Other|Open Source|
+|[cookiecutter-cumulocity-python-ms](https://github.com/chisou/cookiecutter-cumulocity-python-ms)| [![GitHub stars](https://badgen.net/github/stars/chisou/cookiecutter-cumulocity-python-ms)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/chisou/cookiecutter-cumulocity-python-ms/main)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/commits)|chisou|Other|Open Source|
 |[c8y-java-sdk](https://github.com/cpoder/c8y-java-sdk)| [![GitHub stars](https://badgen.net/github/stars/cpoder/c8y-java-sdk)](https://github.com/cpoder/c8y-java-sdk/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/cpoder/c8y-java-sdk/main)](https://github.com/cpoder/c8y-java-sdk/commits)|cpoder|Other|Open Source|
 |[c8y-mcp-example](https://github.com/Cumulocity-IoT/c8y-mcp-example)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/c8y-mcp-example)](https://github.com/Cumulocity-IoT/c8y-mcp-example/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/c8y-mcp-example/main)](https://github.com/Cumulocity-IoT/c8y-mcp-example/commits) <br/> An MCP tool example implementation build with NestJS|Cumulocity-IoT|Example|Cumulocity Org|
 |[cumulocity-asset-viewer-widget-plugin](https://github.com/Cumulocity-IoT/cumulocity-asset-viewer-widget-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-asset-viewer-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-asset-viewer-widget-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-asset-viewer-widget-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-asset-viewer-widget-plugin/commits) <br/> The Asset Viewer Widget help you to display asset/device data in Tile/List view, along with navigation to template dashboards. Created by Global Presales.|Cumulocity-IoT|Widget <br> UI Plugin|Cumulocity Org|
@@ -642,11 +642,11 @@ Table of contents
 |[iot-cumulocity-form-examples](https://github.com/hnaether-c8y/iot-cumulocity-form-examples)| [![GitHub stars](https://badgen.net/github/stars/hnaether-c8y/iot-cumulocity-form-examples)](https://github.com/hnaether-c8y/iot-cumulocity-form-examples/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/hnaether-c8y/iot-cumulocity-form-examples/main)](https://github.com/hnaether-c8y/iot-cumulocity-form-examples/commits) <br/> Provide examples how to style and validate forms using reactive approach.|hnaether-c8y|Example|Open Source|
 |[q3gfa4_ca_apamaylaon](https://github.com/aurieepam/q3gfa4_ca_apamaylaon)| [![GitHub stars](https://badgen.net/github/stars/aurieepam/q3gfa4_ca_apamaylaon)](https://github.com/aurieepam/q3gfa4_ca_apamaylaon/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/aurieepam/q3gfa4_ca_apamaylaon/main)](https://github.com/aurieepam/q3gfa4_ca_apamaylaon/commits)|aurieepam|Streaming Analytics|Open Source|
 |[dcca-cumulocity-sdk-c](https://github.com/luclib/dcca-cumulocity-sdk-c)| [![GitHub stars](https://badgen.net/github/stars/luclib/dcca-cumulocity-sdk-c)](https://github.com/luclib/dcca-cumulocity-sdk-c/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/luclib/dcca-cumulocity-sdk-c/master)](https://github.com/luclib/dcca-cumulocity-sdk-c/commits) <br/> Modified version of Cumulocity's Device SDK for C++ for proof-of-concept of Data Collect and Connect project|luclib|Other|Open Source|
-|[c8y-core-service](https://github.com/martenka/c8y-core-service)| [![GitHub stars](https://badgen.net/github/stars/martenka/c8y-core-service)](https://github.com/martenka/c8y-core-service/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/martenka/c8y-core-service/master)](https://github.com/martenka/c8y-core-service/commits)|martenka|Other|Open Source|
-|[cumulocity-image-animation-widget-plugin](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/commits) <br/> The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another. Developed by Global Presales.|Cumulocity-IoT|Widget <br> UI Plugin|Cumulocity Org|
 |[cumulocity-event-chart-widget](https://github.com/CaribouJohn/cumulocity-event-chart-widget)| [![GitHub stars](https://badgen.net/github/stars/CaribouJohn/cumulocity-event-chart-widget)](https://github.com/CaribouJohn/cumulocity-event-chart-widget/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/CaribouJohn/cumulocity-event-chart-widget/master)](https://github.com/CaribouJohn/cumulocity-event-chart-widget/commits)|CaribouJohn|Widget|Open Source|
 |[cumulocity-device-control-plugin](https://github.com/Cumulocity-IoT/cumulocity-device-control-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-device-control-plugin)](https://github.com/Cumulocity-IoT/cumulocity-device-control-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-device-control-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-device-control-plugin/commits) <br/> The Device Control Widget allows to display and control devices, assets and groups of devices. Created by Global Presales.|Cumulocity-IoT|Widget <br> UI Plugin|Cumulocity Org|
 |[cumulocity-route-tracker-plugin](https://github.com/Cumulocity-IoT/cumulocity-route-tracker-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-route-tracker-plugin)](https://github.com/Cumulocity-IoT/cumulocity-route-tracker-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-route-tracker-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-route-tracker-plugin/commits) <br/> The Route Track widget help you to display route, geofence along with realtime device status and also one can enable the smart rule which gets trigged when smart rule violation happens.|Cumulocity-IoT|Widget <br> UI Plugin|Cumulocity Org|
+|[c8y-core-service](https://github.com/martenka/c8y-core-service)| [![GitHub stars](https://badgen.net/github/stars/martenka/c8y-core-service)](https://github.com/martenka/c8y-core-service/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/martenka/c8y-core-service/master)](https://github.com/martenka/c8y-core-service/commits)|martenka|Other|Open Source|
+|[cumulocity-image-animation-widget-plugin](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)| [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/commits) <br/> The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another. Developed by Global Presales.|Cumulocity-IoT|Widget <br> UI Plugin|Cumulocity Org|
 |[builtio-microservice-monitoring](https://github.com/manasesjesus/builtio-microservice-monitoring)| [![GitHub stars](https://badgen.net/github/stars/manasesjesus/builtio-microservice-monitoring)](https://github.com/manasesjesus/builtio-microservice-monitoring/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/manasesjesus/builtio-microservice-monitoring/master)](https://github.com/manasesjesus/builtio-microservice-monitoring/commits) <br/> Monitoring Cumulocity microservices using Built.io Flow actions, create an alarm and notify a Slack channel (tutorial).|manasesjesus|Microservice|Open Source|
 |[c8yops.github.io](https://github.com/c8yops/c8yops.github.io)| [![GitHub stars](https://badgen.net/github/stars/c8yops/c8yops.github.io)](https://github.com/c8yops/c8yops.github.io/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/c8yops/c8yops.github.io/main)](https://github.com/c8yops/c8yops.github.io/commits)|c8yops|Other|Open Source|
 |[c8y-mqtt-massbootstrap](https://github.com/k-butz/c8y-mqtt-massbootstrap)| [![GitHub stars](https://badgen.net/github/stars/k-butz/c8y-mqtt-massbootstrap)](https://github.com/k-butz/c8y-mqtt-massbootstrap/stargazers) [![GitHub latest commit](https://badgen.net/github/last-commit/k-butz/c8y-mqtt-massbootstrap/main)](https://github.com/k-butz/c8y-mqtt-massbootstrap/commits) <br/> Project to mass bootstrap MQTT Devices. Mainly for testing/debugging purposes.|k-butz|Other|Trusted Contributor|
@@ -3508,27 +3508,6 @@ Table of contents
 
 **TechCommunity References**: 
 
-### [Cumulocity-IoT/cumulocity-image-animation-widget-plugin](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)
-
-
-**Description**: The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another. Developed by Global Presales.
-
-**Owner**: Cumulocity-IoT
-
-[![Generic badge](https://img.shields.io/badge/category-Widget-blue.svg)]() [![Generic badge](https://img.shields.io/badge/category-UI Plugin-blue.svg)]() 
-
-[![Generic badge](https://img.shields.io/badge/relation-Cumulocity%20Org-blue.svg)]()
-
-[![GitHub license](https://badgen.net/github/license/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/blob/main/LICENSE)
-
- [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/stargazers)
-
-[![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/commits)
-
-**Language**: TypeScript
-
-**TechCommunity References**: 
-
 ### [CaribouJohn/cumulocity-event-chart-widget](https://github.com/CaribouJohn/cumulocity-event-chart-widget)
 
 
@@ -3587,6 +3566,27 @@ Table of contents
  [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-route-tracker-plugin)](https://github.com/Cumulocity-IoT/cumulocity-route-tracker-plugin/stargazers)
 
 [![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-route-tracker-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-route-tracker-plugin/commits)
+
+**Language**: TypeScript
+
+**TechCommunity References**: 
+
+### [Cumulocity-IoT/cumulocity-image-animation-widget-plugin](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)
+
+
+**Description**: The Image Animation widget supports scrolling an image up, down, left or right, fading in, fading out, rotating an image and swapping from one image to another. Developed by Global Presales.
+
+**Owner**: Cumulocity-IoT
+
+[![Generic badge](https://img.shields.io/badge/category-Widget-blue.svg)]() [![Generic badge](https://img.shields.io/badge/category-UI Plugin-blue.svg)]() 
+
+[![Generic badge](https://img.shields.io/badge/relation-Cumulocity%20Org-blue.svg)]()
+
+[![GitHub license](https://badgen.net/github/license/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/blob/main/LICENSE)
+
+ [![GitHub stars](https://badgen.net/github/stars/Cumulocity-IoT/cumulocity-image-animation-widget-plugin)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/stargazers)
+
+[![GitHub latest commit](https://badgen.net/github/last-commit/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/main)](https://github.com/Cumulocity-IoT/cumulocity-image-animation-widget-plugin/commits)
 
 **Language**: TypeScript
 
@@ -5898,7 +5898,7 @@ Table of contents
 
 [![Generic badge](https://img.shields.io/badge/category-Client-blue.svg)]() 
 
-[![Generic badge](https://img.shields.io/badge/relation-Open%20Source-yellow.svg)]()
+[![Generic badge](https://img.shields.io/badge/relation-Trusted%20Contributor-green.svg)]()
 
 [![GitHub license](https://badgen.net/github/license/eickler/cumulocity-api)](https://github.com/eickler/cumulocity-api/blob/master/LICENSE)
 
@@ -11655,27 +11655,6 @@ Table of contents
 
 **TechCommunity References**: 
 
-### [chisou/cumulocity-python-sdk](https://github.com/chisou/cumulocity-python-sdk)
-
-
-**Description**: None
-
-**Owner**: chisou
-
-[![Generic badge](https://img.shields.io/badge/category-Other-blue.svg)]() 
-
-[![Generic badge](https://img.shields.io/badge/relation-Open%20Source-yellow.svg)]()
-
-[![GitHub license](https://badgen.net/github/license/chisou/cumulocity-python-sdk)](https://github.com/chisou/cumulocity-python-sdk/blob/main/LICENSE)
-
- [![GitHub stars](https://badgen.net/github/stars/chisou/cumulocity-python-sdk)](https://github.com/chisou/cumulocity-python-sdk/stargazers)
-
-[![GitHub latest commit](https://badgen.net/github/last-commit/chisou/cumulocity-python-sdk/main)](https://github.com/chisou/cumulocity-python-sdk/commits)
-
-**Language**: Python
-
-**TechCommunity References**: 
-
 ### [jduranmaster/Gadgetbridge-cumulocity-poc](https://github.com/jduranmaster/Gadgetbridge-cumulocity-poc)
 
 
@@ -11694,6 +11673,27 @@ Table of contents
 [![GitHub latest commit](https://badgen.net/github/last-commit/jduranmaster/Gadgetbridge-cumulocity-poc/master)](https://github.com/jduranmaster/Gadgetbridge-cumulocity-poc/commits)
 
 **Language**: None
+
+**TechCommunity References**: 
+
+### [chisou/cumulocity-python-sdk](https://github.com/chisou/cumulocity-python-sdk)
+
+
+**Description**: None
+
+**Owner**: chisou
+
+[![Generic badge](https://img.shields.io/badge/category-Other-blue.svg)]() 
+
+[![Generic badge](https://img.shields.io/badge/relation-Open%20Source-yellow.svg)]()
+
+[![GitHub license](https://badgen.net/github/license/chisou/cumulocity-python-sdk)](https://github.com/chisou/cumulocity-python-sdk/blob/main/LICENSE)
+
+ [![GitHub stars](https://badgen.net/github/stars/chisou/cumulocity-python-sdk)](https://github.com/chisou/cumulocity-python-sdk/stargazers)
+
+[![GitHub latest commit](https://badgen.net/github/last-commit/chisou/cumulocity-python-sdk/main)](https://github.com/chisou/cumulocity-python-sdk/commits)
+
+**Language**: Python
 
 **TechCommunity References**: 
 
@@ -12348,27 +12348,6 @@ Table of contents
 
 **TechCommunity References**: 
 
-### [chisou/cookiecutter-cumulocity-python-ms](https://github.com/chisou/cookiecutter-cumulocity-python-ms)
-
-
-**Description**: None
-
-**Owner**: chisou
-
-[![Generic badge](https://img.shields.io/badge/category-Other-blue.svg)]() 
-
-[![Generic badge](https://img.shields.io/badge/relation-Open%20Source-yellow.svg)]()
-
-[![GitHub license](https://badgen.net/github/license/chisou/cookiecutter-cumulocity-python-ms)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/blob/main/LICENSE)
-
- [![GitHub stars](https://badgen.net/github/stars/chisou/cookiecutter-cumulocity-python-ms)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/stargazers)
-
-[![GitHub latest commit](https://badgen.net/github/last-commit/chisou/cookiecutter-cumulocity-python-ms/main)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/commits)
-
-**Language**: Python
-
-**TechCommunity References**: 
-
 ### [mlhoffmann/angular_c8y_assetmanager](https://github.com/mlhoffmann/angular_c8y_assetmanager)
 
 
@@ -12408,6 +12387,27 @@ Table of contents
 [![GitHub latest commit](https://badgen.net/github/last-commit/spau6/c8y-deploy-action/main)](https://github.com/spau6/c8y-deploy-action/commits)
 
 **Language**: Shell
+
+**TechCommunity References**: 
+
+### [chisou/cookiecutter-cumulocity-python-ms](https://github.com/chisou/cookiecutter-cumulocity-python-ms)
+
+
+**Description**: None
+
+**Owner**: chisou
+
+[![Generic badge](https://img.shields.io/badge/category-Other-blue.svg)]() 
+
+[![Generic badge](https://img.shields.io/badge/relation-Open%20Source-yellow.svg)]()
+
+[![GitHub license](https://badgen.net/github/license/chisou/cookiecutter-cumulocity-python-ms)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/blob/main/LICENSE)
+
+ [![GitHub stars](https://badgen.net/github/stars/chisou/cookiecutter-cumulocity-python-ms)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/stargazers)
+
+[![GitHub latest commit](https://badgen.net/github/last-commit/chisou/cookiecutter-cumulocity-python-ms/main)](https://github.com/chisou/cookiecutter-cumulocity-python-ms/commits)
+
+**Language**: Python
 
 **TechCommunity References**: 
 
