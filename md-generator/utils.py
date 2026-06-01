@@ -73,12 +73,125 @@ def get_trust_level(owner, trusted_owners):
         trust_level = 'Trusted'
     return trust_level
 
+def is_spam_repo(repo):
+    """
+    Detect spam/irrelevant repositories based on multiple criteria.
+    Returns True if the repo is likely spam.
+    
+    This is a conservative filter - only blocks obvious spam patterns.
+    """
+    import re
+    
+    name = repo.get('name', '').lower()
+    desc = repo.get('description', '') or ''
+    desc_lower = desc.lower()
+    topics = repo.get('topics', [])
+    owner = repo.get('owner', {}).get('login', '') if isinstance(repo.get('owner'), dict) else repo.get('owner', '')
+    stars = repo.get('stargazers_count', 0)
+    
+    # Exception: Official/Trusted owners are never spam
+    trusted_patterns = ['cumulocity', 'software', 'thin-edge', 'apama']
+    if owner and any(pattern in owner.lower() for pattern in trusted_patterns):
+        return False
+    
+    # Exception: Repos with stars are likely legitimate (community validation)
+    if stars >= 2:
+        return False
+    
+    # Spam pattern 1: Random prefix/suffix with c8y pattern (e.g., etc_c8yr, e61_c8yw, c8y_g89l)
+    # These are very specific spam patterns
+    spam_name_patterns = [
+        r'^[a-z]{3,6}_c8y[a-z0-9]{1,4}$',  # etc_c8yr, abc_c8yw
+        r'^[a-z0-9]{2,4}_c8y[a-z]{0,2}$',  # e61_c8yw
+        r'^c8y_[a-z0-9]{2,6}$',             # c8y_g89l (but not c8y_something_meaningful)
+        r'^[a-z][0-9]{2,3}_c8y[a-z0-9]$'   # h27_c8y9
+    ]
+    
+    for pattern in spam_name_patterns:
+        if re.match(pattern, name):
+            # Even with spam pattern, if it has ANY content it might be legitimate
+            if topics or (desc and len(desc) > 10):
+                return False
+            # Clear spam: matches pattern AND no content
+            return True
+    
+    # Spam pattern 2: No description, no topics, suspicious short name with numbers
+    if not desc and not topics and len(name) < 15:
+        # Count how many numbers in the name
+        num_count = sum(1 for c in name if c.isdigit())
+        # If more than 2 numbers in a short name with c8y, likely spam
+        if num_count >= 2 and ('c8y' in name or 'cumulocity' in name):
+            return True
+        
+    return False
+
+
+def is_cumulocity_relevant(repo):
+    """
+    Check if a repository is truly Cumulocity-relevant.
+    Returns True if the repo passes validation checks.
+
+    This is a permissive check - we want to include rather than exclude.
+    """
+    name = repo.get('name', '').lower()
+    desc = repo.get('description', '') or ''
+    desc_lower = desc.lower()
+    topics = repo.get('topics', [])
+    owner = repo.get('owner', {}).get('login', '') if isinstance(repo.get('owner'), dict) else repo.get('owner', '')
+
+    # Criteria 1: Has Cumulocity-related topics (strong indicator)
+    cumulocity_topics = ['cumulocity-iot', 'cumulocity', 'cumulocity-agent',
+                         'cumulocity-widget', 'cumulocity-microservice',
+                         'cumulocity-webapp', 'cumulocity-extension',
+                         'thin-edge', 'apama', 'apama-analytics-builder']
+
+    if any(topic in topics for topic in cumulocity_topics):
+        return True
+
+    # Criteria 2: Full word "cumulocity" in name or description
+    if 'cumulocity' in name or 'cumulocity' in desc_lower:
+        return True
+
+    # Criteria 3: thin-edge or tedge (related to thin-edge.io)
+    if 'thin-edge' in name or 'tedge' in name or 'thin-edge' in desc_lower:
+        return True
+
+    # Criteria 4: "c8y" in name (be permissive)
+    # If someone named their repo with c8y, it's probably relevant
+    if 'c8y' in name:
+        return True
+
+    # Criteria 5: Apama-related
+    if 'apama' in name or 'apama' in desc_lower or 'apamaster' in name:
+        return True
+
+    # Criteria 6: From known Cumulocity-related owners
+    trusted_owner_patterns = ['cumulocity', 'software', 'thin-edge']
+    if owner and any(pattern in owner.lower() for pattern in trusted_owner_patterns):
+        return True
+
+    return False
+
+
 def filter_repo_list(repos):
+    """
+    Filter repository list to include only public, Cumulocity-relevant repositories
+    while excluding spam/irrelevant repos.
+    """
     filtered_list = []
     for repo in repos:
-        if repo['visibility'] == 'public':
-            if "cumulocity" in repo['name'] or "c8y" in repo['name'] or "cumulocity-iot" in repo[
-                'topics'] or "cumulocity" in repo['topics']:
-                filtered_list.append(repo)
-        # filtered_list = sorted(filtered_list, key=lambda d: d['stargazers_count'], reverse=True)
+        if repo.get('visibility') == 'public':
+            # First check: basic relevance
+            if "cumulocity" in repo['name'] or "c8y" in repo['name'] or \
+               "cumulocity-iot" in repo['topics'] or "cumulocity" in repo['topics'] or \
+               "thin-edge" in repo['name'] or "apama" in repo['name']:
+
+                # Second check: exclude spam
+                if is_spam_repo(repo):
+                    continue
+
+                # Third check: validate relevance
+                if is_cumulocity_relevant(repo):
+                    filtered_list.append(repo)
+
     return filtered_list

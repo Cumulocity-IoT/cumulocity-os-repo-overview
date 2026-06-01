@@ -43,7 +43,11 @@ def start():
 
     gh_client = GitHubRestClient(token)
     # repos = gh_client.get_all_repos_for_org('SoftwareAG', None)
-    repos = gh_client.get_all_repos_for_topic('cumulocity OR c8y OR "thin-edge.io" OR apama')
+    all_repos = gh_client.get_all_repos_for_topic('cumulocity OR c8y OR "thin-edge.io" OR apama')
+
+    # Filter out spam and irrelevant repos
+    repos = utils.filter_repo_list(all_repos) if all_repos else None
+
     if repos:
         logger.info(f'Number of GitHub Repos found: {len(repos)}')
         logger.info(f'Retrieving tech community articles...')
