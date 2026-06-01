@@ -91,18 +91,82 @@ def is_spam_repo(repo):
     language = repo.get('language') or repo.get('lang')
     
     # Exception: Official/Trusted owners are never spam
-    trusted_patterns = ['cumulocity', 'software', 'thin-edge', 'apama']
+    trusted_patterns = ['cumulocity', 'software', 'thin-edge', 'apamacommunity']
     if owner and any(pattern in owner.lower() for pattern in trusted_patterns):
         return False
     
     # Exception: Repos with a programming language have actual code, so not spam
-    if language:
+    # UNLESS it's a profile repo (repo name = owner name)
+    if language and name != owner.lower():
         return False
     
     # Exception: Repos with stars are likely legitimate (community validation)
     if stars >= 2:
         return False
     
+    # Spam pattern: GitHub profile repos (repo name = owner name)
+    # These are usually just README profile pages, not actual projects
+    if name == owner.lower():
+        # Profile repos often have "config" in description or topics
+        if 'config' in desc_lower or 'config' in str(topics).lower():
+            return True
+        # Profile repos with "apama" in username but no Apama-related content
+        if 'apama' in owner.lower():
+            has_apama_content = (
+                'apama' in desc_lower or
+                'streaming analytics' in desc_lower or
+                'cumulocity' in desc_lower or
+                any('apama' in t for t in topics)
+            )
+            if not has_apama_content:
+                return True
+        # Profile repo with no content at all
+        if not desc and not topics and not language:
+            return True
+
+    # Spam pattern: "apama" in name but not related to Apama product
+    if 'apama' in name or 'apama' in owner.lower():
+        # Exception: Known good Apama contributors
+        trusted_apama_users = ['apamacommunity', 'mjj29', 'ben-spiller', 'rpeach-sag', 'yhegen']
+        if owner.lower() in trusted_apama_users:
+            return False
+        
+        # Check if repo name itself is descriptive/technical (indicates real project)
+        # Examples: apama-energy-forecast-example, apama-streaming-analytics-*, apama-epl-*
+        technical_name_indicators = [
+            'example', 'sample', 'demo', 'tutorial', 'guide',
+            'plugin', 'connector', 'transport', 'codec', 'block',
+            'epl', 'correlator', 'analytics', 'builder', 'streaming',
+            'integration', 'docker', 'kubernetes', 'connectivity',
+            'energy', 'forecast', 'prometheus', 'grafana', 'mqtt',
+            'containers', 'test', 'template', 'framework', 'library'
+        ]
+        
+        # If repo name contains technical indicators beyond just "apama", likely legitimate
+        name_parts = name.replace('-', ' ').replace('_', ' ').lower().split()
+        technical_parts = [part for part in name_parts if part in technical_name_indicators]
+        if len(technical_parts) >= 1:  # At least 1 technical term
+            return False
+        
+        # Check if repo is actually about Apama product
+        apama_indicators = [
+            'apama' in desc_lower,
+            'streaming analytics' in desc_lower,
+            'cumulocity' in desc_lower,
+            'correlator' in desc_lower,
+            'epl' in desc_lower,
+            any('apama' in str(t).lower() for t in topics),
+            any('cumulocity' in str(t).lower() for t in topics)
+        ]
+        
+        # Apama Lajeado is a place in Brazil, not the product
+        if 'lajeado' in desc_lower:
+            return True
+        
+        # If no Apama product indicators and no content, probably spam
+        if not any(apama_indicators) and not desc and not topics and not language:
+            return True
+
     # Helper function to check if description is tech/IoT/Cumulocity-related
     def has_relevant_description(description):
         if not description or len(description) < 10:
