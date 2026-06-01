@@ -143,7 +143,9 @@ def is_spam_repo(repo):
             'epl', 'correlator', 'analytics', 'builder', 'streaming',
             'integration', 'docker', 'kubernetes', 'connectivity',
             'energy', 'forecast', 'prometheus', 'grafana', 'mqtt',
-            'containers', 'test', 'template', 'framework', 'library'
+            'containers', 'test', 'template', 'framework', 'library',
+            'simulator', 'monitor', 'adapter', 'bridge', 'gateway',
+            'order', 'book', 'trading', 'market', 'financial', 'stock'
         ]
         
         # If repo name contains technical indicators beyond just "apama", likely legitimate
@@ -175,6 +177,27 @@ def is_spam_repo(repo):
     # These repos often have just a README.md file and nothing else
     # This check comes AFTER technical name checks to avoid false positives
     if not language and not topics:
+        # Check if repo name has technical indicators (like we do for Apama repos)
+        # Examples: order-book, energy-forecast, simulator, connector, etc.
+        technical_name_indicators = [
+            'example', 'sample', 'demo', 'tutorial', 'guide',
+            'plugin', 'connector', 'transport', 'codec', 'block',
+            'epl', 'correlator', 'analytics', 'builder', 'streaming',
+            'integration', 'docker', 'kubernetes', 'connectivity',
+            'energy', 'forecast', 'prometheus', 'grafana', 'mqtt',
+            'containers', 'test', 'template', 'framework', 'library',
+            'simulator', 'monitor', 'adapter', 'bridge', 'gateway',
+            'order-book', 'trading', 'market', 'financial', 'stock'
+        ]
+        
+        # Check if repo name contains technical terms
+        name_parts = name.replace('-', ' ').replace('_', ' ').lower().split()
+        has_technical_name = any(part in technical_name_indicators for part in name_parts)
+        
+        # If repo has technical name, it's likely legitimate even without topics
+        if has_technical_name:
+            return False, None
+        
         # Check if repo has minimal activity (created and updated within seconds/minutes)
         created = repo.get('created_at', '')
         updated = repo.get('pushed_at', '') or repo.get('last_updated', '')
