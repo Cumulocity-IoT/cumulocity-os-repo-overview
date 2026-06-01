@@ -27,7 +27,7 @@ from markdown_generator import MarkdownGenerator
 from tc_client import TechCommunityClient
 
 trusted_owners = ['TyrManuZ', 'reubenmiller', 'ButKor', 'janhommes', 'hnaether-sag', 'elpinjo', 'sagIoTPower',
-                  'mbay-ODW', 'thin-edge', 'k-butz', "ApamaCommunity", "mstoffel-sag", ]
+                  'mbay-ODW', 'thin-edge', 'k-butz', "ApamaCommunity", "mstoffel-sag", "eickler"]
 
 logger = logging.getLogger(__name__)
 
