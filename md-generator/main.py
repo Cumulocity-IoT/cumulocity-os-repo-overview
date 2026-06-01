@@ -53,12 +53,30 @@ def start():
         logger.info(f'Retrieving tech community articles...')
         tech_community_references = {}
         tc_client = TechCommunityClient()
+
+        api_requests_made = 0
+        cache_hits = 0
+
         for repo in repos:
             url = repo['html_url']
-            tc_references = tc_client.get_all_entries_for_repo(url)
+            last_updated = repo.get('pushed_at')
+
+            # Get TC references (will use cache if valid)
+            tc_references = tc_client.get_all_entries_for_repo(url, last_updated)
             tech_community_references[url] = tc_references
-            time.sleep(5)
+
+            # Track statistics
+            current_requests = tc_client.get_request_count()
+            if current_requests > api_requests_made:
+                api_requests_made = current_requests
+                time.sleep(5)  # Only sleep when we make an actual API request
+            else:
+                cache_hits += 1
+
         logger.info(f'Retrieving tech community articles finished!')
+        logger.info(f'Statistics: {api_requests_made} API requests, {cache_hits} cache hits, {len(repos)} total repos')
+        logger.info(f'Cache efficiency: {cache_hits}/{len(repos)} ({cache_hits*100//len(repos)}%)')
+
 
         store_repos_in_json_file(repos, tech_community_references)
         # gh_client.store_repos_in_json_file(repos)
