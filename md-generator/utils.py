@@ -99,6 +99,57 @@ def is_spam_repo(repo):
     if owner and any(pattern in owner.lower() for pattern in trusted_patterns):
         return False, None
 
+    # Spam pattern 7: Random hash strings with c8y (false positives)
+    # Repository names with random hash/string patterns that happen to contain "c8y"
+    # These are not intentionally Cumulocity-related, c8y appears due to random string generation
+    # Examples: backend-repo_h6qsmuni_c8yw1f, data-dashboard-bold-dock-c8yc
+    # CHECK THIS BEFORE the programming language exception, as these repos may have code but are still spam
+    if 'c8y' in name:
+        # Detect random hash patterns in repository name
+        random_hash_patterns = [
+            r'_[a-z0-9]{6,10}_c8y',           # Multiple underscores with hash before c8y: _h6qsmuni_c8y
+            r'c8y[a-z0-9]{1,4}$',              # c8y followed by short random suffix: c8yc, c8yw1f, c8y4qh
+            r'-[a-z]{4,8}-[a-z]{4,8}-c8y[a-z]', # Dash-separated random words: bold-dock-c8yc
+            r'_[a-z0-9]{6,10}$',              # Random hash at end: _h6qsmuni
+            r'-[a-z0-9]{4,8}-c8y',            # Dash with random string before c8y: -dock-c8y
+        ]
+
+        has_random_hash = any(re.search(pattern, name) for pattern in random_hash_patterns)
+
+        if has_random_hash:
+            # If repo has random hash pattern with c8y, check if it has Cumulocity-relevant content
+            has_relevant_content = False
+            
+            # Strong spam indicator: "Auto-generated" in description
+            # These are clearly auto-generated repos, filter them regardless of keywords
+            if desc and desc.startswith('Auto-generated'):
+                return True, f"Random hash pattern with c8y and auto-generated description (Pattern 7: False Positive Hash)"
+            
+            # Check topics for Cumulocity relevance
+            if topics and any(t for t in topics if any(keyword in str(t).lower() 
+                for keyword in ['cumulocity', 'iot', 'device', 'sensor', 'apama'])):
+                has_relevant_content = True
+            
+            # Check description for Cumulocity relevance (inline check)
+            # But exclude generic mentions that might be in auto-generated text
+            if desc and len(desc) >= 10:
+                desc_low = desc_lower
+                # Check for SPECIFIC Cumulocity keywords (not generic ones like "dashboard" or "data")
+                cumulocity_keywords = [
+                    'cumulocity', 'thin-edge', 'apama', 'c8y tenant', 'c8y platform',
+                    'iot platform', 'device management', 'sensor integration',
+                ]
+                if any(keyword in desc_low for keyword in cumulocity_keywords):
+                    has_relevant_content = True
+            
+            # Check for community validation (stars indicate real project)
+            if stars >= 2:
+                has_relevant_content = True
+            
+            # If no relevant content, it's likely a false positive (random hash with c8y)
+            if not has_relevant_content:
+                return True, f"Random hash pattern with c8y but no Cumulocity-relevant content (Pattern 7: False Positive Hash)"
+
     # Exception: Repos with a programming language have actual code, so not spam
     # UNLESS it's a profile repo (repo name = owner name) OR it's a README-only repo
     if language and name != owner.lower():
@@ -292,6 +343,7 @@ def is_spam_repo(repo):
     if 'c8y' in name and desc and not topics:
         if not has_relevant_description(desc):
             return True, f"C8Y repo with generic/motivational description (Pattern 3: Generic Description)"
+
 
     return False, None
 

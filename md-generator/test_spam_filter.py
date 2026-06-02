@@ -12,7 +12,7 @@ from utils import is_spam_repo, is_cumulocity_relevant, filter_repo_list
 
 
 def test_spam_patterns():
-    """Test all 6 spam patterns with known examples"""
+    """Test all 7 spam patterns with known examples"""
     print("=" * 80)
     print("SPAM PATTERN TESTS")
     print("=" * 80)
@@ -91,6 +91,36 @@ def test_spam_patterns():
                 'stargazers_count': 0,
                 'created_at': '2024-01-01T10:00:00Z',
                 'pushed_at': '2024-01-01T10:00:01Z'
+            }
+        },
+        {
+            'name': 'Pattern 7: Auto-Generated Backend Repo',
+            'repo': {
+                'name': 'backend-repo_h6qsmuni_c8yw1f',
+                'full_name': 'django-nerd/backend-repo_h6qsmuni_c8yw1f',
+                'owner': {'login': 'django-nerd'},
+                'description': 'Auto-generated backend repository for project prj_h6qsmuni',
+                'topics': [],
+                'language': 'Python',
+                'visibility': 'public',
+                'stargazers_count': 0,
+                'created_at': '2025-11-17T12:11:26Z',
+                'pushed_at': '2025-11-17T12:35:20Z'
+            }
+        },
+        {
+            'name': 'Pattern 7: Auto-Generated Dashboard Repo',
+            'repo': {
+                'name': 'data-dashboard-bold-dock-c8yc',
+                'full_name': 'Lyzr-Apps/data-dashboard-bold-dock-c8yc',
+                'owner': {'login': 'Lyzr-Apps'},
+                'description': 'Auto-generated repository for Data-Dashboard',
+                'topics': [],
+                'language': 'TypeScript',
+                'visibility': 'public',
+                'stargazers_count': 0,
+                'created_at': '2026-03-26T07:23:51Z',
+                'pushed_at': '2026-03-26T07:38:41Z'
             }
         },
     ]

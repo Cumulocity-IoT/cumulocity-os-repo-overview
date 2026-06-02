@@ -10,15 +10,19 @@ The GitHub search query `cumulocity OR c8y OR "thin-edge.io" OR apama` can retur
 - `https://github.com/estinok/c8y_g89l` - Random pattern with c8y
 - `https://github.com/cdnvid18/C8YpnxFY1.mp4` - Spam file repository
 - `https://github.com/anefmilto1972/c8y794k` - Random characters with c8y
+- `https://github.com/django-nerd/backend-repo_h6qsmuni_c8yw1f` - Auto-generated test repo with random hash
+- `https://github.com/EdissonArias/js-c8ydza` - Random hash pattern with c8y
 
-**Current Statistics:** The filter removes approximately 4% of repositories (28 out of 688 in current data), keeping 96% of legitimate repositories.
+**Current Statistics:** The filter removes approximately 5.9% of repositories (43 out of 690 in current data), keeping 94.1% of legitimate repositories (647 kept).
 
 Common spam patterns detected and removed:
 - Random character combinations with c8y without any code (e.g., `etc_c8yr`, `e61_c8yw`, `c8y_pbe3`, `h27_c8y9`, `c8y_g89l`)
+- Random hash strings where c8y appears by chance (e.g., `c8ydza`, `c8ya1`, `c8yc`, `_c8yw1f`)
 - Generic motivational text in descriptions without tech content and no programming language
 - GitHub profile repositories (repo name = owner name) with "config" descriptions
 - Repositories with "apama" in name/owner but not related to Apama streaming analytics product
 - Empty repositories without code, topics, stars, or meaningful content
+- Auto-generated test repositories from code generation platforms
 
 **Special Note on "Apama" filtering:**
 The word "apama" can refer to:
@@ -38,6 +42,8 @@ The filter distinguishes between these by checking for Apama product indicators 
 The spam filter is **conservative** - it only blocks obvious spam patterns to avoid false positives. The following patterns are used to identify spam repositories:
 
 **Key Principle:** Repositories with actual code (having a programming language) are never considered spam, as they represent real development work.
+
+**Exception to Key Principle:** Auto-generated test repositories (Pattern 7) are filtered even if they have code, because they only contain boilerplate code from code generation tools and are not maintained projects.
 
 #### Pattern 1: Very specific random c8y combinations
 Repositories with names matching very specific patterns like:
@@ -140,6 +146,50 @@ cumulocity, iot, apama, streaming, device, sensor, mqtt, api, integration, softw
 **Examples:**
 - ❌ FILTERED: `kasymman/apama_jardam` - Kyrgyz text description, no code, created/updated within 1 second
 - ✅ KEPT: `yhegen/apama-energy-forecast-example` - Technical name protects it even without code
+
+#### Pattern 7: Random Hash Strings with c8y (False Positives)
+Repositories with random hash/string patterns in their names that happen to contain "c8y" due to random generation, not intentional Cumulocity content.
+
+**Detection criteria:**
+- Repository name contains random hash patterns (e.g., `_h6qsmuni_c8yw1f`, `c8yc`, `c8ydza`, `c8ya1`)
+- Contains "c8y" in the name
+- **Lacks Cumulocity-specific topics or descriptions**
+
+**Random hash patterns detected:**
+- `_[hash]_c8y*` - Multiple underscores with hash before c8y
+- `c8y[randomchars]` - c8y followed by 1-4 random characters
+- `-[word]-[word]-c8y*` - Dash-separated random words ending with c8y
+- `_[longhash]` at end of name
+
+**Strong spam indicator:**
+- Description starts with "Auto-generated" (auto-generated test/placeholder repos)
+
+**Why these are spam:**
+- Random string generators happen to produce "c8y" by chance
+- Not intentionally related to Cumulocity IoT
+- No community engagement (0 stars, no topics)
+- Often auto-generated repos from code scaffolding tools
+
+**Content validation:**
+Pattern 7 checks if the repo has ANY Cumulocity-relevant content:
+- ✅ Topics with: cumulocity, iot, device, sensor, apama
+- ✅ Description with: cumulocity, thin-edge, apama, iot platform, device management
+- ✅ 2+ stars (community validation)
+
+If none of these are found → filtered as spam
+
+**Important:** This pattern is checked BEFORE the programming language exception. Normally repos with code are protected, but random hash repos are an exception because:
+- They may have boilerplate code from generators
+- The "c8y" appears accidentally, not intentionally
+- They're not maintained Cumulocity projects
+
+**Examples:**
+- ❌ FILTERED: `django-nerd/backend-repo_h6qsmuni_c8yw1f` - "Auto-generated backend repository" (Python, 0 stars, no topics) - c8y is in random suffix
+- ❌ FILTERED: `Lyzr-Apps/data-dashboard-bold-dock-c8yc` - "Auto-generated repository for Data-Dashboard" (TypeScript, 0 stars, no topics) - c8yc is random suffix
+- ❌ FILTERED: `EdissonArias/js-c8ydza` - No description, no topics, c8ydza is random hash
+- ❌ FILTERED: `Wilco-LoadingTests/Anythink-Market-c8ya1` - Generic market demo, c8ya1 is random suffix
+- ✅ KEPT: `SoftwareAG/c8y-agent-java` - Has Cumulocity topics and official owner
+- ✅ KEPT: `reubenmiller/go-c8y-cli` - Has Cumulocity description and stars
 
 ### 2. Relevance Validation
 A repository is considered Cumulocity-relevant if it meets at least one of these criteria. **This is a permissive check** - we prefer to include rather than exclude.
