@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **646**
+Number of Open-Source Repos: **647**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT](https://github.com/Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT)
 
 [org-codebee/terraform-provider-cumulocity](https://github.com/org-codebee/terraform-provider-cumulocity)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [k-butz/c8y-tedge-util](https://github.com/k-butz/c8y-tedge-util)
 
 [k-butz/c8y-mqtt-svc-playground](https://github.com/k-butz/c8y-mqtt-svc-playground)
-
-[zahediadib/apamazon](https://github.com/zahediadib/apamazon)
