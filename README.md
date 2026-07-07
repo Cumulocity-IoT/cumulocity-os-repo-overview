@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **647**
+Number of Open-Source Repos: **649**
 
 
 
@@ -23,6 +23,10 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[NewNautilus/apamanshop-shop-details-script](https://github.com/NewNautilus/apamanshop-shop-details-script)
+
+[NewNautilus/apamanshop-product-details-script](https://github.com/NewNautilus/apamanshop-product-details-script)
+
 [Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT](https://github.com/Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT)
 
 [org-codebee/terraform-provider-cumulocity](https://github.com/org-codebee/terraform-provider-cumulocity)
@@ -38,7 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [Cumulocity-IoT/cumulocity-fleet-intelligence-demos](https://github.com/Cumulocity-IoT/cumulocity-fleet-intelligence-demos)
 
 [Cumulocity-IoT/c8y-ai-sandbox](https://github.com/Cumulocity-IoT/c8y-ai-sandbox)
-
-[k-butz/c8y-tedge-util](https://github.com/k-butz/c8y-tedge-util)
-
-[k-butz/c8y-mqtt-svc-playground](https://github.com/k-butz/c8y-mqtt-svc-playground)
