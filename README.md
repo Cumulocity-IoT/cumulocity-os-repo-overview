@@ -23,13 +23,13 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[bjoernHeneka/terraform-provider-cumulocity](https://github.com/bjoernHeneka/terraform-provider-cumulocity)
+
 [NewNautilus/apamanshop-shop-details-script](https://github.com/NewNautilus/apamanshop-shop-details-script)
 
 [NewNautilus/apamanshop-product-details-script](https://github.com/NewNautilus/apamanshop-product-details-script)
 
 [Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT](https://github.com/Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT)
-
-[org-codebee/terraform-provider-cumulocity](https://github.com/org-codebee/terraform-provider-cumulocity)
 
 [aiflorianklu-cpu/cumulocity-super-mcp](https://github.com/aiflorianklu-cpu/cumulocity-super-mcp)
 
