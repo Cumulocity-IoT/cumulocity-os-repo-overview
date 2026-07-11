@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **649**
+Number of Open-Source Repos: **650**
 
 
 
@@ -31,6 +31,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT](https://github.com/Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT)
 
+[Cumulocity-IoT/cumulocity-widget-library](https://github.com/Cumulocity-IoT/cumulocity-widget-library)
+
 [aiflorianklu-cpu/cumulocity-super-mcp](https://github.com/aiflorianklu-cpu/cumulocity-super-mcp)
 
 [Arsalan-c8y/c8y-ocpp-ms](https://github.com/Arsalan-c8y/c8y-ocpp-ms)
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [api-evangelist/cumulocity](https://github.com/api-evangelist/cumulocity)
 
 [Cumulocity-IoT/cumulocity-fleet-intelligence-demos](https://github.com/Cumulocity-IoT/cumulocity-fleet-intelligence-demos)
-
-[Cumulocity-IoT/c8y-ai-sandbox](https://github.com/Cumulocity-IoT/c8y-ai-sandbox)
