@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **653**
+Number of Open-Source Repos: **654**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[schplitt/create-c8y-nitro](https://github.com/schplitt/create-c8y-nitro)
 
 [tmazen/c8y-water-meter-integration](https://github.com/tmazen/c8y-water-meter-integration)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [aiflorianklu-cpu/cumulocity-super-mcp](https://github.com/aiflorianklu-cpu/cumulocity-super-mcp)
 
 [Arsalan-c8y/c8y-ocpp-ms](https://github.com/Arsalan-c8y/c8y-ocpp-ms)
-
-[moody608/cumulocity-mqtt-simulator](https://github.com/moody608/cumulocity-mqtt-simulator)
