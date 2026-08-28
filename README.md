@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **656**
+Number of Open-Source Repos: **658**
 
 
 
@@ -23,7 +23,11 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[mstoffel-sag/c8y-message-calculator](https://github.com/mstoffel-sag/c8y-message-calculator)
+
 [ghost8127/praveen-apamarga-new](https://github.com/ghost8127/praveen-apamarga-new)
+
+[jmoo900/c8y-ai-chat-wrapper](https://github.com/jmoo900/c8y-ai-chat-wrapper)
 
 [schplitt/create-c8y-nitro](https://github.com/schplitt/create-c8y-nitro)
 
@@ -38,7 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [NewNautilus/apamanshop-product-details-script](https://github.com/NewNautilus/apamanshop-product-details-script)
 
 [Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT](https://github.com/Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT)
-
-[Cumulocity-IoT/cumulocity-widget-library](https://github.com/Cumulocity-IoT/cumulocity-widget-library)
-
-[mbak-c8y/c8y-auth-advisor](https://github.com/mbak-c8y/c8y-auth-advisor)
