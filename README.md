@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **658**
+Number of Open-Source Repos: **659**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[opensourcevillain/c8ytool](https://github.com/opensourcevillain/c8ytool)
 
 [mstoffel-sag/c8y-message-calculator](https://github.com/mstoffel-sag/c8y-message-calculator)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [NewNautilus/apamanshop-shop-details-script](https://github.com/NewNautilus/apamanshop-shop-details-script)
 
 [NewNautilus/apamanshop-product-details-script](https://github.com/NewNautilus/apamanshop-product-details-script)
-
-[Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT](https://github.com/Ghala-ai-hub/NexTraffic-Smart-Traffic-IoT)
