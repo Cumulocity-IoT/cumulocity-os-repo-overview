@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **671**
+Number of Open-Source Repos: **414**
 
 
 
@@ -23,6 +23,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[reubenmiller/c8y-software-uploader](https://github.com/reubenmiller/c8y-software-uploader)
+
 [schplitt/fake-c8y](https://github.com/schplitt/fake-c8y)
 
 [Cumulocity-IoT/c8y-ui-agent](https://github.com/Cumulocity-IoT/c8y-ui-agent)
@@ -31,14 +33,12 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [maynamepadric/apamarker](https://github.com/maynamepadric/apamarker)
 
-[Cumulocity-IoT/n8n-nodes-cumulocity](https://github.com/Cumulocity-IoT/n8n-nodes-cumulocity)
+[opensourcevillain/c8ytool](https://github.com/opensourcevillain/c8ytool)
 
-[tmazen/n8n-nodes-cumulocity](https://github.com/tmazen/n8n-nodes-cumulocity)
+[mstoffel-sag/c8y-message-calculator](https://github.com/mstoffel-sag/c8y-message-calculator)
 
-[Flubio/c8y-hack2k26-byte-me](https://github.com/Flubio/c8y-hack2k26-byte-me)
+[schplitt/create-c8y-nitro](https://github.com/schplitt/create-c8y-nitro)
 
-[skowalak/c8y-aiot-hackathon-two-day-orange](https://github.com/skowalak/c8y-aiot-hackathon-two-day-orange)
+[tmazen/c8y-water-meter-integration](https://github.com/tmazen/c8y-water-meter-integration)
 
-[tmazen/c8y-sap-fsm-integration](https://github.com/tmazen/c8y-sap-fsm-integration)
-
-[mstoffel-sag/c8y-opcua-gateway-rs](https://github.com/mstoffel-sag/c8y-opcua-gateway-rs)
+[aiflorianklu-cpu/cumulocity-super-mcp](https://github.com/aiflorianklu-cpu/cumulocity-super-mcp)
