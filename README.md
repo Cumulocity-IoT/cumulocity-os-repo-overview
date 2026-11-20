@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **414**
+Number of Open-Source Repos: **675**
 
 
 
@@ -23,6 +23,12 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 # 10 Newest Repositories
 
 
+[thngbk/driftmind-for-cumulocity](https://github.com/thngbk/driftmind-for-cumulocity)
+
+[sfekadu/c8y-stram-analytics-template](https://github.com/sfekadu/c8y-stram-analytics-template)
+
+[reubenmiller/c8y-tenant-sync](https://github.com/reubenmiller/c8y-tenant-sync)
+
 [reubenmiller/c8y-software-uploader](https://github.com/reubenmiller/c8y-software-uploader)
 
 [schplitt/fake-c8y](https://github.com/schplitt/fake-c8y)
@@ -33,12 +39,6 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 [maynamepadric/apamarker](https://github.com/maynamepadric/apamarker)
 
-[opensourcevillain/c8ytool](https://github.com/opensourcevillain/c8ytool)
+[Cumulocity-IoT/n8n-nodes-cumulocity](https://github.com/Cumulocity-IoT/n8n-nodes-cumulocity)
 
-[mstoffel-sag/c8y-message-calculator](https://github.com/mstoffel-sag/c8y-message-calculator)
-
-[schplitt/create-c8y-nitro](https://github.com/schplitt/create-c8y-nitro)
-
-[tmazen/c8y-water-meter-integration](https://github.com/tmazen/c8y-water-meter-integration)
-
-[aiflorianklu-cpu/cumulocity-super-mcp](https://github.com/aiflorianklu-cpu/cumulocity-super-mcp)
+[tmazen/n8n-nodes-cumulocity](https://github.com/tmazen/n8n-nodes-cumulocity)
