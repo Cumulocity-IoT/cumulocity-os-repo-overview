@@ -5,7 +5,7 @@ Cumulocity IoT Open-Source Repository Overview
 
 This Repository generates on a daily basis a table of all open-source repositories for Cumulocity-IoT. It should give a brief overview of all available IoT open-source repositories for Cumulocity IoT including additional content at TechCommunity.
 
-Number of Open-Source Repos: **675**
+Number of Open-Source Repos: **676**
 
 
 
@@ -22,6 +22,8 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 
 # 10 Newest Repositories
 
+
+[TBayrem/iot-plattformevaluation-cumulocity](https://github.com/TBayrem/iot-plattformevaluation-cumulocity)
 
 [thngbk/driftmind-for-cumulocity](https://github.com/thngbk/driftmind-for-cumulocity)
 
@@ -40,5 +42,3 @@ https://cumulocity-iot.github.io/cumulocity-os-repo-overview/
 [maynamepadric/apamarker](https://github.com/maynamepadric/apamarker)
 
 [Cumulocity-IoT/n8n-nodes-cumulocity](https://github.com/Cumulocity-IoT/n8n-nodes-cumulocity)
-
-[tmazen/n8n-nodes-cumulocity](https://github.com/tmazen/n8n-nodes-cumulocity)
